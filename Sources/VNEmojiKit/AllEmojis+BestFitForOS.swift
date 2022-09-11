@@ -31,7 +31,7 @@
 
 import Foundation
 
-extension AllEmojis {
+public extension AllEmojis {
     
     static var bestFitSetForOS: [AllEmojis] {
         var all = [AllEmojis]()

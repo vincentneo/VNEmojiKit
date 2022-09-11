@@ -28,7 +28,7 @@
 
 import Foundation
 
-extension AllEmojis {
+public extension AllEmojis {
 
     var keywords: Set<String> {
         switch self {

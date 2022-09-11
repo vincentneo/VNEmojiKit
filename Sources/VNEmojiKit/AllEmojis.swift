@@ -28,7 +28,7 @@
 
 import Foundation
 
-enum AllEmojis: String, CaseIterable {
+public enum AllEmojis: String, CaseIterable {
     case grinningFace = "😀"
     case grinningFaceWithBigEyes = "😃"
     case grinningFaceWithSmilingEyes = "😄"
