@@ -114,4 +114,7 @@ This is an intentional side-effect of trying to prevent `the compiler is unable 
 
 Xcode throws this error because there is simply way too many emojis, and since each emoji is a case of the enum, Xcode fails checking. Adding a `default` clause prevents Xcode from checking at all, which is what we want in this case.
 
+### License
+All codes committed to this project as well as published versions are licensed under the MIT License. 
+
 
