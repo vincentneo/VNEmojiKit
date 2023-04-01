@@ -33,7 +33,7 @@ import Foundation
 
 public extension AllEmojis {
     
-    static var bestFitSetForOS: [AllEmojis] {
+    static public var bestFitSetForOS: [AllEmojis] {
         var all = [AllEmojis]()
         
         // pre iOS 10.2

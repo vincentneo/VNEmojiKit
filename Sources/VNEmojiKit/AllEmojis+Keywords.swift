@@ -30,7 +30,7 @@ import Foundation
 
 public extension AllEmojis {
 
-    var keywords: Set<String> {
+    public var keywords: Set<String> {
         switch self {
         case .personMediumDarkSkinToneRedHair: return ["red", "dark", "medium dark skin tone", "adult", "gender neutral", "tone,", "person", "unspecified gender", "red hair", "person:", "skin", "medium", "hair"]
 
