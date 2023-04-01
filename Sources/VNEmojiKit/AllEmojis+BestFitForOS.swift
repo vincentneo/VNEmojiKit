@@ -1,7 +1,7 @@
 /*
  MIT License
 
- Copyright (c) 2021-2022 Vincent Neo
+ Copyright (c) 2021-2023 Vincent Neo
 
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
@@ -69,6 +69,10 @@ public extension AllEmojis {
         
         if #available(iOS 15.4, tvOS 15.4, watchOS 8.5, macOS 12.3, *) {
             all.append(contentsOf: AllEmojis.allCasesForUnicode14_0)
+        }
+        
+        if #available(iOS 16.4, tvOS 16.4, watchOS 9.4, macOS 13.3, *) {
+            all.append(contentsOf: AllEmojis.allCasesForUnicode15_0)
         }
         
         return all
