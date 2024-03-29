@@ -75,9 +75,15 @@ public extension AllEmojis {
             all.append(contentsOf: AllEmojis.allCasesForUnicode15_0)
         }
         
+        #if swift(>=5.9)
+        if #available(iOS 17.4, tvOS 17.4, watchOS 10.4, macOS 14.4, visionOS 1.1, *) {
+            all.append(contentsOf: AllEmojis.allCasesForUnicode15_1)
+        }
+        #else
         if #available(iOS 17.4, tvOS 17.4, watchOS 10.4, macOS 14.4, *) {
             all.append(contentsOf: AllEmojis.allCasesForUnicode15_1)
         }
+        #endif
         
         return all
     }
