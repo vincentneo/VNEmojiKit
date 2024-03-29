@@ -1,7 +1,7 @@
 /*
  MIT License
 
- Copyright (c) 2021-2023 Vincent Neo
+ Copyright (c) 2021-2024 Vincent Neo
 
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
@@ -22,9 +22,6 @@
  SOFTWARE.
  */
 
-//
-//  Generated on 2023-04-01 09:54:16 +0000
-//
 
 import Foundation
 
@@ -79,6 +76,8 @@ public enum AllEmojis: String, CaseIterable {
     case faceExhaling = "😮‍💨"
     case lyingFace = "🤥"
     case shakingFace = "🫨"
+    case headShakingHorizontally = "🙂‍↔️"
+    case headShakingVertically = "🙂‍↕️"
     case relievedFace = "😌"
     case pensiveFace = "😔"
     case sleepyFace = "😪"
@@ -1572,6 +1571,24 @@ public enum AllEmojis: String, CaseIterable {
     case womanWalkingMediumSkinTone = "🚶🏽‍♀️"
     case womanWalkingMediumDarkSkinTone = "🚶🏾‍♀️"
     case womanWalkingDarkSkinTone = "🚶🏿‍♀️"
+    case personWalkingFacingRight = "🚶‍➡️"
+    case personWalkingFacingRightLightSkinTone = "🚶🏻‍➡️"
+    case personWalkingFacingRightMediumLightSkinTone = "🚶🏼‍➡️"
+    case personWalkingFacingRightMediumSkinTone = "🚶🏽‍➡️"
+    case personWalkingFacingRightMediumDarkSkinTone = "🚶🏾‍➡️"
+    case personWalkingFacingRightDarkSkinTone = "🚶🏿‍➡️"
+    case womanWalkingFacingRight = "🚶‍♀️‍➡️"
+    case womanWalkingFacingRightLightSkinTone = "🚶🏻‍♀️‍➡️"
+    case womanWalkingFacingRightMediumLightSkinTone = "🚶🏼‍♀️‍➡️"
+    case womanWalkingFacingRightMediumSkinTone = "🚶🏽‍♀️‍➡️"
+    case womanWalkingFacingRightMediumDarkSkinTone = "🚶🏾‍♀️‍➡️"
+    case womanWalkingFacingRightDarkSkinTone = "🚶🏿‍♀️‍➡️"
+    case manWalkingFacingRight = "🚶‍♂️‍➡️"
+    case manWalkingFacingRightLightSkinTone = "🚶🏻‍♂️‍➡️"
+    case manWalkingFacingRightMediumLightSkinTone = "🚶🏼‍♂️‍➡️"
+    case manWalkingFacingRightMediumSkinTone = "🚶🏽‍♂️‍➡️"
+    case manWalkingFacingRightMediumDarkSkinTone = "🚶🏾‍♂️‍➡️"
+    case manWalkingFacingRightDarkSkinTone = "🚶🏿‍♂️‍➡️"
     case personStanding = "🧍"
     case personStandingLightSkinTone = "🧍🏻"
     case personStandingMediumLightSkinTone = "🧍🏼"
@@ -1608,60 +1625,132 @@ public enum AllEmojis: String, CaseIterable {
     case womanKneelingMediumSkinTone = "🧎🏽‍♀️"
     case womanKneelingMediumDarkSkinTone = "🧎🏾‍♀️"
     case womanKneelingDarkSkinTone = "🧎🏿‍♀️"
+    case personKneelingFacingRight = "🧎‍➡️"
+    case personKneelingFacingRightLightSkinTone = "🧎🏻‍➡️"
+    case personKneelingFacingRightMediumLightSkinTone = "🧎🏼‍➡️"
+    case personKneelingFacingRightMediumSkinTone = "🧎🏽‍➡️"
+    case personKneelingFacingRightMediumDarkSkinTone = "🧎🏾‍➡️"
+    case personKneelingFacingRightDarkSkinTone = "🧎🏿‍➡️"
+    case womanKneelingFacingRight = "🧎‍♀️‍➡️"
+    case womanKneelingFacingRightLightSkinTone = "🧎🏻‍♀️‍➡️"
+    case womanKneelingFacingRightMediumLightSkinTone = "🧎🏼‍♀️‍➡️"
+    case womanKneelingFacingRightMediumSkinTone = "🧎🏽‍♀️‍➡️"
+    case womanKneelingFacingRightMediumDarkSkinTone = "🧎🏾‍♀️‍➡️"
+    case womanKneelingFacingRightDarkSkinTone = "🧎🏿‍♀️‍➡️"
+    case manKneelingFacingRight = "🧎‍♂️‍➡️"
+    case manKneelingFacingRightLightSkinTone = "🧎🏻‍♂️‍➡️"
+    case manKneelingFacingRightMediumLightSkinTone = "🧎🏼‍♂️‍➡️"
+    case manKneelingFacingRightMediumSkinTone = "🧎🏽‍♂️‍➡️"
+    case manKneelingFacingRightMediumDarkSkinTone = "🧎🏾‍♂️‍➡️"
+    case manKneelingFacingRightDarkSkinTone = "🧎🏿‍♂️‍➡️"
     case personWithWhiteCane = "🧑‍🦯"
     case personWithWhiteCaneLightSkinTone = "🧑🏻‍🦯"
     case personWithWhiteCaneMediumLightSkinTone = "🧑🏼‍🦯"
     case personWithWhiteCaneMediumSkinTone = "🧑🏽‍🦯"
     case personWithWhiteCaneMediumDarkSkinTone = "🧑🏾‍🦯"
     case personWithWhiteCaneDarkSkinTone = "🧑🏿‍🦯"
+    case personWithWhiteCaneFacingRight = "🧑‍🦯‍➡️"
+    case personWithWhiteCaneFacingRightLightSkinTone = "🧑🏻‍🦯‍➡️"
+    case personWithWhiteCaneFacingRightMediumLightSkinTone = "🧑🏼‍🦯‍➡️"
+    case personWithWhiteCaneFacingRightMediumSkinTone = "🧑🏽‍🦯‍➡️"
+    case personWithWhiteCaneFacingRightMediumDarkSkinTone = "🧑🏾‍🦯‍➡️"
+    case personWithWhiteCaneFacingRightDarkSkinTone = "🧑🏿‍🦯‍➡️"
     case manWithWhiteCane = "👨‍🦯"
     case manWithWhiteCaneLightSkinTone = "👨🏻‍🦯"
     case manWithWhiteCaneMediumLightSkinTone = "👨🏼‍🦯"
     case manWithWhiteCaneMediumSkinTone = "👨🏽‍🦯"
     case manWithWhiteCaneMediumDarkSkinTone = "👨🏾‍🦯"
     case manWithWhiteCaneDarkSkinTone = "👨🏿‍🦯"
+    case manWithWhiteCaneFacingRight = "👨‍🦯‍➡️"
+    case manWithWhiteCaneFacingRightLightSkinTone = "👨🏻‍🦯‍➡️"
+    case manWithWhiteCaneFacingRightMediumLightSkinTone = "👨🏼‍🦯‍➡️"
+    case manWithWhiteCaneFacingRightMediumSkinTone = "👨🏽‍🦯‍➡️"
+    case manWithWhiteCaneFacingRightMediumDarkSkinTone = "👨🏾‍🦯‍➡️"
+    case manWithWhiteCaneFacingRightDarkSkinTone = "👨🏿‍🦯‍➡️"
     case womanWithWhiteCane = "👩‍🦯"
     case womanWithWhiteCaneLightSkinTone = "👩🏻‍🦯"
     case womanWithWhiteCaneMediumLightSkinTone = "👩🏼‍🦯"
     case womanWithWhiteCaneMediumSkinTone = "👩🏽‍🦯"
     case womanWithWhiteCaneMediumDarkSkinTone = "👩🏾‍🦯"
     case womanWithWhiteCaneDarkSkinTone = "👩🏿‍🦯"
+    case womanWithWhiteCaneFacingRight = "👩‍🦯‍➡️"
+    case womanWithWhiteCaneFacingRightLightSkinTone = "👩🏻‍🦯‍➡️"
+    case womanWithWhiteCaneFacingRightMediumLightSkinTone = "👩🏼‍🦯‍➡️"
+    case womanWithWhiteCaneFacingRightMediumSkinTone = "👩🏽‍🦯‍➡️"
+    case womanWithWhiteCaneFacingRightMediumDarkSkinTone = "👩🏾‍🦯‍➡️"
+    case womanWithWhiteCaneFacingRightDarkSkinTone = "👩🏿‍🦯‍➡️"
     case personInMotorizedWheelchair = "🧑‍🦼"
     case personInMotorizedWheelchairLightSkinTone = "🧑🏻‍🦼"
     case personInMotorizedWheelchairMediumLightSkinTone = "🧑🏼‍🦼"
     case personInMotorizedWheelchairMediumSkinTone = "🧑🏽‍🦼"
     case personInMotorizedWheelchairMediumDarkSkinTone = "🧑🏾‍🦼"
     case personInMotorizedWheelchairDarkSkinTone = "🧑🏿‍🦼"
+    case personInMotorizedWheelchairFacingRight = "🧑‍🦼‍➡️"
+    case personInMotorizedWheelchairFacingRightLightSkinTone = "🧑🏻‍🦼‍➡️"
+    case personInMotorizedWheelchairFacingRightMediumLightSkinTone = "🧑🏼‍🦼‍➡️"
+    case personInMotorizedWheelchairFacingRightMediumSkinTone = "🧑🏽‍🦼‍➡️"
+    case personInMotorizedWheelchairFacingRightMediumDarkSkinTone = "🧑🏾‍🦼‍➡️"
+    case personInMotorizedWheelchairFacingRightDarkSkinTone = "🧑🏿‍🦼‍➡️"
     case manInMotorizedWheelchair = "👨‍🦼"
     case manInMotorizedWheelchairLightSkinTone = "👨🏻‍🦼"
     case manInMotorizedWheelchairMediumLightSkinTone = "👨🏼‍🦼"
     case manInMotorizedWheelchairMediumSkinTone = "👨🏽‍🦼"
     case manInMotorizedWheelchairMediumDarkSkinTone = "👨🏾‍🦼"
     case manInMotorizedWheelchairDarkSkinTone = "👨🏿‍🦼"
+    case manInMotorizedWheelchairFacingRight = "👨‍🦼‍➡️"
+    case manInMotorizedWheelchairFacingRightLightSkinTone = "👨🏻‍🦼‍➡️"
+    case manInMotorizedWheelchairFacingRightMediumLightSkinTone = "👨🏼‍🦼‍➡️"
+    case manInMotorizedWheelchairFacingRightMediumSkinTone = "👨🏽‍🦼‍➡️"
+    case manInMotorizedWheelchairFacingRightMediumDarkSkinTone = "👨🏾‍🦼‍➡️"
+    case manInMotorizedWheelchairFacingRightDarkSkinTone = "👨🏿‍🦼‍➡️"
     case womanInMotorizedWheelchair = "👩‍🦼"
     case womanInMotorizedWheelchairLightSkinTone = "👩🏻‍🦼"
     case womanInMotorizedWheelchairMediumLightSkinTone = "👩🏼‍🦼"
     case womanInMotorizedWheelchairMediumSkinTone = "👩🏽‍🦼"
     case womanInMotorizedWheelchairMediumDarkSkinTone = "👩🏾‍🦼"
     case womanInMotorizedWheelchairDarkSkinTone = "👩🏿‍🦼"
+    case womanInMotorizedWheelchairFacingRight = "👩‍🦼‍➡️"
+    case womanInMotorizedWheelchairFacingRightLightSkinTone = "👩🏻‍🦼‍➡️"
+    case womanInMotorizedWheelchairFacingRightMediumLightSkinTone = "👩🏼‍🦼‍➡️"
+    case womanInMotorizedWheelchairFacingRightMediumSkinTone = "👩🏽‍🦼‍➡️"
+    case womanInMotorizedWheelchairFacingRightMediumDarkSkinTone = "👩🏾‍🦼‍➡️"
+    case womanInMotorizedWheelchairFacingRightDarkSkinTone = "👩🏿‍🦼‍➡️"
     case personInManualWheelchair = "🧑‍🦽"
     case personInManualWheelchairLightSkinTone = "🧑🏻‍🦽"
     case personInManualWheelchairMediumLightSkinTone = "🧑🏼‍🦽"
     case personInManualWheelchairMediumSkinTone = "🧑🏽‍🦽"
     case personInManualWheelchairMediumDarkSkinTone = "🧑🏾‍🦽"
     case personInManualWheelchairDarkSkinTone = "🧑🏿‍🦽"
+    case personInManualWheelchairFacingRight = "🧑‍🦽‍➡️"
+    case personInManualWheelchairFacingRightLightSkinTone = "🧑🏻‍🦽‍➡️"
+    case personInManualWheelchairFacingRightMediumLightSkinTone = "🧑🏼‍🦽‍➡️"
+    case personInManualWheelchairFacingRightMediumSkinTone = "🧑🏽‍🦽‍➡️"
+    case personInManualWheelchairFacingRightMediumDarkSkinTone = "🧑🏾‍🦽‍➡️"
+    case personInManualWheelchairFacingRightDarkSkinTone = "🧑🏿‍🦽‍➡️"
     case manInManualWheelchair = "👨‍🦽"
     case manInManualWheelchairLightSkinTone = "👨🏻‍🦽"
     case manInManualWheelchairMediumLightSkinTone = "👨🏼‍🦽"
     case manInManualWheelchairMediumSkinTone = "👨🏽‍🦽"
     case manInManualWheelchairMediumDarkSkinTone = "👨🏾‍🦽"
     case manInManualWheelchairDarkSkinTone = "👨🏿‍🦽"
+    case manInManualWheelchairFacingRight = "👨‍🦽‍➡️"
+    case manInManualWheelchairFacingRightLightSkinTone = "👨🏻‍🦽‍➡️"
+    case manInManualWheelchairFacingRightMediumLightSkinTone = "👨🏼‍🦽‍➡️"
+    case manInManualWheelchairFacingRightMediumSkinTone = "👨🏽‍🦽‍➡️"
+    case manInManualWheelchairFacingRightMediumDarkSkinTone = "👨🏾‍🦽‍➡️"
+    case manInManualWheelchairFacingRightDarkSkinTone = "👨🏿‍🦽‍➡️"
     case womanInManualWheelchair = "👩‍🦽"
     case womanInManualWheelchairLightSkinTone = "👩🏻‍🦽"
     case womanInManualWheelchairMediumLightSkinTone = "👩🏼‍🦽"
     case womanInManualWheelchairMediumSkinTone = "👩🏽‍🦽"
     case womanInManualWheelchairMediumDarkSkinTone = "👩🏾‍🦽"
     case womanInManualWheelchairDarkSkinTone = "👩🏿‍🦽"
+    case womanInManualWheelchairFacingRight = "👩‍🦽‍➡️"
+    case womanInManualWheelchairFacingRightLightSkinTone = "👩🏻‍🦽‍➡️"
+    case womanInManualWheelchairFacingRightMediumLightSkinTone = "👩🏼‍🦽‍➡️"
+    case womanInManualWheelchairFacingRightMediumSkinTone = "👩🏽‍🦽‍➡️"
+    case womanInManualWheelchairFacingRightMediumDarkSkinTone = "👩🏾‍🦽‍➡️"
+    case womanInManualWheelchairFacingRightDarkSkinTone = "👩🏿‍🦽‍➡️"
     case personRunning = "🏃"
     case personRunningLightSkinTone = "🏃🏻"
     case personRunningMediumLightSkinTone = "🏃🏼"
@@ -1680,6 +1769,24 @@ public enum AllEmojis: String, CaseIterable {
     case womanRunningMediumSkinTone = "🏃🏽‍♀️"
     case womanRunningMediumDarkSkinTone = "🏃🏾‍♀️"
     case womanRunningDarkSkinTone = "🏃🏿‍♀️"
+    case personRunningFacingRight = "🏃‍➡️"
+    case personRunningFacingRightLightSkinTone = "🏃🏻‍➡️"
+    case personRunningFacingRightMediumLightSkinTone = "🏃🏼‍➡️"
+    case personRunningFacingRightMediumSkinTone = "🏃🏽‍➡️"
+    case personRunningFacingRightMediumDarkSkinTone = "🏃🏾‍➡️"
+    case personRunningFacingRightDarkSkinTone = "🏃🏿‍➡️"
+    case womanRunningFacingRight = "🏃‍♀️‍➡️"
+    case womanRunningFacingRightLightSkinTone = "🏃🏻‍♀️‍➡️"
+    case womanRunningFacingRightMediumLightSkinTone = "🏃🏼‍♀️‍➡️"
+    case womanRunningFacingRightMediumSkinTone = "🏃🏽‍♀️‍➡️"
+    case womanRunningFacingRightMediumDarkSkinTone = "🏃🏾‍♀️‍➡️"
+    case womanRunningFacingRightDarkSkinTone = "🏃🏿‍♀️‍➡️"
+    case manRunningFacingRight = "🏃‍♂️‍➡️"
+    case manRunningFacingRightLightSkinTone = "🏃🏻‍♂️‍➡️"
+    case manRunningFacingRightMediumLightSkinTone = "🏃🏼‍♂️‍➡️"
+    case manRunningFacingRightMediumSkinTone = "🏃🏽‍♂️‍➡️"
+    case manRunningFacingRightMediumDarkSkinTone = "🏃🏾‍♂️‍➡️"
+    case manRunningFacingRightDarkSkinTone = "🏃🏿‍♂️‍➡️"
     case womanDancing = "💃"
     case womanDancingLightSkinTone = "💃🏻"
     case womanDancingMediumLightSkinTone = "💃🏼"
@@ -2312,7 +2419,6 @@ public enum AllEmojis: String, CaseIterable {
     case coupleWithHeartWomanWomanDarkSkinToneMediumSkinTone = "👩🏿‍❤️‍👩🏽"
     case coupleWithHeartWomanWomanDarkSkinToneMediumDarkSkinTone = "👩🏿‍❤️‍👩🏾"
     case coupleWithHeartWomanWomanDarkSkinTone = "👩🏿‍❤️‍👩🏿"
-    case family = "👪"
     case familyManWomanBoy = "👨‍👩‍👦"
     case familyManWomanGirl = "👨‍👩‍👧"
     case familyManWomanGirlBoy = "👨‍👩‍👧‍👦"
@@ -2342,6 +2448,11 @@ public enum AllEmojis: String, CaseIterable {
     case bustInSilhouette = "👤"
     case bustsInSilhouette = "👥"
     case peopleHugging = "🫂"
+    case family = "👪"
+    case familyAdultAdultChild = "🧑‍🧑‍🧒"
+    case familyAdultAdultChildChild = "🧑‍🧑‍🧒‍🧒"
+    case familyAdultChild = "🧑‍🧒"
+    case familyAdultChildChild = "🧑‍🧒‍🧒"
     case footprints = "👣"
     case lightSkinTone = " 🏻"
     case mediumLightSkinTone = " 🏼"
@@ -2439,6 +2550,7 @@ public enum AllEmojis: String, CaseIterable {
     case wing = "🪽"
     case blackBird = "🐦‍⬛"
     case goose = "🪿"
+    case phoenix = "🐦‍🔥"
     case frog = "🐸"
     case crocodile = "🐊"
     case turtle = "🐢"
@@ -2509,6 +2621,7 @@ public enum AllEmojis: String, CaseIterable {
     case watermelon = "🍉"
     case tangerine = "🍊"
     case lemon = "🍋"
+    case lime = "🍋‍🟩"
     case banana = "🍌"
     case pineapple = "🍍"
     case mango = "🥭"
@@ -2540,6 +2653,7 @@ public enum AllEmojis: String, CaseIterable {
     case chestnut = "🌰"
     case gingerRoot = "🫚"
     case peaPod = "🫛"
+    case brownMushroom = "🍄‍🟫"
     case bread = "🍞"
     case croissant = "🥐"
     case baguetteBread = "🥖"
@@ -3148,6 +3262,7 @@ public enum AllEmojis: String, CaseIterable {
     case balanceScale = "⚖"
     case whiteCane = "🦯"
     case link = "🔗"
+    case brokenChain = "⛓️‍💥"
     case chains = "⛓"
     case hook = "🪝"
     case toolbox = "🧰"
@@ -3663,7 +3778,7 @@ public enum AllEmojis: String, CaseIterable {
     case flagTurkmenistan = "🇹🇲"
     case flagTunisia = "🇹🇳"
     case flagTonga = "🇹🇴"
-    case flagTurkey = "🇹🇷"
+    case flagTurkiye = "🇹🇷"
     case flagTrinidadTobago = "🇹🇹"
     case flagTuvalu = "🇹🇻"
     case flagTaiwan = "🇹🇼"
@@ -3694,7 +3809,7 @@ public enum AllEmojis: String, CaseIterable {
     case flagScotland = "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
     case flagWales = "🏴󠁧󠁢󠁷󠁬󠁳󠁿"
 
-    public var title: String {
+    var title: String {
         switch self {
         case .grinningFace: return "grinning face"
         case .grinningFaceWithBigEyes: return "grinning face with big eyes"
@@ -3746,6 +3861,8 @@ public enum AllEmojis: String, CaseIterable {
         case .faceExhaling: return "face exhaling"
         case .lyingFace: return "lying face"
         case .shakingFace: return "shaking face"
+        case .headShakingHorizontally: return "head shaking horizontally"
+        case .headShakingVertically: return "head shaking vertically"
         case .relievedFace: return "relieved face"
         case .pensiveFace: return "pensive face"
         case .sleepyFace: return "sleepy face"
@@ -5239,6 +5356,24 @@ public enum AllEmojis: String, CaseIterable {
         case .womanWalkingMediumSkinTone: return "woman walking: medium skin tone"
         case .womanWalkingMediumDarkSkinTone: return "woman walking: medium-dark skin tone"
         case .womanWalkingDarkSkinTone: return "woman walking: dark skin tone"
+        case .personWalkingFacingRight: return "person walking facing right"
+        case .personWalkingFacingRightLightSkinTone: return "person walking facing right: light skin tone"
+        case .personWalkingFacingRightMediumLightSkinTone: return "person walking facing right: medium-light skin tone"
+        case .personWalkingFacingRightMediumSkinTone: return "person walking facing right: medium skin tone"
+        case .personWalkingFacingRightMediumDarkSkinTone: return "person walking facing right: medium-dark skin tone"
+        case .personWalkingFacingRightDarkSkinTone: return "person walking facing right: dark skin tone"
+        case .womanWalkingFacingRight: return "woman walking facing right"
+        case .womanWalkingFacingRightLightSkinTone: return "woman walking facing right: light skin tone"
+        case .womanWalkingFacingRightMediumLightSkinTone: return "woman walking facing right: medium-light skin tone"
+        case .womanWalkingFacingRightMediumSkinTone: return "woman walking facing right: medium skin tone"
+        case .womanWalkingFacingRightMediumDarkSkinTone: return "woman walking facing right: medium-dark skin tone"
+        case .womanWalkingFacingRightDarkSkinTone: return "woman walking facing right: dark skin tone"
+        case .manWalkingFacingRight: return "man walking facing right"
+        case .manWalkingFacingRightLightSkinTone: return "man walking facing right: light skin tone"
+        case .manWalkingFacingRightMediumLightSkinTone: return "man walking facing right: medium-light skin tone"
+        case .manWalkingFacingRightMediumSkinTone: return "man walking facing right: medium skin tone"
+        case .manWalkingFacingRightMediumDarkSkinTone: return "man walking facing right: medium-dark skin tone"
+        case .manWalkingFacingRightDarkSkinTone: return "man walking facing right: dark skin tone"
         case .personStanding: return "person standing"
         case .personStandingLightSkinTone: return "person standing: light skin tone"
         case .personStandingMediumLightSkinTone: return "person standing: medium-light skin tone"
@@ -5275,60 +5410,132 @@ public enum AllEmojis: String, CaseIterable {
         case .womanKneelingMediumSkinTone: return "woman kneeling: medium skin tone"
         case .womanKneelingMediumDarkSkinTone: return "woman kneeling: medium-dark skin tone"
         case .womanKneelingDarkSkinTone: return "woman kneeling: dark skin tone"
+        case .personKneelingFacingRight: return "person kneeling facing right"
+        case .personKneelingFacingRightLightSkinTone: return "person kneeling facing right: light skin tone"
+        case .personKneelingFacingRightMediumLightSkinTone: return "person kneeling facing right: medium-light skin tone"
+        case .personKneelingFacingRightMediumSkinTone: return "person kneeling facing right: medium skin tone"
+        case .personKneelingFacingRightMediumDarkSkinTone: return "person kneeling facing right: medium-dark skin tone"
+        case .personKneelingFacingRightDarkSkinTone: return "person kneeling facing right: dark skin tone"
+        case .womanKneelingFacingRight: return "woman kneeling facing right"
+        case .womanKneelingFacingRightLightSkinTone: return "woman kneeling facing right: light skin tone"
+        case .womanKneelingFacingRightMediumLightSkinTone: return "woman kneeling facing right: medium-light skin tone"
+        case .womanKneelingFacingRightMediumSkinTone: return "woman kneeling facing right: medium skin tone"
+        case .womanKneelingFacingRightMediumDarkSkinTone: return "woman kneeling facing right: medium-dark skin tone"
+        case .womanKneelingFacingRightDarkSkinTone: return "woman kneeling facing right: dark skin tone"
+        case .manKneelingFacingRight: return "man kneeling facing right"
+        case .manKneelingFacingRightLightSkinTone: return "man kneeling facing right: light skin tone"
+        case .manKneelingFacingRightMediumLightSkinTone: return "man kneeling facing right: medium-light skin tone"
+        case .manKneelingFacingRightMediumSkinTone: return "man kneeling facing right: medium skin tone"
+        case .manKneelingFacingRightMediumDarkSkinTone: return "man kneeling facing right: medium-dark skin tone"
+        case .manKneelingFacingRightDarkSkinTone: return "man kneeling facing right: dark skin tone"
         case .personWithWhiteCane: return "person with white cane"
         case .personWithWhiteCaneLightSkinTone: return "person with white cane: light skin tone"
         case .personWithWhiteCaneMediumLightSkinTone: return "person with white cane: medium-light skin tone"
         case .personWithWhiteCaneMediumSkinTone: return "person with white cane: medium skin tone"
         case .personWithWhiteCaneMediumDarkSkinTone: return "person with white cane: medium-dark skin tone"
         case .personWithWhiteCaneDarkSkinTone: return "person with white cane: dark skin tone"
+        case .personWithWhiteCaneFacingRight: return "person with white cane facing right"
+        case .personWithWhiteCaneFacingRightLightSkinTone: return "person with white cane facing right: light skin tone"
+        case .personWithWhiteCaneFacingRightMediumLightSkinTone: return "person with white cane facing right: medium-light skin tone"
+        case .personWithWhiteCaneFacingRightMediumSkinTone: return "person with white cane facing right: medium skin tone"
+        case .personWithWhiteCaneFacingRightMediumDarkSkinTone: return "person with white cane facing right: medium-dark skin tone"
+        case .personWithWhiteCaneFacingRightDarkSkinTone: return "person with white cane facing right: dark skin tone"
         case .manWithWhiteCane: return "man with white cane"
         case .manWithWhiteCaneLightSkinTone: return "man with white cane: light skin tone"
         case .manWithWhiteCaneMediumLightSkinTone: return "man with white cane: medium-light skin tone"
         case .manWithWhiteCaneMediumSkinTone: return "man with white cane: medium skin tone"
         case .manWithWhiteCaneMediumDarkSkinTone: return "man with white cane: medium-dark skin tone"
         case .manWithWhiteCaneDarkSkinTone: return "man with white cane: dark skin tone"
+        case .manWithWhiteCaneFacingRight: return "man with white cane facing right"
+        case .manWithWhiteCaneFacingRightLightSkinTone: return "man with white cane facing right: light skin tone"
+        case .manWithWhiteCaneFacingRightMediumLightSkinTone: return "man with white cane facing right: medium-light skin tone"
+        case .manWithWhiteCaneFacingRightMediumSkinTone: return "man with white cane facing right: medium skin tone"
+        case .manWithWhiteCaneFacingRightMediumDarkSkinTone: return "man with white cane facing right: medium-dark skin tone"
+        case .manWithWhiteCaneFacingRightDarkSkinTone: return "man with white cane facing right: dark skin tone"
         case .womanWithWhiteCane: return "woman with white cane"
         case .womanWithWhiteCaneLightSkinTone: return "woman with white cane: light skin tone"
         case .womanWithWhiteCaneMediumLightSkinTone: return "woman with white cane: medium-light skin tone"
         case .womanWithWhiteCaneMediumSkinTone: return "woman with white cane: medium skin tone"
         case .womanWithWhiteCaneMediumDarkSkinTone: return "woman with white cane: medium-dark skin tone"
         case .womanWithWhiteCaneDarkSkinTone: return "woman with white cane: dark skin tone"
+        case .womanWithWhiteCaneFacingRight: return "woman with white cane facing right"
+        case .womanWithWhiteCaneFacingRightLightSkinTone: return "woman with white cane facing right: light skin tone"
+        case .womanWithWhiteCaneFacingRightMediumLightSkinTone: return "woman with white cane facing right: medium-light skin tone"
+        case .womanWithWhiteCaneFacingRightMediumSkinTone: return "woman with white cane facing right: medium skin tone"
+        case .womanWithWhiteCaneFacingRightMediumDarkSkinTone: return "woman with white cane facing right: medium-dark skin tone"
+        case .womanWithWhiteCaneFacingRightDarkSkinTone: return "woman with white cane facing right: dark skin tone"
         case .personInMotorizedWheelchair: return "person in motorized wheelchair"
         case .personInMotorizedWheelchairLightSkinTone: return "person in motorized wheelchair: light skin tone"
         case .personInMotorizedWheelchairMediumLightSkinTone: return "person in motorized wheelchair: medium-light skin tone"
         case .personInMotorizedWheelchairMediumSkinTone: return "person in motorized wheelchair: medium skin tone"
         case .personInMotorizedWheelchairMediumDarkSkinTone: return "person in motorized wheelchair: medium-dark skin tone"
         case .personInMotorizedWheelchairDarkSkinTone: return "person in motorized wheelchair: dark skin tone"
+        case .personInMotorizedWheelchairFacingRight: return "person in motorized wheelchair facing right"
+        case .personInMotorizedWheelchairFacingRightLightSkinTone: return "person in motorized wheelchair facing right: light skin tone"
+        case .personInMotorizedWheelchairFacingRightMediumLightSkinTone: return "person in motorized wheelchair facing right: medium-light skin tone"
+        case .personInMotorizedWheelchairFacingRightMediumSkinTone: return "person in motorized wheelchair facing right: medium skin tone"
+        case .personInMotorizedWheelchairFacingRightMediumDarkSkinTone: return "person in motorized wheelchair facing right: medium-dark skin tone"
+        case .personInMotorizedWheelchairFacingRightDarkSkinTone: return "person in motorized wheelchair facing right: dark skin tone"
         case .manInMotorizedWheelchair: return "man in motorized wheelchair"
         case .manInMotorizedWheelchairLightSkinTone: return "man in motorized wheelchair: light skin tone"
         case .manInMotorizedWheelchairMediumLightSkinTone: return "man in motorized wheelchair: medium-light skin tone"
         case .manInMotorizedWheelchairMediumSkinTone: return "man in motorized wheelchair: medium skin tone"
         case .manInMotorizedWheelchairMediumDarkSkinTone: return "man in motorized wheelchair: medium-dark skin tone"
         case .manInMotorizedWheelchairDarkSkinTone: return "man in motorized wheelchair: dark skin tone"
+        case .manInMotorizedWheelchairFacingRight: return "man in motorized wheelchair facing right"
+        case .manInMotorizedWheelchairFacingRightLightSkinTone: return "man in motorized wheelchair facing right: light skin tone"
+        case .manInMotorizedWheelchairFacingRightMediumLightSkinTone: return "man in motorized wheelchair facing right: medium-light skin tone"
+        case .manInMotorizedWheelchairFacingRightMediumSkinTone: return "man in motorized wheelchair facing right: medium skin tone"
+        case .manInMotorizedWheelchairFacingRightMediumDarkSkinTone: return "man in motorized wheelchair facing right: medium-dark skin tone"
+        case .manInMotorizedWheelchairFacingRightDarkSkinTone: return "man in motorized wheelchair facing right: dark skin tone"
         case .womanInMotorizedWheelchair: return "woman in motorized wheelchair"
         case .womanInMotorizedWheelchairLightSkinTone: return "woman in motorized wheelchair: light skin tone"
         case .womanInMotorizedWheelchairMediumLightSkinTone: return "woman in motorized wheelchair: medium-light skin tone"
         case .womanInMotorizedWheelchairMediumSkinTone: return "woman in motorized wheelchair: medium skin tone"
         case .womanInMotorizedWheelchairMediumDarkSkinTone: return "woman in motorized wheelchair: medium-dark skin tone"
         case .womanInMotorizedWheelchairDarkSkinTone: return "woman in motorized wheelchair: dark skin tone"
+        case .womanInMotorizedWheelchairFacingRight: return "woman in motorized wheelchair facing right"
+        case .womanInMotorizedWheelchairFacingRightLightSkinTone: return "woman in motorized wheelchair facing right: light skin tone"
+        case .womanInMotorizedWheelchairFacingRightMediumLightSkinTone: return "woman in motorized wheelchair facing right: medium-light skin tone"
+        case .womanInMotorizedWheelchairFacingRightMediumSkinTone: return "woman in motorized wheelchair facing right: medium skin tone"
+        case .womanInMotorizedWheelchairFacingRightMediumDarkSkinTone: return "woman in motorized wheelchair facing right: medium-dark skin tone"
+        case .womanInMotorizedWheelchairFacingRightDarkSkinTone: return "woman in motorized wheelchair facing right: dark skin tone"
         case .personInManualWheelchair: return "person in manual wheelchair"
         case .personInManualWheelchairLightSkinTone: return "person in manual wheelchair: light skin tone"
         case .personInManualWheelchairMediumLightSkinTone: return "person in manual wheelchair: medium-light skin tone"
         case .personInManualWheelchairMediumSkinTone: return "person in manual wheelchair: medium skin tone"
         case .personInManualWheelchairMediumDarkSkinTone: return "person in manual wheelchair: medium-dark skin tone"
         case .personInManualWheelchairDarkSkinTone: return "person in manual wheelchair: dark skin tone"
+        case .personInManualWheelchairFacingRight: return "person in manual wheelchair facing right"
+        case .personInManualWheelchairFacingRightLightSkinTone: return "person in manual wheelchair facing right: light skin tone"
+        case .personInManualWheelchairFacingRightMediumLightSkinTone: return "person in manual wheelchair facing right: medium-light skin tone"
+        case .personInManualWheelchairFacingRightMediumSkinTone: return "person in manual wheelchair facing right: medium skin tone"
+        case .personInManualWheelchairFacingRightMediumDarkSkinTone: return "person in manual wheelchair facing right: medium-dark skin tone"
+        case .personInManualWheelchairFacingRightDarkSkinTone: return "person in manual wheelchair facing right: dark skin tone"
         case .manInManualWheelchair: return "man in manual wheelchair"
         case .manInManualWheelchairLightSkinTone: return "man in manual wheelchair: light skin tone"
         case .manInManualWheelchairMediumLightSkinTone: return "man in manual wheelchair: medium-light skin tone"
         case .manInManualWheelchairMediumSkinTone: return "man in manual wheelchair: medium skin tone"
         case .manInManualWheelchairMediumDarkSkinTone: return "man in manual wheelchair: medium-dark skin tone"
         case .manInManualWheelchairDarkSkinTone: return "man in manual wheelchair: dark skin tone"
+        case .manInManualWheelchairFacingRight: return "man in manual wheelchair facing right"
+        case .manInManualWheelchairFacingRightLightSkinTone: return "man in manual wheelchair facing right: light skin tone"
+        case .manInManualWheelchairFacingRightMediumLightSkinTone: return "man in manual wheelchair facing right: medium-light skin tone"
+        case .manInManualWheelchairFacingRightMediumSkinTone: return "man in manual wheelchair facing right: medium skin tone"
+        case .manInManualWheelchairFacingRightMediumDarkSkinTone: return "man in manual wheelchair facing right: medium-dark skin tone"
+        case .manInManualWheelchairFacingRightDarkSkinTone: return "man in manual wheelchair facing right: dark skin tone"
         case .womanInManualWheelchair: return "woman in manual wheelchair"
         case .womanInManualWheelchairLightSkinTone: return "woman in manual wheelchair: light skin tone"
         case .womanInManualWheelchairMediumLightSkinTone: return "woman in manual wheelchair: medium-light skin tone"
         case .womanInManualWheelchairMediumSkinTone: return "woman in manual wheelchair: medium skin tone"
         case .womanInManualWheelchairMediumDarkSkinTone: return "woman in manual wheelchair: medium-dark skin tone"
         case .womanInManualWheelchairDarkSkinTone: return "woman in manual wheelchair: dark skin tone"
+        case .womanInManualWheelchairFacingRight: return "woman in manual wheelchair facing right"
+        case .womanInManualWheelchairFacingRightLightSkinTone: return "woman in manual wheelchair facing right: light skin tone"
+        case .womanInManualWheelchairFacingRightMediumLightSkinTone: return "woman in manual wheelchair facing right: medium-light skin tone"
+        case .womanInManualWheelchairFacingRightMediumSkinTone: return "woman in manual wheelchair facing right: medium skin tone"
+        case .womanInManualWheelchairFacingRightMediumDarkSkinTone: return "woman in manual wheelchair facing right: medium-dark skin tone"
+        case .womanInManualWheelchairFacingRightDarkSkinTone: return "woman in manual wheelchair facing right: dark skin tone"
         case .personRunning: return "person running"
         case .personRunningLightSkinTone: return "person running: light skin tone"
         case .personRunningMediumLightSkinTone: return "person running: medium-light skin tone"
@@ -5347,6 +5554,24 @@ public enum AllEmojis: String, CaseIterable {
         case .womanRunningMediumSkinTone: return "woman running: medium skin tone"
         case .womanRunningMediumDarkSkinTone: return "woman running: medium-dark skin tone"
         case .womanRunningDarkSkinTone: return "woman running: dark skin tone"
+        case .personRunningFacingRight: return "person running facing right"
+        case .personRunningFacingRightLightSkinTone: return "person running facing right: light skin tone"
+        case .personRunningFacingRightMediumLightSkinTone: return "person running facing right: medium-light skin tone"
+        case .personRunningFacingRightMediumSkinTone: return "person running facing right: medium skin tone"
+        case .personRunningFacingRightMediumDarkSkinTone: return "person running facing right: medium-dark skin tone"
+        case .personRunningFacingRightDarkSkinTone: return "person running facing right: dark skin tone"
+        case .womanRunningFacingRight: return "woman running facing right"
+        case .womanRunningFacingRightLightSkinTone: return "woman running facing right: light skin tone"
+        case .womanRunningFacingRightMediumLightSkinTone: return "woman running facing right: medium-light skin tone"
+        case .womanRunningFacingRightMediumSkinTone: return "woman running facing right: medium skin tone"
+        case .womanRunningFacingRightMediumDarkSkinTone: return "woman running facing right: medium-dark skin tone"
+        case .womanRunningFacingRightDarkSkinTone: return "woman running facing right: dark skin tone"
+        case .manRunningFacingRight: return "man running facing right"
+        case .manRunningFacingRightLightSkinTone: return "man running facing right: light skin tone"
+        case .manRunningFacingRightMediumLightSkinTone: return "man running facing right: medium-light skin tone"
+        case .manRunningFacingRightMediumSkinTone: return "man running facing right: medium skin tone"
+        case .manRunningFacingRightMediumDarkSkinTone: return "man running facing right: medium-dark skin tone"
+        case .manRunningFacingRightDarkSkinTone: return "man running facing right: dark skin tone"
         case .womanDancing: return "woman dancing"
         case .womanDancingLightSkinTone: return "woman dancing: light skin tone"
         case .womanDancingMediumLightSkinTone: return "woman dancing: medium-light skin tone"
@@ -5979,7 +6204,6 @@ public enum AllEmojis: String, CaseIterable {
         case .coupleWithHeartWomanWomanDarkSkinToneMediumSkinTone: return "couple with heart: woman, woman, dark skin tone, medium skin tone"
         case .coupleWithHeartWomanWomanDarkSkinToneMediumDarkSkinTone: return "couple with heart: woman, woman, dark skin tone, medium-dark skin tone"
         case .coupleWithHeartWomanWomanDarkSkinTone: return "couple with heart: woman, woman, dark skin tone"
-        case .family: return "family"
         case .familyManWomanBoy: return "family: man, woman, boy"
         case .familyManWomanGirl: return "family: man, woman, girl"
         case .familyManWomanGirlBoy: return "family: man, woman, girl, boy"
@@ -6009,6 +6233,11 @@ public enum AllEmojis: String, CaseIterable {
         case .bustInSilhouette: return "bust in silhouette"
         case .bustsInSilhouette: return "busts in silhouette"
         case .peopleHugging: return "people hugging"
+        case .family: return "family"
+        case .familyAdultAdultChild: return "family: adult, adult, child"
+        case .familyAdultAdultChildChild: return "family: adult, adult, child, child"
+        case .familyAdultChild: return "family: adult, child"
+        case .familyAdultChildChild: return "family: adult, child, child"
         case .footprints: return "footprints"
         case .lightSkinTone: return "light skin tone"
         case .mediumLightSkinTone: return "medium-light skin tone"
@@ -6106,6 +6335,7 @@ public enum AllEmojis: String, CaseIterable {
         case .wing: return "wing"
         case .blackBird: return "black bird"
         case .goose: return "goose"
+        case .phoenix: return "phoenix"
         case .frog: return "frog"
         case .crocodile: return "crocodile"
         case .turtle: return "turtle"
@@ -6176,6 +6406,7 @@ public enum AllEmojis: String, CaseIterable {
         case .watermelon: return "watermelon"
         case .tangerine: return "tangerine"
         case .lemon: return "lemon"
+        case .lime: return "lime"
         case .banana: return "banana"
         case .pineapple: return "pineapple"
         case .mango: return "mango"
@@ -6207,6 +6438,7 @@ public enum AllEmojis: String, CaseIterable {
         case .chestnut: return "chestnut"
         case .gingerRoot: return "ginger root"
         case .peaPod: return "pea pod"
+        case .brownMushroom: return "brown mushroom"
         case .bread: return "bread"
         case .croissant: return "croissant"
         case .baguetteBread: return "baguette bread"
@@ -6815,6 +7047,7 @@ public enum AllEmojis: String, CaseIterable {
         case .balanceScale: return "balance scale"
         case .whiteCane: return "white cane"
         case .link: return "link"
+        case .brokenChain: return "broken chain"
         case .chains: return "chains"
         case .hook: return "hook"
         case .toolbox: return "toolbox"
@@ -7330,7 +7563,7 @@ public enum AllEmojis: String, CaseIterable {
         case .flagTurkmenistan: return "flag: Turkmenistan"
         case .flagTunisia: return "flag: Tunisia"
         case .flagTonga: return "flag: Tonga"
-        case .flagTurkey: return "flag: Turkey"
+        case .flagTurkiye: return "flag: Türkiye"
         case .flagTrinidadTobago: return "flag: Trinidad & Tobago"
         case .flagTuvalu: return "flag: Tuvalu"
         case .flagTaiwan: return "flag: Taiwan"
@@ -7364,7 +7597,7 @@ public enum AllEmojis: String, CaseIterable {
         }
     }
 
-    public var version: Double {
+    var version: Double {
         switch self {
         case .grinningFace: return 1.0
         case .grinningFaceWithBigEyes: return 0.6
@@ -7416,6 +7649,8 @@ public enum AllEmojis: String, CaseIterable {
         case .faceExhaling: return 13.1
         case .lyingFace: return 3.0
         case .shakingFace: return 15.0
+        case .headShakingHorizontally: return 15.1
+        case .headShakingVertically: return 15.1
         case .relievedFace: return 0.6
         case .pensiveFace: return 0.6
         case .sleepyFace: return 0.6
@@ -8909,6 +9144,24 @@ public enum AllEmojis: String, CaseIterable {
         case .womanWalkingMediumSkinTone: return 4.0
         case .womanWalkingMediumDarkSkinTone: return 4.0
         case .womanWalkingDarkSkinTone: return 4.0
+        case .personWalkingFacingRight: return 15.1
+        case .personWalkingFacingRightLightSkinTone: return 15.1
+        case .personWalkingFacingRightMediumLightSkinTone: return 15.1
+        case .personWalkingFacingRightMediumSkinTone: return 15.1
+        case .personWalkingFacingRightMediumDarkSkinTone: return 15.1
+        case .personWalkingFacingRightDarkSkinTone: return 15.1
+        case .womanWalkingFacingRight: return 15.1
+        case .womanWalkingFacingRightLightSkinTone: return 15.1
+        case .womanWalkingFacingRightMediumLightSkinTone: return 15.1
+        case .womanWalkingFacingRightMediumSkinTone: return 15.1
+        case .womanWalkingFacingRightMediumDarkSkinTone: return 15.1
+        case .womanWalkingFacingRightDarkSkinTone: return 15.1
+        case .manWalkingFacingRight: return 15.1
+        case .manWalkingFacingRightLightSkinTone: return 15.1
+        case .manWalkingFacingRightMediumLightSkinTone: return 15.1
+        case .manWalkingFacingRightMediumSkinTone: return 15.1
+        case .manWalkingFacingRightMediumDarkSkinTone: return 15.1
+        case .manWalkingFacingRightDarkSkinTone: return 15.1
         case .personStanding: return 12.0
         case .personStandingLightSkinTone: return 12.0
         case .personStandingMediumLightSkinTone: return 12.0
@@ -8945,60 +9198,132 @@ public enum AllEmojis: String, CaseIterable {
         case .womanKneelingMediumSkinTone: return 12.0
         case .womanKneelingMediumDarkSkinTone: return 12.0
         case .womanKneelingDarkSkinTone: return 12.0
+        case .personKneelingFacingRight: return 15.1
+        case .personKneelingFacingRightLightSkinTone: return 15.1
+        case .personKneelingFacingRightMediumLightSkinTone: return 15.1
+        case .personKneelingFacingRightMediumSkinTone: return 15.1
+        case .personKneelingFacingRightMediumDarkSkinTone: return 15.1
+        case .personKneelingFacingRightDarkSkinTone: return 15.1
+        case .womanKneelingFacingRight: return 15.1
+        case .womanKneelingFacingRightLightSkinTone: return 15.1
+        case .womanKneelingFacingRightMediumLightSkinTone: return 15.1
+        case .womanKneelingFacingRightMediumSkinTone: return 15.1
+        case .womanKneelingFacingRightMediumDarkSkinTone: return 15.1
+        case .womanKneelingFacingRightDarkSkinTone: return 15.1
+        case .manKneelingFacingRight: return 15.1
+        case .manKneelingFacingRightLightSkinTone: return 15.1
+        case .manKneelingFacingRightMediumLightSkinTone: return 15.1
+        case .manKneelingFacingRightMediumSkinTone: return 15.1
+        case .manKneelingFacingRightMediumDarkSkinTone: return 15.1
+        case .manKneelingFacingRightDarkSkinTone: return 15.1
         case .personWithWhiteCane: return 12.1
         case .personWithWhiteCaneLightSkinTone: return 12.1
         case .personWithWhiteCaneMediumLightSkinTone: return 12.1
         case .personWithWhiteCaneMediumSkinTone: return 12.1
         case .personWithWhiteCaneMediumDarkSkinTone: return 12.1
         case .personWithWhiteCaneDarkSkinTone: return 12.1
+        case .personWithWhiteCaneFacingRight: return 15.1
+        case .personWithWhiteCaneFacingRightLightSkinTone: return 15.1
+        case .personWithWhiteCaneFacingRightMediumLightSkinTone: return 15.1
+        case .personWithWhiteCaneFacingRightMediumSkinTone: return 15.1
+        case .personWithWhiteCaneFacingRightMediumDarkSkinTone: return 15.1
+        case .personWithWhiteCaneFacingRightDarkSkinTone: return 15.1
         case .manWithWhiteCane: return 12.0
         case .manWithWhiteCaneLightSkinTone: return 12.0
         case .manWithWhiteCaneMediumLightSkinTone: return 12.0
         case .manWithWhiteCaneMediumSkinTone: return 12.0
         case .manWithWhiteCaneMediumDarkSkinTone: return 12.0
         case .manWithWhiteCaneDarkSkinTone: return 12.0
+        case .manWithWhiteCaneFacingRight: return 15.1
+        case .manWithWhiteCaneFacingRightLightSkinTone: return 15.1
+        case .manWithWhiteCaneFacingRightMediumLightSkinTone: return 15.1
+        case .manWithWhiteCaneFacingRightMediumSkinTone: return 15.1
+        case .manWithWhiteCaneFacingRightMediumDarkSkinTone: return 15.1
+        case .manWithWhiteCaneFacingRightDarkSkinTone: return 15.1
         case .womanWithWhiteCane: return 12.0
         case .womanWithWhiteCaneLightSkinTone: return 12.0
         case .womanWithWhiteCaneMediumLightSkinTone: return 12.0
         case .womanWithWhiteCaneMediumSkinTone: return 12.0
         case .womanWithWhiteCaneMediumDarkSkinTone: return 12.0
         case .womanWithWhiteCaneDarkSkinTone: return 12.0
+        case .womanWithWhiteCaneFacingRight: return 15.1
+        case .womanWithWhiteCaneFacingRightLightSkinTone: return 15.1
+        case .womanWithWhiteCaneFacingRightMediumLightSkinTone: return 15.1
+        case .womanWithWhiteCaneFacingRightMediumSkinTone: return 15.1
+        case .womanWithWhiteCaneFacingRightMediumDarkSkinTone: return 15.1
+        case .womanWithWhiteCaneFacingRightDarkSkinTone: return 15.1
         case .personInMotorizedWheelchair: return 12.1
         case .personInMotorizedWheelchairLightSkinTone: return 12.1
         case .personInMotorizedWheelchairMediumLightSkinTone: return 12.1
         case .personInMotorizedWheelchairMediumSkinTone: return 12.1
         case .personInMotorizedWheelchairMediumDarkSkinTone: return 12.1
         case .personInMotorizedWheelchairDarkSkinTone: return 12.1
+        case .personInMotorizedWheelchairFacingRight: return 15.1
+        case .personInMotorizedWheelchairFacingRightLightSkinTone: return 15.1
+        case .personInMotorizedWheelchairFacingRightMediumLightSkinTone: return 15.1
+        case .personInMotorizedWheelchairFacingRightMediumSkinTone: return 15.1
+        case .personInMotorizedWheelchairFacingRightMediumDarkSkinTone: return 15.1
+        case .personInMotorizedWheelchairFacingRightDarkSkinTone: return 15.1
         case .manInMotorizedWheelchair: return 12.0
         case .manInMotorizedWheelchairLightSkinTone: return 12.0
         case .manInMotorizedWheelchairMediumLightSkinTone: return 12.0
         case .manInMotorizedWheelchairMediumSkinTone: return 12.0
         case .manInMotorizedWheelchairMediumDarkSkinTone: return 12.0
         case .manInMotorizedWheelchairDarkSkinTone: return 12.0
+        case .manInMotorizedWheelchairFacingRight: return 15.1
+        case .manInMotorizedWheelchairFacingRightLightSkinTone: return 15.1
+        case .manInMotorizedWheelchairFacingRightMediumLightSkinTone: return 15.1
+        case .manInMotorizedWheelchairFacingRightMediumSkinTone: return 15.1
+        case .manInMotorizedWheelchairFacingRightMediumDarkSkinTone: return 15.1
+        case .manInMotorizedWheelchairFacingRightDarkSkinTone: return 15.1
         case .womanInMotorizedWheelchair: return 12.0
         case .womanInMotorizedWheelchairLightSkinTone: return 12.0
         case .womanInMotorizedWheelchairMediumLightSkinTone: return 12.0
         case .womanInMotorizedWheelchairMediumSkinTone: return 12.0
         case .womanInMotorizedWheelchairMediumDarkSkinTone: return 12.0
         case .womanInMotorizedWheelchairDarkSkinTone: return 12.0
+        case .womanInMotorizedWheelchairFacingRight: return 15.1
+        case .womanInMotorizedWheelchairFacingRightLightSkinTone: return 15.1
+        case .womanInMotorizedWheelchairFacingRightMediumLightSkinTone: return 15.1
+        case .womanInMotorizedWheelchairFacingRightMediumSkinTone: return 15.1
+        case .womanInMotorizedWheelchairFacingRightMediumDarkSkinTone: return 15.1
+        case .womanInMotorizedWheelchairFacingRightDarkSkinTone: return 15.1
         case .personInManualWheelchair: return 12.1
         case .personInManualWheelchairLightSkinTone: return 12.1
         case .personInManualWheelchairMediumLightSkinTone: return 12.1
         case .personInManualWheelchairMediumSkinTone: return 12.1
         case .personInManualWheelchairMediumDarkSkinTone: return 12.1
         case .personInManualWheelchairDarkSkinTone: return 12.1
+        case .personInManualWheelchairFacingRight: return 15.1
+        case .personInManualWheelchairFacingRightLightSkinTone: return 15.1
+        case .personInManualWheelchairFacingRightMediumLightSkinTone: return 15.1
+        case .personInManualWheelchairFacingRightMediumSkinTone: return 15.1
+        case .personInManualWheelchairFacingRightMediumDarkSkinTone: return 15.1
+        case .personInManualWheelchairFacingRightDarkSkinTone: return 15.1
         case .manInManualWheelchair: return 12.0
         case .manInManualWheelchairLightSkinTone: return 12.0
         case .manInManualWheelchairMediumLightSkinTone: return 12.0
         case .manInManualWheelchairMediumSkinTone: return 12.0
         case .manInManualWheelchairMediumDarkSkinTone: return 12.0
         case .manInManualWheelchairDarkSkinTone: return 12.0
+        case .manInManualWheelchairFacingRight: return 15.1
+        case .manInManualWheelchairFacingRightLightSkinTone: return 15.1
+        case .manInManualWheelchairFacingRightMediumLightSkinTone: return 15.1
+        case .manInManualWheelchairFacingRightMediumSkinTone: return 15.1
+        case .manInManualWheelchairFacingRightMediumDarkSkinTone: return 15.1
+        case .manInManualWheelchairFacingRightDarkSkinTone: return 15.1
         case .womanInManualWheelchair: return 12.0
         case .womanInManualWheelchairLightSkinTone: return 12.0
         case .womanInManualWheelchairMediumLightSkinTone: return 12.0
         case .womanInManualWheelchairMediumSkinTone: return 12.0
         case .womanInManualWheelchairMediumDarkSkinTone: return 12.0
         case .womanInManualWheelchairDarkSkinTone: return 12.0
+        case .womanInManualWheelchairFacingRight: return 15.1
+        case .womanInManualWheelchairFacingRightLightSkinTone: return 15.1
+        case .womanInManualWheelchairFacingRightMediumLightSkinTone: return 15.1
+        case .womanInManualWheelchairFacingRightMediumSkinTone: return 15.1
+        case .womanInManualWheelchairFacingRightMediumDarkSkinTone: return 15.1
+        case .womanInManualWheelchairFacingRightDarkSkinTone: return 15.1
         case .personRunning: return 0.6
         case .personRunningLightSkinTone: return 1.0
         case .personRunningMediumLightSkinTone: return 1.0
@@ -9017,6 +9342,24 @@ public enum AllEmojis: String, CaseIterable {
         case .womanRunningMediumSkinTone: return 4.0
         case .womanRunningMediumDarkSkinTone: return 4.0
         case .womanRunningDarkSkinTone: return 4.0
+        case .personRunningFacingRight: return 15.1
+        case .personRunningFacingRightLightSkinTone: return 15.1
+        case .personRunningFacingRightMediumLightSkinTone: return 15.1
+        case .personRunningFacingRightMediumSkinTone: return 15.1
+        case .personRunningFacingRightMediumDarkSkinTone: return 15.1
+        case .personRunningFacingRightDarkSkinTone: return 15.1
+        case .womanRunningFacingRight: return 15.1
+        case .womanRunningFacingRightLightSkinTone: return 15.1
+        case .womanRunningFacingRightMediumLightSkinTone: return 15.1
+        case .womanRunningFacingRightMediumSkinTone: return 15.1
+        case .womanRunningFacingRightMediumDarkSkinTone: return 15.1
+        case .womanRunningFacingRightDarkSkinTone: return 15.1
+        case .manRunningFacingRight: return 15.1
+        case .manRunningFacingRightLightSkinTone: return 15.1
+        case .manRunningFacingRightMediumLightSkinTone: return 15.1
+        case .manRunningFacingRightMediumSkinTone: return 15.1
+        case .manRunningFacingRightMediumDarkSkinTone: return 15.1
+        case .manRunningFacingRightDarkSkinTone: return 15.1
         case .womanDancing: return 0.6
         case .womanDancingLightSkinTone: return 1.0
         case .womanDancingMediumLightSkinTone: return 1.0
@@ -9649,7 +9992,6 @@ public enum AllEmojis: String, CaseIterable {
         case .coupleWithHeartWomanWomanDarkSkinToneMediumSkinTone: return 13.1
         case .coupleWithHeartWomanWomanDarkSkinToneMediumDarkSkinTone: return 13.1
         case .coupleWithHeartWomanWomanDarkSkinTone: return 13.1
-        case .family: return 0.6
         case .familyManWomanBoy: return 2.0
         case .familyManWomanGirl: return 2.0
         case .familyManWomanGirlBoy: return 2.0
@@ -9679,6 +10021,11 @@ public enum AllEmojis: String, CaseIterable {
         case .bustInSilhouette: return 0.6
         case .bustsInSilhouette: return 1.0
         case .peopleHugging: return 13.0
+        case .family: return 0.6
+        case .familyAdultAdultChild: return 15.1
+        case .familyAdultAdultChildChild: return 15.1
+        case .familyAdultChild: return 15.1
+        case .familyAdultChildChild: return 15.1
         case .footprints: return 0.6
         case .lightSkinTone: return 1.0
         case .mediumLightSkinTone: return 1.0
@@ -9776,6 +10123,7 @@ public enum AllEmojis: String, CaseIterable {
         case .wing: return 15.0
         case .blackBird: return 15.0
         case .goose: return 15.0
+        case .phoenix: return 15.1
         case .frog: return 0.6
         case .crocodile: return 1.0
         case .turtle: return 0.6
@@ -9846,6 +10194,7 @@ public enum AllEmojis: String, CaseIterable {
         case .watermelon: return 0.6
         case .tangerine: return 0.6
         case .lemon: return 1.0
+        case .lime: return 15.1
         case .banana: return 0.6
         case .pineapple: return 0.6
         case .mango: return 11.0
@@ -9877,6 +10226,7 @@ public enum AllEmojis: String, CaseIterable {
         case .chestnut: return 0.6
         case .gingerRoot: return 15.0
         case .peaPod: return 15.0
+        case .brownMushroom: return 15.1
         case .bread: return 0.6
         case .croissant: return 3.0
         case .baguetteBread: return 3.0
@@ -10485,6 +10835,7 @@ public enum AllEmojis: String, CaseIterable {
         case .balanceScale: return 1.0
         case .whiteCane: return 12.0
         case .link: return 0.6
+        case .brokenChain: return 15.1
         case .chains: return 0.7
         case .hook: return 13.0
         case .toolbox: return 11.0
@@ -11000,7 +11351,7 @@ public enum AllEmojis: String, CaseIterable {
         case .flagTurkmenistan: return 2.0
         case .flagTunisia: return 2.0
         case .flagTonga: return 2.0
-        case .flagTurkey: return 2.0
+        case .flagTurkiye: return 2.0
         case .flagTrinidadTobago: return 2.0
         case .flagTuvalu: return 2.0
         case .flagTaiwan: return 2.0
