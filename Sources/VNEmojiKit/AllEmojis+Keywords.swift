@@ -1,7 +1,7 @@
 /*
  MIT License
 
- Copyright (c) 2021-2024 Vincent Neo
+ Copyright (c) 2021-2025 Vincent Neo
 
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
@@ -22,5659 +22,5676 @@
  SOFTWARE.
  */
 
+
 import Foundation
 
 public extension AllEmojis {
 
     var keywords: Set<String> {
         switch self {
-        case .womanFirefighterMediumSkinTone: return ["firefighter", "skin", "firetruck", "woman firefighter: medium skin tone", "medium", "firefighter:", "woman", "tone", "medium skin tone"]
+        case .dizzy: return ["dizzy", "stars", "star", "shining", "shooting", "comic"]
 
-        case .earWithHearingAidLightSkinTone: return ["hard of hearing", "accessibility", "ear", "light skin tone", "with", "ear with hearing aid: light skin tone", "aid:", "ear with hearing aid", "light", "hearing", "skin", "tone"]
+        case .backhandIndexPointingLeftDarkSkinTone: return ["left:", "point", "left", "hand", "index", "dark skin tone", "finger", "pointing", "tone", "backhand", "dark", "skin"]
 
-        case .handshakeMediumDarkSkinToneMediumSkinTone: return ["medium", "tone", "medium dark skin tone", "shake", "hand", "skin", "handshake", "meeting", "handshake: medium dark skin tone, medium skin tone", "medium skin tone", "handshake:", "agreement", "dark", "tone,"]
+        case .beamingFaceWithSmilingEyes: return ["grinning", "face", "happy", "with", "beaming", "eyes", "smile", "nice", "grin", "smiling", "eye", "teeth"]
 
-        case .expressionlessFace: return ["face", "expressionless", "inexpressive", "meh", "unexpressive"]
+        case .flagLithuania: return ["Lithuania", "flag"]
 
-        case .snake: return ["snake", "zodiac", "bearer", "Ophiuchus", "serpent"]
+        case .currencyExchange: return ["exchange", "money", "currency", "bank"]
 
-        case .flagHonduras: return ["Honduras", "flag", "flag: Honduras"]
+        case .manOfficeWorker: return ["man", "white collar", "office", "business", "manager", "architect", "worker"]
 
-        case .bear: return ["bear", "face"]
+        case .princeMediumDarkSkinTone: return ["tale", "king", "dark", "tone", "medium dark skin tone", "fairytale", "skin", "royal", "fairy", "fantasy", "crown", "prince:", "medium", "prince", "royalty"]
 
-        case .manSingerMediumLightSkinTone: return ["rock", "medium light skin tone", "tone", "singer:", "skin", "light", "actor", "singer", "medium", "star", "man singer: medium light skin tone", "man", "entertainer"]
+        case .snowboarderMediumSkinTone: return ["sport", "snow", "snowboard", "medium", "snowboarder:", "tone", "skin", "snowboarder", "medium skin tone", "ski"]
 
-        case .pinchedFingers: return ["sarcastic", "fingers", "pinched", "hand gesture", "interrogation"]
+        case .peopleHoldingHandsDarkSkinToneMediumLightSkinTone: return ["bae", "medium light skin tone", "hold", "hand", "couple", "flirt", "holding", "dark", "skin", "hands:", "people", "tone,", "friends", "tone", "medium", "dating", "bff", "bestie", "dark skin tone", "light", "twins"]
 
-        case .personFeedingBabyLightSkinTone: return ["light skin tone", "light", "nursing", "tone", "baby", "feeding", "person feeding baby: light skin tone", "baby:", "person", "skin"]
+        case .peanuts: return ["nut", "food", "peanuts", "peanut", "vegetable"]
 
-        case .womanCookMediumLightSkinTone: return ["chef", "skin", "cook:", "cook", "tone", "medium", "medium light skin tone", "woman", "woman cook: medium light skin tone", "light"]
+        case .leftwardsHandLightSkinTone: return ["light skin tone", "handshake", "hold", "reach", "light", "tone", "hand:", "leftward", "left", "skin", "hand", "leftwards", "shake"]
 
-        case .virgo: return ["Virgo", "zodiac"]
+        case .constructionWorker: return ["person", "hat", "fix", "work", "rebuild", "worker", "construction", "hardhat", "repair", "build", "remodel", "man"]
 
-        case .potableWater: return ["water", "drinking", "potable"]
+        case .womanInMotorizedWheelchairMediumLightSkinTone: return ["tone", "motorized", "wheelchair", "medium light skin tone", "medium", "wheelchair:", "in", "woman", "light", "skin", "accessibility"]
 
-        case .scientistMediumSkinTone: return ["medium skin tone", "biologist", "chemist", "scientist: medium skin tone", "skin", "physicist", "tone", "scientist:", "scientist", "engineer", "medium"]
+        case .smirkingFace: return ["suspicious", "smirking", "smug", "smirk", "face", "swag", "sly", "slick", "flirt", "homie", "suave", "kidding", "dapper", "snicker", "leer", "boss", "shade"]
 
-        case .checkMarkButton: return ["✓", "button", "check", "mark"]
+        case .transgenderSymbol: return ["transgender", "symbol"]
 
-        case .flagNiger: return ["Niger", "flag", "flag: Niger"]
+        case .diyaLamp: return ["oil", "lamp", "light", "diya"]
 
-        case .personBowingLightSkinTone: return ["person bowing", "sorry", "light skin tone", "apology", "person", "light", "bowing:", "skin", "tone", "bow", "gesture", "person bowing: light skin tone"]
+        case .palmUpHandMediumSkinTone: return ["tone", "hold", "me", "tell", "hand:", "lift", "skin", "hand", "medium", "beckon", "palm", "catch", "up", "offer", "know", "come", "medium skin tone"]
 
-        case .personWithVeilMediumLightSkinTone: return ["bride", "person with veil", "wedding", "light", "medium", "medium light skin tone", "with", "veil", "person", "skin", "person with veil: medium light skin tone", "veil:", "tone"]
+        case .waffle: return ["waffle", "iron", "breakfast", "indecisive"]
 
-        case .blueBook: return ["blue", "book"]
+        case .manArtistDarkSkinTone: return ["artist:", "artist", "dark", "dark skin tone", "man", "skin", "palette", "tone"]
 
-        case .personCartwheelingDarkSkinTone: return ["person cartwheeling", "person cartwheeling: dark skin tone", "cartwheeling:", "skin", "tone", "person", "dark", "gymnastics", "cartwheel", "dark skin tone"]
+        case .ladyBeetle: return ["garden", "lady", "ladybird", "animal", "beetle", "insect", "nature", "ladybug"]
 
-        case .personFrowningDarkSkinTone: return ["person", "dark skin tone", "gesture", "person frowning: dark skin tone", "person frowning", "frowning:", "skin", "tone", "frown", "dark"]
+        case .hourglassDone: return ["timer", "done", "sand", "hourglass", "time"]
 
-        case .manScientistMediumLightSkinTone: return ["engineer", "scientist", "chemist", "medium light skin tone", "scientist:", "light", "medium", "man scientist: medium light skin tone", "biologist", "skin", "physicist", "tone", "man"]
+        case .womanInMotorizedWheelchairDarkSkinTone: return ["wheelchair:", "in", "dark skin tone", "wheelchair", "motorized", "accessibility", "woman", "skin", "tone", "dark"]
 
-        case .personGettingMassageMediumLightSkinTone: return ["massage", "face", "person getting massage: medium light skin tone", "skin", "person getting massage", "person", "salon", "medium light skin tone", "massage:", "light", "tone", "medium", "getting"]
+        case .clappingHandsMediumSkinTone: return ["applause", "yay", "hand", "awesome", "clapping", "approval", "homie", "well", "hands:", "excited", "congratulations", "good", "nice", "clap", "great", "prayed", "skin", "job", "tone", "congrats", "medium", "medium skin tone"]
 
-        case .grinningFaceWithSmilingEyes: return ["grinning", "mouth", "open", "smile", "grinning face with smiling eyes", "eye", "smiling", "eyes", "with", "face"]
+        case .familyWomanWomanGirlGirl: return ["girl", "woman,", "family", "woman", "family:", "child", "girl,"]
 
-        case .oldWomanMediumSkinTone: return ["medium skin tone", "woman", "old", "medium", "woman:", "old woman: medium skin tone", "skin", "adult", "tone"]
+        case .potOfFood: return ["pot", "soup", "stew", "food", "of"]
 
-        case .avocado: return ["food", "fruit", "avocado"]
+        case .womanWithWhiteCaneMediumSkinTone: return ["woman", "probing", "medium", "tone", "cane", "blind", "skin", "with", "medium skin tone", "white", "accessibility", "cane:"]
 
-        case .tropicalFish: return ["tropical", "fish"]
+        case .sixOclock: return ["o’clock", "six", "time", "6:00", "6", "clock"]
 
-        case .motorBoat: return ["motor boat", "boat", "motorboat", "motor"]
+        case .popcorn: return ["popcorn", "movie", "corn", "pop"]
 
-        case .manMediumLightSkinToneRedHair: return ["light", "red", "skin", "man", "red hair", "tone,", "hair", "man:", "man: medium light skin tone, red hair", "adult", "medium light skin tone", "medium"]
+        case .wavingHand: return ["hey", "greetings", "later", "bye", "outtie", "wave", "hi", "hello", "g2g", "hand", "ttfn", "cya", "gtg", "ttyl", "yo", "you", "waving"]
 
-        case .wavingHandMediumDarkSkinTone: return ["medium", "waving", "tone", "hand:", "hand", "skin", "wave", "dark", "medium dark skin tone", "waving hand: medium dark skin tone"]
+        case .locked: return ["locked", "lock", "private", "closed"]
 
-        case .personMediumSkinToneRedHair: return ["red hair", "red", "medium", "skin", "person:", "person", "gender neutral", "tone,", "unspecified gender", "person: medium skin tone, red hair", "hair", "medium skin tone", "adult"]
+        case .greenSalad: return ["food", "green", "salad"]
 
-        case .leftArrowCurvingRight: return ["left arrow curving right", "curving", "arrow", "left", "right"]
+        case .speechBalloon: return ["sms", "balloon", "speech", "comic", "talk", "dialog", "text", "typing", "bubble", "message"]
 
-        case .chartIncreasingWithYen: return ["yen", "with", "growth", "increasing", "graph", "chart", "money", "chart increasing with yen"]
+        case .whiteCircle: return ["white", "circle", "geometric"]
 
-        case .flushedFace: return ["dazed", "flushed", "face"]
+        case .indexPointingAtTheViewerMediumLightSkinTone: return ["finger", "index", "you", "hand", "poke", "viewer:", "light", "skin", "the", "pointing", "viewer", "medium light skin tone", "at", "medium", "tone"]
 
-        case .baseball: return ["ball", "baseball"]
+        case .buildingConstruction: return ["construction", "building", "crane"]
 
-        case .personBouncingBallLightSkinTone: return ["person bouncing ball", "person", "person bouncing ball: light skin tone", "light", "light skin tone", "skin", "ball", "tone", "ball:", "bouncing"]
+        case .flagUnitedNations: return ["United Nations", "flag"]
 
-        case .womanStudentMediumSkinTone: return ["graduate", "skin", "tone", "woman", "medium skin tone", "woman student: medium skin tone", "student:", "student", "medium"]
+        case .pleadingFace: return ["begging", "pleading", "face", "puppy", "please", "mercy", "not", "pretty", "sad", "eyes", "big", "why"]
 
-        case .flagUganda: return ["flag: Uganda", "Uganda", "flag"]
+        case .bouquet: return ["love", "bouquet", "birthday", "flower", "date", "plant", "anniversary", "romance"]
 
-        case .flagIraq: return ["Iraq", "flag", "flag: Iraq"]
+        case .catWithWrySmile: return ["ironic", "with", "cat", "face", "smile", "wry", "animal"]
 
-        case .womanMechanicDarkSkinTone: return ["dark", "tone", "plumber", "woman mechanic: dark skin tone", "dark skin tone", "mechanic:", "electrician", "mechanic", "tradesperson", "woman", "skin"]
+        case .greenBook: return ["fantasy", "book", "reading", "green", "education", "library"]
 
-        case .heartWithArrow: return ["with", "arrow", "heart with arrow", "cupid", "heart"]
+        case .cowboyHatFace: return ["cowgirl", "cowboy", "hat", "face"]
 
-        case .sushi: return ["sushi"]
+        case .pinchingHandMediumSkinTone: return ["little", "sort", "hand", "skin", "pinching", "medium", "hand:", "medium skin tone", "fingers", "amount", "tone", "bit", "small"]
 
-        case .manInMotorizedWheelchairMediumSkinTone: return ["medium skin tone", "wheelchair", "medium", "skin", "accessibility", "tone", "man in motorized wheelchair: medium skin tone", "wheelchair:", "man in motorized wheelchair", "in", "motorized", "man"]
+        case .cherries: return ["cherry", "fruit", "cherries", "berries", "red"]
 
-        case .callMeHandLightSkinTone: return ["Shaka", "me", "hand:", "hang loose", "call me hand", "light skin tone", "call", "light", "skin", "tone", "call me hand: light skin tone", "hand"]
+        case .personMediumDarkSkinToneBlondHair: return ["hair", "person", "medium", "skin", "medium dark skin tone", "blond hair", "tone,", "blond haired", "blond", "human", "person:", "dark"]
 
-        case .foldedHandsMediumDarkSkinTone: return ["please", "folded hands", "ask", "skin", "medium", "hand", "tone", "high five", "pray", "folded", "folded hands: medium dark skin tone", "hands:", "high 5", "medium dark skin tone", "thanks", "dark"]
+        case .nonPotableWater: return ["non", "prohibited", "potable", "non potable", "non drinking", "dry", "water"]
 
-        case .peopleHoldingHandsLightSkinToneDarkSkinTone: return ["person", "people holding hands: light skin tone, dark skin tone", "holding hands", "dark skin tone", "people", "dark", "hold", "holding", "light skin tone", "people holding hands", "light", "couple", "skin", "hands:", "tone,", "hand", "tone"]
+        case .menHoldingHandsMediumLightSkinToneMediumDarkSkinTone: return ["brothers", "couple", "hands:", "men", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "dark", "medium dark skin tone", "medium light skin tone", "holding", "twins", "boys", "light", "bestie", "medium", "flirt", "hand"]
 
-        case .yellowCircle: return ["circle", "yellow"]
+        case .personPouting: return ["person", "pouting", "grimace", "sulk", "scowl", "disappointed", "downtrodden", "upset", "frown", "whine"]
 
-        case .womanInMotorizedWheelchairMediumLightSkinTone: return ["woman", "wheelchair:", "medium light skin tone", "tone", "wheelchair", "skin", "in", "light", "woman in motorized wheelchair: medium light skin tone", "medium", "accessibility", "woman in motorized wheelchair", "motorized"]
+        case .brownHeart: return ["143", "heart", "brown"]
 
-        case .flagCaymanIslands: return ["flag: Cayman Islands", "flag", "Cayman Islands"]
+        case .loveYouGestureMediumDarkSkinTone: return ["skin", "love", "medium dark skin tone", "tone", "you", "hand", "gesture:", "ILY", "dark", "medium", "gesture", "three", "fingers", "love you"]
 
-        case .keyboard: return ["computer", "keyboard"]
+        case .manFeedingBabyLightSkinTone: return ["light", "dad", "baby", "feed", "father", "skin", "tone", "light skin tone", "man", "nanny", "feeding", "newborn", "baby:", "nursing"]
 
-        case .school: return ["building", "school"]
+        case .womanLightSkinToneBald: return ["adult", "skin", "bald", "light skin tone", "woman", "light", "tone,", "woman:", "lady"]
 
-        case .womansHat: return ["clothing", "woman’s hat", "woman", "hat", "woman’s"]
+        case .japaneseCastle: return ["building", "castle", "Japanese"]
 
-        case .yellowHeart: return ["yellow heart", "heart", "yellow"]
+        case .lizard: return ["reptile", "animal", "lizard"]
 
-        case .beachWithUmbrella: return ["beach", "beach with umbrella", "umbrella", "with"]
+        case .baggageClaim: return ["trip", "journey", "packing", "plane", "baggage", "bags", "checked", "arrived", "claim", "case", "travel", "ready"]
 
-        case .hourglassDone: return ["hourglass done", "done", "timer", "hourglass", "sand"]
+        case .mxClausLightSkinTone: return ["fairy", "xmas", "santa", "Claus:", "Mx", "tone", "tale", "light skin tone", "light", "merry", "holiday", "Christmas", "skin", "celebration", "claus", "fantasy"]
 
-        case .angerSymbol: return ["comic", "anger", "anger symbol", "angry", "mad", "symbol"]
+        case .womanFeedingBaby: return ["baby", "mom", "feeding", "nursing", "feed", "mother", "nanny", "woman", "newborn"]
 
-        case .manMediumSkinToneBald: return ["medium skin tone", "medium", "bald", "tone,", "skin", "man:", "man", "man: medium skin tone, bald", "adult"]
+        case .flagPitcairnIslands: return ["flag", "Pitcairn Islands"]
 
-        case .manArtistMediumSkinTone: return ["palette", "medium", "artist:", "artist", "skin", "tone", "medium skin tone", "man", "man artist: medium skin tone"]
+        case .flagUganda: return ["flag", "Uganda"]
 
-        case .handWithIndexFingerAndThumbCrossedMediumSkinTone: return ["love", "expensive", "medium skin tone", "index", "snap", "heart", "and", "medium", "tone", "with", "crossed:", "hand", "hand with index finger and thumb crossed: medium skin tone", "finger", "skin", "money", "thumb", "hand with index finger and thumb crossed"]
+        case .manTeacherMediumDarkSkinTone: return ["dark", "teacher", "skin", "instructor", "medium", "tone", "medium dark skin tone", "teacher:", "lecturer", "professor", "man"]
 
-        case .policeOfficerMediumLightSkinTone: return ["police", "medium light skin tone", "cop", "police officer: medium light skin tone", "tone", "skin", "officer:", "officer", "medium", "light"]
+        case .personBowing: return ["pity", "gesture", "forgive", "person", "beg", "meditate", "ask", "bow", "apology", "meditation", "sorry", "regret", "favor", "bowing"]
 
-        case .noEntry: return ["traffic", "prohibited", "not", "entry", "forbidden", "no"]
+        case .flagBahrain: return ["flag", "Bahrain"]
 
-        case .hyacinth: return ["hyacinth", "lupine", "snapdragon", "flower", "lavender", "bluebonnet"]
+        case .familyWomanWomanBoy: return ["woman,", "boy", "family", "woman", "family:", "child"]
 
-        case .canoe: return ["canoe", "boat"]
+        case .manMediumDarkSkinTone: return ["adult", "medium", "bro", "medium dark skin tone", "skin", "man", "tone", "man:", "dark"]
 
-        case .honeyPot: return ["honey", "honeypot", "sweet", "pot"]
+        case .growingHeart: return ["pulse", "xoxo", "kisses", "growing", "143", "nervous", "heart", "excited", "emotion", "ily", "muah", "heartpulse"]
 
-        case .relievedFace: return ["relieved", "face"]
+        case .womanMediumSkinToneBald: return ["medium skin tone", "woman:", "bald", "tone,", "adult", "medium", "lady", "woman", "skin"]
 
-        case .manFarmerMediumLightSkinTone: return ["gardener", "light", "farmer", "man farmer: medium light skin tone", "man", "medium", "farmer:", "tone", "medium light skin tone", "skin", "rancher"]
+        case .flagFiji: return ["flag", "Fiji"]
 
-        case .cherries: return ["fruit", "red", "cherry", "cherries", "berries"]
+        case .womanInManualWheelchairDarkSkinTone: return ["manual", "accessibility", "in", "wheelchair:", "dark", "skin", "wheelchair", "tone", "dark skin tone", "woman"]
 
-        case .jellyfish: return ["jelly", "marine", "burn", "jellyfish", "ouch", "invertebrate", "stinger"]
+        case .handshakeLightSkinToneMediumDarkSkinTone: return ["hand", "tone", "light skin tone", "deal", "medium", "handshake", "shake", "tone,", "handshake:", "medium dark skin tone", "agreement", "skin", "light", "meeting", "dark"]
 
-        case .manSingerMediumSkinTone: return ["rock", "star", "medium", "man", "entertainer", "tone", "singer", "man singer: medium skin tone", "skin", "medium skin tone", "actor", "singer:"]
+        case .martialArtsUniform: return ["karate", "arts", "martial", "taekwondo", "judo", "uniform"]
 
-        case .smilingFaceWithTear: return ["grateful", "touched", "face", "relieved", "proud", "with", "smiling face with tear", "tear", "smiling"]
+        case .guideDog: return ["animal", "blind", "guide", "dog", "accessibility"]
 
-        case .flagAustralia: return ["flag: Australia", "Australia", "flag"]
+        case .flagZimbabwe: return ["Zimbabwe", "flag"]
 
-        case .personRunningDarkSkinTone: return ["skin", "dark skin tone", "dark", "person running", "person running: dark skin tone", "person", "running:", "running", "marathon", "tone"]
+        case .manMediumDarkSkinToneRedHair: return ["man", "skin", "adult", "medium dark skin tone", "red", "tone,", "red hair", "medium", "hair", "bro", "man:", "dark"]
 
-        case .scorpio: return ["Scorpio", "scorpius", "scorpion", "zodiac"]
+        case .pingPong: return ["pong", "paddle", "ball", "tennis", "pingpong", "game", "bat", "ping", "table"]
 
-        case .personInSteamyRoomDarkSkinTone: return ["in", "person", "dark", "skin", "steam room", "dark skin tone", "sauna", "person in steamy room: dark skin tone", "person in steamy room", "tone", "room:", "steamy"]
+        case .manScientist: return ["chemist", "physicist", "scientist", "engineer", "biologist", "mathematician", "man"]
 
-        case .roastedSweetPotato: return ["potato", "roasted", "sweet"]
+        case .manFirefighter: return ["firefighter", "firetruck", "man", "fire"]
 
-        case .detective: return ["detective", "spy", "sleuth"]
-
-        case .menHoldingHandsMediumSkinToneMediumLightSkinTone: return ["couple", "medium", "light", "zodiac", "medium light skin tone", "holding", "tone", "men", "holding hands", "twins", "man", "medium skin tone", "men holding hands: medium skin tone, medium light skin tone", "skin", "hands:", "tone,", "men holding hands", "Gemini"]
-
-        case .kitchenKnife: return ["cooking", "tool", "weapon", "kitchen knife", "knife", "hocho", "kitchen"]
-
-        case .technologistMediumDarkSkinTone: return ["coder", "developer", "tone", "medium dark skin tone", "software", "technologist", "technologist: medium dark skin tone", "technologist:", "dark", "inventor", "skin", "medium"]
-
-        case .oldKey: return ["lock", "key", "clue", "old"]
-
-        case .carpentrySaw: return ["carpentry saw", "carpenter", "lumber", "tool", "carpentry", "saw"]
-
-        case .spiralShell: return ["shell", "spiral"]
-
-        case .kissingCat: return ["kissing cat", "kiss", "kissing", "eye", "cat", "face"]
-
-        case .flagIndia: return ["flag", "flag: India", "India"]
-
-        case .recyclingSymbol: return ["recycle", "recycling symbol", "recycling", "symbol"]
-
-        case .fireworks: return ["celebration", "fireworks"]
-
-        case .americanFootball: return ["football", "american", "ball"]
-
-        case .menHoldingHandsLightSkinToneMediumDarkSkinTone: return ["Gemini", "light", "tone", "holding", "medium dark skin tone", "zodiac", "men holding hands", "tone,", "skin", "light skin tone", "couple", "holding hands", "men holding hands: light skin tone, medium dark skin tone", "twins", "man", "hands:", "men", "medium", "dark"]
-
-        case .lipstick: return ["cosmetics", "lipstick", "makeup"]
-
-        case .octopus: return ["octopus"]
-
-        case .oldManMediumDarkSkinTone: return ["medium dark skin tone", "skin", "old", "adult", "man", "man:", "dark", "tone", "medium", "old man: medium dark skin tone"]
-
-        case .personGesturingOkMediumSkinTone: return ["tone", "OK:", "person gesturing OK: medium skin tone", "OK", "person", "hand", "medium", "medium skin tone", "skin", "gesture", "gesturing", "person gesturing OK"]
-
-        case .manFirefighterDarkSkinTone: return ["firefighter", "dark skin tone", "firefighter:", "tone", "skin", "dark", "man firefighter: dark skin tone", "firetruck", "man"]
-
-        case .tomato: return ["vegetable", "fruit", "tomato"]
-
-        case .parachute: return ["hang glide", "parasail", "skydive", "parachute"]
-
-        case .personJuggling: return ["skill", "multitask", "balance", "person", "juggle", "juggling", "person juggling"]
-
-        case .computerMouse: return ["computer mouse", "mouse", "computer"]
-
-        case .amphora: return ["cooking", "Aquarius", "drink", "amphora", "jug", "zodiac"]
-
-        case .donkey: return ["burro", "donkey", "stubborn", "animal", "mammal", "ass", "mule"]
-
-        case .manFarmerMediumSkinTone: return ["medium skin tone", "man farmer: medium skin tone", "farmer:", "man", "medium", "tone", "skin", "gardener", "farmer", "rancher"]
-
-        case .greenApple: return ["fruit", "green", "apple"]
-
-        case .peopleHoldingHandsMediumDarkSkinTone: return ["people", "dark", "hand", "hold", "person", "medium dark skin tone", "tone", "hands:", "medium", "skin", "couple", "holding", "people holding hands", "holding hands", "people holding hands: medium dark skin tone"]
-
-        case .dottedSixPointedStar: return ["dotted", "star", "fortune", "pointed", "dotted six pointed star", "six"]
-
-        case .crescentMoon: return ["crescent", "moon"]
-
-        case .womanDarkSkinToneWhiteHair: return ["skin", "hair", "tone,", "white", "woman: dark skin tone, white hair", "dark", "adult", "dark skin tone", "woman:", "white hair", "woman"]
-
-        case .japaneseOpenForBusinessButton: return ["営", "Japanese", "ideograph", "“open for business”", "button", "for", "business”", "“open", "Japanese “open for business” button"]
-
-        case .childMediumSkinTone: return ["medium skin tone", "tone", "medium", "skin", "gender neutral", "unspecified gender", "child: medium skin tone", "child", "young", "child:"]
-
-        case .heartHandsMediumDarkSkinTone: return ["tone", "love", "heart hands: medium dark skin tone", "medium", "medium dark skin tone", "skin", "hands:", "heart hands", "heart", "dark"]
-
-        case .manInMotorizedWheelchairLightSkinTone: return ["in", "light", "motorized", "tone", "man in motorized wheelchair: light skin tone", "man", "light skin tone", "wheelchair:", "man in motorized wheelchair", "wheelchair", "skin", "accessibility"]
-
-        case .flagRwanda: return ["flag: Rwanda", "Rwanda", "flag"]
-
-        case .backArrow: return ["BACK", "arrow"]
-
-        case .rainbow: return ["rain", "rainbow"]
-
-        case .wastebasket: return ["wastebasket"]
-
-        case .flagSingapore: return ["Singapore", "flag: Singapore", "flag"]
-
-        case .manFactoryWorkerLightSkinTone: return ["man", "worker", "skin", "industrial", "man factory worker: light skin tone", "light skin tone", "assembly", "tone", "factory", "light", "worker:"]
-
-        case .womanAndManHoldingHandsLightSkinToneMediumDarkSkinTone: return ["light skin tone", "medium dark skin tone", "light", "dark", "tone,", "couple", "man", "hands:", "and", "medium", "woman and man holding hands", "hold", "holding", "holding hands", "woman", "hand", "skin", "woman and man holding hands: light skin tone, medium dark skin tone", "tone"]
-
-        case .manFeedingBabyMediumSkinTone: return ["baby:", "medium", "tone", "baby", "nursing", "medium skin tone", "skin", "man", "man feeding baby: medium skin tone", "feeding"]
-
-        case .vampireMediumLightSkinTone: return ["vampire:", "skin", "Dracula", "medium", "light", "undead", "medium light skin tone", "tone", "vampire", "vampire: medium light skin tone"]
-
-        case .smallBlueDiamond: return ["small", "diamond", "geometric", "small blue diamond", "blue"]
-
-        case .fountainPen: return ["fountain", "pen"]
-
-        case .glassOfMilk: return ["drink", "of", "glass of milk", "glass", "milk"]
-
-        case .earWithHearingAidMediumLightSkinTone: return ["ear with hearing aid: medium light skin tone", "medium light skin tone", "tone", "ear", "aid:", "medium", "with", "hearing", "skin", "ear with hearing aid", "accessibility", "hard of hearing", "light"]
-
-        case .womanTechnologistLightSkinTone: return ["coder", "developer", "light skin tone", "woman", "technologist:", "software", "technologist", "skin", "woman technologist: light skin tone", "inventor", "light", "tone"]
-
-        case .personStandingLightSkinTone: return ["light", "skin", "standing", "tone", "stand", "person", "person standing", "light skin tone", "standing:", "person standing: light skin tone"]
-
-        case .personInTuxedoDarkSkinTone: return ["tone", "dark skin tone", "skin", "person", "in", "person in tuxedo: dark skin tone", "tuxedo", "tuxedo:", "dark", "person in tuxedo", "groom"]
-
-        case .battery: return ["battery"]
-
-        case .womanLightSkinToneRedHair: return ["adult", "red hair", "tone,", "woman", "light skin tone", "red", "light", "skin", "hair", "woman: light skin tone, red hair", "woman:"]
-
-        case .callMeHandMediumSkinTone: return ["call me hand: medium skin tone", "Shaka", "me", "hang loose", "call me hand", "call", "hand:", "skin", "tone", "medium skin tone", "hand", "medium"]
-
-        case .pinkHeart: return ["cute", "heart", "love", "like", "pink"]
-
-        case .superheroLightSkinTone: return ["hero", "tone", "light skin tone", "superpower", "superhero:", "superhero", "heroine", "superhero: light skin tone", "good", "light", "skin"]
-
-        case .womanScientist: return ["scientist", "engineer", "woman", "chemist", "physicist", "biologist"]
-
-        case .personCartwheelingMediumDarkSkinTone: return ["person cartwheeling: medium dark skin tone", "medium", "cartwheel", "skin", "gymnastics", "dark", "medium dark skin tone", "cartwheeling:", "person", "tone", "person cartwheeling"]
-
-        case .coupleWithHeartDarkSkinTone: return ["couple", "with", "tone", "couple with heart", "dark skin tone", "couple with heart: dark skin tone", "heart:", "love", "skin", "dark"]
-
-        case .womanStudentMediumLightSkinTone: return ["woman", "student", "medium", "woman student: medium light skin tone", "medium light skin tone", "student:", "graduate", "skin", "tone", "light"]
-
-        case .manMediumLightSkinTone: return ["man", "medium", "tone", "medium light skin tone", "man:", "skin", "man: medium light skin tone", "adult", "light"]
-
-        case .flagNewCaledonia: return ["flag", "New Caledonia", "flag: New Caledonia"]
-
-        case .womanInMotorizedWheelchair: return ["woman", "accessibility", "motorized", "wheelchair", "woman in motorized wheelchair", "in"]
-
-        case .raisingHandsMediumSkinTone: return ["skin", "celebration", "hands:", "raising hands", "raised", "gesture", "medium", "raising", "raising hands: medium skin tone", "medium skin tone", "hooray", "hand", "tone"]
-
-        case .womanTechnologistMediumSkinTone: return ["coder", "developer", "tone", "woman", "technologist:", "software", "technologist", "skin", "medium skin tone", "inventor", "woman technologist: medium skin tone", "medium"]
-
-        case .blossom: return ["blossom", "flower"]
-
-        case .manMediumDarkSkinToneRedHair: return ["hair", "adult", "tone,", "red hair", "medium dark skin tone", "dark", "man:", "man: medium dark skin tone, red hair", "skin", "man", "medium", "red"]
-
-        case .manFirefighterMediumLightSkinTone: return ["light", "firetruck", "medium light skin tone", "tone", "man firefighter: medium light skin tone", "firefighter:", "firefighter", "man", "medium", "skin"]
-
-        case .comet: return ["comet", "space"]
-
-        case .personWalkingMediumLightSkinTone: return ["person walking: medium light skin tone", "skin", "person walking", "medium light skin tone", "walking", "walk", "medium", "hike", "walking:", "person", "tone", "light"]
-
-        case .flagTurkmenistan: return ["Turkmenistan", "flag: Turkmenistan", "flag"]
-
-        case .pineDecoration: return ["pine decoration", "Japanese", "celebration", "bamboo", "decoration", "pine"]
-
-        case .personClimbing: return ["climbing", "climber", "person climbing", "person"]
-
-        case .leafyGreen: return ["bok choy", "cabbage", "green", "leafy green", "kale", "leafy", "lettuce"]
-
-        case .hinduTemple: return ["temple", "hindu"]
-
-        case .shamrock: return ["shamrock", "plant"]
-
-        case .flagElSalvador: return ["flag: El Salvador", "El Salvador", "flag"]
-
-        case .deafPerson: return ["ear", "hear", "person", "deaf person", "deaf", "accessibility"]
-
-        case .manMediumDarkSkinToneCurlyHair: return ["curly hair", "man:", "medium dark skin tone", "skin", "tone,", "man: medium dark skin tone, curly hair", "dark", "medium", "curly", "adult", "hair", "man"]
-
-        case .flagBelize: return ["flag: Belize", "Belize", "flag"]
-
-        case .personMediumSkinTone: return ["person", "medium", "tone", "medium skin tone", "person: medium skin tone", "unspecified gender", "adult", "gender neutral", "person:", "skin"]
-
-        case .xRay: return ["doctor", "x", "skeleton", "ray", "x ray", "bones", "medical"]
-
-        case .womanWithHeadscarf: return ["headscarf", "tichel", "hijab", "mantilla", "woman", "woman with headscarf", "with"]
-
-        case .sunBehindCloud: return ["sun behind cloud", "sun", "behind", "cloud"]
-
-        case .olderPersonDarkSkinTone: return ["gender neutral", "older", "old", "dark skin tone", "unspecified gender", "person:", "dark", "older person: dark skin tone", "tone", "skin", "older person", "adult"]
-
-        case .pregnantManMediumSkinTone: return ["pregnant man", "man:", "tone", "medium skin tone", "bloated", "medium", "pregnant", "belly", "skin", "full", "pregnant man: medium skin tone"]
-
-        case .manMediumDarkSkinToneWhiteHair: return ["medium dark skin tone", "man", "white hair", "skin", "dark", "adult", "tone,", "medium", "man: medium dark skin tone, white hair", "man:", "white", "hair"]
-
-        case .personFrowningMediumDarkSkinTone: return ["dark", "frowning:", "medium dark skin tone", "medium", "person", "skin", "frown", "person frowning", "person frowning: medium dark skin tone", "tone", "gesture"]
-
-        case .flagJamaica: return ["flag", "Jamaica", "flag: Jamaica"]
-
-        case .familyWomanWomanGirlGirl: return ["family:", "woman,", "girl,", "family: woman, woman, girl, girl", "woman", "girl", "family"]
-
-        case .flagChina: return ["flag: China", "China", "flag"]
-
-        case .downwardsButton: return ["downwards button", "downwards", "button", "arrow", "down"]
-
-        case .personInSteamyRoomLightSkinTone: return ["tone", "person in steamy room: light skin tone", "person", "room:", "person in steamy room", "sauna", "steamy", "skin", "light skin tone", "steam room", "in", "light"]
-
-        case .leftwardsHandMediumDarkSkinTone: return ["skin", "hand:", "leftwards", "left", "leftwards hand", "medium dark skin tone", "leftwards hand: medium dark skin tone", "medium", "tone", "hand", "leftward", "dark"]
-
-        case .manOfficeWorkerMediumSkinTone: return ["tone", "medium skin tone", "white collar", "worker:", "man office worker: medium skin tone", "man office worker", "man", "architect", "business", "manager", "skin", "medium", "office"]
-
-        case .peopleHoldingHandsDarkSkinToneMediumLightSkinTone: return ["hand", "skin", "light", "tone", "couple", "hold", "holding", "dark", "people holding hands", "people holding hands: dark skin tone, medium light skin tone", "holding hands", "medium light skin tone", "dark skin tone", "person", "tone,", "hands:", "medium", "people"]
-
-        case .manDarkSkinTone: return ["man", "man: dark skin tone", "dark", "skin", "man:", "dark skin tone", "tone", "adult"]
-
-        case .dropOfBlood: return ["medicine", "drop", "bleed", "of", "blood", "menstruation", "drop of blood", "blood donation", "injury"]
-
-        case .headstone: return ["grave", "graveyard", "cemetery", "headstone", "tombstone"]
-
-        case .crossedSwords: return ["weapon", "swords", "crossed"]
-
-        case .rhinoceros: return ["rhinoceros"]
-
-        case .onePieceSwimsuit: return ["one", "piece", "bathing suit", "swimsuit", "one piece swimsuit"]
-
-        case .womanFeedingBaby: return ["feeding", "nursing", "woman", "baby"]
-
-        case .openHands: return ["open hands", "hand", "open", "hands"]
-
-        case .selfieMediumSkinTone: return ["tone", "phone", "medium skin tone", "selfie:", "skin", "medium", "camera", "selfie: medium skin tone", "selfie"]
-
-        case .angryFace: return ["anger", "angry", "face", "mad"]
-
-        case .flagMozambique: return ["flag", "flag: Mozambique", "Mozambique"]
-
-        case .noSmoking: return ["prohibited", "forbidden", "no", "not", "smoking"]
-
-        case .testTube: return ["science", "experiment", "test tube", "tube", "chemistry", "chemist", "test", "lab"]
-
-        case .buildingConstruction: return ["building", "building construction", "construction"]
-
-        case .technologistMediumSkinTone: return ["coder", "developer", "tone", "technologist:", "software", "technologist", "skin", "medium skin tone", "inventor", "technologist: medium skin tone", "medium"]
-
-        case .okHandLightSkinTone: return ["OK hand: light skin tone", "tone", "hand", "skin", "light skin tone", "hand:", "light", "OK"]
-
-        case .label: return ["label"]
-
-        case .ejectButton: return ["button", "eject button", "eject"]
-
-        case .bustInSilhouette: return ["in", "bust in silhouette", "bust", "silhouette"]
-
-        case .blueCircle: return ["circle", "blue", "geometric"]
-
-        case .smilingFaceWithHalo: return ["with", "smiling", "smiling face with halo", "angel", "halo", "fantasy", "innocent", "face"]
-
-        case .astronautLightSkinTone: return ["rocket", "light skin tone", "skin", "tone", "astronaut:", "light", "astronaut", "astronaut: light skin tone"]
-
-        case .womanOfficeWorkerMediumLightSkinTone: return ["worker:", "architect", "tone", "medium", "business", "office", "medium light skin tone", "woman", "woman office worker: medium light skin tone", "light", "skin", "white collar", "manager", "woman office worker"]
-
-        case .bucket: return ["vat", "bucket", "cask", "pail"]
-
-        case .vampireDarkSkinTone: return ["skin", "undead", "dark skin tone", "vampire:", "Dracula", "dark", "vampire: dark skin tone", "tone", "vampire"]
-
-        case .scroll: return ["paper", "scroll"]
-
-        case .ticket: return ["admission", "ticket"]
-
-        case .prayerBeads: return ["religion", "beads", "necklace", "clothing", "prayer"]
-
-        case .astonishedFace: return ["shocked", "astonished", "totally", "face"]
-
-        case .flagGreenland: return ["flag", "flag: Greenland", "Greenland"]
-
-        case .personPlayingHandballMediumSkinTone: return ["handball:", "person playing handball", "person playing handball: medium skin tone", "playing", "skin", "tone", "person", "medium", "medium skin tone", "ball", "handball"]
-
-        case .personPoutingLightSkinTone: return ["person pouting: light skin tone", "gesture", "pouting", "person pouting", "tone", "light skin tone", "pouting:", "light", "skin", "person"]
-
-        case .menHoldingHandsMediumLightSkinTone: return ["men", "skin", "holding", "men holding hands", "light", "medium light skin tone", "Gemini", "men holding hands: medium light skin tone", "hands:", "twins", "tone", "zodiac", "man", "couple", "medium", "holding hands"]
-
-        case .bustsInSilhouette: return ["silhouette", "bust", "busts in silhouette", "in", "busts"]
-
-        case .lizard: return ["lizard", "reptile"]
-
-        case .flagPuertoRico: return ["flag: Puerto Rico", "Puerto Rico", "flag"]
-
-        case .nailPolishLightSkinTone: return ["nail", "tone", "light skin tone", "care", "cosmetics", "polish", "light", "manicure", "skin", "nail polish: light skin tone", "polish:"]
-
-        case .alien: return ["extraterrestrial", "fantasy", "creature", "face", "alien", "ufo"]
-
-        case .pinchingHand: return ["pinching", "hand", "pinching hand", "small amount"]
-
-        case .newMoonFace: return ["face", "new", "new moon face", "moon"]
-
-        case .oncomingFistMediumDarkSkinTone: return ["medium", "hand", "fist", "oncoming", "oncoming fist", "clenched", "fist:", "punch", "medium dark skin tone", "dark", "oncoming fist: medium dark skin tone", "tone", "skin"]
-
-        case .personInLotusPositionLightSkinTone: return ["meditation", "position:", "skin", "yoga", "tone", "light skin tone", "person in lotus position", "light", "person in lotus position: light skin tone", "in", "lotus", "person"]
-
-        case .whiteCircle: return ["circle", "geometric", "white circle", "white"]
-
-        case .whiteMediumSquare: return ["white medium square", "square", "geometric", "white", "medium"]
-
-        case .womanArtist: return ["artist", "woman", "palette"]
-
-        case .faceExhaling: return ["whistle", "exhale", "face", "gasp", "face exhaling", "groan", "exhaling", "whisper", "relief"]
-
-        case .drum: return ["drumsticks", "music", "drum"]
-
-        case .peopleHoldingHandsDarkSkinTone: return ["couple", "people", "tone", "holding", "holding hands", "people holding hands: dark skin tone", "dark", "hand", "dark skin tone", "hold", "person", "skin", "people holding hands", "hands:"]
-
-        case .runningShoe: return ["sneaker", "running", "shoe", "running shoe", "athletic", "clothing"]
-
-        case .oldManMediumSkinTone: return ["old man: medium skin tone", "adult", "medium", "man", "man:", "tone", "old", "medium skin tone", "skin"]
-
-        case .backhandIndexPointingLeftLightSkinTone: return ["backhand index pointing left: light skin tone", "pointing", "skin", "finger", "index", "point", "tone", "light skin tone", "backhand", "left:", "light", "hand", "backhand index pointing left"]
-
-        case .flagKuwait: return ["flag", "flag: Kuwait", "Kuwait"]
-
-        case .raisedHand: return ["hand", "high five", "raised hand", "raised", "high 5"]
-
-        case .herb: return ["herb", "leaf"]
-
-        case .technologistDarkSkinTone: return ["developer", "coder", "dark skin tone", "technologist: dark skin tone", "technologist:", "software", "technologist", "skin", "dark", "inventor", "tone"]
-
-        case .flagTurksCaicosIslands: return ["flag: Turks & Caicos Islands", "Turks & Caicos Islands", "flag"]
-
-        case .blueHeart: return ["heart", "blue", "blue heart"]
-
-        case .signOfTheHornsDarkSkinTone: return ["dark skin tone", "sign of the horns", "horns", "of", "horns:", "tone", "sign", "sign of the horns: dark skin tone", "finger", "dark", "rock on", "the", "skin", "hand"]
-
-        case .radioactive: return ["sign", "radioactive"]
-
-        case .womanArtistLightSkinTone: return ["light skin tone", "tone", "skin", "light", "artist", "palette", "woman", "artist:", "woman artist: light skin tone"]
-
-        case .flagEstonia: return ["Estonia", "flag", "flag: Estonia"]
-
-        case .personBowingDarkSkinTone: return ["person bowing", "person", "apology", "dark", "skin", "tone", "bowing:", "person bowing: dark skin tone", "dark skin tone", "bow", "gesture", "sorry"]
-
-        case .policeOfficerDarkSkinTone: return ["police", "skin", "officer:", "cop", "dark skin tone", "police officer: dark skin tone", "officer", "dark", "tone"]
-
-        case .familyManManGirlGirl: return ["family:", "family: man, man, girl, girl", "man", "girl,", "man,", "family", "girl"]
-
-        case .handWithIndexFingerAndThumbCrossed: return ["love", "expensive", "index", "heart", "and", "snap", "crossed", "hand with index finger and thumb crossed", "thumb", "with", "hand", "finger", "money"]
-
-        case .personInMotorizedWheelchairLightSkinTone: return ["motorized", "accessibility", "person in motorized wheelchair: light skin tone", "wheelchair", "in", "wheelchair:", "light skin tone", "skin", "tone", "person", "light", "person in motorized wheelchair"]
-
-        case .glasses: return ["eye", "eyewear", "eyeglasses", "clothing", "glasses"]
-
-        case .japaneseNotFreeOfChargeButton: return ["free", "charge”", "button", "“not", "of", "ideograph", "有", "“not free of charge”", "Japanese “not free of charge” button", "Japanese"]
-
-        case .artistDarkSkinTone: return ["dark", "tone", "artist", "dark skin tone", "artist:", "skin", "artist: dark skin tone", "palette"]
-
-        case .personGettingHaircut: return ["person getting haircut", "haircut", "parlor", "barber", "person", "getting", "beauty"]
-
-        case .manInMotorizedWheelchairDarkSkinTone: return ["dark skin tone", "man", "accessibility", "dark", "wheelchair:", "tone", "motorized", "man in motorized wheelchair", "in", "wheelchair", "skin", "man in motorized wheelchair: dark skin tone"]
-
-        case .exclamationQuestionMark: return ["mark", "!?", "exclamation", "!", "question", "?", "punctuation", "interrobang"]
-
-        case .wheelchairSymbol: return ["symbol", "access", "wheelchair symbol", "wheelchair"]
-
-        case .confoundedFace: return ["face", "confounded"]
-
-        case .nightWithStars: return ["star", "with", "night", "night with stars", "stars"]
-
-        case .flagTunisia: return ["flag: Tunisia", "Tunisia", "flag"]
-
-        case .peopleWithBunnyEars: return ["people", "with", "people with bunny ears", "partying", "bunny ear", "bunny", "ears", "dancer"]
-
-        case .familyWomanGirl: return ["family:", "woman", "family", "woman,", "family: woman, girl", "girl"]
-
-        case .balanceScale: return ["balance", "zodiac", "justice", "Libra", "scale"]
-
-        case .giraffe: return ["giraffe", "spots"]
-
-        case .seat: return ["seat", "chair"]
-
-        case .nailPolishDarkSkinTone: return ["nail", "dark skin tone", "care", "dark", "cosmetics", "polish", "manicure", "nail polish: dark skin tone", "skin", "tone", "polish:"]
-
-        case .rollingOnTheFloorLaughing: return ["the", "on", "laughing", "rolling on the floor laughing", "rotfl", "laugh", "face", "rolling", "floor", "rofl"]
-
-        case .automobile: return ["car", "automobile"]
-
-        case .manFarmerDarkSkinTone: return ["farmer:", "tone", "gardener", "man", "rancher", "farmer", "dark skin tone", "skin", "dark", "man farmer: dark skin tone"]
-
-        case .japanesePassingGradeButton: return ["“passing", "grade”", "Japanese “passing grade” button", "ideograph", "“passing grade”", "Japanese", "button", "合"]
-
-        case .manFeedingBaby: return ["feeding", "baby", "man", "nursing"]
-
-        case .upArrow: return ["north", "direction", "cardinal", "arrow", "up", "up arrow"]
-
-        case .personRunningLightSkinTone: return ["marathon", "person", "light skin tone", "person running: light skin tone", "running", "running:", "person running", "tone", "light", "skin"]
-
-        case .flagBosniaHerzegovina: return ["flag: Bosnia & Herzegovina", "Bosnia & Herzegovina", "flag"]
-
-        case .coupleWithHeartMediumDarkSkinTone: return ["heart:", "medium dark skin tone", "with", "couple", "couple with heart: medium dark skin tone", "dark", "skin", "medium", "couple with heart", "tone", "love"]
-
-        case .flagGhana: return ["Ghana", "flag", "flag: Ghana"]
-
-        case .dizzy: return ["dizzy", "comic", "star"]
-
-        case .bookmark: return ["bookmark", "mark"]
-
-        case .clinkingBeerMugs: return ["clink", "mugs", "beer", "drink", "bar", "clinking", "clinking beer mugs", "mug"]
-
-        case .personLightSkinToneBald: return ["adult", "person", "gender neutral", "skin", "light", "person: light skin tone, bald", "bald", "unspecified gender", "person:", "light skin tone", "tone,"]
-
-        case .flexedBicepsMediumSkinTone: return ["medium", "skin", "tone", "muscle", "biceps:", "flex", "flexed biceps: medium skin tone", "biceps", "flexed", "medium skin tone", "comic", "flexed biceps"]
-
-        case .flagBurkinaFaso: return ["flag: Burkina Faso", "Burkina Faso", "flag"]
-
-        case .okHandMediumDarkSkinTone: return ["hand", "medium", "OK", "medium dark skin tone", "skin", "OK hand: medium dark skin tone", "dark", "tone", "hand:"]
-
-        case .studentMediumDarkSkinTone: return ["skin", "student: medium dark skin tone", "medium", "medium dark skin tone", "student:", "dark", "student", "graduate", "tone"]
-
-        case .speakingHead: return ["speaking", "silhouette", "speak", "face", "head"]
-
-        case .personBlondHair: return ["blond haired person", "person:", "blond", "person: blond hair", "hair"]
-
-        case .farmerDarkSkinTone: return ["farmer:", "skin", "farmer", "dark skin tone", "dark", "gardener", "tone", "rancher", "farmer: dark skin tone"]
-
-        case .factory: return ["building", "factory"]
-
-        case .llama: return ["wool", "alpaca", "vicuña", "guanaco", "llama"]
-
-        case .waxingGibbousMoon: return ["gibbous", "waxing", "moon"]
-
-        case .station: return ["station", "railway", "train"]
-
-        case .nameBadge: return ["badge", "name"]
-
-        case .womenHoldingHandsLightSkinToneDarkSkinTone: return ["tone,", "women holding hands: light skin tone, dark skin tone", "hands:", "hand", "couple", "holding", "dark", "skin", "tone", "women", "light", "women holding hands", "dark skin tone", "holding hands", "light skin tone"]
-
-        case .personStandingMediumSkinTone: return ["tone", "person standing: medium skin tone", "standing:", "skin", "medium", "person", "person standing", "stand", "medium skin tone", "standing"]
-
-        case .womanAndManHoldingHands: return ["man", "holding hands", "hand", "woman", "hold", "hands", "holding", "couple", "and", "woman and man holding hands"]
-
-        case .factoryWorkerLightSkinTone: return ["industrial", "worker", "assembly", "factory", "light skin tone", "worker:", "light", "skin", "tone", "factory worker: light skin tone"]
-
-        case .womanWithHeadscarfMediumSkinTone: return ["woman", "woman with headscarf: medium skin tone", "medium skin tone", "hijab", "woman with headscarf", "tone", "medium", "tichel", "mantilla", "headscarf", "skin", "with", "headscarf:"]
-
-        case .gameDie: return ["die", "dice", "game"]
-
-        case .triangularRuler: return ["set", "triangle", "ruler", "triangular", "triangular ruler"]
-
-        case .greenCircle: return ["circle", "green"]
-
-        case .magicWand: return ["witch", "magic wand", "magic", "wand", "wizard"]
-
-        case .crutch: return ["crutch", "disability", "cane", "hurt", "stick", "mobility aid"]
-
-        case .personWithSkullcapMediumLightSkinTone: return ["person with skullcap", "skin", "cap", "tone", "hat", "medium", "skullcap", "person with skullcap: medium light skin tone", "medium light skin tone", "light", "person", "with", "skullcap:", "gua pi mao"]
-
-        case .mountainRailway: return ["railway", "car", "mountain"]
-
-        case .menHoldingHandsMediumLightSkinToneDarkSkinTone: return ["twins", "man", "medium light skin tone", "tone,", "dark", "Gemini", "holding", "tone", "medium", "holding hands", "men holding hands", "men", "hands:", "men holding hands: medium light skin tone, dark skin tone", "couple", "light", "skin", "dark skin tone", "zodiac"]
-
-        case .firefighterMediumSkinTone: return ["firefighter", "medium", "tone", "skin", "firefighter:", "fire", "firetruck", "medium skin tone", "firefighter: medium skin tone"]
-
-        case .greenBook: return ["green", "book"]
-
-        case .flagLebanon: return ["flag: Lebanon", "flag", "Lebanon"]
-
-        case .flagMacaoSarChina: return ["flag", "flag: Macao SAR China", "Macao SAR China"]
-
-        case .menHoldingHandsDarkSkinToneMediumLightSkinTone: return ["tone,", "holding hands", "medium light skin tone", "men holding hands: dark skin tone, medium light skin tone", "medium", "zodiac", "couple", "tone", "Gemini", "skin", "dark", "holding", "men holding hands", "twins", "dark skin tone", "man", "men", "hands:", "light"]
-
-        case .nailPolishMediumDarkSkinTone: return ["nail", "nail polish: medium dark skin tone", "medium", "medium dark skin tone", "care", "dark", "cosmetics", "polish", "manicure", "skin", "tone", "polish:"]
-
-        case .handWithIndexFingerAndThumbCrossedLightSkinTone: return ["heart", "crossed:", "light", "thumb", "finger", "skin", "expensive", "snap", "hand with index finger and thumb crossed", "love", "with", "hand with index finger and thumb crossed: light skin tone", "hand", "money", "and", "light skin tone", "tone", "index"]
-
-        case .personWearingTurbanLightSkinTone: return ["turban", "person wearing turban", "light skin tone", "person wearing turban: light skin tone", "turban:", "light", "skin", "wearing", "tone", "person"]
-
-        case .japaneseDiscountButton: return ["Japanese", "button", "Japanese “discount” button", "割", "“discount”", "ideograph"]
-
-        case .dodo: return ["Mauritius", "dodo", "large", "extinction"]
-
-        case .cardIndexDividers: return ["card", "dividers", "index"]
-
-        case .personMediumLightSkinToneBald: return ["adult", "person: medium light skin tone, bald", "person", "gender neutral", "skin", "light", "bald", "unspecified gender", "tone,", "person:", "medium light skin tone", "medium"]
-
-        case .flagNepal: return ["flag", "flag: Nepal", "Nepal"]
-
-        case .labCoat: return ["doctor", "experiment", "scientist", "coat", "lab", "lab coat"]
-
-        case .flagFalklandIslands: return ["Falkland Islands", "flag", "flag: Falkland Islands"]
-
-        case .personWithCrownMediumDarkSkinTone: return ["medium dark skin tone", "person with crown: medium dark skin tone", "dark", "tone", "monarch", "person with crown", "regal", "medium", "skin", "noble", "with", "crown:", "person", "royalty"]
-
-        case .salutingFace: return ["face", "yes", "OK", "saluting face", "troops", "salute", "sunny", "saluting"]
-
-        case .vampire: return ["vampire", "undead", "Dracula"]
-
-        case .cryingCat: return ["tear", "face", "crying cat", "cry", "crying", "cat", "sad"]
-
-        case .cow: return ["cow"]
-
-        case .pinchedFingersDarkSkinTone: return ["dark", "pinched fingers: dark skin tone", "pinched", "tone", "fingers", "dark skin tone", "fingers:", "sarcastic", "skin", "interrogation", "hand gesture"]
-
-        case .familyWomanWomanGirl: return ["family:", "family: woman, woman, girl", "woman", "family", "woman,", "girl"]
-
-        case .flagMalaysia: return ["Malaysia", "flag", "flag: Malaysia"]
-
-        case .princeMediumSkinTone: return ["skin", "prince:", "prince: medium skin tone", "medium skin tone", "prince", "medium", "tone"]
-
-        case .backhandIndexPointingDownMediumLightSkinTone: return ["down:", "medium", "backhand index pointing down", "medium light skin tone", "point", "backhand", "finger", "skin", "light", "down", "tone", "index", "backhand index pointing down: medium light skin tone", "pointing", "hand"]
-
-        case .flagAmericanSamoa: return ["flag: American Samoa", "American Samoa", "flag"]
-
-        case .womanDarkSkinToneRedHair: return ["woman", "dark", "hair", "red hair", "skin", "woman:", "tone,", "red", "adult", "woman: dark skin tone, red hair", "dark skin tone"]
-
-        case .manDancingDarkSkinTone: return ["man", "dark", "skin", "tone", "dark skin tone", "dancing:", "dance", "man dancing: dark skin tone", "dancing"]
-
-        case .bubbleTea: return ["bubble", "tea", "pearl", "milk"]
-
-        case .beaver: return ["dam", "beaver"]
-
-        case .personWearingTurban: return ["turban", "wearing", "person", "person wearing turban"]
-
-        case .childMediumLightSkinTone: return ["light", "skin", "child", "gender neutral", "medium light skin tone", "unspecified gender", "child:", "medium", "tone", "child: medium light skin tone", "young"]
-
-        case .timerClock: return ["clock", "timer"]
-
-        case .flagKazakhstan: return ["Kazakhstan", "flag", "flag: Kazakhstan"]
-
-        case .oneThirty: return ["clock", "1", "1:30", "one thirty", "thirty", "one"]
-
-        case .flagBouvetIsland: return ["flag: Bouvet Island", "Bouvet Island", "flag"]
-
-        case .lobster: return ["bisque", "lobster", "seafood", "claws"]
-
-        case .oncomingFistMediumLightSkinTone: return ["clenched", "fist:", "medium light skin tone", "hand", "punch", "oncoming fist: medium light skin tone", "tone", "oncoming", "light", "fist", "medium", "oncoming fist", "skin"]
-
-        case .palmDownHandDarkSkinTone: return ["shoo", "palm", "palm down hand: dark skin tone", "skin", "tone", "dark skin tone", "palm down hand", "down", "dismiss", "drop", "hand:", "dark"]
-
-        case .personMediumLightSkinToneBeard: return ["tone,", "medium light skin tone", "beard", "medium", "person:", "skin", "light", "person: beard", "person", "person: medium light skin tone, beard"]
-
-        case .thumbsDownMediumDarkSkinTone: return ["thumbs", "dark", "tone", "thumbs down", "medium", "medium dark skin tone", "1", "down", "down:", "skin", "thumb", "thumbs down: medium dark skin tone", "hand"]
-
-        case .openHandsMediumSkinTone: return ["medium", "open hands: medium skin tone", "medium skin tone", "open", "skin", "hands:", "hand", "open hands", "tone"]
-
-        case .nazarAmulet: return ["talisman", "amulet", "charm", "bead", "evil eye", "nazar", "nazar amulet"]
-
-        case .train: return ["train", "railway"]
-
-        case .personRaisingHandLightSkinTone: return ["person", "happy", "light skin tone", "person raising hand: light skin tone", "skin", "person raising hand", "hand:", "gesture", "raising", "raised", "hand", "tone", "light"]
-
-        case .indexPointingAtTheViewer: return ["the", "you", "index pointing at the viewer", "viewer", "at", "pointing", "index", "point"]
-
-        case .upButton: return ["UP! button", "mark", "UP", "button", "UP!"]
-
-        case .flagIreland: return ["Ireland", "flag", "flag: Ireland"]
-
-        case .womanFeedingBabyMediumSkinTone: return ["skin", "tone", "feeding", "woman", "medium", "baby", "medium skin tone", "baby:", "woman feeding baby: medium skin tone", "nursing"]
-
-        case .collision: return ["comic", "boom", "collision"]
-
-        case .kissingFaceWithClosedEyes: return ["face", "eyes", "kissing", "with", "eye", "kiss", "closed", "kissing face with closed eyes"]
-
-        case .flagBulgaria: return ["Bulgaria", "flag: Bulgaria", "flag"]
-
-        case .flagHaiti: return ["Haiti", "flag", "flag: Haiti"]
-
-        case .merpersonMediumSkinTone: return ["skin", "merperson: medium skin tone", "merperson", "medium", "tone", "medium skin tone", "mermaid", "merman", "merperson:", "merwoman"]
-
-        case .mountain: return ["mountain"]
-
-        case .crossedFingersDarkSkinTone: return ["dark skin tone", "crossed", "cross", "finger", "luck", "crossed fingers", "skin", "crossed fingers: dark skin tone", "hand", "dark", "fingers:", "tone"]
-
-        case .upDownArrow: return ["arrow", "up", "up down arrow", "down"]
-
-        case .lastQuarterMoonFace: return ["face", "quarter", "last quarter moon face", "moon", "last"]
-
-        case .personJugglingLightSkinTone: return ["multitask", "tone", "person", "light skin tone", "person juggling: light skin tone", "person juggling", "juggle", "skin", "skill", "juggling:", "light", "balance"]
-
-        case .handWithFingersSplayedMediumSkinTone: return ["hand", "splayed:", "splayed", "medium", "finger", "tone", "fingers", "medium skin tone", "hand with fingers splayed", "hand with fingers splayed: medium skin tone", "with", "skin"]
-
-        case .earWithHearingAidDarkSkinTone: return ["dark", "ear", "skin", "dark skin tone", "aid:", "tone", "accessibility", "with", "hearing", "ear with hearing aid", "ear with hearing aid: dark skin tone", "hard of hearing"]
-
-        case .horseRacingDarkSkinTone: return ["horse", "dark", "skin", "tone", "dark skin tone", "racing", "racehorse", "jockey", "horse racing: dark skin tone", "racing:"]
-
-        case .clubSuit: return ["card", "club suit", "suit", "game", "club"]
-
-        case .raisingHandsDarkSkinTone: return ["skin", "tone", "hand", "raising hands", "hands:", "dark skin tone", "hooray", "raised", "gesture", "dark", "celebration", "raising", "raising hands: dark skin tone"]
-
-        case .flagBritishVirginIslands: return ["British Virgin Islands", "flag", "flag: British Virgin Islands"]
-
-        case .personGesturingNo: return ["gesturing", "NO", "prohibited", "hand", "person", "person gesturing NO", "gesture", "forbidden"]
-
-        case .dog: return ["pet", "dog"]
-
-        case .deafPersonLightSkinTone: return ["light skin tone", "ear", "person:", "skin", "tone", "deaf", "hear", "accessibility", "deaf person", "light", "deaf person: light skin tone"]
-
-        case .personPlayingHandballMediumLightSkinTone: return ["handball:", "playing", "person playing handball", "tone", "skin", "light", "medium", "person playing handball: medium light skin tone", "handball", "medium light skin tone", "ball", "person"]
-
-        case .candy: return ["candy", "dessert", "sweet"]
-
-        case .flagCaribbeanNetherlands: return ["flag: Caribbean Netherlands", "Caribbean Netherlands", "flag"]
-
-        case .personWearingTurbanMediumDarkSkinTone: return ["medium dark skin tone", "turban:", "dark", "turban", "skin", "person wearing turban: medium dark skin tone", "person wearing turban", "medium", "tone", "person", "wearing"]
-
-        case .flagLiechtenstein: return ["flag: Liechtenstein", "flag", "Liechtenstein"]
-
-        case .inputSymbols: return ["〒♪&%", "input", "input symbols", "symbols"]
-
-        case .womanInMotorizedWheelchairMediumSkinTone: return ["woman in motorized wheelchair", "motorized", "tone", "medium", "medium skin tone", "woman in motorized wheelchair: medium skin tone", "accessibility", "in", "wheelchair:", "skin", "woman", "wheelchair"]
-
-        case .shallowPanOfFood: return ["shallow", "pan", "food", "paella", "of", "casserole", "shallow pan of food"]
-
-        case .mrsClausLightSkinTone: return ["light skin tone", "mother", "Christmas", "Mrs.", "light", "Mrs. Claus: light skin tone", "claus", "tone", "skin", "celebration", "Claus:"]
-
-        case .flagGrenada: return ["flag", "flag: Grenada", "Grenada"]
-
-        case .slightlySmilingFace: return ["slightly", "slightly smiling face", "smile", "smiling", "face"]
-
-        case .guardMediumLightSkinTone: return ["medium", "guard:", "guard", "medium light skin tone", "tone", "skin", "guard: medium light skin tone", "light"]
-
-        case .womanAndManHoldingHandsDarkSkinToneMediumSkinTone: return ["hands:", "woman and man holding hands: dark skin tone, medium skin tone", "tone", "woman", "medium skin tone", "holding", "woman and man holding hands", "skin", "tone,", "hand", "medium", "and", "couple", "hold", "holding hands", "man", "dark skin tone", "dark"]
-
-        case .flagAntiguaBarbuda: return ["Antigua & Barbuda", "flag: Antigua & Barbuda", "flag"]
-
-        case .personBouncingBallMediumSkinTone: return ["skin", "person", "bouncing", "person bouncing ball", "person bouncing ball: medium skin tone", "ball", "ball:", "tone", "medium", "medium skin tone"]
-
-        case .personWalkingMediumSkinTone: return ["medium", "person", "person walking: medium skin tone", "tone", "person walking", "skin", "medium skin tone", "walking", "hike", "walk", "walking:"]
-
-        case .personDarkSkinToneBald: return ["adult", "dark", "person", "gender neutral", "skin", "tone,", "bald", "unspecified gender", "person:", "person: dark skin tone, bald", "dark skin tone"]
-
-        case .manFactoryWorkerDarkSkinTone: return ["man", "worker", "worker:", "industrial", "dark skin tone", "skin", "assembly", "tone", "dark", "factory", "man factory worker: dark skin tone"]
-
-        case .yawningFace: return ["yawning face", "yawn", "yawning", "face", "tired", "bored"]
-
-        case .rightwardsHandMediumLightSkinTone: return ["hand:", "hand", "skin", "tone", "rightward", "right", "light", "rightwards hand", "rightwards", "medium", "medium light skin tone", "rightwards hand: medium light skin tone"]
-
-        case .manDancingMediumLightSkinTone: return ["dance", "dancing:", "man", "light", "medium", "medium light skin tone", "man dancing: medium light skin tone", "skin", "tone", "dancing"]
-
-        case .plus: return ["plus", "math", "+", "sign"]
-
-        case .flagTrinidadTobago: return ["flag", "flag: Trinidad & Tobago", "Trinidad & Tobago"]
-
-        case .flagMarshallIslands: return ["flag: Marshall Islands", "flag", "Marshall Islands"]
-
-        case .manMediumSkinToneRedHair: return ["medium skin tone", "red hair", "man:", "man", "medium", "adult", "tone,", "hair", "man: medium skin tone, red hair", "skin", "red"]
-
-        case .radioButton: return ["radio", "button", "geometric"]
-
-        case .manMechanicMediumLightSkinTone: return ["tone", "medium light skin tone", "plumber", "medium", "man mechanic: medium light skin tone", "mechanic:", "man", "electrician", "mechanic", "tradesperson", "light", "skin"]
-
-        case .winkingFace: return ["winking face", "wink", "winking", "face"]
-
-        case .rabbitFace: return ["rabbit", "bunny", "pet", "face"]
-
-        case .womanFactoryWorkerLightSkinTone: return ["worker:", "worker", "skin", "industrial", "tone", "light skin tone", "assembly", "factory", "light", "woman factory worker: light skin tone", "woman"]
-
-        case .womenHoldingHandsDarkSkinToneMediumLightSkinTone: return ["dark skin tone", "skin", "tone", "women holding hands", "hand", "medium light skin tone", "holding hands", "holding", "medium", "couple", "dark", "hands:", "women", "women holding hands: dark skin tone, medium light skin tone", "light", "tone,"]
-
-        case .cat: return ["pet", "cat"]
-
-        case .controlKnobs: return ["control", "knobs", "music"]
-
-        case .sosButton: return ["SOS", "button", "SOS button", "help"]
-
-        case .personInSuitLevitatingMediumLightSkinTone: return ["person in suit levitating", "levitating:", "tone", "medium", "in", "skin", "medium light skin tone", "person", "business", "light", "person in suit levitating: medium light skin tone", "suit"]
-
-        case .revolvingHearts: return ["revolving hearts", "hearts", "revolving"]
-
-        case .stopButton: return ["stop button", "square", "stop", "button"]
-
-        case .palmsUpTogetherMediumDarkSkinTone: return ["palms up together: medium dark skin tone", "prayer", "palms", "medium dark skin tone", "palms up together", "together:", "medium", "up", "dark", "skin", "tone"]
-
-        case .flexedBiceps: return ["flexed biceps", "flex", "biceps", "flexed", "comic", "muscle"]
-
-        case .fourThirty: return ["4", "four thirty", "clock", "4:30", "four", "thirty"]
-
-        case .personLightSkinToneCurlyHair: return ["hair", "adult", "unspecified gender", "light", "tone,", "person: light skin tone, curly hair", "curly hair", "gender neutral", "person:", "skin", "curly", "person", "light skin tone"]
-
-        case .levelSlider: return ["slider", "level", "music"]
-
-        case .pick: return ["tool", "pick", "mining"]
-
-        case .familyManGirlGirl: return ["man", "family: man, girl, girl", "family:", "man,", "family", "girl", "girl,"]
-
-        case .flagCuracao: return ["flag: Curaçao", "flag", "Curaçao"]
-
-        case .manFeedingBabyMediumDarkSkinTone: return ["feeding", "nursing", "medium dark skin tone", "skin", "dark", "tone", "medium", "man", "man feeding baby: medium dark skin tone", "baby:", "baby"]
-
-        case .inputLatinUppercase: return ["latin", "uppercase", "letters", "input", "ABCD"]
-
-        case .technologistLightSkinTone: return ["developer", "coder", "technologist: light skin tone", "light skin tone", "technologist:", "software", "technologist", "skin", "light", "inventor", "tone"]
-
-        case .womenHoldingHandsMediumSkinTone: return ["couple", "holding", "medium skin tone", "skin", "women holding hands: medium skin tone", "hands:", "tone", "women holding hands", "women", "hand", "holding hands", "medium"]
-
-        case .peopleHoldingHandsMediumLightSkinToneMediumSkinTone: return ["hands:", "couple", "people", "skin", "medium light skin tone", "light", "tone", "people holding hands", "holding", "people holding hands: medium light skin tone, medium skin tone", "tone,", "hold", "holding hands", "medium skin tone", "person", "medium", "hand"]
-
-        case .indexPointingUpMediumLightSkinTone: return ["hand", "index pointing up", "index", "up:", "skin", "index pointing up: medium light skin tone", "medium light skin tone", "light", "point", "finger", "medium", "tone", "pointing", "up"]
-
-        case .legLightSkinTone: return ["light", "skin", "leg", "light skin tone", "tone", "kick", "leg:", "limb", "leg: light skin tone"]
-
-        case .blackSquareButton: return ["square", "black square button", "geometric", "black", "button"]
-
-        case .flagInHole: return ["flag", "hole", "golf", "in", "flag in hole"]
-
-        case .personSwimming: return ["person swimming", "swim", "swimming", "person"]
-
-        case .sheafOfRice: return ["grain", "rice", "ear", "sheaf", "sheaf of rice", "of"]
-
-        case .newMoon: return ["dark", "moon", "new moon", "new"]
-
-        case .eightPointedStar: return ["star", "*", "pointed", "eight", "eight pointed star"]
-
-        case .rightwardsPushingHandMediumDarkSkinTone: return ["pushing", "rightward", "refuse", "wait", "high five", "tone", "rightwards pushing hand", "rightwards pushing hand: medium dark skin tone", "rightwards", "push", "dark", "stop", "medium", "skin", "hand:", "medium dark skin tone"]
-
-        case .manLightSkinToneWhiteHair: return ["man:", "man: light skin tone, white hair", "white", "light", "skin", "white hair", "man", "tone,", "adult", "hair", "light skin tone"]
-
-        case .rightFacingFistDarkSkinTone: return ["right facing fist", "rightwards", "fist:", "right", "tone", "right facing fist: dark skin tone", "dark skin tone", "dark", "fist", "facing", "skin"]
-
-        case .superheroDarkSkinTone: return ["hero", "superhero: dark skin tone", "superpower", "dark skin tone", "superhero:", "tone", "superhero", "heroine", "dark", "good", "skin"]
-
-        case .wheel: return ["wheel", "tire", "turn", "circle"]
-
-        case .fish: return ["zodiac", "fish", "Pisces"]
-
-        case .flagAlbania: return ["Albania", "flag: Albania", "flag"]
-
-        case .watch: return ["watch", "clock"]
-
-        case .flagTristanDaCunha: return ["flag: Tristan da Cunha", "Tristan da Cunha", "flag"]
-
-        case .leftwardsHandMediumSkinTone: return ["left", "tone", "leftwards hand", "hand:", "leftwards hand: medium skin tone", "medium skin tone", "medium", "skin", "leftward", "leftwards", "hand"]
-
-        case .euroBanknote: return ["note", "banknote", "currency", "euro", "bill", "money"]
-
-        case .videocassette: return ["tape", "videocassette", "vhs", "video"]
-
-        case .manScientistMediumDarkSkinTone: return ["man", "medium", "tone", "scientist:", "scientist", "biologist", "dark", "chemist", "physicist", "man scientist: medium dark skin tone", "medium dark skin tone", "skin", "engineer"]
-
-        case .personWithVeilMediumSkinTone: return ["person", "wedding", "veil:", "medium skin tone", "veil", "medium", "skin", "with", "bride", "tone", "person with veil", "person with veil: medium skin tone"]
-
-        case .japaneseHereButton: return ["katakana", "Japanese", "Japanese “here” button", "“here”", "button", "ココ"]
-
-        case .personInSuitLevitatingMediumSkinTone: return ["medium skin tone", "person in suit levitating", "skin", "medium", "tone", "in", "levitating:", "business", "person in suit levitating: medium skin tone", "suit", "person"]
-
-        case .heartHandsMediumLightSkinTone: return ["light", "heart hands: medium light skin tone", "heart hands", "heart", "skin", "hands:", "medium light skin tone", "tone", "love", "medium"]
-
-        case .manInManualWheelchairDarkSkinTone: return ["dark skin tone", "man in manual wheelchair", "in", "wheelchair:", "manual", "man in manual wheelchair: dark skin tone", "skin", "wheelchair", "dark", "tone", "man", "accessibility"]
-
-        case .menHoldingHandsMediumSkinToneLightSkinTone: return ["holding", "Gemini", "light skin tone", "holding hands", "hands:", "men", "zodiac", "twins", "couple", "man", "men holding hands: medium skin tone, light skin tone", "medium skin tone", "men holding hands", "medium", "light", "skin", "tone", "tone,"]
-
-        case .astronautMediumDarkSkinTone: return ["astronaut", "medium dark skin tone", "astronaut:", "astronaut: medium dark skin tone", "skin", "tone", "medium", "dark", "rocket"]
-
-        case .raisedHandDarkSkinTone: return ["raised hand: dark skin tone", "raised hand", "dark skin tone", "skin", "high 5", "hand", "raised", "hand:", "dark", "tone", "high five"]
-
-        case .castle: return ["European", "castle"]
-
-        case .personMediumLightSkinToneWhiteHair: return ["person:", "unspecified gender", "white", "adult", "tone,", "medium light skin tone", "light", "hair", "white hair", "gender neutral", "skin", "person: medium light skin tone, white hair", "medium", "person"]
-
-        case .pouringLiquid: return ["pouring liquid", "spill", "pouring", "empty", "glass", "liquid", "drink"]
-
-        case .dango: return ["dessert", "stick", "skewer", "sweet", "Japanese", "dango"]
-
-        case .thumbsUp: return ["thumbs up", "up", "thumbs", "hand", "+1", "thumb"]
-
-        case .heartDecoration: return ["heart decoration", "heart", "decoration"]
-
-        case .fuelPump: return ["gas", "pump", "station", "fuel", "diesel", "fuelpump"]
-
-        case .oncomingFistDarkSkinTone: return ["oncoming fist", "fist", "oncoming", "clenched", "fist:", "dark", "punch", "oncoming fist: dark skin tone", "dark skin tone", "skin", "tone", "hand"]
-
-        case .gemStone: return ["jewel", "stone", "gem", "diamond", "gem stone"]
-
-        case .curlyLoop: return ["loop", "curl", "curly", "curly loop"]
-
-        case .flagFrenchSouthernTerritories: return ["French Southern Territories", "flag: French Southern Territories", "flag"]
-
-        case .flagOman: return ["flag", "Oman", "flag: Oman"]
-
-        case .manMechanicMediumDarkSkinTone: return ["dark", "skin", "tone", "plumber", "medium", "mechanic:", "man", "electrician", "man mechanic: medium dark skin tone", "mechanic", "tradesperson", "medium dark skin tone"]
-
-        case .personPoutingMediumSkinTone: return ["skin", "person pouting: medium skin tone", "person pouting", "medium skin tone", "tone", "gesture", "medium", "person", "pouting", "pouting:"]
-
-        case .cocktailGlass: return ["drink", "glass", "bar", "cocktail"]
-
-        case .manAstronautMediumLightSkinTone: return ["man", "rocket", "medium", "skin", "tone", "astronaut:", "medium light skin tone", "light", "astronaut", "man astronaut: medium light skin tone"]
-
-        case .japaneseProhibitedButton: return ["Japanese “prohibited” button", "Japanese", "禁", "button", "“prohibited”", "ideograph"]
-
-        case .partyingFace: return ["party", "celebration", "partying", "horn", "hat", "face", "partying face"]
-
-        case .womanFirefighter: return ["firefighter", "firetruck", "woman"]
-
-        case .stopwatch: return ["clock", "stopwatch"]
-
-        case .flagStPierreMiquelon: return ["flag: St. Pierre & Miquelon", "St. Pierre & Miquelon", "flag"]
-
-        case .incomingEnvelope: return ["incoming", "envelope", "receive", "letter", "e mail", "email"]
-
-        case .flagNiue: return ["flag", "flag: Niue", "Niue"]
-
-        case .raisedHandMediumDarkSkinTone: return ["hand:", "skin", "dark", "medium", "tone", "medium dark skin tone", "raised hand: medium dark skin tone", "hand", "high 5", "raised", "raised hand", "high five"]
-
-        case .flagSouthKorea: return ["flag", "South Korea", "flag: South Korea"]
-
-        case .peopleHoldingHandsLightSkinToneMediumLightSkinTone: return ["people holding hands", "tone", "holding hands", "person", "holding", "tone,", "medium", "people", "medium light skin tone", "people holding hands: light skin tone, medium light skin tone", "skin", "light", "hand", "hands:", "hold", "couple", "light skin tone"]
-
-        case .womanMechanicMediumSkinTone: return ["plumber", "medium skin tone", "medium", "woman mechanic: medium skin tone", "mechanic:", "skin", "mechanic", "tradesperson", "electrician", "woman", "tone"]
-
-        case .salt: return ["condiment", "salt", "shaker"]
-
-        case .flagHeardMcdonaldIslands: return ["flag", "Heard & McDonald Islands", "flag: Heard & McDonald Islands"]
-
-        case .volleyball: return ["game", "ball", "volleyball"]
-
-        case .moneyMouthFace: return ["mouth", "face", "money", "money mouth face"]
-
-        case .mechanic: return ["electrician", "plumber", "tradesperson", "mechanic"]
-
-        case .womanDarkSkinTone: return ["woman: dark skin tone", "skin", "woman", "tone", "woman:", "adult", "dark", "dark skin tone"]
-
-        case .handshakeMediumLightSkinToneMediumDarkSkinTone: return ["dark", "hand", "tone", "medium light skin tone", "light", "shake", "medium dark skin tone", "tone,", "medium", "handshake:", "handshake: medium light skin tone, medium dark skin tone", "agreement", "skin", "handshake", "meeting"]
-
-        case .mechanicMediumDarkSkinTone: return ["medium", "mechanic", "mechanic:", "skin", "medium dark skin tone", "tradesperson", "tone", "plumber", "electrician", "mechanic: medium dark skin tone", "dark"]
-
-        case .manDarkSkinToneWhiteHair: return ["dark", "dark skin tone", "hair", "man: dark skin tone, white hair", "man", "adult", "tone,", "white", "man:", "white hair", "skin"]
-
-        case .crossedFingers: return ["crossed", "hand", "crossed fingers", "cross", "finger", "fingers", "luck"]
-
-        case .womanFeedingBabyLightSkinTone: return ["light skin tone", "baby", "nursing", "skin", "light", "tone", "woman", "baby:", "feeding", "woman feeding baby: light skin tone"]
-
-        case .dogFace: return ["pet", "dog", "face"]
-
-        case .familyWomanWomanBoyBoy: return ["family: woman, woman, boy, boy", "family:", "family", "woman,", "woman", "boy", "boy,"]
-
-        case .personBikingDarkSkinTone: return ["dark", "tone", "person biking", "biking:", "dark skin tone", "skin", "cyclist", "biking", "person biking: dark skin tone", "bicycle", "person"]
-
-        case .mobilePhone: return ["mobile", "telephone", "phone", "cell"]
-
-        case .anguishedFace: return ["face", "anguished"]
-
-        case .personInBedMediumLightSkinTone: return ["hotel", "good night", "in", "bed:", "medium light skin tone", "light", "person", "tone", "person in bed: medium light skin tone", "sleep", "skin", "medium", "person in bed"]
-
-        case .personPlayingWaterPoloMediumDarkSkinTone: return ["polo:", "polo", "person playing water polo", "water", "medium dark skin tone", "dark", "person playing water polo: medium dark skin tone", "person", "skin", "medium", "tone", "playing"]
-
-        case .personFrowningMediumLightSkinTone: return ["person frowning", "skin", "person", "gesture", "medium light skin tone", "frowning:", "medium", "light", "tone", "person frowning: medium light skin tone", "frown"]
-
-        case .ninja: return ["hidden", "fighter", "ninja", "stealth"]
-
-        case .rightAngerBubble: return ["mad", "right anger bubble", "angry", "bubble", "right", "balloon", "anger"]
-
-        case .zombie: return ["undead", "zombie", "walking dead"]
-
-        case .womanMediumDarkSkinTone: return ["tone", "woman:", "medium dark skin tone", "adult", "medium", "woman: medium dark skin tone", "woman", "dark", "skin"]
-
-        case .flagKenya: return ["flag", "Kenya", "flag: Kenya"]
-
-        case .rescueWorkersHelmet: return ["aid", "helmet", "worker’s", "cross", "rescue", "rescue worker’s helmet", "hat", "face"]
-
-        case .flexedBicepsLightSkinTone: return ["light", "skin", "light skin tone", "tone", "muscle", "biceps:", "flex", "biceps", "flexed biceps: light skin tone", "flexed", "comic", "flexed biceps"]
-
-        case .man: return ["man", "adult"]
-
-        case .personInBedDarkSkinTone: return ["hotel", "bed:", "dark", "sleep", "skin", "in", "person in bed", "tone", "person in bed: dark skin tone", "dark skin tone", "person", "good night"]
-
-        case .fleurDeLis: return ["de", "fleur", "lis"]
-
-        case .personSurfingDarkSkinTone: return ["person surfing: dark skin tone", "dark", "surfing", "surfing:", "person", "person surfing", "dark skin tone", "tone", "skin"]
-
-        case .smallAirplane: return ["small", "small airplane", "aeroplane", "airplane"]
-
-        case .palmsUpTogetherMediumLightSkinTone: return ["light", "together:", "palms up together", "tone", "medium", "palms", "skin", "prayer", "palms up together: medium light skin tone", "medium light skin tone", "up"]
-
-        case .kite: return ["fly", "kite", "soar"]
-
-        case .raisedFistLightSkinTone: return ["fist", "light", "raised fist", "clenched", "raised", "fist:", "punch", "skin", "light skin tone", "tone", "raised fist: light skin tone", "hand"]
-
-        case .flagCanada: return ["Canada", "flag: Canada", "flag"]
-
-        case .flagSanMarino: return ["flag: San Marino", "San Marino", "flag"]
-
-        case .bagel: return ["breakfast", "bakery", "schmear", "bagel"]
-
-        case .blueSquare: return ["blue", "square"]
-
-        case .camping: return ["camping"]
-
-        case .backhandIndexPointingRightLightSkinTone: return ["backhand index pointing right", "skin", "backhand", "light", "backhand index pointing right: light skin tone", "index", "hand", "finger", "right:", "point", "pointing", "light skin tone", "tone"]
-
-        case .personDarkSkinToneWhiteHair: return ["unspecified gender", "skin", "person: dark skin tone, white hair", "white hair", "white", "hair", "adult", "dark", "person", "tone,", "dark skin tone", "gender neutral", "person:"]
-
-        case .feather: return ["feather", "bird", "plumage", "flight", "light"]
-
-        case .flagIran: return ["flag", "flag: Iran", "Iran"]
-
-        case .tumblerGlass: return ["tumbler", "glass", "shot", "liquor", "whisky"]
-
-        case .flagAlgeria: return ["flag", "flag: Algeria", "Algeria"]
-
-        case .tractor: return ["tractor", "vehicle"]
-
-        case .hamburger: return ["burger", "hamburger"]
-
-        case .flagDominicanRepublic: return ["flag: Dominican Republic", "flag", "Dominican Republic"]
-
-        case .bowlWithSpoon: return ["congee", "cereal", "bowl with spoon", "spoon", "bowl", "with", "breakfast"]
-
-        case .watermelon: return ["watermelon", "fruit"]
-
-        case .heartHands: return ["heart hands", "heart", "love", "hands"]
-
-        case .trackball: return ["trackball", "computer"]
-
-        case .pinchingHandMediumLightSkinTone: return ["tone", "light", "small amount", "medium", "skin", "pinching hand: medium light skin tone", "pinching", "medium light skin tone", "hand:", "pinching hand"]
-
-        case .highVoltage: return ["electric", "high", "voltage", "high voltage", "lightning", "zap", "danger"]
-
-        case .manTeacher: return ["teacher", "professor", "man", "instructor", "lecturer"]
-
-        case .flexedBicepsMediumDarkSkinTone: return ["medium dark skin tone", "dark", "biceps:", "tone", "biceps", "flex", "flexed", "flexed biceps", "muscle", "flexed biceps: medium dark skin tone", "medium", "comic", "skin"]
-
-        case .upRightArrow: return ["intercardinal", "up", "up right arrow", "right", "arrow", "direction", "northeast"]
-
-        case .faceScreamingInFear: return ["scared", "face screaming in fear", "face", "in", "fear", "munch", "scream", "screaming"]
-
-        case .topArrow: return ["TOP", "up", "arrow"]
-
-        case .leftwardsHandDarkSkinTone: return ["leftward", "left", "skin", "tone", "leftwards hand", "dark skin tone", "hand:", "leftwards hand: dark skin tone", "dark", "leftwards", "hand"]
-
-        case .mxClausDarkSkinTone: return ["claus", "mx", "dark skin tone", "christmas", "mx claus: dark skin tone", "claus:", "tone", "mx claus", "skin", "dark"]
-
-        case .whiteQuestionMark: return ["white", "white question mark", "question", "?", "outlined", "mark", "punctuation"]
-
-        case .merperson: return ["merperson", "mermaid", "merwoman", "merman"]
-
-        case .victoryHandMediumDarkSkinTone: return ["medium dark skin tone", "medium", "tone", "v", "victory hand: medium dark skin tone", "skin", "dark", "hand", "hand:", "victory"]
-
-        case .earDarkSkinTone: return ["dark", "ear: dark skin tone", "body", "dark skin tone", "ear", "ear:", "tone", "skin"]
-
-        case .mageMediumSkinTone: return ["skin", "tone", "mage: medium skin tone", "sorcerer", "sorceress", "mage", "wizard", "medium", "mage:", "witch", "medium skin tone"]
-
-        case .firefighterDarkSkinTone: return ["firefighter:", "firefighter", "firefighter: dark skin tone", "firetruck", "fire", "dark skin tone", "skin", "dark", "tone"]
-
-        case .babyChick: return ["baby", "bird", "chick"]
-
-        case .noseMediumSkinTone: return ["nose: medium skin tone", "skin", "nose:", "tone", "medium skin tone", "medium", "nose", "body"]
-
-        case .mobilePhoneWithArrow: return ["arrow", "phone", "mobile phone with arrow", "receive", "cell", "with", "mobile"]
-
-        case .foggy: return ["fog", "foggy"]
-
-        case .flagBhutan: return ["flag: Bhutan", "Bhutan", "flag"]
-
-        case .callMeHandMediumLightSkinTone: return ["medium light skin tone", "call", "hand:", "Shaka", "skin", "call me hand: medium light skin tone", "hang loose", "light", "hand", "me", "call me hand", "tone", "medium"]
-
-        case .fortuneCookie: return ["fortune cookie", "fortune", "cookie", "prophecy"]
-
-        case .pregnantPersonMediumLightSkinTone: return ["belly", "pregnant person: medium light skin tone", "full", "pregnant person", "person:", "skin", "tone", "medium light skin tone", "light", "bloated", "pregnant", "medium"]
-
-        case .womanDarkSkinToneBald: return ["woman", "bald", "woman: dark skin tone, bald", "dark skin tone", "dark", "tone,", "woman:", "adult", "skin"]
-
-        case .mechanicDarkSkinTone: return ["dark skin tone", "mechanic", "electrician", "tradesperson", "mechanic:", "dark", "mechanic: dark skin tone", "plumber", "skin", "tone"]
-
-        case .onArrow: return ["mark", "ON", "ON!", "arrow"]
-
-        case .garlic: return ["garlic", "flavoring"]
-
-        case .footMediumSkinTone: return ["kick", "foot: medium skin tone", "foot", "medium skin tone", "foot:", "stomp", "medium", "tone", "skin"]
-
-        case .flagSwitzerland: return ["flag: Switzerland", "Switzerland", "flag"]
-
-        case .womensRoom: return ["WC", "woman", "toilet", "bathroom", "restroom", "women’s room", "women’s", "lavatory", "room"]
-
-        case .backhandIndexPointingRightDarkSkinTone: return ["pointing", "point", "dark skin tone", "finger", "index", "skin", "backhand index pointing right", "dark", "right:", "backhand index pointing right: dark skin tone", "tone", "backhand", "hand"]
-
-        case .crossedFingersMediumSkinTone: return ["crossed", "luck", "finger", "cross", "crossed fingers", "medium skin tone", "medium", "crossed fingers: medium skin tone", "hand", "skin", "fingers:", "tone"]
-
-        case .manRedHair: return ["man:", "red", "red hair", "adult", "hair", "man: red hair", "man"]
-
-        case .puzzlePiece: return ["clue", "jigsaw", "puzzle", "piece", "interlocking"]
-
-        case .hook: return ["ensnare", "curve", "selling point", "crook", "catch", "hook"]
-
-        case .poutingCat: return ["pouting", "face", "cat"]
-
-        case .oncomingFistMediumSkinTone: return ["oncoming fist", "fist", "oncoming", "clenched", "fist:", "medium", "oncoming fist: medium skin tone", "medium skin tone", "punch", "skin", "tone", "hand"]
-
-        case .backhandIndexPointingLeftMediumDarkSkinTone: return ["tone", "backhand index pointing left", "skin", "finger", "medium dark skin tone", "backhand index pointing left: medium dark skin tone", "backhand", "index", "point", "left:", "pointing", "dark", "hand", "medium"]
-
-        case .strawberry: return ["berry", "strawberry", "fruit"]
-
-        case .womanFarmerLightSkinTone: return ["woman", "light", "farmer", "skin", "tone", "light skin tone", "woman farmer: light skin tone", "farmer:", "gardener", "rancher"]
-
-        case .rooster: return ["bird", "rooster"]
-
-        case .personRowingBoat: return ["person rowing boat", "person", "boat", "rowboat", "rowing"]
-
-        case .handshakeMediumDarkSkinToneDarkSkinTone: return ["agreement", "shake", "tone,", "handshake", "tone", "medium", "meeting", "hand", "dark skin tone", "dark", "handshake:", "medium dark skin tone", "handshake: medium dark skin tone, dark skin tone", "skin"]
-
-        case .girlMediumSkinTone: return ["medium skin tone", "girl", "skin", "Virgo", "girl: medium skin tone", "medium", "girl:", "young", "zodiac", "tone"]
-
-        case .mammoth: return ["large", "mammoth", "woolly", "extinction", "tusk"]
-
-        case .backhandIndexPointingUpMediumSkinTone: return ["medium", "up:", "skin", "up", "finger", "index", "hand", "pointing", "backhand index pointing up", "backhand index pointing up: medium skin tone", "tone", "backhand", "point", "medium skin tone"]
-
-        case .manTeacherMediumLightSkinTone: return ["man teacher: medium light skin tone", "medium light skin tone", "instructor", "man", "medium", "light", "skin", "lecturer", "teacher:", "tone", "professor", "teacher"]
-
-        case .personLightSkinToneBlondHair: return ["light", "hair", "blond", "skin", "tone,", "person: light skin tone, blond hair", "light skin tone", "person: blond hair", "person:", "blond haired person"]
-
-        case .coupleWithHeart: return ["couple", "love", "with", "heart", "couple with heart"]
-
-        case .flagGuyana: return ["flag: Guyana", "Guyana", "flag"]
-
-        case .graduationCap: return ["hat", "clothing", "celebration", "graduation", "cap"]
-
-        case .openHandsMediumDarkSkinTone: return ["open hands", "medium dark skin tone", "skin", "hands:", "tone", "medium", "open", "open hands: medium dark skin tone", "dark", "hand"]
-
-        case .personInMotorizedWheelchairMediumLightSkinTone: return ["skin", "tone", "light", "wheelchair", "wheelchair:", "medium", "in", "person in motorized wheelchair: medium light skin tone", "accessibility", "person", "person in motorized wheelchair", "medium light skin tone", "motorized"]
-
-        case .repeatButton: return ["repeat button", "arrow", "clockwise", "button", "repeat"]
-
-        case .carrot: return ["food", "vegetable", "carrot"]
-
-        case .tangerine: return ["fruit", "orange", "tangerine"]
-
-        case .banjo: return ["banjo", "music", "stringed"]
-
-        case .flagBolivia: return ["Bolivia", "flag: Bolivia", "flag"]
-
-        case .personInTuxedo: return ["person in tuxedo", "groom", "person", "in", "tuxedo"]
-
-        case .familyAdultChild: return ["child", "family:", "adult,"]
-
-        case .leftwardsPushingHandDarkSkinTone: return ["wait", "stop", "leftward", "high five", "leftwards pushing hand: dark skin tone", "push", "dark", "skin", "tone", "dark skin tone", "refuse", "hand:", "leftwards", "leftwards pushing hand", "pushing"]
-
-        case .frowningFace: return ["frowning face", "face", "frowning", "frown"]
-
-        case .pisces: return ["fish", "Pisces", "zodiac"]
-
-        case .deliveryTruck: return ["truck", "delivery"]
-
-        case .babyLightSkinTone: return ["baby: light skin tone", "tone", "skin", "baby", "young", "light", "baby:", "light skin tone"]
-
-        case .toilet: return ["toilet"]
-
-        case .rightwardsPushingHandMediumSkinTone: return ["wait", "stop", "high five", "medium skin tone", "push", "refuse", "rightwards", "skin", "medium", "rightwards pushing hand", "hand:", "rightwards pushing hand: medium skin tone", "rightward", "pushing", "tone"]
-
-        case .musicalKeyboard: return ["music", "piano", "keyboard", "musical keyboard", "musical", "instrument"]
-
-        case .oButtonBloodType: return ["O", "(blood", "type)", "O button (blood type)", "button", "blood type"]
-
-        case .crown: return ["clothing", "queen", "king", "crown"]
-
-        case .hamsa: return ["Fatima", "Mary", "protection", "Miriam", "hamsa", "hand", "amulet"]
-
-        case .snowCappedMountain: return ["snow capped mountain", "mountain", "capped", "snow", "cold"]
-
-        case .oldManDarkSkinTone: return ["old man: dark skin tone", "tone", "dark", "man:", "adult", "dark skin tone", "skin", "man", "old"]
-
-        case .magnet: return ["magnet", "horseshoe", "magnetic", "attraction"]
-
-        case .factoryWorkerDarkSkinTone: return ["factory", "worker", "dark", "skin", "industrial", "tone", "assembly", "dark skin tone", "factory worker: dark skin tone", "worker:"]
-
-        case .personMediumDarkSkinToneBlondHair: return ["medium", "skin", "person: blond hair", "person: medium dark skin tone, blond hair", "person:", "hair", "tone,", "blond haired person", "dark", "blond", "medium dark skin tone"]
-
-        case .manDancingMediumSkinTone: return ["medium skin tone", "skin", "medium", "man", "man dancing: medium skin tone", "dancing:", "tone", "dancing", "dance"]
-
-        case .flagVanuatu: return ["flag: Vanuatu", "flag", "Vanuatu"]
-
-        case .personStanding: return ["person", "standing", "stand", "person standing"]
-
-        case .rightArrow: return ["direction", "cardinal", "right arrow", "arrow", "east", "right"]
-
-        case .palmDownHandMediumLightSkinTone: return ["palm down hand", "shoo", "hand:", "skin", "drop", "palm", "palm down hand: medium light skin tone", "dismiss", "light", "tone", "medium light skin tone", "medium", "down"]
-
-        case .personJugglingMediumDarkSkinTone: return ["medium dark skin tone", "skin", "juggling:", "person", "skill", "tone", "balance", "person juggling", "multitask", "dark", "juggle", "medium", "person juggling: medium dark skin tone"]
-
-        case .pregnantWomanMediumDarkSkinTone: return ["pregnant woman: medium dark skin tone", "pregnant", "medium dark skin tone", "dark", "medium", "skin", "woman:", "woman", "tone"]
-
-        case .personFacepalmingMediumDarkSkinTone: return ["facepalming:", "disbelief", "person facepalming", "medium dark skin tone", "face", "tone", "skin", "exasperation", "medium", "palm", "person", "person facepalming: medium dark skin tone", "dark"]
-
-        case .santaClaus: return ["santa", "father", "celebration", "Claus", "Santa", "Christmas", "claus"]
-
-        case .womanMediumLightSkinToneCurlyHair: return ["curly hair", "light", "tone,", "woman:", "woman", "adult", "skin", "curly", "medium", "woman: medium light skin tone, curly hair", "hair", "medium light skin tone"]
-
-        case .vsButton: return ["VS", "button", "versus", "VS button"]
-
-        case .manFarmerMediumDarkSkinTone: return ["medium", "skin", "man", "tone", "medium dark skin tone", "farmer", "dark", "rancher", "gardener", "farmer:", "man farmer: medium dark skin tone"]
-
-        case .nerdFace: return ["face", "geek", "nerd"]
-
-        case .nailPolish: return ["care", "nail", "manicure", "polish", "cosmetics"]
-
-        case .freeButton: return ["button", "FREE", "FREE button"]
-
-        case .manStudentDarkSkinTone: return ["tone", "graduate", "man", "skin", "man student: dark skin tone", "dark", "student", "dark skin tone", "student:"]
-
-        case .purpleCircle: return ["circle", "purple"]
-
-        case .largeBlueDiamond: return ["large blue diamond", "diamond", "geometric", "large", "blue"]
-
-        case .brownCircle: return ["brown", "circle"]
-
-        case .earWithHearingAid: return ["hard of hearing", "ear", "aid", "ear with hearing aid", "hearing", "accessibility", "with"]
-
-        case .peaPod: return ["pod", "edamame", "legume", "pea", "vegetable", "beans"]
-
-        case .personInMotorizedWheelchairDarkSkinTone: return ["skin", "in", "dark", "motorized", "person in motorized wheelchair: dark skin tone", "accessibility", "dark skin tone", "wheelchair", "person in motorized wheelchair", "person", "tone", "wheelchair:"]
-
-        case .joker: return ["game", "card", "wildcard", "joker"]
-
-        case .jar: return ["condiment", "jar", "empty", "store", "container", "sauce"]
-
-        case .burrito: return ["wrap", "mexican", "burrito"]
-
-        case .loveYouGesture: return ["love you gesture", "hand", "ILY", "love", "you", "gesture"]
-
-        case .barChart: return ["bar", "graph", "chart"]
-
-        case .kissMediumDarkSkinTone: return ["couple", "medium dark skin tone", "medium", "kiss:", "kiss", "kiss: medium dark skin tone", "skin", "tone", "dark"]
-
-        case .faceWithHeadBandage: return ["with", "face with head bandage", "injury", "face", "hurt", "head", "bandage"]
-
-        case .flagEngland: return ["England", "flag", "flag: England"]
-
-        case .santaClausMediumSkinTone: return ["santa", "Christmas", "Santa", "tone", "claus", "Santa Claus: medium skin tone", "skin", "medium skin tone", "father", "celebration", "Claus:", "medium"]
-
-        case .link: return ["link"]
-
-        case .iceCream: return ["cream", "sweet", "dessert", "ice"]
-
-        case .foldedHands: return ["hand", "thanks", "please", "ask", "high 5", "folded hands", "hands", "high five", "pray", "folded"]
-
-        case .tradeMark: return ["trade", "TM", "trademark", "mark", "trade mark"]
-
-        case .womanTechnologistMediumDarkSkinTone: return ["technologist", "skin", "inventor", "woman", "technologist:", "tone", "developer", "medium", "medium dark skin tone", "woman technologist: medium dark skin tone", "coder", "dark", "software"]
-
-        case .heartHandsDarkSkinTone: return ["hands:", "heart hands: dark skin tone", "dark", "tone", "love", "skin", "dark skin tone", "heart", "heart hands"]
-
-        case .basket: return ["basket", "picnic", "farming", "laundry"]
-
-        case .autoRickshaw: return ["tuk tuk", "rickshaw", "auto rickshaw", "auto"]
-
-        case .peopleHoldingHandsMediumSkinTone: return ["person", "people", "hand", "couple", "hands:", "medium", "medium skin tone", "holding hands", "skin", "tone", "hold", "people holding hands", "people holding hands: medium skin tone", "holding"]
-
-        case .palmDownHandMediumSkinTone: return ["palm down hand", "drop", "palm down hand: medium skin tone", "medium", "skin", "dismiss", "palm", "down", "hand:", "shoo", "tone", "medium skin tone"]
-
-        case .personRowingBoatLightSkinTone: return ["person", "skin", "person rowing boat: light skin tone", "rowboat", "person rowing boat", "light skin tone", "tone", "rowing", "boat", "boat:", "light"]
-
-        case .stethoscope: return ["doctor", "stethoscope", "medicine", "heart"]
-
-        case .flagUzbekistan: return ["Uzbekistan", "flag", "flag: Uzbekistan"]
-
-        case .tent: return ["camping", "tent"]
-
-        case .blackNib: return ["nib", "pen", "black nib", "black"]
-
-        case .manFirefighterMediumDarkSkinTone: return ["skin", "firefighter", "medium dark skin tone", "dark", "man firefighter: medium dark skin tone", "firefighter:", "tone", "man", "medium", "firetruck"]
-
-        case .scorpion: return ["zodiac", "Scorpio", "scorpion"]
-
-        case .familyAdultChildChild: return ["adult,", "child,", "child", "family:"]
-
-        case .singerMediumDarkSkinTone: return ["rock", "star", "medium", "tone", "entertainer", "singer", "medium dark skin tone", "singer: medium dark skin tone", "skin", "dark", "actor", "singer:"]
-
-        case .kiwiFruit: return ["fruit", "kiwi", "food"]
-
-        case .womanFactoryWorkerMediumLightSkinTone: return ["worker:", "woman factory worker: medium light skin tone", "worker", "industrial", "medium", "skin", "assembly", "tone", "factory", "light", "medium light skin tone", "woman"]
-
-        case .orangeSquare: return ["orange", "square"]
-
-        case .palmDownHandMediumDarkSkinTone: return ["down", "hand:", "tone", "dismiss", "palm down hand", "dark", "shoo", "palm down hand: medium dark skin tone", "palm", "skin", "medium dark skin tone", "drop", "medium"]
-
-        case .basketball: return ["ball", "hoop", "basketball"]
-
-        case .multiply: return ["x", "multiply", "sign", "multiplication", "cancel", "×"]
-
-        case .supervillain: return ["criminal", "supervillain", "villain", "evil", "superpower"]
-
-        case .opticalDisk: return ["optical", "CD", "computer", "disk"]
-
-        case .japaneseCastle: return ["castle", "Japanese"]
-
-        case .sari: return ["sari", "dress", "clothing"]
-
-        case .womanMediumSkinToneWhiteHair: return ["woman: medium skin tone, white hair", "white", "woman", "white hair", "adult", "medium", "tone,", "hair", "medium skin tone", "woman:", "skin"]
-
-        case .cowboyHatFace: return ["cowboy", "cowgirl", "face", "hat"]
-
-        case .ewe: return ["female", "sheep", "ewe"]
-
-        case .manOfficeWorkerMediumLightSkinTone: return ["medium light skin tone", "worker:", "medium", "office", "skin", "architect", "white collar", "light", "man", "tone", "man office worker: medium light skin tone", "manager", "business", "man office worker"]
-
-        case .dragonFace: return ["dragon", "face", "fairy tale"]
-
-        case .tShirt: return ["t shirt", "shirt", "clothing", "tshirt", "t"]
-
-        case .personShruggingLightSkinTone: return ["light skin tone", "person shrugging: light skin tone", "person", "person shrugging", "ignorance", "indifference", "shrug", "doubt", "shrugging:", "light", "skin", "tone"]
-
-        case .farmerMediumDarkSkinTone: return ["skin", "dark", "farmer: medium dark skin tone", "medium", "medium dark skin tone", "rancher", "farmer:", "gardener", "farmer", "tone"]
-
-        case .foldingHandFan: return ["hand", "fan", "cooling", "folding hand fan", "shy", "flutter", "dance", "folding", "hot"]
-
-        case .teacherMediumLightSkinTone: return ["skin", "teacher", "light", "lecturer", "professor", "medium", "instructor", "tone", "medium light skin tone", "teacher: medium light skin tone", "teacher:"]
-
-        case .custard: return ["custard", "dessert", "sweet", "pudding"]
-
-        case .mechanicLightSkinTone: return ["light", "plumber", "light skin tone", "mechanic: light skin tone", "skin", "mechanic", "tone", "tradesperson", "electrician", "mechanic:"]
-
-        case .headphone: return ["headphone", "earbud"]
-
-        case .pizza: return ["cheese", "slice", "pizza"]
-
-        case .astronautMediumLightSkinTone: return ["tone", "astronaut:", "astronaut: medium light skin tone", "astronaut", "rocket", "medium light skin tone", "medium", "light", "skin"]
-
-        case .flagHungary: return ["flag", "flag: Hungary", "Hungary"]
-
-        case .womanInManualWheelchairLightSkinTone: return ["wheelchair", "in", "accessibility", "wheelchair:", "manual", "woman in manual wheelchair: light skin tone", "light", "tone", "woman", "skin", "woman in manual wheelchair", "light skin tone"]
-
-        case .personInLotusPositionMediumDarkSkinTone: return ["medium dark skin tone", "position:", "skin", "dark", "meditation", "person", "in", "lotus", "medium", "yoga", "person in lotus position", "person in lotus position: medium dark skin tone", "tone"]
-
-        case .teacherDarkSkinTone: return ["teacher: dark skin tone", "lecturer", "dark", "tone", "teacher:", "skin", "professor", "teacher", "dark skin tone", "instructor"]
-
-        case .noseMediumDarkSkinTone: return ["nose: medium dark skin tone", "tone", "nose", "body", "dark", "skin", "medium", "medium dark skin tone", "nose:"]
-
-        case .womanDancingLightSkinTone: return ["light", "woman", "skin", "tone", "dancing", "dance", "woman dancing: light skin tone", "dancing:", "light skin tone"]
-
-        case .princeMediumLightSkinTone: return ["medium", "light", "prince", "medium light skin tone", "tone", "skin", "prince:", "prince: medium light skin tone"]
-
-        case .flagEgypt: return ["flag", "flag: Egypt", "Egypt"]
-
-        case .ribbon: return ["ribbon", "celebration"]
-
-        case .nextTrackButton: return ["next scene", "track", "triangle", "next", "arrow", "next track button", "next track", "button"]
-
-        case .alembic: return ["chemistry", "tool", "alembic"]
-
-        case .policeOfficer: return ["officer", "cop", "police"]
-
-        case .childrenCrossing: return ["crossing", "traffic", "children", "child", "children crossing", "pedestrian"]
-
-        case .cricketGame: return ["bat", "cricket", "ball", "game", "cricket game"]
-
-        case .personMediumDarkSkinTone: return ["gender neutral", "unspecified gender", "dark", "person:", "adult", "person", "medium dark skin tone", "medium", "tone", "skin", "person: medium dark skin tone"]
-
-        case .rosette: return ["rosette", "plant"]
-
-        case .teacherMediumDarkSkinTone: return ["teacher: medium dark skin tone", "dark", "professor", "teacher", "teacher:", "instructor", "medium", "skin", "tone", "lecturer", "medium dark skin tone"]
-
-        case .libra: return ["justice", "scales", "Libra", "zodiac", "balance"]
-
-        case .earWithHearingAidMediumSkinTone: return ["tone", "ear", "ear with hearing aid", "accessibility", "hearing", "with", "ear with hearing aid: medium skin tone", "medium", "aid:", "hard of hearing", "medium skin tone", "skin"]
-
-        case .manLightSkinTone: return ["adult", "skin", "man", "light", "man:", "man: light skin tone", "tone", "light skin tone"]
-
-        case .snowflake: return ["snowflake", "snow", "cold"]
-
-        case .soccerBall: return ["soccer", "football", "ball"]
-
-        case .spiderWeb: return ["web", "spider"]
-
-        case .rock: return ["heavy", "solid", "boulder", "stone", "rock"]
-
-        case .flagMicronesia: return ["flag", "flag: Micronesia", "Micronesia"]
-
-        case .constructionWorkerMediumLightSkinTone: return ["tone", "construction", "medium", "light", "worker:", "hat", "medium light skin tone", "construction worker: medium light skin tone", "worker", "skin"]
-
-        case .farmerMediumLightSkinTone: return ["farmer: medium light skin tone", "gardener", "farmer:", "medium", "medium light skin tone", "light", "skin", "farmer", "rancher", "tone"]
-
-        case .manWithWhiteCaneMediumLightSkinTone: return ["man with white cane", "with", "blind", "man with white cane: medium light skin tone", "accessibility", "cane:", "light", "tone", "medium light skin tone", "white", "skin", "medium", "man"]
-
-        case .manScientistMediumSkinTone: return ["medium skin tone", "biologist", "chemist", "skin", "physicist", "man", "tone", "scientist:", "engineer", "scientist", "man scientist: medium skin tone", "medium"]
-
-        case .church: return ["cross", "Christian", "church", "religion"]
-
-        case .personMediumDarkSkinToneRedHair: return ["unspecified gender", "medium", "gender neutral", "red", "hair", "adult", "person", "medium dark skin tone", "person: medium dark skin tone, red hair", "skin", "person:", "red hair", "dark", "tone,"]
-
-        case .womanDancingMediumLightSkinTone: return ["medium", "light", "skin", "woman dancing: medium light skin tone", "medium light skin tone", "woman", "tone", "dancing", "dance", "dancing:"]
-
-        case .bikini: return ["clothing", "swim", "bikini"]
-
-        case .flagLiberia: return ["flag", "flag: Liberia", "Liberia"]
-
-        case .hushedFace: return ["surprised", "hushed", "stunned", "face"]
-
-        case .mouth: return ["mouth", "lips"]
-
-        case .menHoldingHandsDarkSkinToneMediumDarkSkinTone: return ["holding hands", "skin", "dark skin tone", "medium dark skin tone", "hands:", "Gemini", "men", "medium", "zodiac", "holding", "dark", "men holding hands: dark skin tone, medium dark skin tone", "tone,", "tone", "men holding hands", "twins", "couple", "man"]
-
-        case .catWithWrySmile: return ["face", "ironic", "wry", "with", "cat", "smile", "cat with wry smile"]
-
-        case .manTeacherLightSkinTone: return ["instructor", "man", "light", "light skin tone", "skin", "lecturer", "teacher:", "tone", "man teacher: light skin tone", "professor", "teacher"]
-
-        case .rightwardsPushingHandLightSkinTone: return ["rightwards pushing hand: light skin tone", "tone", "rightwards", "rightwards pushing hand", "rightward", "pushing", "hand:", "stop", "light", "wait", "high five", "light skin tone", "push", "skin", "refuse"]
-
-        case .personRunningMediumSkinTone: return ["person running", "medium skin tone", "tone", "marathon", "running", "skin", "person", "medium", "person running: medium skin tone", "running:"]
-
-        case .synagogue: return ["Jewish", "religion", "Jew", "temple", "synagogue"]
-
-        case .yellowSquare: return ["square", "yellow"]
-
-        case .flagUnitedNations: return ["United Nations", "flag", "flag: United Nations"]
-
-        case .flagLithuania: return ["Lithuania", "flag", "flag: Lithuania"]
-
-        case .middleFingerDarkSkinTone: return ["middle finger: dark skin tone", "finger:", "dark", "middle finger", "hand", "finger", "skin", "dark skin tone", "tone", "middle"]
-
-        case .flagCapeVerde: return ["Cape Verde", "flag", "flag: Cape Verde"]
-
-        case .flagTonga: return ["Tonga", "flag: Tonga", "flag"]
-
-        case .woman: return ["adult", "woman"]
-
-        case .handshake: return ["handshake", "agreement", "meeting", "shake", "hand"]
-
-        case .vampireMediumSkinTone: return ["vampire: medium skin tone", "Dracula", "medium skin tone", "tone", "skin", "vampire", "undead", "vampire:", "medium"]
-
-        case .personLightSkinToneBeard: return ["light", "skin", "person:", "tone,", "light skin tone", "beard", "person: light skin tone, beard", "person", "person: beard"]
-
-        case .peopleHoldingHandsMediumSkinToneLightSkinTone: return ["medium skin tone", "people holding hands: medium skin tone, light skin tone", "tone", "people holding hands", "light skin tone", "light", "person", "holding", "hands:", "hold", "hand", "couple", "holding hands", "people", "medium", "skin", "tone,"]
-
-        case .personStandingDarkSkinTone: return ["dark skin tone", "person standing", "dark", "skin", "stand", "person standing: dark skin tone", "tone", "standing:", "standing", "person"]
-
-        case .personGettingMassageMediumDarkSkinTone: return ["medium dark skin tone", "tone", "person", "getting", "skin", "massage", "person getting massage", "face", "medium", "massage:", "person getting massage: medium dark skin tone", "dark", "salon"]
-
-        case .womanOfficeWorkerDarkSkinTone: return ["dark", "office", "woman", "worker:", "skin", "dark skin tone", "woman office worker", "tone", "woman office worker: dark skin tone", "white collar", "business", "manager", "architect"]
-
-        case .personInSteamyRoomMediumLightSkinTone: return ["medium light skin tone", "sauna", "tone", "medium", "room:", "steamy", "steam room", "in", "person in steamy room: medium light skin tone", "skin", "light", "person in steamy room", "person"]
-
-        case .flagNicaragua: return ["flag", "flag: Nicaragua", "Nicaragua"]
-
-        case .bulletTrain: return ["bullet", "train", "railway", "speed", "shinkansen"]
-
-        case .noMobilePhones: return ["forbidden", "no mobile phones", "phone", "phones", "no", "mobile", "cell"]
-
-        case .playButton: return ["play button", "button", "arrow", "right", "play", "triangle"]
-
-        case .womanScientistLightSkinTone: return ["woman scientist: light skin tone", "woman", "biologist", "chemist", "skin", "physicist", "tone", "scientist:", "engineer", "scientist", "light", "light skin tone"]
-
-        case .ram: return ["Aries", "ram", "sheep", "male", "zodiac"]
-
-        case .personClimbingLightSkinTone: return ["skin", "light skin tone", "climbing:", "person climbing: light skin tone", "person climbing", "tone", "person", "light", "climber"]
-
-        case .japaneseServiceChargeButton: return ["katakana", "Japanese", "サ", "Japanese “service charge” button", "charge”", "“service", "“service charge”", "button"]
-
-        case .openFileFolder: return ["open", "folder", "file"]
-
-        case .abacus: return ["calculation", "abacus"]
-
-        case .eagle: return ["eagle", "bird"]
-
-        case .poultryLeg: return ["leg", "drumstick", "poultry", "chicken", "bone"]
-
-        case .person: return ["adult", "person", "gender neutral", "unspecified gender"]
-
-        case .sixOclock: return ["six", "6:00", "clock", "6", "00", "o’clock"]
-
-        case .womanMediumDarkSkinToneBald: return ["bald", "skin", "woman:", "medium", "medium dark skin tone", "adult", "woman: medium dark skin tone, bald", "woman", "dark", "tone,"]
-
-        case .panda: return ["face", "panda"]
-
-        case .elevator: return ["lift", "accessibility", "hoist", "elevator"]
-
-        case .eMail: return ["mail", "e", "letter", "e mail", "email"]
-
-        case .grinningCat: return ["cat", "mouth", "open", "smile", "grinning", "face"]
-
-        case .ladyBeetle: return ["beetle", "lady beetle", "insect", "ladybug", "ladybird", "lady"]
-
-        case .grinningFace: return ["grinning face", "grin", "face", "grinning"]
-
-        case .telephoneReceiver: return ["telephone", "receiver", "phone"]
-
-        case .policeOfficerLightSkinTone: return ["light skin tone", "cop", "officer:", "tone", "officer", "skin", "light", "police", "police officer: light skin tone"]
-
-        case .moose: return ["mammal", "antlers", "animal", "elk", "moose"]
-
-        case .flagPeru: return ["flag", "flag: Peru", "Peru"]
-
-        case .openMailboxWithRaisedFlag: return ["mailbox", "open", "mail", "open mailbox with raised flag", "postbox", "with", "raised", "flag"]
-
-        case .leftLuggage: return ["locker", "luggage", "left luggage", "left", "baggage"]
-
-        case .openMailboxWithLoweredFlag: return ["mailbox", "with", "mail", "postbox", "open mailbox with lowered flag", "flag", "lowered", "open"]
-
-        case .familyManWomanGirlGirl: return ["family: man, woman, girl, girl", "girl", "girl,", "woman", "family:", "family", "woman,", "man,", "man"]
-
-        case .personBouncingBallMediumLightSkinTone: return ["skin", "medium light skin tone", "person bouncing ball: medium light skin tone", "ball:", "person bouncing ball", "medium", "tone", "bouncing", "person", "light", "ball"]
-
-        case .fourLeafClover: return ["four", "leaf", "four leaf clover", "clover", "4"]
-
-        case .elfMediumDarkSkinTone: return ["magical", "medium", "elf", "elf:", "skin", "medium dark skin tone", "tone", "elf: medium dark skin tone", "dark"]
-
-        case .prohibited: return ["no", "forbidden", "not", "entry", "prohibited"]
-
-        case .lightRail: return ["railway", "light rail", "rail", "light"]
-
-        case .victoryHandMediumSkinTone: return ["skin", "victory", "hand", "hand:", "medium skin tone", "tone", "medium", "victory hand: medium skin tone", "v"]
-
-        case .twoThirty: return ["thirty", "2:30", "two", "two thirty", "clock", "2"]
-
-        case .twoOclock: return ["2:00", "two", "2", "00", "clock", "o’clock"]
-
-        case .flagFinland: return ["flag: Finland", "flag", "Finland"]
-
-        case .personInBedLightSkinTone: return ["hotel", "light skin tone", "person", "person in bed: light skin tone", "bed:", "tone", "person in bed", "sleep", "in", "skin", "good night", "light"]
-
-        case .duck: return ["duck", "bird"]
-
-        case .earMediumSkinTone: return ["medium skin tone", "body", "medium", "ear:", "ear", "tone", "ear: medium skin tone", "skin"]
-
-        case .flagPhilippines: return ["flag: Philippines", "Philippines", "flag"]
-
-        case .handshakeMediumSkinTone: return ["tone", "handshake: medium skin tone", "meeting", "agreement", "handshake", "shake", "medium", "medium skin tone", "handshake:", "skin", "hand"]
-
-        case .eightSpokedAsterisk: return ["*", "spoked", "eight", "eight spoked asterisk", "asterisk"]
-
-        case .personInMotorizedWheelchairMediumDarkSkinTone: return ["dark", "accessibility", "wheelchair:", "person in motorized wheelchair: medium dark skin tone", "tone", "medium dark skin tone", "motorized", "skin", "in", "person in motorized wheelchair", "person", "wheelchair", "medium"]
-
-        case .mushroom: return ["mushroom", "toadstool"]
-
-        case .flagTuvalu: return ["flag: Tuvalu", "Tuvalu", "flag"]
-
-        case .leftFacingFistMediumLightSkinTone: return ["left facing fist", "skin", "left", "light", "fist", "tone", "medium light skin tone", "facing", "left facing fist: medium light skin tone", "leftwards", "fist:", "medium"]
-
-        case .twelveOclock: return ["clock", "12:00", "00", "o’clock", "12", "twelve"]
-
-        case .personKneelingMediumLightSkinTone: return ["person kneeling: medium light skin tone", "kneeling:", "tone", "person", "medium", "person kneeling", "medium light skin tone", "skin", "light", "kneel", "kneeling"]
-
-        case .handshakeDarkSkinToneMediumSkinTone: return ["agreement", "tone,", "medium skin tone", "dark", "medium", "handshake: dark skin tone, medium skin tone", "hand", "handshake:", "dark skin tone", "handshake", "meeting", "skin", "tone", "shake"]
-
-        case .hammerAndPick: return ["pick", "and", "hammer and pick", "hammer", "tool"]
-
-        case .backhandIndexPointingLeftMediumLightSkinTone: return ["hand", "light", "skin", "index", "point", "left:", "medium light skin tone", "tone", "backhand index pointing left", "finger", "backhand index pointing left: medium light skin tone", "medium", "pointing", "backhand"]
-
-        case .womanDarkSkinToneCurlyHair: return ["skin", "curly hair", "dark", "woman:", "curly", "hair", "woman", "tone,", "woman: dark skin tone, curly hair", "dark skin tone", "adult"]
-
-        case .womanCookMediumDarkSkinTone: return ["cook:", "woman", "dark", "woman cook: medium dark skin tone", "medium", "cook", "chef", "medium dark skin tone", "skin", "tone"]
-
-        case .policeOfficerMediumSkinTone: return ["officer:", "medium skin tone", "cop", "officer", "skin", "police", "police officer: medium skin tone", "medium", "tone"]
-
-        case .globeWithMeridians: return ["world", "earth", "globe", "meridians", "globe with meridians", "with"]
-
-        case .manMediumSkinToneCurlyHair: return ["medium skin tone", "hair", "man", "medium", "man:", "tone,", "curly", "adult", "man: medium skin tone, curly hair", "curly hair", "skin"]
-
-        case .backhandIndexPointingDownDarkSkinTone: return ["tone", "backhand index pointing down", "dark skin tone", "pointing", "finger", "down:", "backhand", "dark", "backhand index pointing down: dark skin tone", "skin", "index", "point", "down", "hand"]
-
-        case .womanFactoryWorkerMediumSkinTone: return ["worker:", "worker", "medium", "industrial", "woman factory worker: medium skin tone", "skin", "assembly", "tone", "medium skin tone", "factory", "woman"]
-
-        case .farmerMediumSkinTone: return ["medium skin tone", "rancher", "gardener", "farmer", "farmer: medium skin tone", "farmer:", "medium", "skin", "tone"]
-
-        case .printer: return ["printer", "computer"]
-
-        case .personLiftingWeightsMediumDarkSkinTone: return ["tone", "skin", "person lifting weights: medium dark skin tone", "weight", "medium dark skin tone", "person lifting weights", "person", "lifter", "lifting", "dark", "medium", "weights:"]
-
-        case .turtle: return ["tortoise", "terrapin", "turtle"]
-
-        case .loudspeaker: return ["public address", "loud", "loudspeaker"]
-
-        case .personLiftingWeightsMediumSkinTone: return ["skin", "medium", "lifter", "tone", "person", "medium skin tone", "lifting", "person lifting weights", "person lifting weights: medium skin tone", "weights:", "weight"]
-
-        case .detectiveLightSkinTone: return ["sleuth", "light", "detective", "spy", "light skin tone", "detective:", "skin", "detective: light skin tone", "tone"]
-
-        case .studioMicrophone: return ["music", "studio", "microphone", "mic"]
-
-        case .door: return ["door"]
-
-        case .thoughtBalloon: return ["bubble", "balloon", "comic", "thought"]
-
-        case .flagPoland: return ["Poland", "flag: Poland", "flag"]
-
-        case .oldWomanMediumLightSkinTone: return ["old woman: medium light skin tone", "medium", "tone", "light", "adult", "woman", "woman:", "skin", "medium light skin tone", "old"]
-
-        case .smilingCatWithHeartEyes: return ["face", "love", "heart", "smiling cat with heart eyes", "with", "cat", "smile", "smiling", "eye", "eyes"]
-
-        case .taurus: return ["bull", "ox", "zodiac", "Taurus"]
-
-        case .hammerAndWrench: return ["wrench", "and", "hammer and wrench", "hammer", "spanner", "tool"]
-
-        case .indexPointingUp: return ["hand", "up", "point", "index", "finger", "index pointing up", "pointing"]
-
-        case .rightwardsHandDarkSkinTone: return ["right", "skin", "rightward", "rightwards hand: dark skin tone", "dark skin tone", "hand", "hand:", "rightwards hand", "rightwards", "dark", "tone"]
-
-        case .lemon: return ["citrus", "fruit", "lemon"]
-
-        case .flagAruba: return ["flag: Aruba", "Aruba", "flag"]
-
-        case .loveHotel: return ["hotel", "love"]
-
-        case .minus: return ["minus", "math", "sign", "", "−"]
-
-        case .smilingFaceWithHearts: return ["face", "hearts", "adore", "with", "crush", "smiling face with hearts", "in love", "smiling"]
-
-        case .backhandIndexPointingDownLightSkinTone: return ["down", "pointing", "light", "hand", "skin", "point", "down:", "finger", "backhand", "light skin tone", "backhand index pointing down: light skin tone", "backhand index pointing down", "index", "tone"]
-
-        case .rollOfPaper: return ["roll of paper", "roll", "paper towels", "toilet paper", "paper", "of"]
-
-        case .newspaper: return ["news", "newspaper", "paper"]
-
-        case .flagWallisFutuna: return ["flag: Wallis & Futuna", "flag", "Wallis & Futuna"]
-
-        case .personGettingMassageMediumSkinTone: return ["person", "face", "getting", "massage", "medium", "skin", "tone", "medium skin tone", "salon", "massage:", "person getting massage", "person getting massage: medium skin tone"]
-
-        case .rightArrowCurvingLeft: return ["right", "left", "arrow", "curving", "right arrow curving left"]
-
-        case .leftwardsPushingHandLightSkinTone: return ["tone", "pushing", "refuse", "high five", "push", "light", "stop", "leftwards pushing hand: light skin tone", "leftward", "leftwards", "wait", "hand:", "skin", "light skin tone", "leftwards pushing hand"]
-
-        case .faceWithThermometer: return ["sick", "ill", "face with thermometer", "face", "thermometer", "with"]
-
-        case .moneyWithWings: return ["banknote", "money with wings", "money", "wings", "bill", "fly", "with"]
-
-        case .vulcanSaluteLightSkinTone: return ["finger", "salute:", "skin", "light skin tone", "spock", "vulcan salute: light skin tone", "tone", "vulcan salute", "hand", "light", "vulcan"]
-
-        case .womanFactoryWorkerDarkSkinTone: return ["factory", "dark", "woman", "dark skin tone", "industrial", "woman factory worker: dark skin tone", "worker:", "assembly", "worker", "skin", "tone"]
-
-        case .flagMali: return ["flag", "Mali", "flag: Mali"]
-
-        case .flagAzerbaijan: return ["Azerbaijan", "flag: Azerbaijan", "flag"]
-
-        case .menHoldingHandsDarkSkinToneLightSkinTone: return ["hands:", "couple", "Gemini", "dark", "man", "men holding hands: dark skin tone, light skin tone", "skin", "light", "tone", "tone,", "dark skin tone", "zodiac", "holding hands", "twins", "light skin tone", "men", "men holding hands", "holding"]
-
-        case .personRowingBoatMediumLightSkinTone: return ["rowing", "light", "person rowing boat: medium light skin tone", "medium light skin tone", "tone", "boat:", "medium", "rowboat", "person rowing boat", "person", "skin", "boat"]
-
-        case .khanda: return ["religion", "Sikh", "khanda"]
-
-        case .shuffleTracksButton: return ["tracks", "shuffle", "shuffle tracks button", "arrow", "button", "crossed"]
-
-        case .womanInMotorizedWheelchairLightSkinTone: return ["woman in motorized wheelchair: light skin tone", "light skin tone", "wheelchair:", "light", "skin", "woman", "accessibility", "wheelchair", "in", "woman in motorized wheelchair", "tone", "motorized"]
-
-        case .legMediumLightSkinTone: return ["leg", "kick", "limb", "medium", "medium light skin tone", "light", "skin", "tone", "leg: medium light skin tone", "leg:"]
-
-        case .flagGuinea: return ["flag", "Guinea", "flag: Guinea"]
-
-        case .flagCeutaMelilla: return ["Ceuta & Melilla", "flag", "flag: Ceuta & Melilla"]
-
-        case .recordButton: return ["record", "circle", "button", "record button"]
-
-        case .wavyDash: return ["punctuation", "dash", "wavy"]
-
-        case .deciduousTree: return ["tree", "deciduous", "shedding"]
-
-        case .backhandIndexPointingRightMediumDarkSkinTone: return ["skin", "right:", "point", "dark", "finger", "tone", "medium dark skin tone", "backhand index pointing right", "backhand", "index", "hand", "backhand index pointing right: medium dark skin tone", "medium", "pointing"]
-
-        case .flagSweden: return ["Sweden", "flag: Sweden", "flag"]
-
-        case .fastUpButton: return ["arrow", "up", "button", "fast up button", "fast", "double"]
-
-        case .winkingFaceWithTongue: return ["tongue", "winking", "with", "joke", "eye", "winking face with tongue", "face", "wink"]
-
-        case .heartExclamation: return ["heart exclamation", "mark", "exclamation", "punctuation", "heart"]
-
-        case .tornado: return ["whirlwind", "cloud", "tornado"]
-
-        case .ballotBoxWithBallot: return ["box", "ballot box with ballot", "with", "ballot"]
-
-        case .bitingLip: return ["biting", "nervous", "anxious", "flirting", "uncomfortable", "lip", "worried", "fear", "biting lip"]
-
-        case .vulcanSaluteMediumDarkSkinTone: return ["finger", "salute:", "skin", "spock", "tone", "vulcan salute", "hand", "dark", "medium", "medium dark skin tone", "vulcan salute: medium dark skin tone", "vulcan"]
-
-        case .manCookMediumDarkSkinTone: return ["skin", "man cook: medium dark skin tone", "man", "cook", "chef", "medium dark skin tone", "cook:", "medium", "dark", "tone"]
-
-        case .womanAstronautMediumDarkSkinTone: return ["rocket", "medium dark skin tone", "astronaut:", "woman astronaut: medium dark skin tone", "tone", "woman", "medium", "astronaut", "skin", "dark"]
-
-        case .key: return ["lock", "key", "password"]
-
-        case .oneOclock: return ["1", "o’clock", "one", "00", "clock", "1:00"]
-
-        case .babyMediumSkinTone: return ["baby:", "young", "baby: medium skin tone", "medium skin tone", "baby", "skin", "tone", "medium"]
-
-        case .blackMediumSquare: return ["geometric", "black medium square", "square", "black", "medium"]
-
-        case .motorway: return ["highway", "road", "motorway"]
-
-        case .womenHoldingHandsDarkSkinTone: return ["holding hands", "women holding hands: dark skin tone", "women holding hands", "dark skin tone", "couple", "holding", "dark", "hands:", "tone", "skin", "hand", "women"]
-
-        case .perseveringFace: return ["persevering face", "persevering", "persevere", "face"]
-
-        case .manInManualWheelchairMediumDarkSkinTone: return ["skin", "medium", "man in manual wheelchair", "tone", "wheelchair", "dark", "wheelchair:", "medium dark skin tone", "in", "manual", "man in manual wheelchair: medium dark skin tone", "man", "accessibility"]
-
-        case .mxClausMediumDarkSkinTone: return ["claus", "mx claus", "medium dark skin tone", "claus:", "christmas", "medium", "skin", "dark", "mx claus: medium dark skin tone", "mx", "tone"]
-
-        case .thermometer: return ["weather", "thermometer"]
-
-        case .womanOfficeWorkerMediumDarkSkinTone: return ["architect", "dark", "office", "woman office worker: medium dark skin tone", "tone", "business", "manager", "woman", "medium", "woman office worker", "worker:", "white collar", "medium dark skin tone", "skin"]
-
-        case ._2ndPlaceMedal: return ["silver", "2nd", "medal", "place", "second", "2nd place medal"]
-
-        case .writingHandDarkSkinTone: return ["hand", "write", "dark", "tone", "writing hand", "writing hand: dark skin tone", "dark skin tone", "writing", "hand:", "skin"]
-
-        case .desertIsland: return ["island", "desert"]
-
-        case .flagComoros: return ["flag", "Comoros", "flag: Comoros"]
-
-        case .handshakeMediumLightSkinToneLightSkinTone: return ["light skin tone", "handshake:", "tone,", "agreement", "light", "tone", "handshake", "medium", "skin", "handshake: medium light skin tone, light skin tone", "shake", "hand", "meeting", "medium light skin tone"]
-
-        case .fairyDarkSkinTone: return ["Puck", "Titania", "Oberon", "fairy", "fairy:", "dark", "fairy: dark skin tone", "skin", "tone", "dark skin tone"]
-
-        case .speakerMediumVolume: return ["speaker medium volume", "medium", "speaker", "volume"]
-
-        case .womanInManualWheelchairMediumLightSkinTone: return ["accessibility", "in", "medium light skin tone", "tone", "woman", "woman in manual wheelchair", "wheelchair:", "woman in manual wheelchair: medium light skin tone", "manual", "light", "medium", "skin", "wheelchair"]
-
-        case .personMediumSkinToneBald: return ["adult", "tone,", "person", "gender neutral", "medium skin tone", "skin", "person: medium skin tone, bald", "bald", "unspecified gender", "person:", "medium"]
-
-        case .orangutan: return ["ape", "orangutan"]
-
-        case .metro: return ["metro", "subway"]
-
-        case .helicopter: return ["vehicle", "helicopter"]
-
-        case .womanMediumLightSkinTone: return ["adult", "woman", "skin", "woman:", "woman: medium light skin tone", "light", "tone", "medium", "medium light skin tone"]
-
-        case .rightwardsPushingHandMediumLightSkinTone: return ["rightward", "tone", "rightwards pushing hand: medium light skin tone", "high five", "refuse", "light", "push", "pushing", "rightwards pushing hand", "rightwards", "medium light skin tone", "wait", "hand:", "skin", "medium", "stop"]
-
-        case .writingHandLightSkinTone: return ["writing hand: light skin tone", "tone", "write", "writing hand", "light", "hand:", "writing", "light skin tone", "skin", "hand"]
-
-        case .personPlayingWaterPolo: return ["playing", "polo", "water", "person playing water polo", "person"]
-
-        case .purpleHeart: return ["purple heart", "purple", "heart"]
-
-        case .orangeCircle: return ["orange", "circle"]
-
-        case .lyingFace: return ["face", "lie", "lying face", "pinocchio", "lying"]
-
-        case .womanTechnologistMediumLightSkinTone: return ["technologist:", "developer", "software", "woman technologist: medium light skin tone", "light", "woman", "coder", "tone", "technologist", "medium light skin tone", "medium", "skin", "inventor"]
-
-        case .personBeard: return ["person", "person:", "person: beard", "beard"]
-
-        case .thumbsDownDarkSkinTone: return ["down", "skin", "tone", "thumbs down", "dark", "thumbs down: dark skin tone", "down:", "dark skin tone", "1", "thumb", "thumbs", "hand"]
-
-        case .lacrosse: return ["ball", "goal", "lacrosse", "stick"]
-
-        case .owl: return ["owl", "bird", "wise"]
-
-        case .backhandIndexPointingDown: return ["finger", "point", "backhand index pointing down", "index", "hand", "pointing", "down", "backhand"]
-
-        case .safetyPin: return ["punk rock", "safety pin", "diaper", "safety", "pin"]
-
-        case .whiteCane: return ["cane", "blind", "white cane", "white", "accessibility"]
-
-        case .palmTree: return ["tree", "palm"]
-
-        case .indexPointingUpMediumSkinTone: return ["point", "pointing", "up:", "hand", "index pointing up", "tone", "medium", "up", "finger", "medium skin tone", "index pointing up: medium skin tone", "skin", "index"]
-
-        case .pileOfPoo: return ["pile of poo", "face", "poo", "monster", "poop", "pile", "dung", "of"]
-
-        case .hippopotamus: return ["hippopotamus", "hippo"]
-
-        case .familyWomanBoy: return ["family:", "woman", "boy", "family", "woman,", "family: woman, boy"]
-
-        case .leftwardsHand: return ["hand", "left", "leftward", "leftwards hand", "leftwards"]
-
-        case .heavyEqualsSign: return ["equality", "equals", "math", "heavy equals sign", "heavy", "sign"]
-
-        case .personClimbingMediumDarkSkinTone: return ["person", "climbing:", "person climbing", "dark", "person climbing: medium dark skin tone", "skin", "medium dark skin tone", "climber", "tone", "medium"]
-
-        case .womanAndManHoldingHandsMediumDarkSkinToneMediumSkinTone: return ["skin", "hold", "holding", "man", "and", "hands:", "woman", "hand", "medium dark skin tone", "couple", "woman and man holding hands", "medium", "tone,", "medium skin tone", "tone", "woman and man holding hands: medium dark skin tone, medium skin tone", "dark", "holding hands"]
-
-        case .personRunning: return ["running", "marathon", "person", "person running"]
-
-        case .sun: return ["rays", "sunny", "sun", "bright"]
-
-        case .fishingPole: return ["fishing", "pole", "fishing pole", "fish"]
-
-        case .personDarkSkinToneBlondHair: return ["blond", "dark", "skin", "tone,", "person:", "person: dark skin tone, blond hair", "person: blond hair", "blond haired person", "dark skin tone", "hair"]
-
-        case .personWithSkullcapMediumSkinTone: return ["medium skin tone", "with", "medium", "skullcap", "gua pi mao", "person with skullcap: medium skin tone", "cap", "person", "skullcap:", "hat", "skin", "person with skullcap", "tone"]
-
-        case .personShruggingMediumDarkSkinTone: return ["indifference", "medium", "person shrugging: medium dark skin tone", "doubt", "shrugging:", "ignorance", "shrug", "person", "skin", "medium dark skin tone", "tone", "person shrugging", "dark"]
-
-        case .personTakingBath: return ["person", "bathtub", "person taking bath", "bath", "taking"]
-
-        case .pen: return ["pen", "ballpoint"]
-
-        case .handshakeLightSkinToneDarkSkinTone: return ["skin", "handshake: light skin tone, dark skin tone", "dark skin tone", "hand", "agreement", "light skin tone", "light", "dark", "shake", "handshake", "meeting", "handshake:", "tone", "tone,"]
-
-        case .hole: return ["hole"]
-
-        case .backhandIndexPointingLeft: return ["pointing", "hand", "finger", "backhand index pointing left", "backhand", "left", "point", "index"]
-
-        case .gemini: return ["twins", "Gemini", "zodiac"]
-
-        case .womanAndManHoldingHandsMediumLightSkinToneMediumDarkSkinTone: return ["hands:", "medium light skin tone", "hand", "and", "woman and man holding hands: medium light skin tone, medium dark skin tone", "couple", "tone,", "dark", "man", "medium", "holding hands", "woman and man holding hands", "tone", "holding", "hold", "light", "skin", "woman", "medium dark skin tone"]
-
-        case .onion: return ["onion", "flavoring"]
-
-        case .pinchingHandMediumSkinTone: return ["pinching", "pinching hand: medium skin tone", "skin", "medium", "small amount", "hand:", "pinching hand", "tone", "medium skin tone"]
-
-        case .womanWithWhiteCaneLightSkinTone: return ["white", "with", "woman", "woman with white cane", "light", "tone", "cane:", "accessibility", "light skin tone", "woman with white cane: light skin tone", "blind", "skin"]
-
-        case .womanAndManHoldingHandsDarkSkinToneMediumDarkSkinTone: return ["holding", "dark", "tone,", "medium", "woman", "hand", "couple", "and", "woman and man holding hands", "hands:", "hold", "holding hands", "woman and man holding hands: dark skin tone, medium dark skin tone", "skin", "tone", "man", "medium dark skin tone", "dark skin tone"]
-
-        case .militaryMedal: return ["celebration", "medal", "military"]
-
-        case .manFirefighterLightSkinTone: return ["firefighter", "firefighter:", "light", "light skin tone", "skin", "tone", "man firefighter: light skin tone", "man", "firetruck"]
-
-        case .flagEcuador: return ["flag", "flag: Ecuador", "Ecuador"]
-
-        case .cameraWithFlash: return ["with", "camera with flash", "flash", "camera", "video"]
-
-        case .womanSingerMediumLightSkinTone: return ["medium light skin tone", "medium", "light", "rock", "singer", "singer:", "star", "woman", "entertainer", "actor", "tone", "skin", "woman singer: medium light skin tone"]
-
-        case .fox: return ["fox", "face"]
-
-        case .kissingFace: return ["kiss", "kissing face", "face", "kissing"]
-
-        case .leftFacingFistMediumDarkSkinTone: return ["medium", "facing", "fist:", "left", "dark", "skin", "tone", "fist", "leftwards", "medium dark skin tone", "left facing fist: medium dark skin tone", "left facing fist"]
-
-        case .potato: return ["potato", "vegetable", "food"]
-
-        case .partyPopper: return ["popper", "celebration", "tada", "party"]
-
-        case .backhandIndexPointingDownMediumDarkSkinTone: return ["backhand index pointing down", "medium dark skin tone", "backhand", "down:", "pointing", "hand", "index", "medium", "down", "finger", "dark", "skin", "tone", "point", "backhand index pointing down: medium dark skin tone"]
-
-        case .friedShrimp: return ["fried", "tempura", "prawn", "shrimp"]
-
-        case .manFeedingBabyLightSkinTone: return ["light skin tone", "man feeding baby: light skin tone", "man", "tone", "baby:", "feeding", "baby", "skin", "light", "nursing"]
-
-        case .atmSign: return ["ATM sign", "teller", "automated", "ATM", "bank", "sign"]
-
-        case .princessLightSkinTone: return ["light", "light skin tone", "princess", "fantasy", "fairy tale", "skin", "princess: light skin tone", "princess:", "tone"]
-
-        case .peopleHoldingHands: return ["holding hands", "people", "person", "people holding hands", "hand", "couple", "hold", "hands", "holding"]
-
-        case .closedMailboxWithLoweredFlag: return ["lowered", "mail", "closed mailbox with lowered flag", "with", "closed", "mailbox", "flag", "postbox"]
-
-        case .womanArtistDarkSkinTone: return ["palette", "artist:", "artist", "dark skin tone", "woman", "dark", "woman artist: dark skin tone", "skin", "tone"]
-
-        case .writingHandMediumSkinTone: return ["writing", "hand", "writing hand", "medium skin tone", "medium", "write", "tone", "hand:", "writing hand: medium skin tone", "skin"]
-
-        case .personClimbingDarkSkinTone: return ["climber", "skin", "tone", "dark", "person climbing: dark skin tone", "person", "dark skin tone", "person climbing", "climbing:"]
-
-        case .poodle: return ["dog", "poodle"]
-
-        case .zebra: return ["stripe", "zebra"]
-
-        case .fishCakeWithSwirl: return ["cake", "with", "fish", "fish cake with swirl", "pastry", "swirl"]
+        case .manOfficeWorkerMediumSkinTone: return ["worker", "medium skin tone", "man", "office", "manager", "business", "worker:", "medium", "skin", "tone", "white collar", "architect"]
 
         case .circusTent: return ["circus", "tent"]
 
-        case .rightFacingFistMediumLightSkinTone: return ["light", "tone", "right facing fist", "medium light skin tone", "right", "rightwards", "fist", "facing", "fist:", "right facing fist: medium light skin tone", "medium", "skin"]
+        case .firefighterMediumLightSkinTone: return ["light", "skin", "firetruck", "firefighter", "medium", "tone", "fire", "firefighter:", "medium light skin tone"]
 
-        case .spoutingWhale: return ["whale", "face", "spouting"]
+        case .shushingFace: return ["quiet", "face", "shush", "shh", "shushing"]
 
-        case .pButton: return ["button", "P button", "parking", "P"]
+        case .cupcake: return ["sprinkles", "cupcake", "dessert", "sugar", "treat", "sweet", "bakery"]
 
-        case .mutedSpeaker: return ["muted speaker", "quiet", "silent", "speaker", "mute", "muted"]
+        case .railwayCar: return ["train", "travel", "electric", "trolleybus", "railway", "tram", "car"]
 
-        case .manWithWhiteCaneLightSkinTone: return ["accessibility", "tone", "cane:", "with", "light", "light skin tone", "skin", "white", "man with white cane: light skin tone", "blind", "man", "man with white cane"]
+        case .bustInSilhouette: return ["shadow", "bust", "in", "silhouette", "mysterious"]
 
-        case .racingCar: return ["car", "racing"]
+        case .timerClock: return ["clock", "timer"]
 
-        case .violin: return ["violin", "instrument", "music"]
+        case .peaceSymbol: return ["peaceful", "peace", "symbol", "healing"]
 
-        case .horseRacing: return ["racehorse", "racing", "jockey", "horse"]
+        case .baseball: return ["baseball", "sport", "ball"]
 
-        case .bed: return ["bed", "hotel", "sleep"]
+        case .fog: return ["weather", "cloud", "fog"]
 
-        case .pregnantManLightSkinTone: return ["pregnant man", "pregnant man: light skin tone", "man:", "skin", "tone", "bloated", "pregnant", "belly", "light", "full", "light skin tone"]
+        case .personGettingHaircutMediumSkinTone: return ["haircut:", "groom", "medium", "getting", "cosmetology", "skin", "cut", "style", "person", "medium skin tone", "haircut", "shears", "parlor", "beauty", "chop", "tone", "barber", "hair"]
 
-        case .personPoutingMediumDarkSkinTone: return ["pouting:", "gesture", "medium", "pouting", "medium dark skin tone", "dark", "skin", "person pouting: medium dark skin tone", "tone", "person pouting", "person"]
+        case .scientistDarkSkinTone: return ["physicist", "dark skin tone", "engineer", "mathematician", "biologist", "skin", "scientist", "tone", "chemist", "scientist:", "dark"]
 
-        case .flagCentralAfricanRepublic: return ["flag: Central African Republic", "Central African Republic", "flag"]
+        case .womansBoot: return ["dress", "boot", "shoe", "clothing", "clothes", "woman’s", "shoes", "woman", "shopping"]
 
-        case .fireExtinguisher: return ["quench", "extinguisher", "extinguish", "fire", "fire extinguisher"]
+        case .handshakeMediumDarkSkinToneLightSkinTone: return ["meeting", "deal", "light", "hand", "shake", "tone,", "handshake", "agreement", "skin", "light skin tone", "tone", "handshake:", "dark", "medium", "medium dark skin tone"]
 
-        case .manTechnologistDarkSkinTone: return ["man technologist: dark skin tone", "coder", "dark skin tone", "man", "developer", "technologist:", "software", "technologist", "skin", "dark", "inventor", "tone"]
+        case .redPaperLantern: return ["red", "restaurant", "lantern", "bar", "light", "paper"]
 
-        case .handWithFingersSplayedMediumDarkSkinTone: return ["splayed", "finger", "tone", "hand with fingers splayed", "hand", "medium dark skin tone", "fingers", "splayed:", "with", "skin", "dark", "hand with fingers splayed: medium dark skin tone", "medium"]
+        case .crocodile: return ["zoo", "animal", "crocodile"]
 
-        case .constructionWorkerLightSkinTone: return ["worker", "light", "skin", "light skin tone", "construction worker: light skin tone", "construction", "tone", "worker:", "hat"]
+        case .manDancing: return ["salsa", "dancing", "dance", "flair", "let’s", "tango", "dancer", "elegant", "groove", "flamenco", "festive", "man"]
 
-        case .flagStLucia: return ["flag: St. Lucia", "flag", "St. Lucia"]
+        case .familyManWomanGirlBoy: return ["girl,", "woman", "boy", "girl", "man,", "woman,", "child", "family", "family:", "man"]
 
-        case .flagGuineaBissau: return ["Guinea Bissau", "flag: Guinea Bissau", "flag"]
+        case .onion: return ["flavoring", "onion"]
 
-        case .bottleWithPoppingCork: return ["popping", "bar", "bottle with popping cork", "bottle", "cork", "drink", "with"]
+        case .dashingAway: return ["comic", "dashing", "fart", "gone", "go", "smoke", "fast", "cloud", "away", "dash", "running", "gotta"]
 
-        case .familyWomanWomanBoy: return ["family:", "family: woman, woman, boy", "boy", "family", "woman", "woman,"]
+        case .rightwardsPushingHandLightSkinTone: return ["hold", "rightward", "hand:", "tone", "stop", "high", "halt", "light skin tone", "push", "wait", "pushing", "skin", "five", "refuse", "slap", "rightwards", "light", "hand", "pause", "block"]
 
-        case .lightBulb: return ["bulb", "electric", "light", "idea", "comic"]
+        case .phoenix: return ["firebird", "ascension", "rise", "glory", "ascend", "emerge", "revival", "transform", "fantasy", "reincarnation", "reinvent", "revive", "rebirth", "immortal", "phoenix", "renewal"]
 
-        case .cookie: return ["cookie", "sweet", "dessert"]
+        case .windChime: return ["bell", "chime", "celebration", "wind"]
 
-        case .flagArgentina: return ["flag: Argentina", "Argentina", "flag"]
+        case .dottedSixPointedStar: return ["jewish", "fortune", "six", "six pointed", "judaism", "dotted", "star", "pointed"]
 
-        case .cookedRice: return ["rice", "cooked"]
+        case .personBikingDarkSkinTone: return ["bicycle", "cycle", "bicyclist", "cyclist", "sport", "riding", "tone", "dark skin tone", "dark", "biking:", "biking", "bike", "skin", "person"]
 
-        case .nutAndBolt: return ["bolt", "and", "nut", "tool", "nut and bolt"]
+        case .airplaneDeparture: return ["aeroplane", "plane", "departures", "airplane", "check in", "departure"]
 
-        case .pregnantPersonMediumDarkSkinTone: return ["belly", "person:", "full", "pregnant person", "skin", "tone", "pregnant person: medium dark skin tone", "dark", "bloated", "medium dark skin tone", "pregnant", "medium"]
+        case .yoYo: return ["yo", "toy", "yo yo", "fluctuate"]
 
-        case .construction: return ["barrier", "construction"]
+        case .rightwardsHandMediumDarkSkinTone: return ["dark", "hold", "handshake", "shake", "reach", "medium dark skin tone", "right", "hand:", "rightwards", "medium", "tone", "skin", "rightward", "hand"]
 
-        case .inputNumbers: return ["numbers", "input", "1234"]
+        case .goblin: return ["fairytale", "angry", "fantasy", "face", "goblin", "mask", "mean", "creature", "monster", "tale", "fairy"]
 
-        case .factoryWorkerMediumSkinTone: return ["industrial", "skin", "worker:", "worker", "medium", "factory worker: medium skin tone", "tone", "medium skin tone", "factory", "assembly"]
+        case .personFeedingBabyMediumDarkSkinTone: return ["skin", "tone", "person", "parent", "medium dark skin tone", "nursing", "baby:", "feeding", "medium", "feed", "baby", "nanny", "newborn", "dark"]
 
-        case .camel: return ["hump", "dromedary", "camel"]
+        case .hollowRedCircle: return ["red", "heavy", "o", "circle", "hollow", "large"]
 
-        case .handbag: return ["handbag", "bag", "purse", "clothing"]
+        case .speakerHighVolume: return ["high", "loud", "speaker", "volume", "sound", "music"]
 
-        case .officeWorkerMediumLightSkinTone: return ["worker:", "light", "skin", "office", "office worker: medium light skin tone", "medium", "medium light skin tone", "business", "white collar", "manager", "architect", "office worker", "tone"]
+        case .personInTuxedoDarkSkinTone: return ["tuxedo", "dark skin tone", "tuxedo:", "in", "person", "wedding", "dark", "formal", "skin", "tone"]
 
-        case .bacon: return ["breakfast", "meat", "food", "bacon"]
+        case .flagUsOutlyingIslands: return ["U.S. Outlying Islands", "flag"]
 
-        case .womanAstronautMediumLightSkinTone: return ["astronaut", "medium light skin tone", "rocket", "astronaut:", "woman", "woman astronaut: medium light skin tone", "light", "medium", "skin", "tone"]
+        case .angerSymbol: return ["angry", "anger", "comic", "mad", "upset", "symbol"]
 
-        case .convenienceStore: return ["store", "convenience"]
+        case .manStudentMediumSkinTone: return ["tone", "graduate", "skin", "medium", "student:", "man", "medium skin tone", "student"]
 
-        case .mechanicalLeg: return ["mechanical", "mechanical leg", "leg", "prosthetic", "accessibility"]
+        case .glasses: return ["glasses", "clothing", "eyewear", "eye", "eyeglasses"]
 
-        case .womenHoldingHandsMediumSkinToneLightSkinTone: return ["hand", "medium skin tone", "light skin tone", "women holding hands: medium skin tone, light skin tone", "women", "hands:", "women holding hands", "holding hands", "medium", "skin", "holding", "light", "couple", "tone", "tone,"]
+        case .personGolfingMediumSkinTone: return ["putt", "birdie", "range", "ball", "person", "driving", "tone", "golfing:", "pga", "medium skin tone", "caddy", "medium", "skin", "golf", "tee", "green", "golfing"]
 
-        case .flagCzechia: return ["flag: Czechia", "flag", "Czechia"]
+        case .strawberry: return ["berry", "fruit", "strawberry"]
 
-        case .personInTuxedoMediumSkinTone: return ["person in tuxedo", "person in tuxedo: medium skin tone", "tuxedo:", "medium", "tuxedo", "skin", "tone", "medium skin tone", "in", "person", "groom"]
+        case .handshakeLightSkinToneDarkSkinTone: return ["skin", "dark", "meeting", "agreement", "dark skin tone", "handshake:", "tone,", "light skin tone", "shake", "handshake", "hand", "tone", "light", "deal"]
 
-        case .gear: return ["cogwheel", "cog", "gear", "tool"]
+        case .thumbsDownMediumSkinTone: return ["thumb", "no", "tone", "good", "down:", "thumbs", "bad", "dislike", "1", "nope", "medium", "down", "hand", "medium skin tone", "skin"]
 
-        case .personInSuitLevitating: return ["person", "suit", "levitating", "in", "person in suit levitating", "business"]
+        case .wedding: return ["romance", "chapel", "nuptials", "hitched", "wedding"]
 
-        case .rightwardsHand: return ["right", "hand", "rightward", "rightwards", "rightwards hand"]
+        case .umbrellaWithRainDrops: return ["drop", "rain", "umbrella", "clothing", "drops", "with", "weather"]
 
-        case .shoppingBags: return ["bags", "shopping bags", "bag", "hotel", "shopping"]
+        case .family: return ["child", "family"]
 
-        case .flagMalta: return ["flag", "flag: Malta", "Malta"]
+        case .blueSquare: return ["square", "blue"]
 
-        case .redCircle: return ["circle", "red", "geometric"]
+        case .mosquito: return ["mosquito", "fever", "pest", "virus", "malaria", "bite", "disease", "insect"]
 
-        case .inputLatinLowercase: return ["abcd", "lowercase", "input", "latin", "letters"]
+        case .flagCaribbeanNetherlands: return ["Caribbean Netherlands", "flag"]
 
-        case .foldedHandsDarkSkinTone: return ["thanks", "skin", "folded hands", "dark", "tone", "ask", "folded hands: dark skin tone", "hands:", "pray", "hand", "dark skin tone", "high five", "high 5", "please", "folded"]
+        case .personLiftingWeightsMediumSkinTone: return ["workout", "barbell", "powerlifting", "lifting", "weights", "weightlifter", "person", "tone", "lifter", "deadlift", "skin", "weights:", "medium skin tone", "weight", "medium", "bodybuilder"]
 
-        case .whiteHair: return ["hair", "old", "white", "gray"]
+        case .butter: return ["dairy", "butter"]
 
-        case .tram: return ["trolleybus", "tram"]
+        case .derelictHouse: return ["home", "derelict", "house"]
 
-        case .boyMediumLightSkinTone: return ["young", "boy:", "medium", "boy", "light", "skin", "tone", "boy: medium light skin tone", "medium light skin tone"]
+        case .personPlayingWaterPolo: return ["sport", "water", "swimming", "person", "polo", "playing", "waterpolo"]
 
-        case .womanDancing: return ["dancing", "dance", "woman"]
+        case .womenHoldingHandsMediumLightSkinToneLightSkinTone: return ["hands:", "couple", "sisters", "bff", "women", "hold", "friends", "bae", "skin", "tone,", "dating", "tone", "medium light skin tone", "holding", "twins", "light", "bestie", "light skin tone", "flirt", "girls", "medium", "hand"]
 
-        case .pineapple: return ["fruit", "pineapple"]
+        case .crossedFingersDarkSkinTone: return ["crossed", "dark", "dark skin tone", "tone", "cross", "finger", "fingers:", "skin", "luck", "fingers", "hand"]
 
-        case .studentMediumSkinTone: return ["student:", "medium skin tone", "medium", "student: medium skin tone", "student", "tone", "graduate", "skin"]
+        case .personSwimmingDarkSkinTone: return ["person", "freestyle", "tone", "triathlon", "swimmer", "swimming:", "skin", "sport", "dark", "swimming", "swim", "dark skin tone"]
 
-        case .boxingGlove: return ["boxing", "glove"]
+        case .manScientistDarkSkinTone: return ["physicist", "dark skin tone", "engineer", "man", "mathematician", "biologist", "scientist", "skin", "chemist", "scientist:", "dark", "tone"]
 
-        case .jeans: return ["jeans", "clothing", "trousers", "pants"]
+        case .manFactoryWorkerDarkSkinTone: return ["man", "industrial", "factory", "dark", "dark skin tone", "worker", "assembly", "skin", "tone", "worker:"]
 
-        case .manDarkSkinToneRedHair: return ["man: dark skin tone, red hair", "dark skin tone", "adult", "man", "skin", "tone,", "red", "dark", "hair", "man:", "red hair"]
+        case .flagAmericanSamoa: return ["flag", "American Samoa"]
 
-        case .airplane: return ["aeroplane", "airplane"]
+        case .redQuestionMark: return ["?", "mark", "punctuation", "red", "question"]
 
-        case .houseWithGarden: return ["house with garden", "with", "home", "garden", "house"]
+        case .computerMouse: return ["mouse", "computer"]
 
-        case .blackFlag: return ["flag", "black", "waving", "black flag"]
+        case .oldWomanDarkSkinTone: return ["dark", "grandmother", "elderly", "woman", "wise", "old", "dark skin tone", "grandma", "lady", "woman:", "skin", "adult", "granny", "tone"]
 
-        case .personSwimmingMediumDarkSkinTone: return ["person swimming", "skin", "person swimming: medium dark skin tone", "tone", "swimming:", "person", "medium dark skin tone", "swim", "medium", "dark"]
+        case .personMountainBikingMediumLightSkinTone: return ["cyclist", "biking:", "bicycle", "light", "riding", "tone", "mountain", "bicyclist", "medium", "biking", "medium light skin tone", "person", "cycle", "skin", "bike", "sport"]
 
-        case .backhandIndexPointingDownMediumSkinTone: return ["pointing", "index", "point", "skin", "finger", "down:", "medium skin tone", "medium", "backhand", "hand", "down", "backhand index pointing down: medium skin tone", "backhand index pointing down", "tone"]
+        case .flagTurksCaicosIslands: return ["flag", "Turks & Caicos Islands"]
 
-        case .faceSavoringFood: return ["yum", "face savoring food", "face", "savoring", "smile", "food", "delicious", "savouring"]
+        case .openHands: return ["hand", "hands", "jazz", "hug", "open", "swerve"]
 
-        case .leftwardsPushingHand: return ["wait", "stop", "high five", "pushing", "hand", "push", "refuse", "leftwards", "leftwards pushing hand", "leftward"]
+        case .womenHoldingHandsMediumSkinToneMediumLightSkinTone: return ["hands:", "couple", "sisters", "bff", "women", "hold", "friends", "bae", "skin", "tone,", "dating", "medium skin tone", "tone", "medium light skin tone", "holding", "twins", "light", "bestie", "medium", "flirt", "girls", "hand"]
 
-        case .pregnantWomanMediumLightSkinTone: return ["skin", "tone", "pregnant", "woman", "medium", "pregnant woman: medium light skin tone", "woman:", "light", "medium light skin tone"]
+        case .teapot: return ["pot", "teapot", "food", "drink", "brew", "tea"]
 
-        case .callMeHandDarkSkinTone: return ["Shaka", "me", "hand:", "hang loose", "call me hand", "call", "dark", "skin", "tone", "dark skin tone", "call me hand: dark skin tone", "hand"]
+        case .rootVegetable: return ["vegetarian", "beet", "radish", "root", "turnip", "food", "garden", "vegetable", "salad"]
 
-        case .personLiftingWeightsDarkSkinTone: return ["person lifting weights: dark skin tone", "dark", "person lifting weights", "weight", "person", "skin", "tone", "dark skin tone", "lifter", "lifting", "weights:"]
+        case .hatchingChick: return ["baby", "animal", "hatching", "chick", "egg", "bird"]
 
-        case .clappingHandsMediumLightSkinTone: return ["clapping", "medium light skin tone", "clap", "skin", "clapping hands: medium light skin tone", "light", "tone", "medium", "hand", "clapping hands", "hands:"]
+        case .personPoutingDarkSkinTone: return ["disappointed", "pouting:", "tone", "upset", "whine", "dark", "downtrodden", "dark skin tone", "pouting", "person", "skin", "frown", "grimace", "sulk", "scowl"]
 
-        case .breastFeedingMediumSkinTone: return ["tone", "baby", "feeding:", "breast feeding: medium skin tone", "skin", "breast feeding", "breast", "medium skin tone", "nursing", "medium"]
+        case .bitingLip: return ["kiss", "lip", "lipstick", "bite", "biting", "sexy", "anxious", "flirt", "fear", "uncomfortable", "flirting", "nervous", "worried", "worry"]
 
-        case .personPoutingMediumLightSkinTone: return ["pouting", "tone", "gesture", "skin", "medium", "person", "person pouting", "person pouting: medium light skin tone", "pouting:", "light", "medium light skin tone"]
+        case .bread: return ["bread", "grain", "restaurant", "loaf", "carbs", "food", "toast", "wheat"]
 
-        case .raisedFistMediumLightSkinTone: return ["fist:", "medium", "hand", "light", "skin", "raised fist", "tone", "punch", "fist", "raised", "medium light skin tone", "clenched", "raised fist: medium light skin tone"]
+        case .palmDownHandMediumDarkSkinTone: return ["pick", "shoo", "hand:", "up", "skin", "drop", "medium", "dropped", "down", "hand", "medium dark skin tone", "dismiss", "palm", "tone", "dark"]
 
-        case .confusedFace: return ["meh", "face", "confused"]
+        case .manArtist: return ["man", "palette", "artist"]
 
-        case .mirror: return ["mirror", "reflector", "speculum", "reflection"]
+        case .detectiveMediumLightSkinTone: return ["detective", "light", "tone", "skin", "detective:", "medium light skin tone", "sleuth", "spy", "medium"]
 
-        case .princeLightSkinTone: return ["tone", "prince:", "prince: light skin tone", "prince", "light", "light skin tone", "skin"]
+        case .inputLatinUppercase: return ["letters", "uppercase", "ABCD", "input", "latin"]
 
-        case .flagSierraLeone: return ["flag: Sierra Leone", "Sierra Leone", "flag"]
+        case .personShruggingMediumLightSkinTone: return ["person", "shrug", "guess", "idk", "whatever", "doubt", "indifference", "maybe", "shrugging", "medium light skin tone", "dunno", "knows", "shrugging:", "medium", "light", "ignorance", "tone", "who", "skin"]
 
-        case .scientistMediumLightSkinTone: return ["biologist", "medium light skin tone", "chemist", "skin", "physicist", "tone", "scientist:", "scientist", "engineer", "scientist: medium light skin tone", "light", "medium"]
+        case .rollerSkate: return ["blades", "roller", "sport", "skate", "skates"]
 
-        case .flagIsrael: return ["flag", "flag: Israel", "Israel"]
+        case .teddyBear: return ["toy", "plaything", "bear", "stuffed", "plush", "teddy"]
 
-        case .personMountainBikingDarkSkinTone: return ["bicyclist", "mountain", "bike", "bicycle", "person mountain biking", "skin", "person", "person mountain biking: dark skin tone", "biking:", "dark skin tone", "tone", "dark", "cyclist"]
+        case .personRunningLightSkinTone: return ["move", "light", "hurry", "running:", "tone", "quick", "marathon", "race", "run", "racing", "light skin tone", "skin", "rush", "person", "fast", "speed"]
 
-        case .personFacepalmingMediumLightSkinTone: return ["medium", "exasperation", "disbelief", "facepalming:", "light", "palm", "person facepalming: medium light skin tone", "tone", "person facepalming", "medium light skin tone", "face", "skin", "person"]
+        case .flagSomalia: return ["flag", "Somalia"]
 
-        case .flagCocosKeelingIslands: return ["flag: Cocos (Keeling) Islands", "Cocos (Keeling) Islands", "flag"]
+        case .leftRightArrow: return ["left", "right", "arrow", "left right"]
 
-        case .whiteSmallSquare: return ["small", "white small square", "geometric", "square", "white"]
+        case .babyMediumDarkSkinTone: return ["medium", "medium dark skin tone", "newborn", "children", "young", "pregnant", "goo", "baby:", "skin", "baby", "dark", "infant", "tone", "babies"]
 
-        case .disguisedFace: return ["incognito", "disguised face", "nose", "glasses", "face", "disguise", "disguised"]
+        case .sauropod: return ["diplodocus", "brontosaurus", "sauropod", "brachiosaurus", "dinosaur"]
 
-        case .inputLatinLetters: return ["latin", "alphabet", "letters", "abc", "input"]
+        case .pregnantWomanMediumDarkSkinTone: return ["woman:", "medium", "skin", "tone", "woman", "medium dark skin tone", "pregnant", "dark"]
 
-        case .smilingFaceWithSunglasses: return ["with", "cool", "sun", "sunglasses", "face", "smiling", "bright", "smiling face with sunglasses"]
+        case .flagGrenada: return ["Grenada", "flag"]
 
-        case .flagFaroeIslands: return ["flag", "flag: Faroe Islands", "Faroe Islands"]
+        case .deciduousTree: return ["shedding", "tree", "forest", "green", "deciduous", "habitat"]
 
-        case .personRowingBoatMediumDarkSkinTone: return ["person rowing boat", "person rowing boat: medium dark skin tone", "skin", "tone", "boat:", "boat", "rowboat", "medium", "dark", "person", "medium dark skin tone", "rowing"]
+        case .raisedHandLightSkinTone: return ["five", "stop", "skin", "tone", "high", "5", "hand:", "light", "raised", "light skin tone", "hand"]
 
-        case .roundPushpin: return ["pin", "round", "pushpin", "round pushpin"]
-
-        case .personPlayingHandball: return ["handball", "ball", "person", "person playing handball", "playing"]
-
-        case .pageWithCurl: return ["document", "page", "curl", "with", "page with curl"]
-
-        case .riceCracker: return ["cracker", "rice"]
-
-        case .personInSteamyRoomMediumSkinTone: return ["room:", "steamy", "person in steamy room: medium skin tone", "medium skin tone", "steam room", "in", "skin", "sauna", "tone", "medium", "person in steamy room", "person"]
-
-        case .japaneseApplicationButton: return ["“application”", "申", "Japanese", "Japanese “application” button", "button", "ideograph"]
-
-        case .flagAlandIslands: return ["flag: Åland Islands", "Åland Islands", "flag"]
-
-        case .personBiking: return ["cyclist", "bicycle", "person", "person biking", "biking"]
-
-        case .knot: return ["tie", "twine", "twist", "tangled", "rope", "knot"]
-
-        case .peach: return ["fruit", "peach"]
-
-        case .womanCookDarkSkinTone: return ["dark", "cook:", "tone", "dark skin tone", "woman cook: dark skin tone", "woman", "chef", "cook", "skin"]
-
-        case .flagSudan: return ["flag: Sudan", "Sudan", "flag"]
-
-        case .globeShowingAmericas: return ["world", "earth", "globe", "Americas", "globe showing Americas", "showing"]
-
-        case .womanMediumSkinToneBald: return ["medium", "adult", "woman", "tone,", "medium skin tone", "woman: medium skin tone, bald", "bald", "skin", "woman:"]
-
-        case .guideDog: return ["guide dog", "blind", "dog", "accessibility", "guide"]
-
-        case .handshakeLightSkinToneMediumLightSkinTone: return ["handshake: light skin tone, medium light skin tone", "tone", "light skin tone", "skin", "light", "agreement", "medium light skin tone", "medium", "meeting", "handshake:", "hand", "handshake", "shake", "tone,"]
-
-        case .statueOfLiberty: return ["liberty", "Statue of Liberty", "of", "Liberty", "statue", "Statue"]
-
-        case .hikingBoot: return ["camping", "hiking", "boot", "backpacking"]
-
-        case .briefs: return ["briefs", "one piece", "bathing suit", "swimsuit", "underwear"]
-
-        case .verticalTrafficLight: return ["signal", "light", "vertical traffic light", "vertical", "traffic"]
-
-        case .oldWomanMediumDarkSkinTone: return ["medium", "old", "adult", "medium dark skin tone", "woman", "dark", "old woman: medium dark skin tone", "skin", "tone", "woman:"]
-
-        case .palmUpHandDarkSkinTone: return ["come", "palm", "palm up hand: dark skin tone", "skin", "dark skin tone", "palm up hand", "beckon", "offer", "catch", "tone", "hand:", "up", "dark"]
-
-        case .backhandIndexPointingUpMediumDarkSkinTone: return ["backhand index pointing up: medium dark skin tone", "medium", "backhand", "backhand index pointing up", "hand", "dark", "skin", "medium dark skin tone", "tone", "up", "pointing", "finger", "up:", "point", "index"]
-
-        case .oldWomanLightSkinTone: return ["skin", "old", "woman", "light skin tone", "woman:", "light", "adult", "tone", "old woman: light skin tone"]
-
-        case .personGesturingNoMediumDarkSkinTone: return ["forbidden", "person gesturing NO", "dark", "NO:", "prohibited", "gesture", "medium", "medium dark skin tone", "person gesturing NO: medium dark skin tone", "hand", "person", "gesturing", "tone", "skin"]
-
-        case .shushingFace: return ["shushing", "shush", "quiet", "shushing face", "face"]
-
-        case .personMediumLightSkinTone: return ["person:", "skin", "light", "person: medium light skin tone", "adult", "person", "gender neutral", "unspecified gender", "medium light skin tone", "medium", "tone"]
-
-        case .minibus: return ["minibus", "bus"]
-
-        case .oilDrum: return ["drum", "oil"]
-
-        case .flagParaguay: return ["flag: Paraguay", "Paraguay", "flag"]
-
-        case .backhandIndexPointingUpMediumLightSkinTone: return ["up:", "medium", "skin", "tone", "index", "light", "up", "backhand", "hand", "backhand index pointing up: medium light skin tone", "medium light skin tone", "finger", "backhand index pointing up", "point", "pointing"]
-
-        case .familyManWomanGirl: return ["woman", "family: man, woman, girl", "family", "man", "woman,", "family:", "girl", "man,"]
-
-        case .personSurfingMediumSkinTone: return ["surfing", "medium", "tone", "person", "skin", "person surfing", "person surfing: medium skin tone", "surfing:", "medium skin tone"]
-
-        case .beetle: return ["beetle", "bug", "insect"]
-
-        case .airplaneArrival: return ["arrival", "aeroplane", "airplane", "landing", "arrivals", "arriving", "airplane arrival"]
-
-        case .womanAstronautMediumSkinTone: return ["skin", "woman astronaut: medium skin tone", "astronaut", "rocket", "woman", "astronaut:", "medium", "tone", "medium skin tone"]
-
-        case .callMeHand: return ["hang loose", "me", "Shaka", "call", "call me hand", "hand"]
-
-        case .cannedFood: return ["canned", "can", "food", "canned food"]
-
-        case .lightBlueHeart: return ["light blue heart", "blue", "cyan", "light", "heart", "light blue", "teal"]
-
-        case .backhandIndexPointingUpDarkSkinTone: return ["index", "tone", "dark skin tone", "up", "hand", "up:", "dark", "finger", "backhand", "pointing", "point", "skin", "backhand index pointing up", "backhand index pointing up: dark skin tone"]
-
-        case .telescope: return ["science", "telescope", "tool"]
-
-        case .heartHandsMediumSkinTone: return ["hands:", "heart hands", "love", "medium skin tone", "skin", "tone", "heart hands: medium skin tone", "heart", "medium"]
-
-        case .crossedFingersMediumDarkSkinTone: return ["skin", "crossed", "hand", "crossed fingers: medium dark skin tone", "crossed fingers", "medium dark skin tone", "luck", "dark", "medium", "finger", "cross", "fingers:", "tone"]
-
-        case .flagJapan: return ["flag: Japan", "flag", "Japan"]
-
-        case .oncomingFistLightSkinTone: return ["oncoming fist", "fist", "oncoming", "light", "clenched", "oncoming fist: light skin tone", "fist:", "punch", "skin", "light skin tone", "tone", "hand"]
-
-        case .babyAngelLightSkinTone: return ["light skin tone", "baby", "angel:", "light", "angel", "baby angel: light skin tone", "fantasy", "tone", "face", "skin", "fairy tale"]
-
-        case .starOfDavid: return ["religion", "star", "star of David", "Jew", "of", "David", "Jewish"]
-
-        case .flagTurkiye: return ["flag", "Türkiye", "flag: Türkiye"]
-
-        case .thumbsDownMediumSkinTone: return ["down", "tone", "thumbs down", "medium", "thumbs down: medium skin tone", "down:", "medium skin tone", "skin", "1", "thumb", "thumbs", "hand"]
-
-        case .manMediumDarkSkinTone: return ["skin", "man: medium dark skin tone", "tone", "man", "adult", "medium dark skin tone", "medium", "dark", "man:"]
-
-        case .faceWithOpenEyesAndHandOverMouth: return ["scared", "awe", "mouth", "embarrass", "eyes", "with", "amazement", "disbelief", "and", "hand", "surprise", "face with open eyes and hand over mouth", "face", "over", "open"]
-
-        case .familyManWomanBoy: return ["family:", "family: man, woman, boy", "woman", "family", "man", "woman,", "boy", "man,"]
-
-        case .moonCake: return ["cake", "festival", "moon cake", "autumn", "yuèbǐng", "moon"]
-
-        case .loveYouGestureLightSkinTone: return ["light skin tone", "gesture:", "you", "love you gesture: light skin tone", "skin", "ILY", "love you gesture", "love", "tone", "hand", "light"]
-
-        case .yinYang: return ["tao", "religion", "taoist", "yin", "yang"]
-
-        case .babyAngelMediumSkinTone: return ["baby angel: medium skin tone", "baby", "angel:", "angel", "fantasy", "tone", "face", "medium skin tone", "skin", "medium", "fairy tale"]
-
-        case .mountainCableway: return ["mountain cableway", "gondola", "mountain", "cable", "cableway"]
-
-        case .personPouting: return ["person pouting", "pouting", "gesture", "person"]
-
-        case .chipmunk: return ["squirrel", "chipmunk"]
-
-        case .desktopComputer: return ["computer", "desktop"]
-
-        case .womanAndManHoldingHandsLightSkinToneMediumLightSkinTone: return ["hand", "couple", "tone", "light", "light skin tone", "hold", "medium", "holding", "and", "woman and man holding hands: light skin tone, medium light skin tone", "medium light skin tone", "woman and man holding hands", "woman", "holding hands", "man", "skin", "hands:", "tone,"]
-
-        case .flagStVincentGrenadines: return ["flag: St. Vincent & Grenadines", "flag", "St. Vincent & Grenadines"]
-
-        case .flagBenin: return ["Benin", "flag: Benin", "flag"]
-
-        case .constructionWorker: return ["construction", "worker", "hat"]
-
-        case .manCookMediumSkinTone: return ["man", "medium", "skin", "tone", "medium skin tone", "cook:", "chef", "man cook: medium skin tone", "cook"]
-
-        case .menHoldingHandsMediumDarkSkinToneMediumSkinTone: return ["men holding hands", "zodiac", "couple", "medium skin tone", "holding", "dark", "skin", "Gemini", "man", "hands:", "holding hands", "tone,", "tone", "men", "men holding hands: medium dark skin tone, medium skin tone", "twins", "medium dark skin tone", "medium"]
-
-        case .dolphin: return ["dolphin", "flipper"]
-
-        case .kissMediumLightSkinTone: return ["kiss: medium light skin tone", "kiss:", "kiss", "skin", "couple", "light", "tone", "medium light skin tone", "medium"]
-
-        case .cityscapeAtDusk: return ["city", "sunset", "cityscape at dusk", "landscape", "dusk", "at", "evening", "cityscape"]
-
-        case .handWithIndexFingerAndThumbCrossedMediumLightSkinTone: return ["love", "medium light skin tone", "snap", "expensive", "and", "finger", "light", "skin", "hand", "hand with index finger and thumb crossed", "money", "heart", "thumb", "crossed:", "index", "tone", "hand with index finger and thumb crossed: medium light skin tone", "with", "medium"]
-
-        case .redExclamationMark: return ["mark", "!", "exclamation", "punctuation", "red exclamation mark", "red"]
-
-        case .womanAndManHoldingHandsDarkSkinToneLightSkinTone: return ["woman and man holding hands: dark skin tone, light skin tone", "hand", "skin", "tone,", "woman and man holding hands", "dark skin tone", "dark", "tone", "and", "holding", "man", "hands:", "light skin tone", "couple", "light", "woman", "hold", "holding hands"]
-
-        case .handshakeDarkSkinToneMediumLightSkinTone: return ["handshake: dark skin tone, medium light skin tone", "hand", "handshake", "tone", "agreement", "tone,", "meeting", "dark", "medium light skin tone", "skin", "medium", "light", "dark skin tone", "shake", "handshake:"]
-
-        case .whiteExclamationMark: return ["!", "exclamation", "outlined", "punctuation", "white exclamation mark", "white", "mark"]
-
-        case .robot: return ["monster", "robot", "face"]
-
-        case .personFacepalming: return ["facepalming", "exasperation", "person", "face", "palm", "disbelief", "person facepalming"]
-
-        case .cucumber: return ["food", "pickle", "vegetable", "cucumber"]
-
-        case .identificationCard: return ["identification", "license", "card", "ID", "identification card", "security", "credentials"]
-
-        case .mrsClausMediumLightSkinTone: return ["medium light skin tone", "mother", "Mrs. Claus: medium light skin tone", "Christmas", "Mrs.", "light", "tone", "claus", "skin", "celebration", "Claus:", "medium"]
-
-        case .oldManLightSkinTone: return ["light", "tone", "old", "man", "light skin tone", "skin", "man:", "old man: light skin tone", "adult"]
-
-        case .plunger: return ["force cup", "plumber", "suction", "plunger", "toilet"]
-
-        case .personWithWhiteCaneMediumLightSkinTone: return ["medium", "skin", "cane:", "white", "person", "accessibility", "person with white cane: medium light skin tone", "blind", "light", "medium light skin tone", "with", "tone", "person with white cane"]
-
-        case .manArtistLightSkinTone: return ["man", "artist:", "artist", "skin", "light skin tone", "tone", "light", "man artist: light skin tone", "palette"]
-
-        case .menHoldingHandsMediumLightSkinToneMediumSkinTone: return ["man", "medium light skin tone", "holding", "men", "men holding hands", "couple", "zodiac", "Gemini", "twins", "tone,", "medium", "skin", "men holding hands: medium light skin tone, medium skin tone", "hands:", "light", "holding hands", "tone", "medium skin tone"]
-
-        case .personInMotorizedWheelchair: return ["motorized", "accessibility", "person", "person in motorized wheelchair", "in", "wheelchair"]
-
-        case .menHoldingHandsLightSkinTone: return ["light skin tone", "holding hands", "holding", "man", "men", "men holding hands", "Gemini", "zodiac", "hands:", "couple", "twins", "skin", "tone", "light", "men holding hands: light skin tone"]
-
-        case .princessMediumDarkSkinTone: return ["fairy tale", "medium dark skin tone", "fantasy", "skin", "tone", "princess:", "princess: medium dark skin tone", "dark", "princess", "medium"]
-
-        case .noseMediumLightSkinTone: return ["tone", "skin", "nose: medium light skin tone", "light", "medium light skin tone", "medium", "body", "nose", "nose:"]
-
-        case .ninjaMediumSkinTone: return ["tone", "ninja", "fighter", "ninja: medium skin tone", "medium skin tone", "hidden", "ninja:", "medium", "stealth", "skin"]
-
-        case .bat: return ["vampire", "bat"]
-
-        case .princessMediumSkinTone: return ["fairy tale", "princess:", "princess", "fantasy", "skin", "medium skin tone", "princess: medium skin tone", "medium", "tone"]
-
-        case .mechanicMediumLightSkinTone: return ["mechanic: medium light skin tone", "mechanic", "electrician", "mechanic:", "medium", "light", "skin", "medium light skin tone", "tradesperson", "plumber", "tone"]
-
-        case .leftFacingFist: return ["fist", "left facing fist", "left", "facing", "leftwards"]
-
-        case .telephone: return ["telephone", "phone"]
-
-        case .redEnvelope: return ["money", "red envelope", "red", "hóngbāo", "gift", "envelope", "lai see", "good luck"]
-
-        case .personJugglingDarkSkinTone: return ["person juggling: dark skin tone", "multitask", "dark skin tone", "person", "tone", "skin", "person juggling", "juggle", "dark", "skill", "juggling:", "balance"]
-
-        case .bullseye: return ["game", "dart", "bullseye", "hit", "target", "direct hit"]
-
-        case .noBicycles: return ["bicycle", "forbidden", "no bicycles", "bike", "bicycles", "prohibited", "no"]
-
-        case .womanWithWhiteCaneMediumDarkSkinTone: return ["with", "medium dark skin tone", "woman with white cane: medium dark skin tone", "dark", "tone", "blind", "woman with white cane", "medium", "white", "cane:", "skin", "accessibility", "woman"]
-
-        case .brightButton: return ["brightness", "bright", "bright button", "button"]
-
-        case .cityscape: return ["city", "cityscape"]
-
-        case .oyster: return ["pearl", "oyster", "diving"]
-
-        case .womanAndManHoldingHandsMediumLightSkinTone: return ["holding hands", "man", "skin", "hands:", "woman", "and", "light", "holding", "tone", "woman and man holding hands: medium light skin tone", "hand", "hold", "medium light skin tone", "couple", "woman and man holding hands", "medium"]
-
-        case .personTakingBathMediumDarkSkinTone: return ["taking", "bath:", "person taking bath: medium dark skin tone", "tone", "bath", "person", "bathtub", "medium", "skin", "person taking bath", "dark", "medium dark skin tone"]
-
-        case .stadium: return ["stadium"]
-
-        case .firefighterMediumLightSkinTone: return ["firefighter", "fire", "light", "skin", "firefighter: medium light skin tone", "firefighter:", "tone", "firetruck", "medium", "medium light skin tone"]
-
-        case .singerMediumLightSkinTone: return ["rock", "star", "medium", "light", "entertainer", "tone", "singer", "skin", "medium light skin tone", "singer: medium light skin tone", "actor", "singer:"]
-
-        case .foldedHandsMediumSkinTone: return ["folded hands: medium skin tone", "high 5", "ask", "folded", "medium skin tone", "thanks", "medium", "please", "hands:", "high five", "pray", "folded hands", "skin", "hand", "tone"]
-
-        case .peopleHoldingHandsMediumLightSkinToneMediumDarkSkinTone: return ["hand", "tone", "people holding hands", "holding hands", "dark", "couple", "light", "person", "people", "medium", "skin", "tone,", "people holding hands: medium light skin tone, medium dark skin tone", "medium light skin tone", "medium dark skin tone", "holding", "hold", "hands:"]
-
-        case .olderPerson: return ["unspecified gender", "older", "old", "adult", "person", "gender neutral", "older person"]
-
-        case .flagChad: return ["Chad", "flag: Chad", "flag"]
-
-        case .bouquet: return ["bouquet", "flower"]
-
-        case .bus: return ["vehicle", "bus"]
-
-        case .deafPersonMediumSkinTone: return ["person:", "ear", "skin", "medium skin tone", "deaf person: medium skin tone", "tone", "deaf", "hear", "accessibility", "deaf person", "medium"]
-
-        case .supervillainDarkSkinTone: return ["tone", "superpower", "dark skin tone", "evil", "supervillain", "supervillain:", "villain", "supervillain: dark skin tone", "dark", "criminal", "skin"]
-
-        case .personInTuxedoMediumLightSkinTone: return ["light", "skin", "in", "medium", "medium light skin tone", "tone", "person in tuxedo", "person in tuxedo: medium light skin tone", "tuxedo", "tuxedo:", "groom", "person"]
-
-        case .tokyoTower: return ["tower", "Tokyo"]
-
-        case .smallOrangeDiamond: return ["small", "diamond", "geometric", "orange", "small orange diamond"]
-
-        case .olderPersonMediumDarkSkinTone: return ["unspecified gender", "older", "dark", "person:", "older person", "tone", "old", "skin", "gender neutral", "older person: medium dark skin tone", "medium dark skin tone", "adult", "medium"]
-
-        case .shower: return ["shower", "water"]
-
-        case .dottedLineFace: return ["dotted line face", "line", "hide", "introvert", "face", "disappear", "depressed", "dotted", "invisible"]
-
-        case .sparkles: return ["sparkles", "*", "sparkle", "star"]
-
-        case .mageDarkSkinTone: return ["skin", "tone", "dark skin tone", "sorcerer", "mage", "sorceress", "wizard", "dark", "mage: dark skin tone", "witch", "mage:"]
-
-        case .personGettingHaircutDarkSkinTone: return ["parlor", "haircut", "beauty", "person getting haircut", "haircut:", "dark skin tone", "person", "tone", "barber", "person getting haircut: dark skin tone", "skin", "dark", "getting"]
-
-        case .earWithHearingAidMediumDarkSkinTone: return ["medium", "tone", "ear with hearing aid: medium dark skin tone", "hard of hearing", "medium dark skin tone", "aid:", "skin", "with", "ear", "hearing", "ear with hearing aid", "accessibility", "dark"]
-
-        case .magnifyingGlassTiltedLeft: return ["glass", "tilted", "magnifying glass tilted left", "tool", "magnifying", "left", "search"]
-
-        case .manFarmerLightSkinTone: return ["tone", "light skin tone", "skin", "man farmer: light skin tone", "rancher", "light", "gardener", "farmer", "farmer:", "man"]
-
-        case .womanWithWhiteCaneDarkSkinTone: return ["tone", "woman", "woman with white cane: dark skin tone", "dark skin tone", "accessibility", "woman with white cane", "white", "cane:", "dark", "blind", "skin", "with"]
-
-        case .coupleWithHeartMediumLightSkinTone: return ["with", "love", "medium light skin tone", "medium", "couple", "couple with heart: medium light skin tone", "couple with heart", "heart:", "skin", "tone", "light"]
-
-        case .admissionTickets: return ["admission", "admission tickets", "tickets", "ticket"]
-
-        case .personRedHair: return ["red hair", "person:", "person: red hair", "person", "unspecified gender", "adult", "gender neutral", "red", "hair"]
-
-        case .zanyFace: return ["goofy", "zany", "face", "zany face", "large", "small", "eye"]
-
-        case .clockwiseVerticalArrows: return ["clockwise vertical arrows", "reload", "arrow", "clockwise", "vertical", "arrows"]
-
-        case .flagGuam: return ["flag: Guam", "Guam", "flag"]
-
-        case .womanWithWhiteCane: return ["blind", "white", "with", "accessibility", "woman", "cane", "woman with white cane"]
-
-        case .handshakeMediumDarkSkinTone: return ["tone", "meeting", "dark", "agreement", "handshake", "handshake: medium dark skin tone", "shake", "medium", "handshake:", "medium dark skin tone", "hand", "skin"]
-
-        case .womanTeacherMediumSkinTone: return ["medium skin tone", "woman teacher: medium skin tone", "instructor", "woman", "medium", "tone", "skin", "lecturer", "teacher:", "professor", "teacher"]
-
-        case .unlocked: return ["unlock", "open", "unlocked", "lock"]
-
-        case .pie: return ["pastry", "pie", "filling"]
-
-        case .personWithVeilDarkSkinTone: return ["person", "veil:", "person with veil: dark skin tone", "skin", "veil", "dark", "dark skin tone", "bride", "with", "tone", "person with veil", "wedding"]
-
-        case .boar: return ["pig", "boar"]
-
-        case .japaneseCongratulationsButton: return ["“congratulations”", "Japanese “congratulations” button", "Japanese", "祝", "button", "ideograph"]
-
-        case .cherryBlossom: return ["flower", "blossom", "cherry"]
-
-        case .shield: return ["shield", "weapon"]
-
-        case .backhandIndexPointingRight: return ["finger", "backhand", "hand", "point", "index", "pointing", "backhand index pointing right", "right"]
-
-        case .fairyMediumDarkSkinTone: return ["medium dark skin tone", "fairy", "Puck", "fairy: medium dark skin tone", "dark", "medium", "Oberon", "fairy:", "skin", "tone", "Titania"]
-
-        case .personCurlyHair: return ["person: curly hair", "adult", "person", "person:", "gender neutral", "unspecified gender", "curly hair", "curly", "hair"]
-
-        case .handshakeMediumLightSkinToneDarkSkinTone: return ["hand", "medium light skin tone", "medium", "handshake: medium light skin tone, dark skin tone", "meeting", "handshake:", "light", "agreement", "tone,", "skin", "dark skin tone", "tone", "dark", "handshake", "shake"]
-
-        case .personTippingHand: return ["person tipping hand", "sassy", "tipping", "information", "help", "hand", "person"]
-
-        case .kissingFaceWithSmilingEyes: return ["kissing face with smiling eyes", "eye", "with", "kissing", "smile", "face", "kiss", "smiling", "eyes"]
-
-        case .victoryHandMediumLightSkinTone: return ["hand:", "tone", "v", "victory hand: medium light skin tone", "hand", "medium light skin tone", "victory", "medium", "light", "skin"]
-
-        case .flagVaticanCity: return ["flag: Vatican City", "flag", "Vatican City"]
-
-        case .singerDarkSkinTone: return ["rock", "star", "dark skin tone", "tone", "entertainer", "singer: dark skin tone", "singer", "skin", "dark", "actor", "singer:"]
-
-        case .monkey: return ["monkey"]
-
-        case .clappingHandsMediumSkinTone: return ["medium skin tone", "clap", "skin", "tone", "clapping", "hands:", "hand", "clapping hands", "medium", "clapping hands: medium skin tone"]
-
-        case .flagTimorLeste: return ["flag: Timor Leste", "Timor Leste", "flag"]
-
-        case .flagLatvia: return ["flag: Latvia", "flag", "Latvia"]
-
-        case .luggage: return ["luggage", "travel", "packing"]
-
-        case .japaneseMonthlyAmountButton: return ["Japanese “monthly amount” button", "“monthly amount”", "button", "ideograph", "“monthly", "Japanese", "amount”", "月"]
-
-        case .cloudWithLightning: return ["cloud", "lightning", "cloud with lightning", "with"]
-
-        case .trumpet: return ["instrument", "trumpet", "music"]
-
-        case .womanAstronautLightSkinTone: return ["tone", "astronaut", "skin", "rocket", "light", "woman", "light skin tone", "woman astronaut: light skin tone", "astronaut:"]
-
-        case .zipperMouthFace: return ["zip", "zipper", "face", "mouth", "zipper mouth face"]
-
-        case .personWearingTurbanMediumLightSkinTone: return ["person", "person wearing turban", "turban", "light", "skin", "turban:", "medium", "wearing", "tone", "medium light skin tone", "person wearing turban: medium light skin tone"]
-
-        case .manFeedingBabyMediumLightSkinTone: return ["skin", "baby:", "feeding", "baby", "light", "nursing", "man feeding baby: medium light skin tone", "medium", "man", "tone", "medium light skin tone"]
-
-        case .forkAndKnifeWithPlate: return ["knife", "with", "fork and knife with plate", "cooking", "and", "fork", "plate"]
-
-        case .familyAdultAdultChild: return ["family:", "adult,", "child"]
-
-        case .hammer: return ["hammer", "tool"]
-
-        case .playOrPauseButton: return ["or", "button", "pause", "arrow", "play", "play or pause button", "triangle", "right"]
-
-        case .wavingHandLightSkinTone: return ["tone", "light", "wave", "hand:", "light skin tone", "waving hand: light skin tone", "waving", "skin", "hand"]
-
-        case .flagSouthSudan: return ["flag: South Sudan", "South Sudan", "flag"]
-
-        case .loveYouGestureMediumDarkSkinTone: return ["ILY", "love", "love you gesture", "medium dark skin tone", "you", "gesture:", "dark", "tone", "love you gesture: medium dark skin tone", "medium", "hand", "skin"]
-
-        case .manTechnologistMediumSkinTone: return ["coder", "developer", "tone", "man", "man technologist: medium skin tone", "technologist:", "software", "technologist", "skin", "medium skin tone", "inventor", "medium"]
-
-        case .womanLightSkinToneBald: return ["light skin tone", "bald", "woman:", "light", "skin", "tone,", "adult", "woman", "woman: light skin tone, bald"]
-
-        case .seeNoEvilMonkey: return ["monkey", "no", "see no evil monkey", "see", "evil", "forbidden", "face"]
-
-        case .umbrella: return ["clothing", "rain", "umbrella"]
-
-        case .personDarkSkinTone: return ["person:", "dark", "person: dark skin tone", "tone", "gender neutral", "dark skin tone", "unspecified gender", "adult", "skin", "person"]
-
-        case .ice: return ["iceberg", "cold", "ice", "ice cube"]
-
-        case .popcorn: return ["popcorn"]
-
-        case .cupWithStraw: return ["soda", "with", "cup with straw", "juice", "straw", "cup"]
-
-        case .personMountainBiking: return ["mountain", "person", "cyclist", "bicycle", "biking", "bike", "bicyclist", "person mountain biking"]
-
-        case .personSurfingMediumDarkSkinTone: return ["surfing", "person surfing: medium dark skin tone", "surfing:", "person surfing", "skin", "tone", "medium dark skin tone", "dark", "person", "medium"]
-
-        case .blackHeart: return ["black", "evil", "black heart", "wicked", "heart"]
-
-        case .womanFactoryWorker: return ["assembly", "worker", "industrial", "woman", "factory"]
-
-        case .personWithVeilMediumDarkSkinTone: return ["dark", "medium", "medium dark skin tone", "with", "person with veil", "veil:", "person", "wedding", "person with veil: medium dark skin tone", "bride", "tone", "veil", "skin"]
-
-        case .flagMoldova: return ["flag", "flag: Moldova", "Moldova"]
-
-        case .footMediumLightSkinTone: return ["foot:", "skin", "tone", "foot", "foot: medium light skin tone", "medium light skin tone", "medium", "kick", "stomp", "light"]
-
-        case .horseRacingLightSkinTone: return ["racehorse", "tone", "racing", "racing:", "skin", "light skin tone", "horse racing: light skin tone", "light", "horse", "jockey"]
-
-        case .shavedIce: return ["ice", "sweet", "dessert", "shaved"]
-
-        case .astronaut: return ["astronaut", "rocket"]
-
-        case .microphone: return ["microphone", "karaoke", "mic"]
-
-        case .beverageBox: return ["juice", "sweet", "beverage", "straw", "box"]
-
-        case .worm: return ["parasite", "worm", "earthworm", "annelid"]
-
-        case .melon: return ["fruit", "melon"]
-
-        case .flagFiji: return ["flag: Fiji", "flag", "Fiji"]
-
-        case .officeWorkerDarkSkinTone: return ["office worker", "white collar", "office", "skin", "worker:", "business", "tone", "office worker: dark skin tone", "dark skin tone", "dark", "manager", "architect"]
-
-        case .wrench: return ["wrench", "tool", "spanner"]
-
-        case .worldMap: return ["map", "world"]
-
-        case .goat: return ["goat", "Capricorn", "zodiac"]
-
-        case .mage: return ["wizard", "sorcerer", "witch", "sorceress", "mage"]
-
-        case .okHandMediumLightSkinTone: return ["skin", "OK", "OK hand: medium light skin tone", "medium light skin tone", "light", "hand", "medium", "tone", "hand:"]
-
-        case .paintbrush: return ["paintbrush", "painting"]
-
-        case .manStudentMediumLightSkinTone: return ["graduate", "student", "medium", "student:", "skin", "light", "medium light skin tone", "tone", "man", "man student: medium light skin tone"]
-
-        case .gorilla: return ["gorilla"]
-
-        case .personWithWhiteCane: return ["person with white cane", "blind", "with", "accessibility", "white", "person", "cane"]
-
-        case .personBikingMediumDarkSkinTone: return ["skin", "biking", "tone", "medium dark skin tone", "person biking: medium dark skin tone", "person biking", "dark", "cyclist", "person", "bicycle", "medium", "biking:"]
-
-        case .oldWomanDarkSkinTone: return ["old woman: dark skin tone", "dark skin tone", "dark", "woman", "woman:", "tone", "adult", "skin", "old"]
-
-        case .snowman: return ["snowman", "snow", "cold"]
-
-        case .raisedFistMediumSkinTone: return ["fist", "raised fist", "clenched", "raised", "raised fist: medium skin tone", "fist:", "medium", "medium skin tone", "punch", "skin", "tone", "hand"]
-
-        case .womanFeedingBabyDarkSkinTone: return ["nursing", "feeding", "skin", "baby:", "tone", "dark skin tone", "baby", "woman", "woman feeding baby: dark skin tone", "dark"]
-
-        case .pottedPlant: return ["useless", "potted", "house", "grow", "plant", "potted plant", "boring", "nurturing"]
-
-        case .notebook: return ["notebook"]
-
-        case .flagAustria: return ["flag: Austria", "Austria", "flag"]
-
-        case .manWhiteHair: return ["white", "man", "man: white hair", "adult", "man:", "white hair", "hair"]
-
-        case .umbrellaWithRainDrops: return ["umbrella with rain drops", "drops", "with", "rain", "clothing", "umbrella", "drop"]
-
-        case .flowerPlayingCards: return ["flower playing cards", "playing", "card", "cards", "game", "Japanese", "flower"]
-
-        case .wing: return ["aviation", "angelic", "flying", "wing", "mythology", "bird"]
-
-        case .smilingFaceWithHeartEyes: return ["smile", "face", "with", "eye", "smiling face with heart eyes", "love", "smiling", "heart", "eyes"]
-
-        case .rightFacingFistLightSkinTone: return ["right facing fist", "rightwards", "light skin tone", "right facing fist: light skin tone", "right", "light", "skin", "fist", "fist:", "facing", "tone"]
-
-        case .womanTeacher: return ["professor", "instructor", "lecturer", "teacher", "woman"]
-
-        case .womanLightSkinTone: return ["woman", "woman:", "adult", "skin", "tone", "light", "light skin tone", "woman: light skin tone"]
-
-        case .starAndCrescent: return ["religion", "star", "and", "islam", "Muslim", "star and crescent", "crescent"]
-
-        case .leafFlutteringInWind: return ["blow", "fluttering", "flutter", "leaf fluttering in wind", "in", "wind", "leaf"]
-
-        case .pregnantWomanLightSkinTone: return ["light skin tone", "woman", "woman:", "skin", "pregnant", "tone", "light", "pregnant woman: light skin tone"]
-
-        case .cryingFace: return ["crying", "cry", "sad", "tear", "crying face", "face"]
-
-        case .manualWheelchair: return ["manual wheelchair", "accessibility", "manual", "wheelchair"]
-
-        case .barberPole: return ["haircut", "pole", "barber"]
-
-        case .kissMark: return ["lips", "kiss mark", "mark", "kiss"]
-
-        case .womenHoldingHandsMediumLightSkinToneMediumDarkSkinTone: return ["holding hands", "medium light skin tone", "light", "women", "medium dark skin tone", "medium", "women holding hands", "tone,", "holding", "dark", "tone", "couple", "hand", "hands:", "women holding hands: medium light skin tone, medium dark skin tone", "skin"]
-
-        case .manBald: return ["bald", "adult", "man: bald", "man:", "man"]
-
-        case .manInManualWheelchair: return ["wheelchair", "in", "accessibility", "man", "manual", "man in manual wheelchair"]
-
-        case .dress: return ["clothing", "dress"]
-
-        case .faceWithRollingEyes: return ["eyeroll", "face with rolling eyes", "rolling", "eyes", "face", "with"]
-
-        case .footDarkSkinTone: return ["dark skin tone", "foot", "kick", "dark", "skin", "foot: dark skin tone", "foot:", "tone", "stomp"]
-
-        case .clappingHands: return ["clap", "hands", "hand", "clapping hands", "clapping"]
-
-        case .anatomicalHeart: return ["pulse", "heart", "cardiology", "anatomical", "organ"]
-
-        case .pigFace: return ["pig", "face"]
-
-        case .flagSouthAfrica: return ["South Africa", "flag", "flag: South Africa"]
-
-        case .flagSenegal: return ["flag: Senegal", "Senegal", "flag"]
-
-        case .rat: return ["rat"]
-
-        case .boyLightSkinTone: return ["light skin tone", "skin", "boy: light skin tone", "light", "tone", "boy:", "boy", "young"]
-
-        case .wavingHandMediumSkinTone: return ["tone", "hand", "wave", "medium skin tone", "waving", "hand:", "medium", "skin", "waving hand: medium skin tone"]
-
-        case .manArtistMediumDarkSkinTone: return ["dark", "palette", "man artist: medium dark skin tone", "man", "artist:", "artist", "medium", "medium dark skin tone", "skin", "tone"]
-
-        case .personWithWhiteCaneMediumDarkSkinTone: return ["with", "medium dark skin tone", "medium", "cane:", "blind", "tone", "person", "white", "person with white cane: medium dark skin tone", "accessibility", "dark", "skin", "person with white cane"]
-
-        case .boyDarkSkinTone: return ["tone", "dark skin tone", "young", "dark", "skin", "boy: dark skin tone", "boy:", "boy"]
-
-        case .flagBelgium: return ["Belgium", "flag: Belgium", "flag"]
-
-        case .womanAndManHoldingHandsLightSkinToneMediumSkinTone: return ["light skin tone", "woman and man holding hands: light skin tone, medium skin tone", "hold", "tone,", "medium skin tone", "skin", "woman and man holding hands", "holding hands", "hands:", "tone", "man", "couple", "holding", "light", "hand", "and", "woman", "medium"]
-
-        case .womanCook: return ["woman", "cook", "chef"]
-
-        case .ringBuoy: return ["life preserver", "float", "rescue", "safety", "ring", "buoy", "ring buoy", "life saver"]
-
-        case .personFeedingBabyMediumLightSkinTone: return ["nursing", "feeding", "baby:", "light", "medium light skin tone", "baby", "skin", "person", "tone", "medium", "person feeding baby: medium light skin tone"]
-
-        case .wolf: return ["wolf", "face"]
-
-        case .flagSriLanka: return ["flag", "flag: Sri Lanka", "Sri Lanka"]
-
-        case .raisedHandLightSkinTone: return ["raised hand: light skin tone", "raised hand", "raised", "tone", "high 5", "hand:", "high five", "light skin tone", "light", "hand", "skin"]
-
-        case .busStop: return ["stop", "bus"]
-
-        case .upsideDownFace: return ["upside down", "upside", "down", "face"]
-
-        case .cheeseWedge: return ["cheese", "wedge", "cheese wedge"]
-
-        case .signOfTheHorns: return ["sign of the horns", "hand", "sign", "horns", "finger", "rock on", "of", "the"]
-
-        case .faceBlowingAKiss: return ["face", "kiss", "face blowing a kiss", "blowing", "a"]
-
-        case .flagEuropeanUnion: return ["flag", "flag: European Union", "European Union"]
-
-        case .foldedHandsLightSkinTone: return ["ask", "hands:", "thanks", "hand", "high five", "folded hands", "tone", "high 5", "please", "light skin tone", "light", "folded", "pray", "folded hands: light skin tone", "skin"]
-
-        case .carpStreamer: return ["celebration", "streamer", "carp"]
-
-        case ._guard: return ["guard"]
-
-        case .personKneelingMediumSkinTone: return ["medium skin tone", "person kneeling: medium skin tone", "tone", "kneeling", "person", "person kneeling", "skin", "kneel", "medium", "kneeling:"]
-
-        case .crystalBall: return ["tool", "ball", "crystal", "fantasy", "fairy tale", "fortune"]
-
-        case .personGolfingDarkSkinTone: return ["golfing:", "golf", "person golfing", "dark skin tone", "person golfing: dark skin tone", "person", "ball", "dark", "skin", "tone"]
-
-        case .scientistDarkSkinTone: return ["biologist", "chemist", "skin", "physicist", "tone", "scientist:", "scientist", "dark skin tone", "engineer", "scientist: dark skin tone", "dark"]
-
-        case .frog: return ["face", "frog"]
-
-        case .books: return ["books", "book"]
-
-        case .sewingNeedle: return ["embroidery", "sutures", "needle", "stitches", "tailoring", "sewing"]
-
-        case .manMediumLightSkinToneCurlyHair: return ["hair", "man", "man: medium light skin tone, curly hair", "medium", "curly", "curly hair", "medium light skin tone", "man:", "light", "tone,", "skin", "adult"]
-
-        case .manAstronaut: return ["man", "astronaut", "rocket"]
-
-        case .peopleHoldingHandsDarkSkinToneLightSkinTone: return ["hold", "skin", "person", "tone,", "holding hands", "light skin tone", "dark skin tone", "people holding hands: dark skin tone, light skin tone", "people", "couple", "holding", "tone", "people holding hands", "hands:", "dark", "light", "hand"]
-
-        case .personWalkingLightSkinTone: return ["person walking: light skin tone", "walking", "walking:", "walk", "skin", "person walking", "light", "hike", "light skin tone", "tone", "person"]
-
-        case .ladder: return ["rung", "climb", "step", "ladder"]
-
-        case .babyMediumLightSkinTone: return ["medium light skin tone", "baby: medium light skin tone", "light", "baby", "tone", "baby:", "skin", "young", "medium"]
-
-        case .wrappedGift: return ["celebration", "gift", "box", "present", "wrapped"]
-
-        case .speakNoEvilMonkey: return ["monkey", "face", "evil", "speak no evil monkey", "speak", "forbidden", "no"]
-
-        case .personMediumDarkSkinToneBeard: return ["person: beard", "beard", "skin", "person: medium dark skin tone, beard", "medium dark skin tone", "person", "tone,", "medium", "dark", "person:"]
-
-        case .classicalBuilding: return ["building", "classical building", "classical"]
-
-        case .flagPanama: return ["Panama", "flag", "flag: Panama"]
-
-        case .notebookWithDecorativeCover: return ["decorative", "book", "decorated", "notebook with decorative cover", "notebook", "with", "cover"]
-
-        case .leftRightArrow: return ["left", "arrow", "right", "left right arrow"]
-
-        case .womanAndManHoldingHandsMediumDarkSkinToneLightSkinTone: return ["light skin tone", "dark", "light", "medium dark skin tone", "tone,", "tone", "hold", "hand", "medium", "hands:", "woman and man holding hands", "woman", "woman and man holding hands: medium dark skin tone, light skin tone", "and", "man", "holding", "skin", "couple", "holding hands"]
-
-        case .personWalkingDarkSkinTone: return ["walking", "dark skin tone", "skin", "walking:", "walk", "hike", "tone", "person walking", "person", "person walking: dark skin tone", "dark"]
-
-        case .flagStBarthelemy: return ["St. Barthélemy", "flag: St. Barthélemy", "flag"]
-
-        case .womanInManualWheelchairMediumSkinTone: return ["skin", "in", "woman in manual wheelchair", "tone", "accessibility", "wheelchair:", "manual", "woman", "woman in manual wheelchair: medium skin tone", "medium skin tone", "wheelchair", "medium"]
-
-        case .manMediumSkinToneWhiteHair: return ["white", "hair", "man:", "adult", "man", "man: medium skin tone, white hair", "white hair", "medium", "medium skin tone", "skin", "tone,"]
-
-        case .personInBed: return ["hotel", "good night", "person in bed", "person", "in", "sleep", "bed"]
-
-        case .manOfficeWorkerLightSkinTone: return ["man office worker", "manager", "light skin tone", "man office worker: light skin tone", "tone", "man", "skin", "white collar", "office", "business", "light", "architect", "worker:"]
-
-        case .japaneseBargainButton: return ["“bargain”", "Japanese", "Japanese “bargain” button", "button", "得", "ideograph"]
-
-        case .leftArrow: return ["left arrow", "arrow", "left", "direction", "cardinal", "west"]
-
-        case .circledM: return ["circle", "M", "circled M", "circled"]
-
-        case .flagTokelau: return ["flag: Tokelau", "Tokelau", "flag"]
-
-        case .mapOfJapan: return ["Japan", "map", "of", "map of Japan"]
-
-        case .flagUkraine: return ["Ukraine", "flag: Ukraine", "flag"]
-
-        case .passengerShip: return ["passenger", "ship"]
-
-        case .menHoldingHandsMediumDarkSkinTone: return ["men", "holding hands", "medium", "couple", "tone", "man", "men holding hands", "zodiac", "hands:", "twins", "skin", "medium dark skin tone", "men holding hands: medium dark skin tone", "dark", "holding", "Gemini"]
-
-        case .diamondSuit: return ["card", "diamond suit", "diamond", "suit", "game"]
-
-        case .warning: return ["warning"]
-
-        case .ambulance: return ["ambulance", "vehicle"]
-
-        case .redPaperLantern: return ["light", "red paper lantern", "paper", "red", "bar", "lantern"]
-
-        case .manStudent: return ["graduate", "man", "student"]
-
-        case .pregnantPersonDarkSkinTone: return ["belly", "dark skin tone", "full", "pregnant person", "person:", "skin", "tone", "dark", "pregnant person: dark skin tone", "bloated", "pregnant"]
-
-        case .gloves: return ["gloves", "hand"]
-
-        case .menHoldingHandsLightSkinToneMediumLightSkinTone: return ["holding hands", "twins", "medium light skin tone", "tone", "skin", "couple", "medium", "men holding hands: light skin tone, medium light skin tone", "light", "tone,", "zodiac", "holding", "men", "hands:", "light skin tone", "Gemini", "man", "men holding hands"]
-
-        case .handshakeLightSkinToneMediumSkinTone: return ["light skin tone", "agreement", "handshake", "shake", "skin", "light", "handshake:", "medium skin tone", "meeting", "hand", "tone", "tone,", "handshake: light skin tone, medium skin tone", "medium"]
-
-        case .banana: return ["banana", "fruit"]
-
-        case .ophiuchus: return ["zodiac", "Ophiuchus", "snake", "bearer", "serpent"]
-
-        case .eyes: return ["face", "eyes", "eye"]
-
-        case .personGesturingOkMediumLightSkinTone: return ["tone", "hand", "OK:", "skin", "OK", "person", "medium light skin tone", "person gesturing OK: medium light skin tone", "gesture", "gesturing", "medium", "person gesturing OK", "light"]
-
-        case .womanWithHeadscarfDarkSkinTone: return ["tone", "headscarf:", "woman", "woman with headscarf", "dark", "dark skin tone", "skin", "tichel", "headscarf", "with", "hijab", "mantilla", "woman with headscarf: dark skin tone"]
-
-        case .personTakingBathMediumSkinTone: return ["person", "person taking bath: medium skin tone", "skin", "tone", "bathtub", "person taking bath", "taking", "bath:", "medium", "bath", "medium skin tone"]
-
-        case .redHeart: return ["red", "red heart", "heart"]
-
-        case .earLightSkinTone: return ["tone", "light skin tone", "ear", "light", "skin", "body", "ear: light skin tone", "ear:"]
-
-        case .flagMartinique: return ["flag", "flag: Martinique", "Martinique"]
-
-        case .personWithSkullcapMediumDarkSkinTone: return ["with", "dark", "person", "gua pi mao", "person with skullcap: medium dark skin tone", "cap", "person with skullcap", "medium", "skullcap:", "medium dark skin tone", "hat", "skullcap", "tone", "skin"]
-
-        case .officeWorkerMediumDarkSkinTone: return ["worker:", "tone", "white collar", "medium dark skin tone", "office worker: medium dark skin tone", "architect", "medium", "office", "business", "dark", "office worker", "manager", "skin"]
-
-        case .flagReunion: return ["flag: Réunion", "Réunion", "flag"]
-
-        case .rolledUpNewspaper: return ["rolled", "rolled up newspaper", "news", "up", "paper", "newspaper"]
-
-        case .flagGuatemala: return ["Guatemala", "flag", "flag: Guatemala"]
-
-        case .guardDarkSkinTone: return ["skin", "dark", "guard", "guard:", "guard: dark skin tone", "tone", "dark skin tone"]
-
-        case .cutOfMeat: return ["porkchop", "chop", "of", "steak", "cut of meat", "meat", "lambchop", "cut"]
-
-        case .personGettingHaircutMediumSkinTone: return ["haircut", "person getting haircut", "barber", "person getting haircut: medium skin tone", "medium", "getting", "skin", "beauty", "parlor", "haircut:", "medium skin tone", "person", "tone"]
-
-        case .personInTuxedoLightSkinTone: return ["person in tuxedo", "skin", "person in tuxedo: light skin tone", "in", "person", "tuxedo:", "light skin tone", "groom", "light", "tuxedo", "tone"]
-
-        case .middleFingerMediumLightSkinTone: return ["finger:", "middle finger", "tone", "hand", "light", "middle", "skin", "finger", "medium", "medium light skin tone", "middle finger: medium light skin tone"]
-
-        case .elevenThirty: return ["thirty", "11", "11:30", "clock", "eleven", "eleven thirty"]
-
-        case .detectiveMediumSkinTone: return ["medium", "detective: medium skin tone", "skin", "medium skin tone", "spy", "detective:", "sleuth", "tone", "detective"]
-
-        case .middleFingerMediumDarkSkinTone: return ["middle", "hand", "dark", "skin", "tone", "middle finger", "finger:", "medium", "finger", "medium dark skin tone", "middle finger: medium dark skin tone"]
-
-        case .pleadingFace: return ["pleading", "mercy", "face", "puppy eyes", "begging", "pleading face"]
-
-        case .penguin: return ["bird", "penguin"]
-
-        case .shortcake: return ["shortcake", "sweet", "dessert", "pastry", "cake", "slice"]
-
-        case .beerMug: return ["drink", "mug", "beer", "bar"]
-
-        case .wearyCat: return ["weary", "surprised", "oh", "cat", "face"]
-
-        case .womanMediumDarkSkinToneWhiteHair: return ["hair", "white hair", "woman: medium dark skin tone, white hair", "skin", "adult", "tone,", "white", "medium dark skin tone", "woman", "woman:", "medium", "dark"]
-
-        case .angryFaceWithHorns: return ["demon", "face", "imp", "fantasy", "angry", "with", "horns", "angry face with horns", "devil"]
-
-        case .personStandingMediumLightSkinTone: return ["skin", "stand", "person standing", "medium", "light", "medium light skin tone", "standing", "tone", "person standing: medium light skin tone", "standing:", "person"]
-
-        case .brownHeart: return ["heart", "brown"]
-
-        case .manOfficeWorker: return ["white collar", "architect", "manager", "business", "office", "worker", "man office worker", "man"]
-
-        case .faceWithMonocle: return ["face", "stuffy", "with", "monocle", "face with monocle"]
-
-        case .openHandsMediumLightSkinTone: return ["skin", "tone", "open hands: medium light skin tone", "light", "hands:", "open", "open hands", "hand", "medium", "medium light skin tone"]
-
-        case .postOffice: return ["office", "post", "European", "post office"]
-
-        case .lollipop: return ["candy", "lollipop", "sweet", "dessert"]
-
-        case .scientistLightSkinTone: return ["biologist", "chemist", "skin", "physicist", "tone", "scientist: light skin tone", "scientist:", "scientist", "engineer", "light", "light skin tone"]
-
-        case .handWithFingersSplayedMediumLightSkinTone: return ["splayed", "skin", "hand with fingers splayed", "fingers", "light", "hand with fingers splayed: medium light skin tone", "finger", "medium light skin tone", "with", "tone", "splayed:", "medium", "hand"]
-
-        case .mechanicalArm: return ["accessibility", "prosthetic", "mechanical arm", "arm", "mechanical"]
-
-        case .newButton: return ["button", "NEW", "NEW button"]
-
-        case .mouse: return ["mouse"]
-
-        case .personWithCrownMediumSkinTone: return ["noble", "with", "skin", "person with crown", "medium skin tone", "person with crown: medium skin tone", "medium", "person", "monarch", "crown:", "tone", "regal", "royalty"]
-
-        case .wavingHand: return ["wave", "waving", "hand"]
-
-        case .familyManBoyBoy: return ["boy", "boy,", "family: man, boy, boy", "man", "man,", "family:", "family"]
-
-        case .manStudentMediumSkinTone: return ["tone", "man student: medium skin tone", "skin", "student", "man", "medium", "student:", "medium skin tone", "graduate"]
-
-        case .squid: return ["molusc", "squid", "food"]
-
-        case .breastFeedingMediumLightSkinTone: return ["light", "breast feeding: medium light skin tone", "feeding:", "medium light skin tone", "breast", "breast feeding", "medium", "nursing", "skin", "tone", "baby"]
-
-        case .upLeftArrow: return ["up left arrow", "up", "direction", "arrow", "intercardinal", "left", "northwest"]
-
-        case .waxingCrescentMoon: return ["waxing", "moon", "crescent"]
-
-        case .womanOfficeWorker: return ["architect", "business", "woman", "office", "worker", "white collar", "woman office worker", "manager"]
-
-        case .greyHeart: return ["grey heart", "silver", "heart", "grey", "slate", "gray"]
-
-        case .womenHoldingHandsDarkSkinToneMediumSkinTone: return ["dark skin tone", "women holding hands: dark skin tone, medium skin tone", "tone", "hand", "holding", "skin", "tone,", "couple", "medium", "dark", "women holding hands", "holding hands", "medium skin tone", "women", "hands:"]
-
-        case .flagUsOutlyingIslands: return ["flag: U.S. Outlying Islands", "U.S. Outlying Islands", "flag"]
-
-        case .womansClothes: return ["woman’s", "woman’s clothes", "clothes", "woman", "clothing"]
-
-        case .leftwardsHandLightSkinTone: return ["light skin tone", "leftwards", "hand:", "leftwards hand", "leftwards hand: light skin tone", "hand", "left", "light", "tone", "skin", "leftward"]
-
-        case .infinity: return ["infinity", "forever", "universal", "unbounded"]
-
-        case .selfie: return ["selfie", "camera", "phone"]
-
-        case .speakerLowVolume: return ["low", "speaker", "soft", "volume", "speaker low volume"]
-
-        case .axe: return ["chop", "axe", "split", "hatchet", "wood"]
-
-        case .chocolateBar: return ["bar", "dessert", "chocolate", "sweet"]
-
-        case .writingHandMediumDarkSkinTone: return ["write", "writing hand: medium dark skin tone", "hand:", "hand", "skin", "medium dark skin tone", "dark", "tone", "writing", "writing hand", "medium"]
-
-        case .footprints: return ["footprint", "footprints", "print", "clothing"]
-
-        case .womenHoldingHandsLightSkinToneMediumLightSkinTone: return ["tone,", "women holding hands: light skin tone, medium light skin tone", "couple", "medium light skin tone", "medium", "hands:", "hand", "women holding hands", "holding", "holding hands", "light skin tone", "women", "light", "tone", "skin"]
-
-        case .personBikingMediumLightSkinTone: return ["medium light skin tone", "light", "medium", "biking", "cyclist", "person biking", "person biking: medium light skin tone", "person", "tone", "skin", "bicycle", "biking:"]
-
-        case .personInTuxedoMediumDarkSkinTone: return ["medium", "person in tuxedo", "person in tuxedo: medium dark skin tone", "in", "skin", "medium dark skin tone", "dark", "person", "tuxedo:", "tuxedo", "groom", "tone"]
-
-        case .rightFacingFist: return ["rightwards", "right", "facing", "right facing fist", "fist"]
-
-        case .desert: return ["desert"]
-
-        case .handshakeMediumSkinToneMediumLightSkinTone: return ["handshake:", "medium", "tone,", "handshake: medium skin tone, medium light skin tone", "handshake", "light", "medium skin tone", "meeting", "medium light skin tone", "agreement", "hand", "shake", "skin", "tone"]
-
-        case .funeralUrn: return ["death", "funeral", "urn", "ashes"]
-
-        case .flagWales: return ["Wales", "flag", "flag: Wales"]
-
-        case .broccoli: return ["wild cabbage", "broccoli"]
-
-        case .personGettingMassage: return ["massage", "face", "person getting massage", "salon", "getting", "person"]
-
-        case .flagCyprus: return ["flag: Cyprus", "flag", "Cyprus"]
-
-        case .oncomingPoliceCar: return ["car", "oncoming", "police"]
-
-        case .redHair: return ["red hair", "red", "redhead", "ginger", "hair"]
-
-        case .poundBanknote: return ["banknote", "pound", "bill", "money", "currency", "note"]
-
-        case .breastFeeding: return ["nursing", "feeding", "breast feeding", "baby", "breast"]
-
-        case .cinema: return ["film", "camera", "cinema", "movie"]
-
-        case .worriedFace: return ["worried", "face"]
-
-        case .peopleHoldingHandsMediumSkinToneMediumLightSkinTone: return ["medium skin tone", "medium", "hold", "people holding hands: medium skin tone, medium light skin tone", "couple", "tone,", "holding hands", "people", "person", "skin", "light", "medium light skin tone", "holding", "hands:", "tone", "people holding hands", "hand"]
-
-        case .flagMontenegro: return ["Montenegro", "flag", "flag: Montenegro"]
-
-        case .bell: return ["bell"]
-
-        case .frowningFaceWithOpenMouth: return ["frown", "with", "frowning face with open mouth", "face", "open", "frowning", "mouth"]
-
-        case .guitar: return ["instrument", "music", "guitar"]
-
-        case .faceWithSteamFromNose: return ["steam", "face with steam from nose", "from", "with", "nose", "face", "won", "triumph"]
-
-        case .genie: return ["djinn", "genie"]
-
-        case .flagColombia: return ["flag: Colombia", "Colombia", "flag"]
-
-        case .personGesturingOkMediumDarkSkinTone: return ["gesture", "person gesturing OK: medium dark skin tone", "medium", "OK", "hand", "skin", "person", "gesturing", "medium dark skin tone", "OK:", "dark", "tone", "person gesturing OK"]
-
-        case .selfieDarkSkinTone: return ["phone", "dark", "selfie:", "dark skin tone", "selfie", "camera", "skin", "selfie: dark skin tone", "tone"]
-
-        case .womanMediumDarkSkinToneRedHair: return ["dark", "woman", "tone,", "woman:", "medium", "medium dark skin tone", "skin", "red", "hair", "woman: medium dark skin tone, red hair", "adult", "red hair"]
-
-        case .flagSouthGeorgiaSouthSandwichIslands: return ["flag: South Georgia & South Sandwich Islands", "flag", "South Georgia & South Sandwich Islands"]
-
-        case .openHandsLightSkinTone: return ["open hands: light skin tone", "hand", "light", "tone", "open", "skin", "hands:", "open hands", "light skin tone"]
-
-        case .santaClausLightSkinTone: return ["light skin tone", "santa", "Christmas", "Santa", "light", "tone", "claus", "Santa Claus: light skin tone", "skin", "father", "celebration", "Claus:"]
-
-        case .compass: return ["compass", "navigation", "orienteering", "magnetic"]
-
-        case .womanCookMediumSkinTone: return ["cook", "cook:", "chef", "woman", "woman cook: medium skin tone", "tone", "medium skin tone", "skin", "medium"]
-
-        case .placeOfWorship: return ["place", "of", "worship", "religion", "place of worship"]
-
-        case .faceWithHandOverMouth: return ["face", "whoops", "mouth", "face with hand over mouth", "hand", "with", "over"]
-
-        case .personClimbingMediumSkinTone: return ["person climbing: medium skin tone", "climbing:", "person", "tone", "skin", "medium skin tone", "climber", "person climbing", "medium"]
-
-        case .manFarmer: return ["farmer", "man", "rancher", "gardener"]
-
-        case .pregnantPerson: return ["full", "belly", "pregnant", "person", "bloated", "pregnant person"]
-
-        case .nauseatedFace: return ["vomit", "face", "nauseated"]
-
-        case .fallenLeaf: return ["falling", "fallen leaf", "fallen", "leaf"]
-
-        case .handshakeMediumSkinToneDarkSkinTone: return ["tone", "medium skin tone", "agreement", "tone,", "handshake:", "medium", "handshake: medium skin tone, dark skin tone", "dark", "handshake", "shake", "skin", "dark skin tone", "meeting", "hand"]
-
-        case .japaneseSecretButton: return ["“secret”", "秘", "Japanese", "button", "Japanese “secret” button", "ideograph"]
-
-        case .indexPointingUpLightSkinTone: return ["index pointing up", "point", "light skin tone", "up", "finger", "light", "index", "up:", "tone", "index pointing up: light skin tone", "pointing", "skin", "hand"]
-
-        case .gingerRoot: return ["spice", "ginger root", "root", "ginger", "beer"]
-
-        case .hospital: return ["medicine", "hospital", "doctor"]
-
-        case .closedBook: return ["book", "closed"]
-
-        case .personWithWhiteCaneMediumSkinTone: return ["cane:", "person with white cane: medium skin tone", "accessibility", "person with white cane", "blind", "medium", "with", "medium skin tone", "white", "skin", "tone", "person"]
-
-        case .parrot: return ["bird", "talk", "pirate", "parrot"]
-
-        case .peaceSymbol: return ["peace", "peace symbol", "symbol"]
-
-        case .hut: return ["hut", "house", "roundhouse", "yurt"]
-
-        case .clutchBag: return ["pouch", "bag", "clutch", "clutch bag", "clothing"]
-
-        case .pinchingHandLightSkinTone: return ["pinching hand: light skin tone", "light skin tone", "small amount", "pinching hand", "pinching", "light", "hand:", "skin", "tone"]
-
-        case .personRaisingHandMediumSkinTone: return ["hand", "gesture", "medium skin tone", "happy", "skin", "medium", "raised", "person", "hand:", "person raising hand: medium skin tone", "tone", "person raising hand", "raising"]
-
-        case .flexedBicepsMediumLightSkinTone: return ["biceps:", "medium", "muscle", "tone", "flex", "biceps", "flexed biceps: medium light skin tone", "comic", "skin", "medium light skin tone", "flexed biceps", "flexed", "light"]
-
-        case .flagBotswana: return ["Botswana", "flag: Botswana", "flag"]
-
-        case .menHoldingHandsMediumSkinToneMediumDarkSkinTone: return ["men holding hands", "medium", "hands:", "medium skin tone", "holding", "holding hands", "couple", "zodiac", "dark", "men holding hands: medium skin tone, medium dark skin tone", "twins", "skin", "men", "Gemini", "medium dark skin tone", "tone,", "tone", "man"]
-
-        case .flagChile: return ["Chile", "flag: Chile", "flag"]
-
-        case .manCook: return ["chef", "man", "cook"]
-
-        case .oldWoman: return ["old", "woman", "adult"]
-
-        case .calendar: return ["date", "calendar"]
-
-        case .detectiveDarkSkinTone: return ["tone", "skin", "dark skin tone", "detective: dark skin tone", "spy", "detective:", "dark", "detective", "sleuth"]
-
-        case .vulcanSaluteMediumSkinTone: return ["finger", "salute:", "vulcan salute: medium skin tone", "skin", "spock", "tone", "medium skin tone", "vulcan salute", "hand", "medium", "vulcan"]
-
-        case .flagGibraltar: return ["flag", "Gibraltar", "flag: Gibraltar"]
-
-        case .cookLightSkinTone: return ["light skin tone", "light", "cook", "chef", "cook:", "skin", "tone", "cook: light skin tone"]
-
-        case .blowfish: return ["blowfish", "fish"]
-
-        case .hearNoEvilMonkey: return ["monkey", "hear", "hear no evil monkey", "evil", "face", "no", "forbidden"]
-
-        case .olderPersonMediumLightSkinTone: return ["older person", "unspecified gender", "older", "adult", "tone", "gender neutral", "person:", "light", "medium light skin tone", "old", "older person: medium light skin tone", "medium", "skin"]
-
-        case .fastDownButton: return ["fast", "button", "double", "fast down button", "arrow", "down"]
-
-        case .hairPick: return ["pick", "comb", "Afro", "hair"]
-
-        case .aerialTramway: return ["aerial", "car", "tramway", "gondola", "cable"]
-
-        case .clButton: return ["button", "CL", "CL button"]
-
-        case .flagCongoKinshasa: return ["flag: Congo   Kinshasa", "Congo   Kinshasa", "flag"]
-
-        case .megaphone: return ["cheering", "megaphone"]
-
-        case .bowling: return ["game", "bowling", "ball"]
-
-        case .personGesturingNoMediumLightSkinTone: return ["tone", "person gesturing NO", "gesturing", "light", "gesture", "person", "hand", "person gesturing NO: medium light skin tone", "medium light skin tone", "medium", "prohibited", "skin", "NO:", "forbidden"]
-
-        case .partAlternationMark: return ["part", "alternation", "part alternation mark", "mark"]
-
-        case .bald: return ["bald", "chemotherapy", "hairless", "no hair", "shaven"]
-
-        case .faceWithRaisedEyebrow: return ["raised", "distrust", "face with raised eyebrow", "eyebrow", "face", "skeptic", "with"]
-
-        case .princeDarkSkinTone: return ["prince:", "tone", "dark skin tone", "prince", "dark", "prince: dark skin tone", "skin"]
-
-        case .satelliteAntenna: return ["dish", "satellite", "antenna"]
-
-        case .railwayCar: return ["electric", "tram", "railway", "car", "train", "trolleybus"]
-
-        case .womanSingerDarkSkinTone: return ["rock", "star", "dark skin tone", "woman singer: dark skin tone", "entertainer", "woman", "singer", "tone", "skin", "dark", "actor", "singer:"]
-
-        case .zzz: return ["sleep", "ZZZ", "comic", "good night"]
-
-        case .hollowRedCircle: return ["large", "circle", "hollow", "o", "red", "hollow red circle"]
-
-        case .toolbox: return ["mechanic", "tool", "toolbox", "chest"]
-
-        case .japanesePostOffice: return ["office", "Japanese", "post", "Japanese post office"]
-
-        case .womanAndManHoldingHandsMediumLightSkinToneLightSkinTone: return ["couple", "tone", "woman and man holding hands: medium light skin tone, light skin tone", "and", "medium light skin tone", "hold", "man", "light skin tone", "holding", "woman", "holding hands", "hands:", "hand", "light", "woman and man holding hands", "medium", "skin", "tone,"]
-
-        case .personSwimmingMediumSkinTone: return ["person swimming", "swim", "medium", "skin", "person swimming: medium skin tone", "person", "medium skin tone", "tone", "swimming:"]
-
-        case .tennis: return ["ball", "racquet", "tennis"]
-
-        case .closedMailboxWithRaisedFlag: return ["postbox", "closed", "closed mailbox with raised flag", "mail", "with", "raised", "mailbox", "flag"]
-
-        case .flagDjibouti: return ["Djibouti", "flag", "flag: Djibouti"]
-
-        case .riceBall: return ["Japanese", "ball", "rice"]
-
-        case .flagSyria: return ["flag: Syria", "Syria", "flag"]
-
-        case ._3rdPlaceMedal: return ["3rd", "medal", "bronze", "third", "place", "3rd place medal"]
-
-        case .manInManualWheelchairMediumLightSkinTone: return ["medium light skin tone", "manual", "skin", "medium", "wheelchair", "man in manual wheelchair", "man in manual wheelchair: medium light skin tone", "wheelchair:", "man", "accessibility", "tone", "in", "light"]
-
-        case .flagTogo: return ["flag: Togo", "Togo", "flag"]
-
-        case .waterCloset: return ["WC", "closet", "toilet", "bathroom", "restroom", "water", "lavatory"]
-
-        case .princessMediumLightSkinTone: return ["light", "medium", "fairy tale", "fantasy", "skin", "princess:", "medium light skin tone", "princess", "tone", "princess: medium light skin tone"]
-
-        case .detectiveMediumLightSkinTone: return ["spy", "tone", "detective: medium light skin tone", "detective:", "sleuth", "medium light skin tone", "light", "medium", "detective", "skin"]
-
-        case .personMediumDarkSkinToneBald: return ["adult", "dark", "person", "gender neutral", "person: medium dark skin tone, bald", "skin", "bald", "unspecified gender", "tone,", "medium dark skin tone", "person:", "medium"]
-
-        case .hotBeverage: return ["beverage", "drink", "hot", "tea", "coffee", "steaming"]
-
-        case .personInManualWheelchairMediumDarkSkinTone: return ["in", "medium dark skin tone", "wheelchair", "manual", "accessibility", "skin", "person in manual wheelchair: medium dark skin tone", "person", "wheelchair:", "medium", "dark", "tone", "person in manual wheelchair"]
-
-        case .personMediumDarkSkinToneCurlyHair: return ["hair", "dark", "gender neutral", "curly", "person", "adult", "tone,", "person: medium dark skin tone, curly hair", "medium", "medium dark skin tone", "person:", "curly hair", "skin", "unspecified gender"]
-
-        case .indexPointingAtTheViewerLightSkinTone: return ["light", "index", "the", "index pointing at the viewer", "tone", "at", "pointing", "skin", "light skin tone", "point", "viewer:", "you", "index pointing at the viewer: light skin tone"]
-
-        case .personInBedMediumDarkSkinTone: return ["sleep", "in", "hotel", "medium dark skin tone", "medium", "person", "good night", "skin", "person in bed", "person in bed: medium dark skin tone", "dark", "bed:", "tone"]
-
-        case .peopleHoldingHandsMediumLightSkinToneLightSkinTone: return ["medium", "skin", "light", "hands:", "tone", "people", "light skin tone", "holding", "couple", "people holding hands: medium light skin tone, light skin tone", "people holding hands", "hand", "holding hands", "person", "tone,", "hold", "medium light skin tone"]
-
-        case .raisedBackOfHandMediumLightSkinTone: return ["of", "backhand", "hand:", "skin", "raised", "medium", "tone", "back", "raised back of hand", "raised back of hand: medium light skin tone", "light", "medium light skin tone"]
-
-        case .womanInManualWheelchairMediumDarkSkinTone: return ["manual", "dark", "woman in manual wheelchair: medium dark skin tone", "tone", "woman", "medium dark skin tone", "medium", "woman in manual wheelchair", "skin", "in", "wheelchair", "wheelchair:", "accessibility"]
-
-        case .tRex: return ["T", "Rex", "T Rex", "Tyrannosaurus Rex"]
-
-        case .raisedFistMediumDarkSkinTone: return ["medium", "dark", "punch", "raised", "hand", "tone", "medium dark skin tone", "skin", "raised fist: medium dark skin tone", "fist:", "raised fist", "fist", "clenched"]
-
-        case .coffin: return ["coffin", "death"]
-
-        case .menHoldingHandsMediumLightSkinToneLightSkinTone: return ["hands:", "men holding hands: medium light skin tone, light skin tone", "light skin tone", "Gemini", "men holding hands", "twins", "medium", "tone", "men", "man", "medium light skin tone", "couple", "holding", "holding hands", "light", "skin", "tone,", "zodiac"]
-
-        case .counterclockwiseArrowsButton: return ["counterclockwise", "arrows", "arrow", "withershins", "counterclockwise arrows button", "anticlockwise", "button"]
-
-        case .flashlight: return ["light", "flashlight", "electric", "tool", "torch"]
-
-        case .flagNorfolkIsland: return ["flag", "flag: Norfolk Island", "Norfolk Island"]
-
-        case .womanAndManHoldingHandsMediumSkinToneMediumLightSkinTone: return ["woman and man holding hands", "hands:", "man", "medium light skin tone", "holding hands", "tone,", "light", "hand", "medium", "tone", "skin", "couple", "hold", "holding", "medium skin tone", "woman", "woman and man holding hands: medium skin tone, medium light skin tone", "and"]
-
-        case .handshakeDarkSkinTone: return ["dark skin tone", "tone", "meeting", "dark", "agreement", "handshake: dark skin tone", "handshake", "shake", "handshake:", "skin", "hand"]
-
-        case .fullMoon: return ["moon", "full"]
-
-        case .maracas: return ["maracas", "music", "rattle", "percussion", "shake", "instrument"]
-
-        case .faceWithOpenMouth: return ["open", "with", "face with open mouth", "mouth", "sympathy", "face"]
-
-        case .personFeedingBabyMediumSkinTone: return ["medium", "person feeding baby: medium skin tone", "medium skin tone", "skin", "baby", "feeding", "tone", "nursing", "baby:", "person"]
-
-        case .womenHoldingHandsMediumSkinToneMediumLightSkinTone: return ["medium light skin tone", "women", "women holding hands: medium skin tone, medium light skin tone", "holding", "couple", "women holding hands", "holding hands", "hands:", "medium", "hand", "light", "skin", "medium skin tone", "tone,", "tone"]
-
-        case .elfDarkSkinTone: return ["elf: dark skin tone", "skin", "magical", "tone", "elf", "elf:", "dark", "dark skin tone"]
-
-        case .womanOfficeWorkerMediumSkinTone: return ["medium skin tone", "woman office worker", "office", "woman office worker: medium skin tone", "business", "skin", "tone", "manager", "architect", "white collar", "medium", "woman", "worker:"]
-
-        case .cloudWithSnow: return ["snow", "with", "cloud", "cloud with snow", "cold"]
-
-        case .personShrugging: return ["ignorance", "doubt", "person shrugging", "indifference", "person", "shrug", "shrugging"]
-
-        case .waterPistol: return ["handgun", "revolver", "pistol", "gun", "water", "tool", "weapon"]
-
-        case .womanAndManHoldingHandsMediumLightSkinToneMediumSkinTone: return ["medium light skin tone", "couple", "medium skin tone", "holding hands", "man", "hold", "medium", "skin", "light", "woman and man holding hands: medium light skin tone, medium skin tone", "hands:", "tone", "hand", "woman and man holding hands", "woman", "tone,", "and", "holding"]
-
-        case .peopleHoldingHandsLightSkinToneMediumSkinTone: return ["light", "light skin tone", "holding", "person", "hands:", "people holding hands: light skin tone, medium skin tone", "medium skin tone", "tone,", "hold", "skin", "tone", "people holding hands", "couple", "medium", "hand", "people", "holding hands"]
-
-        case .bone: return ["skeleton", "bone"]
-
-        case .menHoldingHandsMediumDarkSkinToneDarkSkinTone: return ["man", "dark skin tone", "medium dark skin tone", "dark", "tone", "Gemini", "hands:", "twins", "men", "skin", "holding", "medium", "couple", "tone,", "holding hands", "men holding hands: medium dark skin tone, dark skin tone", "men holding hands", "zodiac"]
-
-        case .santaClausMediumLightSkinTone: return ["medium", "santa", "light", "skin", "Claus:", "tone", "medium light skin tone", "claus", "celebration", "Santa Claus: medium light skin tone", "Christmas", "father", "Santa"]
-
-        case .jackOLantern: return ["celebration", "lantern", "o", "jack", "jack o lantern", "halloween"]
-
-        case .potOfFood: return ["pot", "food", "stew", "pot of food", "of"]
-
-        case .personFeedingBabyDarkSkinTone: return ["dark skin tone", "skin", "baby", "person feeding baby: dark skin tone", "feeding", "dark", "nursing", "baby:", "person", "tone"]
-
-        case .transgenderSymbol: return ["transgender", "transgender symbol", "symbol"]
-
-        case .womanFirefighterMediumLightSkinTone: return ["medium", "skin", "firetruck", "firefighter:", "tone", "medium light skin tone", "woman", "firefighter", "light", "woman firefighter: medium light skin tone"]
-
-        case .womanInManualWheelchairDarkSkinTone: return ["accessibility", "woman", "tone", "manual", "woman in manual wheelchair", "in", "dark", "skin", "wheelchair", "dark skin tone", "wheelchair:", "woman in manual wheelchair: dark skin tone"]
-
-        case .scarf: return ["neck", "scarf"]
-
-        case .menHoldingHandsMediumDarkSkinToneLightSkinTone: return ["zodiac", "medium dark skin tone", "skin", "couple", "hands:", "holding hands", "tone,", "Gemini", "men holding hands", "man", "men holding hands: medium dark skin tone, light skin tone", "holding", "tone", "men", "light", "dark", "twins", "medium", "light skin tone"]
-
-        case .palmDownHandLightSkinTone: return ["palm down hand: light skin tone", "tone", "hand:", "light skin tone", "skin", "drop", "palm down hand", "shoo", "light", "dismiss", "palm", "down"]
-
-        case .horizontalTrafficLight: return ["signal", "light", "horizontal", "horizontal traffic light", "traffic"]
-
-        case .elf: return ["magical", "elf"]
-
-        case .boy: return ["boy", "young"]
-
-        case .couchAndLamp: return ["couch", "lamp", "couch and lamp", "and", "hotel"]
-
-        case .eggplant: return ["aubergine", "vegetable", "eggplant"]
-
-        case .mango: return ["mango", "tropical", "fruit"]
-
-        case .pregnantPersonMediumSkinTone: return ["belly", "pregnant person: medium skin tone", "full", "pregnant person", "person:", "skin", "medium skin tone", "tone", "bloated", "pregnant", "medium"]
-
-        case .taxi: return ["vehicle", "taxi"]
-
-        case .cloudWithRain: return ["rain", "with", "cloud", "cloud with rain"]
-
-        case .flagStKittsNevis: return ["flag: St. Kitts & Nevis", "flag", "St. Kitts & Nevis"]
-
-        case .flagFrenchGuiana: return ["flag", "flag: French Guiana", "French Guiana"]
-
-        case .playgroundSlide: return ["playground slide", "amusement park", "play", "theme park", "playground", "slide"]
-
-        case .brain: return ["brain", "intelligent"]
-
-        case .falafel: return ["falafel", "meatball", "chickpea"]
-
-        case .womenHoldingHandsDarkSkinToneMediumDarkSkinTone: return ["women holding hands: dark skin tone, medium dark skin tone", "dark", "dark skin tone", "medium dark skin tone", "couple", "women", "medium", "holding hands", "hand", "hands:", "tone", "holding", "skin", "tone,", "women holding hands"]
-
-        case .flagGuadeloupe: return ["flag", "flag: Guadeloupe", "Guadeloupe"]
-
-        case .pregnantWomanDarkSkinTone: return ["tone", "dark skin tone", "pregnant", "pregnant woman: dark skin tone", "woman:", "woman", "dark", "skin"]
-
-        case .badminton: return ["shuttlecock", "badminton", "birdie", "racquet", "game"]
-
-        case .sevenOclock: return ["7", "7:00", "clock", "seven", "o’clock", "00"]
-
-        case .princess: return ["fantasy", "princess", "fairy tale"]
-
-        case .leftFacingFistDarkSkinTone: return ["tone", "dark", "left facing fist", "fist:", "left facing fist: dark skin tone", "skin", "leftwards", "fist", "facing", "dark skin tone", "left"]
-
-        case .carouselHorse: return ["carousel", "horse"]
-
-        case .japaneseSymbolForBeginner: return ["Japanese symbol for beginner", "beginner", "Japanese", "for", "leaf", "symbol", "chevron"]
-
-        case .constructionWorkerMediumSkinTone: return ["worker", "hat", "construction", "worker:", "construction worker: medium skin tone", "medium", "tone", "medium skin tone", "skin"]
-
-        case .flagSolomonIslands: return ["flag: Solomon Islands", "Solomon Islands", "flag"]
-
-        case .droolingFace: return ["drooling", "face"]
-
-        case .childMediumDarkSkinTone: return ["child", "medium", "child: medium dark skin tone", "gender neutral", "dark", "tone", "medium dark skin tone", "child:", "unspecified gender", "skin", "young"]
-
-        case .briefcase: return ["briefcase"]
-
-        case .fastForwardButton: return ["double", "button", "fast", "arrow", "fast forward button", "forward"]
-
-        case .studentLightSkinTone: return ["light", "graduate", "student: light skin tone", "student:", "light skin tone", "student", "skin", "tone"]
-
-        case .broom: return ["cleaning", "witch", "sweeping", "broom"]
-
-        case .saxophone: return ["music", "sax", "saxophone", "instrument"]
-
-        case .tiredFace: return ["face", "tired"]
-
-        case .babyAngelMediumLightSkinTone: return ["medium light skin tone", "baby", "angel:", "light", "angel", "fantasy", "tone", "baby angel: medium light skin tone", "face", "skin", "medium", "fairy tale"]
-
-        case .crossedFingersMediumLightSkinTone: return ["light", "finger", "fingers:", "tone", "skin", "medium", "hand", "luck", "medium light skin tone", "crossed", "cross", "crossed fingers: medium light skin tone", "crossed fingers"]
-
-        case .manLightSkinToneRedHair: return ["adult", "man: light skin tone, red hair", "light", "hair", "red hair", "tone,", "light skin tone", "skin", "man", "red", "man:"]
-
-        case .star: return ["star"]
-
-        case .earOfCorn: return ["of", "maize", "maze", "ear of corn", "corn", "ear"]
-
-        case .tiger: return ["tiger"]
-
-        case .noseDarkSkinTone: return ["tone", "nose:", "dark", "skin", "nose: dark skin tone", "nose", "dark skin tone", "body"]
-
-        case .fire: return ["fire", "flame", "tool"]
-
-        case .ninjaLightSkinTone: return ["ninja", "light", "stealth", "light skin tone", "tone", "fighter", "ninja: light skin tone", "ninja:", "skin", "hidden"]
-
-        case .bird: return ["bird"]
-
-        case .pregnantManMediumLightSkinTone: return ["pregnant man", "light", "skin", "tone", "pregnant man: medium light skin tone", "bloated", "medium", "pregnant", "belly", "medium light skin tone", "full", "man:"]
-
-        case .microscope: return ["science", "tool", "microscope"]
-
-        case .flagRussia: return ["flag: Russia", "Russia", "flag"]
-
-        case .boomerang: return ["boomerang", "rebound", "repercussion"]
-
-        case .pancakes: return ["breakfast", "food", "hotcake", "crêpe", "pancake", "pancakes"]
-
-        case .checkBoxWithCheck: return ["box", "✓", "check box with check", "check", "with"]
-
-        case .wineGlass: return ["drink", "wine", "beverage", "bar", "glass"]
-
-        case .bowAndArrow: return ["arrow", "bow and arrow", "Sagittarius", "and", "zodiac", "bow", "archer"]
-
-        case .womanCurlyHair: return ["adult", "woman:", "hair", "curly", "woman", "curly hair", "woman: curly hair"]
-
-        case .reverseButton: return ["reverse", "left", "triangle", "arrow", "button", "reverse button"]
-
-        case .rightFacingFistMediumSkinTone: return ["fist:", "right facing fist: medium skin tone", "skin", "fist", "right facing fist", "medium", "tone", "facing", "medium skin tone", "rightwards", "right"]
-
-        case .flagPortugal: return ["Portugal", "flag: Portugal", "flag"]
-
-        case .manMechanicDarkSkinTone: return ["dark", "skin", "tone", "plumber", "dark skin tone", "man", "electrician", "mechanic", "tradesperson", "mechanic:", "man mechanic: dark skin tone"]
-
-        case .loveYouGestureMediumSkinTone: return ["medium skin tone", "hand", "medium", "you", "skin", "love", "tone", "love you gesture", "gesture:", "love you gesture: medium skin tone", "ILY"]
-
-        case .kaaba: return ["islam", "religion", "kaaba", "Muslim"]
-
-        case .palmUpHandLightSkinTone: return ["offer", "palm", "beckon", "up", "skin", "light skin tone", "hand:", "come", "light", "palm up hand: light skin tone", "tone", "palm up hand", "catch"]
-
-        case .leftSpeechBubble: return ["bubble", "balloon", "left speech bubble", "speech", "left", "dialog"]
-
-        case .spiralCalendar: return ["spiral", "pad", "calendar"]
-
-        case .menHoldingHandsMediumLightSkinToneMediumDarkSkinTone: return ["men holding hands", "men holding hands: medium light skin tone, medium dark skin tone", "tone", "dark", "twins", "man", "medium", "men", "holding hands", "couple", "holding", "medium light skin tone", "zodiac", "Gemini", "hands:", "skin", "medium dark skin tone", "light", "tone,"]
-
-        case .palmDownHand: return ["palm down hand", "hand", "palm", "shoo", "drop", "dismiss", "down"]
-
-        case .flagLuxembourg: return ["flag", "flag: Luxembourg", "Luxembourg"]
-
-        case .bison: return ["herd", "buffalo", "bison", "wisent"]
-
-        case .flagTajikistan: return ["flag: Tajikistan", "Tajikistan", "flag"]
-
-        case .aquarius: return ["bearer", "Aquarius", "zodiac", "water"]
-
-        case .deafPersonMediumLightSkinTone: return ["person:", "ear", "skin", "medium light skin tone", "tone", "deaf", "deaf person: medium light skin tone", "hear", "accessibility", "deaf person", "medium", "light"]
-
-        case .personMediumLightSkinToneBlondHair: return ["medium light skin tone", "tone,", "hair", "medium", "blond", "person: blond hair", "person:", "skin", "blond haired person", "light", "person: medium light skin tone, blond hair"]
-
-        case .mxClausMediumLightSkinTone: return ["mx claus", "mx claus: medium light skin tone", "mx", "medium", "tone", "skin", "claus", "christmas", "claus:", "light", "medium light skin tone"]
-
-        case .moai: return ["face", "moai", "statue", "moyai"]
-
-        case .lion: return ["face", "lion", "zodiac", "Leo"]
-
-        case .nationalPark: return ["park", "national", "national park"]
-
-        case .spadeSuit: return ["spade suit", "spade", "card", "suit", "game"]
-
-        case .sloth: return ["sloth", "lazy", "slow"]
-
-        case .personMediumSkinToneBeard: return ["person", "medium skin tone", "person: medium skin tone, beard", "person: beard", "person:", "beard", "skin", "tone,", "medium"]
-
-        case .flagIceland: return ["flag: Iceland", "flag", "Iceland"]
-
-        case .fullMoonFace: return ["face", "bright", "full", "moon"]
-
-        case .handshakeDarkSkinToneMediumDarkSkinTone: return ["medium dark skin tone", "skin", "dark skin tone", "meeting", "medium", "handshake:", "tone", "dark", "handshake: dark skin tone, medium dark skin tone", "tone,", "shake", "hand", "agreement", "handshake"]
-
-        case .tenThirty: return ["thirty", "10:30", "10", "clock", "ten", "ten thirty"]
-
-        case .manSingerDarkSkinTone: return ["rock", "star", "dark skin tone", "man", "entertainer", "tone", "singer", "skin", "man singer: dark skin tone", "dark", "actor", "singer:"]
-
-        case .ear: return ["body", "ear"]
-
-        case .pinchedFingersMediumDarkSkinTone: return ["medium", "pinched fingers: medium dark skin tone", "medium dark skin tone", "pinched", "fingers", "dark", "tone", "fingers:", "sarcastic", "skin", "interrogation", "hand gesture"]
-
-        case .manDarkSkinToneCurlyHair: return ["adult", "tone,", "man: dark skin tone, curly hair", "curly hair", "man", "curly", "dark skin tone", "skin", "dark", "hair", "man:"]
-
-        case .familyManWomanBoyBoy: return ["boy", "boy,", "man,", "woman,", "woman", "family:", "man", "family: man, woman, boy, boy", "family"]
-
-        case .yarn: return ["crochet", "knit", "ball", "yarn"]
-
-        case .elfMediumSkinTone: return ["elf:", "magical", "elf: medium skin tone", "medium", "tone", "skin", "elf", "medium skin tone"]
-
-        case .farmerLightSkinTone: return ["farmer:", "light skin tone", "skin", "tone", "farmer: light skin tone", "gardener", "farmer", "rancher", "light"]
-
-        case .cardFileBox: return ["card", "file", "box"]
-
-        case .waningCrescentMoon: return ["crescent", "moon", "waning"]
-
-        case .sunWithFace: return ["sun", "sun with face", "with", "bright", "face"]
-
-        case .sponge: return ["absorbing", "porous", "sponge", "cleaning"]
-
-        case .downLeftArrow: return ["arrow", "southwest", "left", "direction", "down left arrow", "down", "intercardinal"]
-
-        case .womanMediumLightSkinToneBald: return ["bald", "skin", "medium", "adult", "woman:", "woman", "woman: medium light skin tone, bald", "light", "tone,", "medium light skin tone"]
-
-        case .smilingFaceWithHorns: return ["face", "fairy tale", "smiling face with horns", "smiling", "smile", "with", "horns", "fantasy"]
-
-        case .redSquare: return ["square", "red"]
-
-        case .palmsUpTogetherLightSkinTone: return ["light", "prayer", "up", "skin", "palms up together", "palms up together: light skin tone", "palms", "light skin tone", "together:", "tone"]
-
-        case .dumpling: return ["empanada", "jiaozi", "pierogi", "gyōza", "dumpling", "potsticker"]
-
-        case .flagBrazil: return ["flag: Brazil", "Brazil", "flag"]
-
-        case .heartWithRibbon: return ["heart with ribbon", "valentine", "with", "ribbon", "heart"]
-
-        case .mageMediumLightSkinTone: return ["skin", "tone", "mage: medium light skin tone", "sorcerer", "mage", "medium light skin tone", "sorceress", "wizard", "medium", "mage:", "witch", "light"]
-
-        case .pig: return ["pig", "sow"]
-
-        case .crossMarkButton: return ["button", "square", "x", "mark", "×", "cross mark button", "cross"]
-
-        case .twelveThirty: return ["twelve thirty", "twelve", "12:30", "thirty", "12", "clock"]
-
-        case .personCartwheelingLightSkinTone: return ["light", "gymnastics", "cartwheel", "cartwheeling:", "person cartwheeling: light skin tone", "person", "light skin tone", "tone", "person cartwheeling", "skin"]
-
-        case .medicalSymbol: return ["medical symbol", "medicine", "aesculapius", "staff", "medical", "symbol"]
-
-        case .flagAfghanistan: return ["Afghanistan", "flag: Afghanistan", "flag"]
-
-        case .nineOclock: return ["nine", "9:00", "00", "o’clock", "clock", "9"]
-
-        case .catWithTearsOfJoy: return ["cat with tears of joy", "joy", "face", "tear", "cat", "with", "of", "tears"]
-
-        case .palmUpHandMediumLightSkinTone: return ["up", "tone", "palm", "light", "medium", "offer", "medium light skin tone", "beckon", "palm up hand", "hand:", "come", "skin", "catch", "palm up hand: medium light skin tone"]
-
-        case .japaneseReservedButton: return ["“reserved”", "Japanese", "指", "button", "Japanese “reserved” button", "ideograph"]
-
-        case .leg: return ["kick", "leg", "limb"]
-
-        case .personPoutingDarkSkinTone: return ["person", "dark skin tone", "tone", "dark", "person pouting: dark skin tone", "gesture", "person pouting", "pouting", "skin", "pouting:"]
-
-        case .flagLibya: return ["flag", "flag: Libya", "Libya"]
-
-        case .purse: return ["purse", "clothing", "coin"]
-
-        case .shintoShrine: return ["shinto", "religion", "shrine"]
-
-        case .videoGame: return ["game", "video", "video game", "controller"]
-
-        case .turkey: return ["turkey", "bird"]
-
-        case .television: return ["video", "tv", "television"]
-
-        case .nose: return ["body", "nose"]
-
-        case .womanDancingMediumSkinTone: return ["dancing", "dancing:", "woman dancing: medium skin tone", "medium skin tone", "dance", "skin", "woman", "medium", "tone"]
-
-        case .familyWomanBoyBoy: return ["woman", "family:", "woman,", "family", "boy,", "family: woman, boy, boy", "boy"]
-
-        case .mxClaus: return ["claus", "mx claus", "christmas", "mx"]
-
-        case .mechanicMediumSkinTone: return ["skin", "electrician", "medium", "tone", "mechanic:", "mechanic", "mechanic: medium skin tone", "plumber", "medium skin tone", "tradesperson"]
-
-        case .merpersonDarkSkinTone: return ["skin", "merperson: dark skin tone", "tone", "merman", "merperson", "dark", "merwoman", "dark skin tone", "mermaid", "merperson:"]
-
-        case .personWithVeil: return ["wedding", "bride", "with", "veil", "person with veil", "person"]
-
-        case .redTrianglePointedUp: return ["red", "geometric", "triangle", "red triangle pointed up", "pointed", "up"]
-
-        case .suspensionRailway: return ["railway", "suspension"]
-
-        case .faceWithCrossedOutEyes: return ["with", "face", "eyes", "dead", "crossed out eyes", "crossed", "face with crossed out eyes", "out", "knocked out"]
-
-        case .personShruggingDarkSkinTone: return ["dark skin tone", "ignorance", "shrugging:", "dark", "doubt", "shrug", "person", "person shrugging", "indifference", "person shrugging: dark skin tone", "skin", "tone"]
-
-        case .womenHoldingHandsDarkSkinToneLightSkinTone: return ["women holding hands", "light skin tone", "dark", "skin", "tone", "holding", "holding hands", "tone,", "couple", "hand", "light", "women", "women holding hands: dark skin tone, light skin tone", "hands:", "dark skin tone"]
-
-        case .dove: return ["fly", "dove", "bird", "peace"]
-
-        case .nailPolishMediumSkinTone: return ["nail", "medium", "care", "cosmetics", "polish", "nail polish: medium skin tone", "manicure", "medium skin tone", "skin", "tone", "polish:"]
-
-        case .heartSuit: return ["card", "heart suit", "heart", "suit", "game"]
-
-        case .nonPotableWater: return ["non", "water", "non potable", "potable", "non drinking"]
-
-        case .womanTeacherMediumDarkSkinTone: return ["medium", "instructor", "woman", "tone", "woman teacher: medium dark skin tone", "lecturer", "teacher:", "skin", "medium dark skin tone", "dark", "professor", "teacher"]
-
-        case .lockedWithKey: return ["locked with key", "with", "closed", "lock", "key", "locked", "secure"]
-
-        case .handshakeLightSkinTone: return ["tone", "meeting", "agreement", "handshake", "light", "shake", "handshake:", "light skin tone", "skin", "hand", "handshake: light skin tone"]
-
-        case .merpersonLightSkinTone: return ["merperson", "merperson: light skin tone", "tone", "mermaid", "merwoman", "light skin tone", "light", "skin", "merman", "merperson:"]
-
-        case .girlLightSkinTone: return ["Virgo", "girl: light skin tone", "tone", "light", "girl:", "young", "girl", "skin", "zodiac", "light skin tone"]
-
-        case .sunset: return ["sunset", "dusk", "sun"]
-
-        case .motorScooter: return ["scooter", "motor"]
-
-        case .flagSomalia: return ["flag: Somalia", "Somalia", "flag"]
-
-        case .footLightSkinTone: return ["stomp", "kick", "foot", "foot:", "light", "tone", "foot: light skin tone", "light skin tone", "skin"]
-
-        case .coupleWithHeartMediumSkinTone: return ["couple", "heart:", "medium", "skin", "with", "love", "couple with heart: medium skin tone", "couple with heart", "medium skin tone", "tone"]
-
-        case .windFace: return ["blow", "cloud", "face", "wind"]
-
-        case .teacherLightSkinTone: return ["lecturer", "professor", "instructor", "tone", "teacher", "teacher:", "light skin tone", "skin", "light", "teacher: light skin tone"]
-
-        case .downcastFaceWithSweat: return ["with", "downcast", "cold", "face", "sweat", "downcast face with sweat"]
-
-        case .sneezingFace: return ["sneeze", "sneezing face", "face", "gesundheit", "sneezing"]
-
-        case .hibiscus: return ["hibiscus", "flower"]
-
-        case .womanTechnologist: return ["technologist", "inventor", "coder", "software", "woman", "developer"]
-
-        case .manMediumLightSkinToneWhiteHair: return ["hair", "medium light skin tone", "light", "man", "white hair", "man:", "tone,", "medium", "man: medium light skin tone, white hair", "skin", "white", "adult"]
-
-        case .articulatedLorry: return ["semi", "truck", "articulated", "articulated lorry", "lorry"]
-
-        case .personFacepalmingMediumSkinTone: return ["medium skin tone", "exasperation", "tone", "disbelief", "person facepalming", "palm", "person facepalming: medium skin tone", "facepalming:", "person", "face", "medium", "skin"]
-
-        case .cooking: return ["frying", "cooking", "breakfast", "pan", "egg"]
-
-        case .manAstronautDarkSkinTone: return ["astronaut:", "man astronaut: dark skin tone", "tone", "astronaut", "man", "rocket", "dark skin tone", "dark", "skin"]
-
-        case .personRowingBoatDarkSkinTone: return ["boat:", "boat", "person rowing boat", "dark skin tone", "rowing", "dark", "skin", "tone", "person", "rowboat", "person rowing boat: dark skin tone"]
-
-        case .raisedBackOfHandDarkSkinTone: return ["skin", "back", "dark", "raised back of hand: dark skin tone", "raised back of hand", "of", "raised", "backhand", "hand:", "tone", "dark skin tone"]
-
-        case .manOfficeWorkerMediumDarkSkinTone: return ["medium dark skin tone", "manager", "man", "office", "man office worker: medium dark skin tone", "worker:", "man office worker", "tone", "medium", "business", "architect", "white collar", "skin", "dark"]
-
-        case .flagYemen: return ["Yemen", "flag: Yemen", "flag"]
-
-        case .anchor: return ["tool", "ship", "anchor"]
-
-        case .horse: return ["equestrian", "horse", "racehorse", "racing"]
-
-        case .closedUmbrella: return ["rain", "clothing", "closed umbrella", "closed", "umbrella"]
-
-        case .personTippingHandMediumLightSkinTone: return ["hand", "help", "medium light skin tone", "tipping", "person", "medium", "information", "skin", "person tipping hand", "hand:", "light", "sassy", "tone", "person tipping hand: medium light skin tone"]
-
-        case .balloon: return ["balloon", "celebration"]
-
-        case .anxiousFaceWithSweat: return ["rushed", "anxious", "blue", "with", "face", "cold", "anxious face with sweat", "sweat"]
-
-        case .personKneelingDarkSkinTone: return ["dark", "person", "kneel", "person kneeling", "tone", "kneeling:", "dark skin tone", "person kneeling: dark skin tone", "skin", "kneeling"]
-
-        case .superheroMediumSkinTone: return ["hero", "skin", "superpower", "tone", "superhero:", "superhero", "medium", "heroine", "good", "superhero: medium skin tone", "medium skin tone"]
-
-        case .snowboarderMediumLightSkinTone: return ["snowboarder: medium light skin tone", "snowboarder:", "snowboarder", "medium", "snow", "tone", "medium light skin tone", "snowboard", "light", "skin", "ski"]
-
-        case .pingPong: return ["ball", "ping pong", "table tennis", "bat", "pong", "game", "paddle", "ping"]
-
-        case .smirkingFace: return ["smirking", "smirking face", "smirk", "face"]
-
-        case .manSingerLightSkinTone: return ["rock", "star", "tone", "man", "light skin tone", "entertainer", "man singer: light skin tone", "singer", "skin", "light", "actor", "singer:"]
-
-        case .brownMushroom: return ["food", "fungus", "brown mushroom", "brown", "mushroom", "vegetable", "nature"]
-
-        case .hatchingChick: return ["bird", "baby", "chick", "hatching"]
-
-        case .flagBritishIndianOceanTerritory: return ["flag", "flag: British Indian Ocean Territory", "British Indian Ocean Territory"]
-
-        case .manFactoryWorkerMediumLightSkinTone: return ["man", "worker", "man factory worker: medium light skin tone", "industrial", "medium", "skin", "assembly", "tone", "factory", "light", "medium light skin tone", "worker:"]
-
-        case .heartHandsLightSkinTone: return ["heart hands", "hands:", "heart", "light skin tone", "heart hands: light skin tone", "love", "light", "tone", "skin"]
-
-        case .fairyMediumLightSkinTone: return ["light", "fairy:", "fairy", "medium", "fairy: medium light skin tone", "Oberon", "skin", "tone", "Titania", "Puck", "medium light skin tone"]
-
-        case .personLightSkinToneRedHair: return ["red", "person:", "red hair", "adult", "light", "light skin tone", "person", "unspecified gender", "hair", "tone,", "skin", "person: light skin tone, red hair", "gender neutral"]
-
-        case .manDancingLightSkinTone: return ["dancing", "skin", "man", "light skin tone", "man dancing: light skin tone", "dancing:", "light", "dance", "tone"]
-
-        case .runningShirt: return ["athletics", "sash", "shirt", "running"]
-
-        case .manTechnologistMediumLightSkinTone: return ["light", "technologist", "man", "man technologist: medium light skin tone", "skin", "medium light skin tone", "medium", "inventor", "coder", "developer", "technologist:", "software", "tone"]
-
-        case .faceWithTearsOfJoy: return ["of", "with", "joy", "laugh", "face", "face with tears of joy", "tears", "tear"]
-
-        case .currencyExchange: return ["exchange", "bank", "currency", "money"]
-
-        case .flagStMartin: return ["flag: St. Martin", "flag", "St. Martin"]
-
-        case .trolleybus: return ["tram", "trolley", "bus", "trolleybus"]
-
-        case .pinchingHandMediumDarkSkinTone: return ["medium", "pinching hand", "medium dark skin tone", "small amount", "skin", "tone", "pinching", "pinching hand: medium dark skin tone", "hand:", "dark"]
-
-        case .fly: return ["disease", "maggot", "pest", "fly", "rotting"]
-
-        case .rose: return ["flower", "rose"]
-
-        case .olive: return ["olive", "food"]
-
-        case .abButtonBloodType: return ["AB", "(blood", "AB button (blood type)", "type)", "blood type", "button"]
-
-        case .grimacingFace: return ["grimacing", "grimace", "face", "grimacing face"]
-
-        case .ant: return ["ant", "insect"]
-
-        case .ghost: return ["creature", "monster", "face", "fantasy", "fairy tale", "ghost"]
-
-        case .pensiveFace: return ["dejected", "face", "pensive"]
-
-        case .menHoldingHands: return ["man", "holding hands", "men holding hands", "hands", "zodiac", "holding", "couple", "men", "Gemini", "twins"]
-
-        case .chartIncreasing: return ["growth", "graph", "trend", "increasing", "upward", "chart", "chart increasing"]
-
-        case .speedboat: return ["boat", "speedboat"]
-
-        case .womanLightSkinToneCurlyHair: return ["woman: light skin tone, curly hair", "light skin tone", "adult", "skin", "tone,", "light", "curly", "curly hair", "woman", "hair", "woman:"]
-
-        case .volcano: return ["eruption", "mountain", "volcano"]
-
-        case .foldedHandsMediumLightSkinTone: return ["folded", "skin", "light", "folded hands", "ask", "hands:", "please", "medium light skin tone", "pray", "medium", "high five", "folded hands: medium light skin tone", "thanks", "high 5", "tone", "hand"]
-
-        case .womenHoldingHandsMediumDarkSkinTone: return ["dark", "hands:", "skin", "holding", "hand", "women", "medium", "holding hands", "women holding hands: medium dark skin tone", "couple", "women holding hands", "medium dark skin tone", "tone"]
-
-        case .womanAndManHoldingHandsMediumSkinToneDarkSkinTone: return ["hands:", "holding hands", "woman and man holding hands: medium skin tone, dark skin tone", "skin", "hand", "man", "medium", "hold", "couple", "holding", "dark", "woman", "tone", "medium skin tone", "dark skin tone", "tone,", "woman and man holding hands", "and"]
-
-        case .peanuts: return ["peanut", "peanuts", "food", "nut", "vegetable"]
-
-        case .tooth: return ["tooth", "dentist"]
-
-        case .openBook: return ["book", "open"]
-
-        case .menHoldingHandsMediumSkinToneDarkSkinTone: return ["zodiac", "hands:", "dark skin tone", "skin", "men", "medium skin tone", "Gemini", "holding hands", "dark", "man", "couple", "tone,", "men holding hands: medium skin tone, dark skin tone", "holding", "tone", "twins", "men holding hands", "medium"]
-
-        case .babyAngel: return ["fantasy", "face", "baby", "angel", "fairy tale"]
-
-        case .clappingHandsMediumDarkSkinTone: return ["clap", "skin", "hands:", "clapping hands: medium dark skin tone", "tone", "dark", "hand", "clapping hands", "medium dark skin tone", "clapping", "medium"]
-
-        case .womenHoldingHandsMediumLightSkinToneLightSkinTone: return ["women holding hands", "hand", "tone,", "medium light skin tone", "light skin tone", "hands:", "holding hands", "couple", "tone", "women", "medium", "light", "women holding hands: medium light skin tone, light skin tone", "holding", "skin"]
-
-        case .whiteFlag: return ["white flag", "waving", "white", "flag"]
-
-        case .personWalkingMediumDarkSkinTone: return ["medium dark skin tone", "hike", "walk", "person", "person walking: medium dark skin tone", "walking", "medium", "dark", "skin", "walking:", "person walking", "tone"]
-
-        case .elfMediumLightSkinTone: return ["skin", "medium", "elf: medium light skin tone", "magical", "medium light skin tone", "elf", "elf:", "light", "tone"]
-
-        case .cloudWithLightningAndRain: return ["with", "cloud with lightning and rain", "lightning", "and", "thunder", "cloud", "rain"]
-
-        case .factoryWorkerMediumDarkSkinTone: return ["medium", "factory", "tone", "assembly", "dark", "worker", "medium dark skin tone", "industrial", "factory worker: medium dark skin tone", "worker:", "skin"]
-
-        case .personCartwheelingMediumSkinTone: return ["person", "medium skin tone", "skin", "person cartwheeling", "cartwheeling:", "person cartwheeling: medium skin tone", "cartwheel", "gymnastics", "medium", "tone"]
-
-        case .flagTanzania: return ["Tanzania", "flag: Tanzania", "flag"]
-
-        case .womenHoldingHandsMediumSkinToneMediumDarkSkinTone: return ["hand", "medium", "holding", "tone", "skin", "couple", "women", "women holding hands", "dark", "tone,", "hands:", "women holding hands: medium skin tone, medium dark skin tone", "holding hands", "medium dark skin tone", "medium skin tone"]
-
-        case .flagGeorgia: return ["flag: Georgia", "flag", "Georgia"]
-
-        case .thumbsDownLightSkinTone: return ["down", "thumbs", "light", "tone", "thumbs down", "thumbs down: light skin tone", "down:", "skin", "1", "thumb", "light skin tone", "hand"]
-
-        case .personBowingMediumSkinTone: return ["person bowing", "person", "apology", "skin", "medium", "tone", "bowing:", "medium skin tone", "person bowing: medium skin tone", "bow", "gesture", "sorry"]
-
-        case .airplaneDeparture: return ["airplane", "check in", "departure", "aeroplane", "departures"]
-
-        case .womanAndManHoldingHandsLightSkinToneDarkSkinTone: return ["light skin tone", "couple", "hands:", "tone", "man", "hand", "woman and man holding hands: light skin tone, dark skin tone", "dark skin tone", "woman and man holding hands", "light", "dark", "skin", "holding hands", "hold", "and", "holding", "tone,", "woman"]
-
-        case .womanAndManHoldingHandsMediumDarkSkinTone: return ["couple", "holding hands", "medium", "skin", "woman", "hand", "hands:", "hold", "medium dark skin tone", "dark", "man", "and", "woman and man holding hands: medium dark skin tone", "tone", "woman and man holding hands", "holding"]
-
-        case .personGettingHaircutMediumDarkSkinTone: return ["person getting haircut", "beauty", "person getting haircut: medium dark skin tone", "parlor", "dark", "tone", "person", "skin", "barber", "medium dark skin tone", "getting", "haircut", "medium", "haircut:"]
-
-        case .flagCanaryIslands: return ["flag: Canary Islands", "flag", "Canary Islands"]
-
-        case .womenHoldingHandsMediumLightSkinToneDarkSkinTone: return ["hand", "skin", "tone", "dark skin tone", "holding hands", "medium light skin tone", "couple", "women holding hands: medium light skin tone, dark skin tone", "dark", "holding", "medium", "light", "tone,", "hands:", "women holding hands", "women"]
-
-        case .sunBehindLargeCloud: return ["cloud", "behind", "large", "sun", "sun behind large cloud"]
-
-        case .womanMediumSkinTone: return ["woman", "skin", "woman:", "woman: medium skin tone", "medium skin tone", "tone", "medium", "adult"]
-
-        case .peopleHoldingHandsMediumDarkSkinToneDarkSkinTone: return ["holding hands", "dark", "people holding hands", "medium dark skin tone", "tone", "couple", "holding", "skin", "tone,", "person", "hand", "people holding hands: medium dark skin tone, dark skin tone", "dark skin tone", "people", "hands:", "medium", "hold"]
-
-        case .raisedBackOfHandMediumDarkSkinTone: return ["hand:", "raised back of hand: medium dark skin tone", "tone", "skin", "medium", "medium dark skin tone", "dark", "of", "raised", "backhand", "raised back of hand", "back"]
-
-        case .raisedBackOfHandLightSkinTone: return ["light skin tone", "back", "raised back of hand: light skin tone", "of", "raised back of hand", "raised", "skin", "backhand", "hand:", "light", "tone"]
-
-        case .manTeacherMediumSkinTone: return ["medium skin tone", "medium", "instructor", "man", "tone", "man teacher: medium skin tone", "skin", "lecturer", "teacher:", "professor", "teacher"]
-
-        case .womanFactoryWorkerMediumDarkSkinTone: return ["worker:", "worker", "medium", "industrial", "woman factory worker: medium dark skin tone", "medium dark skin tone", "assembly", "skin", "dark", "tone", "factory", "woman"]
-
-        case .blackMediumSmallSquare: return ["black medium small square", "black", "medium", "geometric", "small", "square"]
-
-        case .pregnantWomanMediumSkinTone: return ["woman:", "tone", "pregnant", "skin", "woman", "medium skin tone", "pregnant woman: medium skin tone", "medium"]
-
-        case .palmsUpTogether: return ["palms", "up", "together", "palms up together", "prayer"]
-
-        case .middleFingerMediumSkinTone: return ["skin", "finger", "middle finger: medium skin tone", "medium", "hand", "middle finger", "tone", "medium skin tone", "middle", "finger:"]
-
-        case .flagNorthKorea: return ["North Korea", "flag", "flag: North Korea"]
-
-        case .personMediumLightSkinToneCurlyHair: return ["tone,", "medium", "adult", "medium light skin tone", "light", "gender neutral", "skin", "person: medium light skin tone, curly hair", "curly hair", "person:", "hair", "unspecified gender", "curly", "person"]
-
-        case .personBouncingBallDarkSkinTone: return ["person bouncing ball: dark skin tone", "tone", "bouncing", "dark skin tone", "person", "ball:", "ball", "dark", "skin", "person bouncing ball"]
-
-        case .personInManualWheelchair: return ["person in manual wheelchair", "person", "accessibility", "wheelchair", "in", "manual"]
-
-        case .okHandDarkSkinTone: return ["dark", "dark skin tone", "OK hand: dark skin tone", "hand:", "tone", "OK", "skin", "hand"]
-
-        case .personBouncingBall: return ["person bouncing ball", "ball", "person", "bouncing"]
-
-        case .globeShowingAsiaAustralia: return ["world", "globe", "showing", "earth", "globe showing Asia Australia", "Asia", "Australia"]
-
-        case .signOfTheHornsMediumDarkSkinTone: return ["medium", "skin", "horns", "horns:", "sign of the horns: medium dark skin tone", "finger", "sign of the horns", "the", "sign", "dark", "of", "tone", "medium dark skin tone", "hand", "rock on"]
-
-        case .antennaBars: return ["cell", "mobile", "antenna", "antenna bars", "phone", "bar", "bars"]
-
-        case .manAstronautLightSkinTone: return ["astronaut", "light", "rocket", "man", "man astronaut: light skin tone", "light skin tone", "tone", "skin", "astronaut:"]
-
-        case .personBowingMediumDarkSkinTone: return ["person bowing", "person", "person bowing: medium dark skin tone", "dark", "gesture", "medium", "apology", "skin", "tone", "sorry", "bowing:", "medium dark skin tone", "bow"]
-
-        case .womanMechanicMediumDarkSkinTone: return ["dark", "tone", "plumber", "woman mechanic: medium dark skin tone", "medium", "mechanic:", "skin", "mechanic", "electrician", "tradesperson", "woman", "medium dark skin tone"]
-
-        case .droplet: return ["droplet", "sweat", "drop", "cold", "comic"]
-
-        case .womanWithHeadscarfMediumLightSkinTone: return ["light", "hijab", "woman with headscarf: medium light skin tone", "headscarf:", "woman", "medium", "with", "tone", "headscarf", "tichel", "mantilla", "woman with headscarf", "skin", "medium light skin tone"]
-
-        case .peopleHoldingHandsMediumSkinToneDarkSkinTone: return ["medium", "people", "couple", "hands:", "people holding hands: medium skin tone, dark skin tone", "hold", "tone", "skin", "people holding hands", "medium skin tone", "person", "tone,", "holding", "hand", "dark", "dark skin tone", "holding hands"]
-
-        case .doughnut: return ["breakfast", "dessert", "doughnut", "sweet", "donut"]
-
-        case .palmUpHand: return ["beckon", "offer", "palm up hand", "up", "catch", "palm", "hand", "come"]
-
-        case .sunflower: return ["sunflower", "flower", "sun"]
-
-        case .personBouncingBallMediumDarkSkinTone: return ["ball:", "dark", "person bouncing ball: medium dark skin tone", "medium dark skin tone", "skin", "ball", "person", "bouncing", "medium", "tone", "person bouncing ball"]
-
-        case .troll: return ["fantasy", "fairy tale", "troll", "monster"]
-
-        case .superheroMediumDarkSkinTone: return ["hero", "skin", "superpower", "tone", "superhero:", "superhero", "medium", "heroine", "dark", "superhero: medium dark skin tone", "good", "medium dark skin tone"]
-
-        case .crocodile: return ["crocodile"]
-
-        case .mosquito: return ["malaria", "fever", "virus", "disease", "mosquito", "pest"]
-
-        case .manInManualWheelchairMediumSkinTone: return ["medium", "manual", "tone", "skin", "in", "accessibility", "wheelchair", "man in manual wheelchair: medium skin tone", "medium skin tone", "man in manual wheelchair", "wheelchair:", "man"]
-
-        case .flagPalestinianTerritories: return ["Palestinian Territories", "flag: Palestinian Territories", "flag"]
-
-        case .railwayTrack: return ["railway", "railway track", "track", "train"]
-
-        case .personWithCrown: return ["crown", "noble", "regal", "person with crown", "royalty", "with", "person", "monarch"]
-
-        case .thumbsDownMediumLightSkinTone: return ["1", "down:", "medium", "light", "thumb", "down", "thumbs down", "thumbs", "tone", "medium light skin tone", "skin", "hand", "thumbs down: medium light skin tone"]
-
-        case .flagMorocco: return ["flag", "flag: Morocco", "Morocco"]
-
-        case .personMountainBikingMediumDarkSkinTone: return ["mountain", "tone", "person mountain biking: medium dark skin tone", "medium dark skin tone", "bicycle", "bicyclist", "biking:", "medium", "dark", "person mountain biking", "skin", "person", "bike", "cyclist"]
-
-        case .ledger: return ["notebook", "ledger"]
-
-        case .tamale: return ["mexican", "tamale", "wrapped"]
-
-        case .clipboard: return ["clipboard"]
-
-        case .snowboarderMediumSkinTone: return ["tone", "ski", "snowboarder:", "snow", "snowboarder", "medium", "skin", "snowboard", "snowboarder: medium skin tone", "medium skin tone"]
-
-        case .womanOfficeWorkerLightSkinTone: return ["woman office worker: light skin tone", "office", "skin", "worker:", "business", "architect", "light", "white collar", "light skin tone", "manager", "woman office worker", "tone", "woman"]
-
-        case .flagMadagascar: return ["Madagascar", "flag", "flag: Madagascar"]
-
-        case .policeCarLight: return ["police", "revolving", "light", "beacon", "car"]
-
-        case .flagChristmasIsland: return ["Christmas Island", "flag", "flag: Christmas Island"]
-
-        case .rightFacingFistMediumDarkSkinTone: return ["medium dark skin tone", "right", "fist:", "skin", "fist", "right facing fist: medium dark skin tone", "facing", "right facing fist", "dark", "tone", "rightwards", "medium"]
-
-        case .checkMark: return ["mark", "check", "✓"]
-
-        case .pawPrints: return ["print", "paw prints", "feet", "prints", "paw"]
-
-        case .hotSprings: return ["springs", "hot", "hotsprings", "steaming"]
-
-        case .disappointedFace: return ["disappointed", "face"]
-
-        case .flagBrunei: return ["flag: Brunei", "Brunei", "flag"]
-
-        case .skunk: return ["stink", "skunk"]
-
-        case .largeOrangeDiamond: return ["large orange diamond", "diamond", "geometric", "orange", "large"]
-
-        case .personGolfing: return ["person golfing", "golfing", "person", "golf", "ball"]
-
-        case .coconut: return ["palm", "piña colada", "coconut"]
-
-        case .enragedFace: return ["pouting", "mad", "rage", "angry", "enraged", "red", "face"]
-
-        case .manWithWhiteCaneDarkSkinTone: return ["with", "dark", "tone", "man", "man with white cane: dark skin tone", "white", "skin", "accessibility", "dark skin tone", "blind", "cane:", "man with white cane"]
-
-        case .manStudentLightSkinTone: return ["tone", "light skin tone", "skin", "graduate", "student:", "student", "man", "light", "man student: light skin tone"]
-
-        case .manMediumSkinTone: return ["medium skin tone", "adult", "man:", "medium", "tone", "skin", "man", "man: medium skin tone"]
-
-        case .handWithIndexFingerAndThumbCrossedDarkSkinTone: return ["expensive", "heart", "thumb", "hand with index finger and thumb crossed", "money", "crossed:", "finger", "skin", "index", "dark", "with", "dark skin tone", "tone", "love", "and", "hand", "hand with index finger and thumb crossed: dark skin tone", "snap"]
-
-        case .familyManWomanGirlBoy: return ["man,", "family", "family: man, woman, girl, boy", "woman,", "family:", "girl,", "boy", "man", "woman", "girl"]
-
-        case .locked: return ["closed", "locked"]
-
-        case .flagVietnam: return ["flag: Vietnam", "flag", "Vietnam"]
-
-        case .girlMediumLightSkinTone: return ["girl", "skin", "zodiac", "girl: medium light skin tone", "medium", "light", "tone", "medium light skin tone", "Virgo", "girl:", "young"]
-
-        case .rightwardsPushingHand: return ["rightwards", "wait", "stop", "high five", "pushing", "hand", "push", "rightward", "refuse", "rightwards pushing hand"]
-
-        case .womanFarmer: return ["woman", "gardener", "rancher", "farmer"]
-
-        case .blackLargeSquare: return ["large", "geometric", "black", "square", "black large square"]
-
-        case .restroom: return ["lavatory", "toilet", "restroom", "bathroom", "WC"]
-
-        case .fairy: return ["Puck", "Oberon", "fairy", "Titania"]
-
-        case .teapot: return ["teapot", "tea", "pot", "drink"]
-
-        case .pinata: return ["celebration", "piñata", "party"]
-
-        case .flagPapuaNewGuinea: return ["flag: Papua New Guinea", "Papua New Guinea", "flag"]
-
-        case .bookmarkTabs: return ["tabs", "mark", "marker", "bookmark"]
-
-        case .child: return ["young", "gender neutral", "unspecified gender", "child"]
-
-        case .personTakingBathDarkSkinTone: return ["bath:", "person taking bath", "tone", "taking", "person", "dark skin tone", "skin", "bath", "dark", "bathtub", "person taking bath: dark skin tone"]
-
-        case .palmsUpTogetherMediumSkinTone: return ["palms up together: medium skin tone", "palms", "up", "tone", "medium skin tone", "prayer", "together:", "skin", "medium", "palms up together"]
-
-        case .flagBelarus: return ["flag: Belarus", "Belarus", "flag"]
-
-        case .personFeedingBaby: return ["feeding", "baby", "person", "nursing"]
-
-        case .redApple: return ["red", "apple", "fruit"]
-
-        case .leftwardsPushingHandMediumSkinTone: return ["medium", "skin", "push", "tone", "stop", "leftwards pushing hand", "high five", "hand:", "leftwards", "pushing", "medium skin tone", "leftwards pushing hand: medium skin tone", "leftward", "refuse", "wait"]
-
-        case .student: return ["student", "graduate"]
-
-        case .personGolfingMediumSkinTone: return ["tone", "medium skin tone", "person golfing", "ball", "skin", "golf", "medium", "person golfing: medium skin tone", "person", "golfing:"]
-
-        case .faceVomiting: return ["sick", "face vomiting", "face", "puke", "vomit", "vomiting"]
-
-        case .sled: return ["sledge", "sled", "sleigh"]
-
-        case .rollerCoaster: return ["coaster", "theme park", "roller", "amusement park"]
-
-        case .ferrisWheel: return ["amusement park", "theme park", "ferris", "wheel"]
-
-        case .moonViewingCeremony: return ["celebration", "ceremony", "moon", "moon viewing ceremony", "viewing"]
-
-        case .rabbit: return ["bunny", "pet", "rabbit"]
-
-        case .goalNet: return ["goal", "net"]
-
-        case .waffle: return ["waffle", "iron", "indecisive", "breakfast"]
-
-        case .frenchFries: return ["french", "fries"]
-
-        case .backhandIndexPointingUpLightSkinTone: return ["up:", "skin", "finger", "backhand index pointing up", "up", "light", "backhand", "hand", "point", "index", "backhand index pointing up: light skin tone", "tone", "pointing", "light skin tone"]
-
-        case .serviceDog: return ["assistance", "dog", "service", "accessibility"]
-
-        case .idButton: return ["button", "identity", "ID", "ID button"]
-
-        case .firstQuarterMoon: return ["moon", "first quarter moon", "quarter", "first"]
-
-        case .guardMediumDarkSkinTone: return ["tone", "dark", "guard: medium dark skin tone", "guard:", "medium dark skin tone", "medium", "guard", "skin"]
-
-        case .manFeedingBabyDarkSkinTone: return ["man", "man feeding baby: dark skin tone", "baby", "feeding", "baby:", "tone", "nursing", "dark skin tone", "skin", "dark"]
-
-        case .familyWomanGirlBoy: return ["girl,", "girl", "family", "family:", "boy", "woman", "family: woman, girl, boy", "woman,"]
-
-        case .santaClausDarkSkinTone: return ["santa", "Christmas", "Santa Claus: dark skin tone", "Santa", "tone", "claus", "dark skin tone", "dark", "skin", "father", "celebration", "Claus:"]
-
-        case .boyMediumSkinTone: return ["boy:", "medium skin tone", "medium", "skin", "tone", "boy", "young", "boy: medium skin tone"]
-
-        case .cookMediumLightSkinTone: return ["medium light skin tone", "cook: medium light skin tone", "tone", "cook", "medium", "chef", "cook:", "light", "skin"]
-
-        case .cancer: return ["zodiac", "Cancer", "crab"]
-
-        case .computerDisk: return ["minidisk", "computer", "optical", "disk"]
-
-        case .unamusedFace: return ["unhappy", "unamused", "face"]
-
-        case .doubleExclamationMark: return ["double exclamation mark", "bangbang", "!!", "exclamation", "double", "mark", "!"]
-
-        case .confettiBall: return ["confetti", "ball", "celebration"]
-
-        case .personGolfingMediumDarkSkinTone: return ["tone", "golf", "skin", "dark", "person golfing: medium dark skin tone", "medium dark skin tone", "person golfing", "ball", "golfing:", "medium", "person"]
-
-        case .crossedFingersLightSkinTone: return ["light skin tone", "crossed fingers: light skin tone", "crossed", "cross", "finger", "luck", "crossed fingers", "skin", "tone", "hand", "light", "fingers:"]
-
-        case .signOfTheHornsLightSkinTone: return ["horns", "sign of the horns", "sign", "the", "light skin tone", "hand", "rock on", "skin", "finger", "horns:", "of", "light", "sign of the horns: light skin tone", "tone"]
-
-        case .wearyFace: return ["tired", "face", "weary"]
-
-        case .raisedFist: return ["fist", "clenched", "raised fist", "hand", "punch", "raised"]
-
-        case .girl: return ["girl", "zodiac", "young", "Virgo"]
-
-        case .personGesturingOkLightSkinTone: return ["light", "tone", "gesture", "gesturing", "skin", "OK", "person gesturing OK: light skin tone", "hand", "person gesturing OK", "light skin tone", "person", "OK:"]
-
-        case .flagThailand: return ["flag: Thailand", "Thailand", "flag"]
-
-        case .personGolfingMediumLightSkinTone: return ["golf", "person", "medium light skin tone", "person golfing", "golfing:", "light", "skin", "ball", "tone", "person golfing: medium light skin tone", "medium"]
-
-        case .flagAntarctica: return ["flag: Antarctica", "Antarctica", "flag"]
-
-        case .tulip: return ["flower", "tulip"]
-
-        case .flagSlovenia: return ["Slovenia", "flag: Slovenia", "flag"]
-
-        case .pool8Ball: return ["game", "ball", "8", "pool 8 ball", "pool", "billiard", "eight"]
-
-        case .sparkler: return ["celebration", "sparkler", "sparkle", "fireworks"]
-
-        case .sunBehindSmallCloud: return ["behind", "small", "cloud", "sun behind small cloud", "sun"]
-
-        case .manDancing: return ["dance", "man", "dancing"]
-
-        case .signOfTheHornsMediumLightSkinTone: return ["sign", "skin", "medium", "horns:", "rock on", "of", "horns", "sign of the horns", "hand", "finger", "the", "medium light skin tone", "light", "sign of the horns: medium light skin tone", "tone"]
-
-        case .flagMaldives: return ["flag", "flag: Maldives", "Maldives"]
-
-        case .factoryWorker: return ["worker", "assembly", "factory", "industrial"]
-
-        case .menHoldingHandsDarkSkinTone: return ["tone", "men", "men holding hands", "skin", "zodiac", "men holding hands: dark skin tone", "couple", "man", "dark skin tone", "holding", "Gemini", "twins", "hands:", "holding hands", "dark"]
-
-        case .flagUnitedStates: return ["United States", "flag", "flag: United States"]
-
-        case .flagUruguay: return ["Uruguay", "flag: Uruguay", "flag"]
-
-        case .handshakeMediumLightSkinTone: return ["tone", "meeting", "agreement", "handshake", "light", "shake", "medium", "handshake:", "handshake: medium light skin tone", "skin", "hand", "medium light skin tone"]
-
-        case .koala: return ["koala", "marsupial", "face"]
-
-        case .baguetteBread: return ["baguette", "bread", "food", "french"]
-
-        case .flagHongKongSarChina: return ["Hong Kong SAR China", "flag: Hong Kong SAR China", "flag"]
-
-        case .shootingStar: return ["shooting", "star", "falling"]
-
-        case .cookMediumDarkSkinTone: return ["skin", "cook:", "medium dark skin tone", "chef", "medium", "dark", "cook", "tone", "cook: medium dark skin tone"]
-
-        case .tridentEmblem: return ["emblem", "anchor", "trident", "tool", "ship"]
-
-        case .paperclip: return ["paperclip"]
-
-        case .framedPicture: return ["picture", "painting", "museum", "art", "frame", "framed", "framed picture"]
-
-        case .womanMediumLightSkinToneRedHair: return ["woman:", "woman", "red hair", "light", "red", "skin", "hair", "adult", "woman: medium light skin tone, red hair", "medium light skin tone", "medium", "tone,"]
-
-        case .flagNauru: return ["flag: Nauru", "flag", "Nauru"]
-
-        case .noOneUnderEighteen: return ["18", "one", "prohibited", "age restriction", "eighteen", "no one under eighteen", "underage", "no", "under"]
-
-        case .kickScooter: return ["kick", "scooter"]
-
-        case .smilingFaceWithSmilingEyes: return ["smile", "face", "smiling", "blush", "eye", "with", "eyes", "smiling face with smiling eyes"]
-
-        case .faceWithSymbolsOnMouth: return ["mouth", "face with symbols on mouth", "face", "with", "swearing", "on", "symbols"]
-
-        case .personShruggingMediumSkinTone: return ["medium skin tone", "person shrugging: medium skin tone", "ignorance", "shrugging:", "doubt", "shrug", "person", "person shrugging", "indifference", "medium", "skin", "tone"]
-
-        case .flagFrance: return ["flag", "flag: France", "France"]
-
-        case .flagSerbia: return ["Serbia", "flag: Serbia", "flag"]
-
-        case .flagMalawi: return ["flag", "flag: Malawi", "Malawi"]
-
-        case .fog: return ["cloud", "fog"]
-
-        case .sunBehindRainCloud: return ["sun", "rain", "cloud", "sun behind rain cloud", "behind"]
-
-        case .manWithWhiteCaneMediumSkinTone: return ["tone", "blind", "man", "with", "white", "cane:", "medium", "skin", "man with white cane", "accessibility", "man with white cane: medium skin tone", "medium skin tone"]
-
-        case .flagGreece: return ["flag: Greece", "flag", "Greece"]
-
-        case .flagLesotho: return ["Lesotho", "flag", "flag: Lesotho"]
-
-        case .leftwardsPushingHandMediumLightSkinTone: return ["leftwards", "push", "pushing", "refuse", "medium light skin tone", "leftwards pushing hand", "stop", "hand:", "tone", "high five", "leftward", "medium", "wait", "light", "leftwards pushing hand: medium light skin tone", "skin"]
-
-        case .flagCostaRica: return ["Costa Rica", "flag: Costa Rica", "flag"]
-
-        case .peopleHoldingHandsMediumDarkSkinToneMediumLightSkinTone: return ["people holding hands: medium dark skin tone, medium light skin tone", "holding hands", "hand", "people", "person", "medium dark skin tone", "skin", "tone", "couple", "medium", "dark", "tone,", "light", "holding", "medium light skin tone", "hold", "hands:", "people holding hands"]
-
-        case .phoenix: return ["reincarnation", "rebirth", "firebird", "fantasy", "phoenix"]
-
-        case .loudlyCryingFace: return ["cry", "sob", "crying", "loudly crying face", "face", "loudly", "tear", "sad"]
-
-        case .package: return ["package", "parcel", "box"]
-
-        case .personMountainBikingLightSkinTone: return ["bicycle", "mountain", "bicyclist", "cyclist", "biking:", "person", "light skin tone", "skin", "person mountain biking: light skin tone", "bike", "tone", "person mountain biking", "light"]
-
-        case .babySymbol: return ["changing", "symbol", "baby", "baby symbol"]
-
-        case .hourglassNotDone: return ["done", "timer", "not", "hourglass", "hourglass not done", "sand"]
-
-        case .wireless: return ["wi fi", "wifi", "wireless", "internet", "network", "computer"]
-
-        case .flagSuriname: return ["flag: Suriname", "Suriname", "flag"]
-
-        case .steamingBowl: return ["ramen", "steaming", "noodle", "bowl"]
-
-        case .fastReverseButton: return ["reverse", "button", "fast reverse button", "double", "rewind", "fast", "arrow"]
-
-        case .heavyDollarSign: return ["currency", "heavy dollar sign", "dollar", "money", "heavy", "sign"]
-
-        case .supervillainMediumLightSkinTone: return ["tone", "superpower", "evil", "supervillain", "supervillain: medium light skin tone", "medium light skin tone", "villain", "supervillain:", "medium", "criminal", "light", "skin"]
-
-        case .manMechanicLightSkinTone: return ["skin", "tone", "man mechanic: light skin tone", "plumber", "light skin tone", "man", "mechanic", "electrician", "tradesperson", "mechanic:", "light"]
-
-        case .glowingStar: return ["glowing", "sparkle", "glow", "glittery", "shining", "star", "glowing star"]
-
-        case .backhandIndexPointingUp: return ["point", "finger", "up", "hand", "index", "pointing", "backhand index pointing up", "backhand"]
-
-        case .womanMediumSkinToneRedHair: return ["skin", "tone,", "woman:", "hair", "medium", "adult", "red hair", "woman", "woman: medium skin tone, red hair", "medium skin tone", "red"]
-
-        case .selfieMediumLightSkinTone: return ["selfie: medium light skin tone", "medium", "tone", "phone", "skin", "light", "selfie", "selfie:", "medium light skin tone", "camera"]
-
-        case .cookMediumSkinTone: return ["cook", "chef", "cook:", "medium", "skin", "tone", "cook: medium skin tone", "medium skin tone"]
-
-        case .mapleLeaf: return ["leaf", "maple", "falling"]
-
-        case .factoryWorkerMediumLightSkinTone: return ["tone", "worker:", "assembly", "skin", "worker", "medium light skin tone", "medium", "factory worker: medium light skin tone", "industrial", "light", "factory"]
-
-        case .mosque: return ["Muslim", "mosque", "islam", "religion"]
-
-        case .personTakingBathLightSkinTone: return ["bath:", "light", "person taking bath: light skin tone", "skin", "tone", "bathtub", "person taking bath", "taking", "person", "bath", "light skin tone"]
-
-        case .merpersonMediumLightSkinTone: return ["merman", "merperson:", "medium", "tone", "merperson: medium light skin tone", "medium light skin tone", "merperson", "light", "mermaid", "merwoman", "skin"]
-
-        case .deafPersonMediumDarkSkinTone: return ["person:", "ear", "skin", "medium dark skin tone", "tone", "deaf", "deaf person: medium dark skin tone", "hear", "accessibility", "deaf person", "medium", "dark"]
-
-        case .leftFacingFistMediumSkinTone: return ["left", "fist", "left facing fist: medium skin tone", "leftwards", "medium skin tone", "skin", "left facing fist", "facing", "tone", "fist:", "medium"]
-
-        case .handshakeMediumLightSkinToneMediumSkinTone: return ["meeting", "agreement", "hand", "shake", "light", "tone,", "medium light skin tone", "tone", "skin", "handshake:", "medium", "handshake", "medium skin tone", "handshake: medium light skin tone, medium skin tone"]
-
-        case .skateboard: return ["board", "skateboard"]
-
-        case .grinningCatWithSmilingEyes: return ["grinning", "with", "smile", "grinning cat with smiling eyes", "smiling", "eyes", "eye", "cat", "face", "grin"]
-
-        case .flagSintMaarten: return ["flag: Sint Maarten", "Sint Maarten", "flag"]
-
-        case .faceWithoutMouth: return ["silent", "without", "quiet", "face", "mouth", "face without mouth"]
-
-        case .kissLightSkinTone: return ["kiss:", "skin", "kiss", "light", "tone", "light skin tone", "kiss: light skin tone", "couple"]
-
-        case .personFrowning: return ["person", "person frowning", "gesture", "frown", "frowning"]
-
-        case .christmasTree: return ["tree", "Christmas", "celebration"]
-
-        case .femaleSign: return ["woman", "female sign", "female", "sign"]
-
-        case .coupleWithHeartLightSkinTone: return ["couple", "heart:", "light skin tone", "couple with heart", "couple with heart: light skin tone", "tone", "love", "light", "with", "skin"]
-
-        case .sportsMedal: return ["sports medal", "medal", "sports"]
-
-        case .personWithCrownDarkSkinTone: return ["with", "noble", "dark skin tone", "person with crown", "tone", "monarch", "regal", "person", "skin", "royalty", "person with crown: dark skin tone", "dark", "crown:"]
-
-        case .necktie: return ["necktie", "tie", "clothing"]
-
-        case .personBowingMediumLightSkinTone: return ["person bowing: medium light skin tone", "apology", "sorry", "light", "skin", "tone", "person bowing", "person", "medium", "bowing:", "gesture", "bow", "medium light skin tone"]
-
-        case .squintingFaceWithTongue: return ["taste", "horrible", "tongue", "eye", "with", "squinting", "squinting face with tongue", "face"]
-
-        case .dashingAway: return ["running", "dashing", "away", "comic", "dash", "dashing away"]
-
-        case .personLightSkinTone: return ["person", "adult", "person:", "gender neutral", "light skin tone", "skin", "tone", "light", "unspecified gender", "person: light skin tone"]
-
-        case .scientistMediumDarkSkinTone: return ["medium dark skin tone", "biologist", "chemist", "skin", "physicist", "scientist: medium dark skin tone", "tone", "scientist:", "scientist", "engineer", "dark", "medium"]
-
-        case .firstQuarterMoonFace: return ["face", "first quarter moon face", "quarter", "first", "moon"]
-
-        case .womanScientistDarkSkinTone: return ["physicist", "woman scientist: dark skin tone", "dark skin tone", "biologist", "woman", "chemist", "scientist", "engineer", "scientist:", "dark", "skin", "tone"]
-
-        case .womanAndManHoldingHandsDarkSkinTone: return ["woman", "dark", "hand", "skin", "tone", "holding", "dark skin tone", "hold", "woman and man holding hands", "holding hands", "couple", "man", "hands:", "woman and man holding hands: dark skin tone", "and"]
-
-        case .iceSkate: return ["skate", "ice"]
-
-        case .firecracker: return ["dynamite", "fireworks", "explosive", "firecracker"]
-
-        case .manSinger: return ["singer", "man", "entertainer", "rock", "star", "actor"]
-
-        case .emptyNest: return ["nest", "nesting", "empty", "empty nest"]
-
-        case .flagGermany: return ["flag", "flag: Germany", "Germany"]
-
-        case .rightwardsHandLightSkinTone: return ["rightward", "skin", "light skin tone", "hand:", "tone", "rightwards hand: light skin tone", "rightwards", "right", "hand", "rightwards hand", "light"]
-
-        case .flagAngola: return ["flag: Angola", "Angola", "flag"]
-
-        case .coolButton: return ["COOL", "COOL button", "button"]
-
-        case .eightOclock: return ["8:00", "eight", "clock", "o’clock", "8", "00"]
-
-        case .crab: return ["Cancer", "crab", "zodiac"]
-
-        case .peopleHoldingHandsLightSkinToneMediumDarkSkinTone: return ["medium dark skin tone", "tone", "holding hands", "light", "hold", "tone,", "hand", "dark", "holding", "couple", "skin", "hands:", "people", "people holding hands", "person", "light skin tone", "people holding hands: light skin tone, medium dark skin tone", "medium"]
-
-        case .passportControl: return ["control", "passport"]
-
-        case .grinningSquintingFace: return ["smile", "squinting", "satisfied", "laugh", "mouth", "face", "grinning", "grinning squinting face"]
-
-        case .guardLightSkinTone: return ["guard", "skin", "light", "tone", "guard: light skin tone", "light skin tone", "guard:"]
-
-        case .spoon: return ["spoon", "tableware"]
-
-        case .noLittering: return ["no littering", "no", "forbidden", "prohibited", "not", "litter", "littering"]
-
-        case .kissDarkSkinTone: return ["kiss:", "kiss", "skin", "tone", "dark skin tone", "couple", "kiss: dark skin tone", "dark"]
-
-        case .window: return ["opening", "frame", "view", "fresh air", "transparent", "window"]
-
-        case .familyManGirlBoy: return ["man", "man,", "family: man, girl, boy", "family:", "girl,", "family", "girl", "boy"]
-
-        case .familyAdultAdultChildChild: return ["child", "family:", "child,", "adult,"]
-
-        case .raisingHands: return ["raising", "celebration", "hooray", "raising hands", "hand", "gesture", "raised", "hands"]
-
-        case .supervillainMediumDarkSkinTone: return ["skin", "tone", "superpower", "supervillain: medium dark skin tone", "supervillain", "evil", "villain", "supervillain:", "medium", "dark", "criminal", "medium dark skin tone"]
-
-        case .litterInBinSign: return ["sign", "litter", "litter in bin sign", "bin", "litter bin", "in"]
-
-        case .thumbsUpMediumLightSkinTone: return ["thumbs up", "skin", "medium light skin tone", "up", "up:", "+1", "thumb", "tone", "light", "thumbs", "hand", "medium", "thumbs up: medium light skin tone"]
-
-        case .flagBermuda: return ["Bermuda", "flag: Bermuda", "flag"]
-
-        case .womanTeacherLightSkinTone: return ["instructor", "woman", "light", "light skin tone", "skin", "lecturer", "woman teacher: light skin tone", "teacher:", "tone", "professor", "teacher"]
-
-        case .upwardsButton: return ["upwards button", "button", "arrow", "upwards"]
-
-        case .hotFace: return ["sweating", "heat stroke", "hot face", "feverish", "face", "red faced", "hot"]
-
-        case .manAstronautMediumSkinTone: return ["tone", "rocket", "man", "medium skin tone", "skin", "man astronaut: medium skin tone", "astronaut:", "astronaut", "medium"]
-
-        case .olderPersonLightSkinTone: return ["gender neutral", "light", "older", "old", "person:", "unspecified gender", "light skin tone", "skin", "tone", "older person: light skin tone", "older person", "adult"]
-
-        case .womanStudentDarkSkinTone: return ["woman student: dark skin tone", "tone", "graduate", "woman", "student", "skin", "student:", "dark skin tone", "dark"]
-
-        case .honeybee: return ["honeybee", "insect", "bee"]
-
-        case .dagger: return ["knife", "weapon", "dagger"]
-
-        case .flagArmenia: return ["Armenia", "flag: Armenia", "flag"]
-
-        case .flagMongolia: return ["flag", "flag: Mongolia", "Mongolia"]
-
-        case .redQuestionMark: return ["mark", "?", "punctuation", "red question mark", "question", "red"]
-
-        case .tenOclock: return ["clock", "00", "10", "10:00", "o’clock", "ten"]
-
-        case .sauropod: return ["diplodocus", "brontosaurus", "sauropod", "brachiosaurus"]
-
-        case .singerLightSkinTone: return ["rock", "star", "tone", "light skin tone", "entertainer", "singer", "skin", "singer: light skin tone", "actor", "light", "singer:"]
-
-        case .fileCabinet: return ["file", "cabinet", "filing"]
-
-        case .personMountainBikingMediumLightSkinTone: return ["tone", "person", "medium light skin tone", "biking:", "light", "medium", "person mountain biking", "person mountain biking: medium light skin tone", "mountain", "cyclist", "bicycle", "bicyclist", "bike", "skin"]
-
-        case .taco: return ["mexican", "taco"]
-
-        case .biohazard: return ["sign", "biohazard"]
-
-        case .personMediumLightSkinToneRedHair: return ["person:", "medium light skin tone", "skin", "medium", "tone,", "person: medium light skin tone, red hair", "light", "red", "unspecified gender", "red hair", "hair", "person", "gender neutral", "adult"]
-
-        case .palmUpHandMediumDarkSkinTone: return ["beckon", "palm up hand: medium dark skin tone", "up", "medium dark skin tone", "palm up hand", "skin", "offer", "medium", "dark", "tone", "catch", "come", "palm", "hand:"]
-
-        case .flagEthiopia: return ["Ethiopia", "flag", "flag: Ethiopia"]
-
-        case .manOfficeWorkerDarkSkinTone: return ["man office worker: dark skin tone", "architect", "skin", "business", "worker:", "dark skin tone", "manager", "dark", "tone", "white collar", "man office worker", "office", "man"]
-
-        case .beatingHeart: return ["beating", "pulsating", "heart", "beating heart", "heartbeat"]
-
-        case .cook: return ["cook", "chef"]
-
-        case .flagZimbabwe: return ["Zimbabwe", "flag", "flag: Zimbabwe"]
-
-        case .manCurlyHair: return ["hair", "man:", "adult", "curly hair", "man", "man: curly hair", "curly"]
-
-        case .merpersonMediumDarkSkinTone: return ["skin", "tone", "merperson", "medium dark skin tone", "dark", "merperson: medium dark skin tone", "merman", "merwoman", "merperson:", "medium", "mermaid"]
-
-        case .vulcanSaluteDarkSkinTone: return ["dark skin tone", "finger", "salute:", "skin", "spock", "tone", "vulcan salute: dark skin tone", "vulcan salute", "hand", "dark", "vulcan"]
-
-        case .crossedFlags: return ["cross", "crossed", "celebration", "Japanese", "flags", "crossed flags"]
-
-        case .faceWithTongue: return ["face", "face with tongue", "with", "tongue"]
-
-        case .mageMediumDarkSkinTone: return ["medium dark skin tone", "skin", "tone", "sorcerer", "mage", "sorceress", "wizard", "medium", "dark", "mage:", "mage: medium dark skin tone", "witch"]
-
-        case .japaneseFreeOfChargeButton: return ["charge”", "“free of charge”", "of", "button", "無", "“free", "Japanese", "ideograph", "Japanese “free of charge” button"]
-
-        case .topHat: return ["clothing", "top", "tophat", "hat"]
-
-        case .womanMediumDarkSkinToneCurlyHair: return ["hair", "skin", "curly hair", "woman", "dark", "medium dark skin tone", "woman: medium dark skin tone, curly hair", "medium", "adult", "curly", "tone,", "woman:"]
-
-        case .loveYouGestureMediumLightSkinTone: return ["ILY", "love", "love you gesture: medium light skin tone", "hand", "tone", "love you gesture", "gesture:", "medium light skin tone", "medium", "you", "light", "skin"]
-
-        case .personRunningMediumDarkSkinTone: return ["person running: medium dark skin tone", "marathon", "person", "medium dark skin tone", "medium", "dark", "tone", "person running", "running", "running:", "skin"]
-
-        case .personFeedingBabyMediumDarkSkinTone: return ["medium dark skin tone", "person", "baby:", "skin", "medium", "baby", "person feeding baby: medium dark skin tone", "dark", "nursing", "feeding", "tone"]
-
-        case .personRunningMediumLightSkinTone: return ["tone", "person", "medium", "person running", "skin", "medium light skin tone", "marathon", "running", "light", "person running: medium light skin tone", "running:"]
-
-        case .martialArtsUniform: return ["martial", "uniform", "martial arts uniform", "karate", "taekwondo", "martial arts", "judo", "arts"]
-
-        case .deer: return ["deer"]
-
-        case .vulcanSaluteMediumLightSkinTone: return ["vulcan salute: medium light skin tone", "finger", "salute:", "skin", "spock", "tone", "vulcan salute", "hand", "medium light skin tone", "medium", "light", "vulcan"]
-
-        case .sixThirty: return ["six", "6:30", "clock", "thirty", "6", "six thirty"]
-
-        case .faxMachine: return ["fax", "fax machine", "machine"]
-
-        case .earMediumLightSkinTone: return ["light", "ear:", "medium light skin tone", "ear", "medium", "tone", "skin", "body", "ear: medium light skin tone"]
-
-        case .monkeyFace: return ["face", "monkey"]
-
-        case .croissant: return ["bread", "croissant", "french", "roll", "breakfast", "food"]
-
-        case .repeatSingleButton: return ["clockwise", "arrow", "once", "button", "single", "repeat", "repeat single button"]
-
-        case .constructionWorkerMediumDarkSkinTone: return ["hat", "medium dark skin tone", "dark", "skin", "tone", "worker", "worker:", "medium", "construction worker: medium dark skin tone", "construction"]
-
-        case .flagSamoa: return ["flag: Samoa", "Samoa", "flag"]
-
-        case .ring: return ["ring", "diamond"]
-
-        case .clapperBoard: return ["board", "clapper", "clapper board", "movie"]
-
-        case .manDarkSkinToneBald: return ["man: dark skin tone, bald", "dark skin tone", "man", "tone,", "dark", "skin", "bald", "man:", "adult"]
-
-        case .personJugglingMediumSkinTone: return ["multitask", "tone", "person", "medium", "person juggling", "medium skin tone", "juggle", "skin", "skill", "juggling:", "person juggling: medium skin tone", "balance"]
-
-        case .lockedWithPen: return ["ink", "locked", "nib", "pen", "with", "privacy", "lock", "locked with pen"]
-
-        case .handshakeLightSkinToneMediumDarkSkinTone: return ["light skin tone", "agreement", "medium dark skin tone", "handshake: light skin tone, medium dark skin tone", "tone,", "hand", "medium", "light", "handshake:", "skin", "handshake", "meeting", "shake", "dark", "tone"]
-
-        case .personWearingTurbanDarkSkinTone: return ["dark skin tone", "person wearing turban: dark skin tone", "dark", "wearing", "skin", "turban", "turban:", "person wearing turban", "tone", "person"]
-
-        case .sunrise: return ["sun", "morning", "sunrise"]
-
-        case .personTakingBathMediumLightSkinTone: return ["person", "light", "person taking bath", "tone", "bath", "bath:", "medium", "bathtub", "skin", "taking", "medium light skin tone", "person taking bath: medium light skin tone"]
-
-        case .teacupWithoutHandle: return ["beverage", "tea", "cup", "without", "drink", "teacup", "handle", "teacup without handle"]
-
-        case .ship: return ["passenger", "ship", "boat"]
-
-        case .neutralFace: return ["meh", "deadpan", "face", "neutral"]
-
-        case .skis: return ["snow", "ski", "skis"]
-
-        case .tropicalDrink: return ["bar", "drink", "tropical"]
-
-        case .woozyFace: return ["uneven eyes", "dizzy", "intoxicated", "woozy", "wavy mouth", "face", "tipsy", "woozy face"]
-
-        case .flagZambia: return ["Zambia", "flag", "flag: Zambia"]
-
-        case .handshakeMediumSkinToneLightSkinTone: return ["shake", "medium skin tone", "light skin tone", "medium", "tone,", "tone", "hand", "skin", "handshake: medium skin tone, light skin tone", "handshake:", "light", "agreement", "meeting", "handshake"]
-
-        case .manInMotorizedWheelchairMediumDarkSkinTone: return ["medium", "accessibility", "medium dark skin tone", "man", "man in motorized wheelchair: medium dark skin tone", "man in motorized wheelchair", "skin", "wheelchair:", "wheelchair", "tone", "in", "dark", "motorized"]
-
-        case .flagMexico: return ["flag", "flag: Mexico", "Mexico"]
-
-        case .straightRuler: return ["ruler", "straight", "straight edge", "straight ruler"]
-
-        case .mirrorBall: return ["glitter", "mirror", "party", "mirror ball", "ball", "dance", "disco"]
-
-        case .legMediumDarkSkinTone: return ["kick", "limb", "skin", "tone", "dark", "medium dark skin tone", "leg: medium dark skin tone", "leg", "leg:", "medium"]
-
-        case .legMediumSkinTone: return ["medium skin tone", "medium", "skin", "leg", "kick", "leg: medium skin tone", "leg:", "limb", "tone"]
-
-        case .personRaisingHandMediumDarkSkinTone: return ["hand", "medium", "skin", "raised", "person raising hand", "raising", "hand:", "tone", "gesture", "happy", "dark", "medium dark skin tone", "person", "person raising hand: medium dark skin tone"]
-
-        case .flagJersey: return ["Jersey", "flag", "flag: Jersey"]
-
-        case .whale: return ["whale"]
-
-        case .thread: return ["needle", "string", "thread", "sewing", "spool"]
-
-        case .flagBahamas: return ["flag: Bahamas", "Bahamas", "flag"]
-
-        case .womanStudentMediumDarkSkinTone: return ["woman student: medium dark skin tone", "graduate", "student:", "woman", "skin", "medium dark skin tone", "tone", "student", "medium", "dark"]
-
-        case .manInMotorizedWheelchair: return ["man in motorized wheelchair", "accessibility", "wheelchair", "in", "motorized", "man"]
-
-        case .vampireMediumDarkSkinTone: return ["Dracula", "medium", "vampire:", "vampire", "dark", "skin", "medium dark skin tone", "vampire: medium dark skin tone", "tone", "undead"]
-
-        case .wood: return ["lumber", "log", "timber", "wood"]
-
-        case .personInLotusPositionDarkSkinTone: return ["tone", "position:", "dark", "yoga", "dark skin tone", "person", "skin", "person in lotus position", "in", "meditation", "person in lotus position: dark skin tone", "lotus"]
-
-        case .raisedHandMediumSkinTone: return ["raised hand: medium skin tone", "hand", "medium", "tone", "medium skin tone", "high 5", "high five", "hand:", "skin", "raised hand", "raised"]
-
-        case .mahjongRedDragon: return ["mahjong", "game", "mahjong red dragon", "dragon", "red"]
-
-        case .peopleWrestling: return ["wrestler", "wrestle", "people", "people wrestling", "wrestling"]
-
-        case .oncomingAutomobile: return ["car", "automobile", "oncoming"]
-
-        case .handshakeMediumDarkSkinToneLightSkinTone: return ["meeting", "tone,", "handshake:", "tone", "light", "handshake", "shake", "agreement", "handshake: medium dark skin tone, light skin tone", "hand", "dark", "skin", "light skin tone", "medium dark skin tone", "medium"]
-
-        case .personPlayingWaterPoloMediumLightSkinTone: return ["playing", "polo:", "light", "person playing water polo", "skin", "tone", "polo", "water", "medium", "person", "medium light skin tone", "person playing water polo: medium light skin tone"]
-
-        case .oden: return ["skewer", "oden", "seafood", "kebab", "stick"]
-
-        case .personInSuitLevitatingMediumDarkSkinTone: return ["suit", "skin", "medium dark skin tone", "person in suit levitating: medium dark skin tone", "in", "dark", "person in suit levitating", "business", "levitating:", "tone", "medium", "person"]
-
-        case .flagCameroon: return ["flag: Cameroon", "Cameroon", "flag"]
-
-        case .manMechanicMediumSkinTone: return ["man mechanic: medium skin tone", "plumber", "medium skin tone", "medium", "mechanic:", "man", "electrician", "mechanic", "tradesperson", "skin", "tone"]
-
-        case .japaneseDolls: return ["doll", "Japanese dolls", "Japanese", "festival", "celebration", "dolls"]
-
-        case .videoCamera: return ["video", "camera"]
-
-        case .officeWorker: return ["office", "white collar", "manager", "business", "worker", "office worker", "architect"]
-
-        case .manFactoryWorkerMediumDarkSkinTone: return ["man", "worker", "medium", "industrial", "medium dark skin tone", "man factory worker: medium dark skin tone", "assembly", "skin", "dark", "tone", "factory", "worker:"]
-
-        case .tearOffCalendar: return ["calendar", "tear", "off", "tear off calendar"]
-
-        case .manDancingMediumDarkSkinTone: return ["skin", "man dancing: medium dark skin tone", "dancing", "man", "dark", "tone", "medium dark skin tone", "dancing:", "dance", "medium"]
-
-        case .womanWithWhiteCaneMediumSkinTone: return ["medium", "tone", "skin", "blind", "with", "accessibility", "woman with white cane", "medium skin tone", "woman with white cane: medium skin tone", "woman", "white", "cane:"]
-
-        case .kissMediumSkinTone: return ["medium skin tone", "couple", "skin", "kiss", "medium", "kiss: medium skin tone", "kiss:", "tone"]
-
-        case .menHoldingHandsMediumDarkSkinToneMediumLightSkinTone: return ["man", "tone", "zodiac", "Gemini", "twins", "medium dark skin tone", "holding", "hands:", "dark", "couple", "men holding hands", "medium light skin tone", "holding hands", "men holding hands: medium dark skin tone, medium light skin tone", "men", "skin", "tone,", "light", "medium"]
-
-        case .softball: return ["underarm", "ball", "softball", "glove"]
-
-        case .diyaLamp: return ["diya", "lamp", "oil"]
-
-        case .manTeacherDarkSkinTone: return ["instructor", "man", "tone", "skin", "lecturer", "man teacher: dark skin tone", "teacher:", "dark skin tone", "dark", "professor", "teacher"]
-
-        case .bridgeAtNight: return ["night", "bridge at night", "bridge", "at"]
-
-        case .nineThirty: return ["nine", "9", "thirty", "nine thirty", "9:30", "clock"]
-
-        case .technologist: return ["inventor", "coder", "software", "developer", "technologist"]
-
-        case .starStruck: return ["face", "star", "struck", "grinning", "eyes", "star struck"]
-
-        case .womanInMotorizedWheelchairMediumDarkSkinTone: return ["in", "woman in motorized wheelchair: medium dark skin tone", "woman in motorized wheelchair", "wheelchair:", "medium dark skin tone", "wheelchair", "motorized", "skin", "woman", "accessibility", "dark", "medium", "tone"]
-
-        case .flagMauritania: return ["flag", "flag: Mauritania", "Mauritania"]
-
-        case .personPlayingWaterPoloLightSkinTone: return ["skin", "polo", "person", "person playing water polo", "light skin tone", "water", "playing", "polo:", "light", "tone", "person playing water polo: light skin tone"]
-
-        case .peopleHoldingHandsMediumSkinToneMediumDarkSkinTone: return ["holding hands", "medium skin tone", "people holding hands: medium skin tone, medium dark skin tone", "tone,", "person", "couple", "people holding hands", "hold", "hands:", "skin", "holding", "people", "dark", "medium", "hand", "tone", "medium dark skin tone"]
-
-        case .triangularFlag: return ["triangular", "flag", "post", "triangular flag"]
-
-        case .personDarkSkinToneCurlyHair: return ["hair", "curly", "unspecified gender", "dark skin tone", "person: dark skin tone, curly hair", "curly hair", "dark", "tone,", "adult", "person:", "skin", "person", "gender neutral"]
-
-        case .otter: return ["otter", "fishing", "playful"]
-
-        case .mxClausMediumSkinTone: return ["claus", "mx", "mx claus: medium skin tone", "christmas", "medium", "skin", "tone", "claus:", "mx claus", "medium skin tone"]
-
-        case .sunglasses: return ["dark", "glasses", "eye", "sunglasses", "eyewear"]
-
-        case .manArtistMediumLightSkinTone: return ["tone", "medium light skin tone", "man artist: medium light skin tone", "palette", "light", "skin", "artist:", "man", "artist", "medium"]
-
-        case .sportUtilityVehicle: return ["sport", "utility", "vehicle", "sport utility", "recreational", "sport utility vehicle"]
-
-        case .pear: return ["pear", "fruit"]
-
-        case .mantelpieceClock: return ["clock", "mantelpiece", "mantelpiece clock"]
-
-        case .flagWesternSahara: return ["flag", "flag: Western Sahara", "Western Sahara"]
-
-        case .legDarkSkinTone: return ["dark", "leg:", "leg", "kick", "skin", "leg: dark skin tone", "dark skin tone", "limb", "tone"]
-
-        case .balletShoes: return ["shoes", "ballet shoes", "dance", "ballet"]
-
-        case .whiteHeart: return ["white", "heart"]
-
-        case .personGesturingNoLightSkinTone: return ["skin", "light skin tone", "light", "hand", "person", "gesturing", "forbidden", "NO:", "prohibited", "gesture", "person gesturing NO", "person gesturing NO: light skin tone", "tone"]
-
-        case .swan: return ["bird", "swan", "cygnet", "ugly duckling"]
-
-        case .pigNose: return ["nose", "face", "pig"]
-
-        case .flagPalau: return ["flag: Palau", "Palau", "flag"]
-
-        case .personSwimmingLightSkinTone: return ["person swimming: light skin tone", "person swimming", "skin", "swim", "light skin tone", "tone", "person", "light", "swimming:"]
-
-        case .kimono: return ["clothing", "kimono"]
-
-        case .mrsClaus: return ["Claus", "claus", "celebration", "Christmas", "mother", "Mrs."]
-
-        case .footMediumDarkSkinTone: return ["foot:", "skin", "stomp", "dark", "foot", "foot: medium dark skin tone", "medium dark skin tone", "tone", "kick", "medium"]
-
-        case .womanMechanicMediumLightSkinTone: return ["skin", "medium light skin tone", "tone", "plumber", "medium", "woman mechanic: medium light skin tone", "mechanic:", "mechanic", "tradesperson", "electrician", "woman", "light"]
+        case .familyWomanWomanGirl: return ["woman,", "family", "girl", "woman", "family:", "child"]
 
         case .pregnantWoman: return ["woman", "pregnant"]
 
-        case .family: return ["family"]
+        case .womanWithHeadscarfMediumLightSkinTone: return ["head", "tichel", "light", "bandana", "woman", "mantilla", "headscarf:", "hijab", "kerchief", "headscarf", "medium light skin tone", "medium", "skin", "tone", "with"]
 
-        case .radio: return ["video", "radio"]
+        case .japaneseVacancyButton: return ["button", "vacancy", "“vacancy”", "Japanese", "ideograph"]
 
-        case .writingHand: return ["write", "writing", "hand", "writing hand"]
+        case .greenCircle: return ["green", "circle"]
 
-        case .elfLightSkinTone: return ["light", "elf:", "magical", "elf", "light skin tone", "skin", "tone", "elf: light skin tone"]
+        case .biohazard: return ["sign", "biohazard"]
 
-        case .curlyHair: return ["hair", "ringlets", "curly", "afro", "curly hair"]
+        case .cardIndex: return ["rolodex", "card", "school", "index", "old"]
 
-        case .flagSaudiArabia: return ["Saudi Arabia", "flag: Saudi Arabia", "flag"]
+        case .fileCabinet: return ["cabinet", "file", "paper", "filing"]
 
-        case .personSwimmingMediumLightSkinTone: return ["person", "swim", "medium", "light", "swimming:", "tone", "medium light skin tone", "person swimming: medium light skin tone", "skin", "person swimming"]
-
-        case .butterfly: return ["butterfly", "insect", "pretty"]
-
-        case .chicken: return ["bird", "chicken"]
-
-        case .meltingFace: return ["melt", "melting", "dissolve", "face", "liquid", "melting face", "disappear"]
-
-        case .bathtub: return ["bathtub", "bath"]
-
-        case .postbox: return ["postbox", "mailbox", "mail"]
-
-        case .flagScotland: return ["flag: Scotland", "flag", "Scotland"]
-
-        case .womanAndManHoldingHandsMediumSkinToneLightSkinTone: return ["holding", "tone", "and", "woman and man holding hands: medium skin tone, light skin tone", "hands:", "light", "medium", "woman", "light skin tone", "couple", "skin", "holding hands", "woman and man holding hands", "hold", "medium skin tone", "hand", "man", "tone,"]
-
-        case .mrsClausMediumDarkSkinTone: return ["mother", "Christmas", "Mrs.", "tone", "claus", "Mrs. Claus: medium dark skin tone", "medium dark skin tone", "dark", "skin", "celebration", "Claus:", "medium"]
-
-        case .faceHoldingBackTears: return ["face", "holding", "angry", "face holding back tears", "back", "sad", "proud", "resist", "cry", "tears"]
-
-        case .ninjaDarkSkinTone: return ["ninja: dark skin tone", "ninja:", "dark skin tone", "tone", "ninja", "stealth", "fighter", "skin", "hidden", "dark"]
-
-        case .okButton: return ["button", "OK button", "OK"]
-
-        case .familyManManGirl: return ["family:", "family: man, man, girl", "family", "man", "girl", "man,"]
-
-        case .coin: return ["silver", "metal", "coin", "treasure", "gold", "money"]
-
-        case .cockroach: return ["roach", "insect", "cockroach", "pest"]
-
-        case .monorail: return ["vehicle", "monorail"]
-
-        case .handWithFingersSplayedLightSkinTone: return ["skin", "finger", "splayed:", "fingers", "with", "light", "tone", "light skin tone", "hand", "hand with fingers splayed", "splayed", "hand with fingers splayed: light skin tone"]
-
-        case .personFencing: return ["person fencing", "fencing", "fencer", "sword", "person"]
-
-        case .snowboarderDarkSkinTone: return ["skin", "snowboard", "ski", "dark", "snowboarder:", "snowboarder", "snow", "snowboarder: dark skin tone", "tone", "dark skin tone"]
-
-        case .personKneelingMediumDarkSkinTone: return ["person", "dark", "person kneeling: medium dark skin tone", "medium dark skin tone", "kneeling", "kneel", "person kneeling", "kneeling:", "medium", "skin", "tone"]
-
-        case .breastFeedingLightSkinTone: return ["tone", "breast feeding", "light skin tone", "nursing", "feeding:", "skin", "baby", "light", "breast feeding: light skin tone", "breast"]
-
-        case .womanFarmerMediumLightSkinTone: return ["farmer", "gardener", "rancher", "woman farmer: medium light skin tone", "farmer:", "medium", "skin", "light", "woman", "medium light skin tone", "tone"]
-
-        case .rocket: return ["rocket", "space"]
-
-        case .officeWorkerMediumSkinTone: return ["medium", "office worker", "medium skin tone", "white collar", "office", "worker:", "skin", "business", "tone", "office worker: medium skin tone", "manager", "architect"]
-
-        case .personWithSkullcap: return ["person with skullcap", "gua pi mao", "hat", "skullcap", "cap", "with", "person"]
-
-        case .flagSpain: return ["flag", "flag: Spain", "Spain"]
-
-        case .personWithCrownMediumLightSkinTone: return ["royalty", "crown:", "tone", "regal", "light", "person", "monarch", "person with crown", "medium", "with", "skin", "noble", "person with crown: medium light skin tone", "medium light skin tone"]
-
-        case .flagKiribati: return ["Kiribati", "flag", "flag: Kiribati"]
-
-        case .laptop: return ["pc", "laptop", "personal", "computer"]
-
-        case .womanAstronaut: return ["astronaut", "rocket", "woman"]
-
-        case .mrsClausDarkSkinTone: return ["mother", "Mrs. Claus: dark skin tone", "Christmas", "Mrs.", "tone", "claus", "dark skin tone", "dark", "skin", "celebration", "Claus:"]
-
-        case .iceHockey: return ["ice", "puck", "stick", "hockey", "game"]
-
-        case .fearfulFace: return ["face", "scared", "fear", "fearful"]
-
-        case .firefighterLightSkinTone: return ["firefighter:", "tone", "fire", "light skin tone", "firetruck", "firefighter", "light", "firefighter: light skin tone", "skin"]
-
-        case .mate: return ["drink", "mate"]
-
-        case .alarmClock: return ["alarm", "clock"]
-
-        case .manFactoryWorker: return ["man", "factory", "industrial", "worker", "assembly"]
-
-        case .teacherMediumSkinTone: return ["teacher: medium skin tone", "instructor", "professor", "teacher:", "skin", "lecturer", "teacher", "medium skin tone", "tone", "medium"]
-
-        case .womanStudentLightSkinTone: return ["student:", "woman student: light skin tone", "light", "graduate", "light skin tone", "skin", "tone", "student", "woman"]
-
-        case .womanLightSkinToneWhiteHair: return ["hair", "woman:", "light", "skin", "tone,", "light skin tone", "woman", "adult", "white", "white hair", "woman: light skin tone, white hair"]
-
-        case .childDarkSkinTone: return ["child", "young", "gender neutral", "tone", "skin", "dark", "unspecified gender", "dark skin tone", "child:", "child: dark skin tone"]
-
-        case .personFacepalmingDarkSkinTone: return ["exasperation", "tone", "dark skin tone", "disbelief", "person facepalming", "palm", "person facepalming: dark skin tone", "facepalming:", "person", "face", "dark", "skin"]
-
-        case .clownFace: return ["clown", "face"]
-
-        case .personPlayingHandballMediumDarkSkinTone: return ["person playing handball", "ball", "medium", "person playing handball: medium dark skin tone", "person", "handball", "medium dark skin tone", "handball:", "dark", "skin", "playing", "tone"]
-
-        case .manTechnologist: return ["software", "developer", "inventor", "technologist", "coder", "man"]
-
-        case .horseRacingMediumSkinTone: return ["tone", "horse racing: medium skin tone", "racing:", "jockey", "horse", "racing", "medium skin tone", "medium", "racehorse", "skin"]
-
-        case .bug: return ["insect", "bug"]
-
-        case .personBald: return ["person:", "unspecified gender", "bald", "gender neutral", "adult", "person", "person: bald"]
-
-        case .thumbsDown: return ["thumbs", "1", "down", "hand", "thumb", "thumbs down"]
-
-        case .personBikingLightSkinTone: return ["light skin tone", "person biking: light skin tone", "person biking", "tone", "cyclist", "skin", "biking", "person", "biking:", "light", "bicycle"]
-
-        case .flagSlovakia: return ["Slovakia", "flag: Slovakia", "flag"]
-
-        case .longDrum: return ["conga", "drum", "beat", "rhythm", "long drum", "long"]
-
-        case .lime: return ["fruit", "citrus", "tropical", "lime"]
-
-        case .horseRacingMediumLightSkinTone: return ["racehorse", "horse", "medium light skin tone", "medium", "light", "horse racing: medium light skin tone", "tone", "jockey", "racing:", "racing", "skin"]
-
-        case .cloud: return ["cloud", "weather"]
-
-        case .japaneseAcceptableButton: return ["可", "Japanese", "button", "Japanese “acceptable” button", "“acceptable”", "ideograph"]
-
-        case .flagDiegoGarcia: return ["flag", "flag: Diego Garcia", "Diego Garcia"]
-
-        case .artistLightSkinTone: return ["light skin tone", "artist", "skin", "artist: light skin tone", "light", "artist:", "palette", "tone"]
-
-        case .personKneelingLightSkinTone: return ["light skin tone", "skin", "light", "person", "kneeling:", "kneel", "kneeling", "person kneeling: light skin tone", "person kneeling", "tone"]
-
-        case .manArtistDarkSkinTone: return ["artist:", "palette", "artist", "man", "tone", "man artist: dark skin tone", "dark skin tone", "dark", "skin"]
-
-        case .raisingHandsMediumDarkSkinTone: return ["medium", "tone", "hands:", "gesture", "medium dark skin tone", "dark", "raised", "hand", "celebration", "raising hands: medium dark skin tone", "skin", "raising hands", "raising", "hooray"]
-
-        case .orthodoxCross: return ["orthodox", "Christian", "cross", "religion", "orthodox cross"]
-
-        case .hundredPoints: return ["100", "score", "full", "hundred", "points", "hundred points"]
-
-        case .takeoutBox: return ["takeout box", "box", "oyster pail", "takeout"]
-
-        case .personFrowningMediumSkinTone: return ["person frowning: medium skin tone", "person frowning", "medium", "gesture", "medium skin tone", "frowning:", "tone", "person", "skin", "frown"]
-
-        case .womenHoldingHandsMediumSkinToneDarkSkinTone: return ["women holding hands", "skin", "dark skin tone", "holding", "medium skin tone", "women holding hands: medium skin tone, dark skin tone", "tone,", "hand", "women", "dark", "couple", "hands:", "tone", "holding hands", "medium"]
-
-        case .mxClausLightSkinTone: return ["light skin tone", "mx", "claus:", "light", "mx claus: light skin tone", "claus", "tone", "skin", "mx claus", "christmas"]
-
-        case .womansBoot: return ["boot", "clothing", "shoe", "woman", "woman’s", "woman’s boot"]
-
-        case .babyBottle: return ["milk", "baby", "bottle", "drink"]
-
-        case .lotus: return ["Buddhism", "purity", "flower", "lotus", "Hinduism"]
-
-        case .womansSandal: return ["woman’s sandal", "woman", "clothing", "sandal", "woman’s", "shoe"]
-
-        case .skullAndCrossbones: return ["and", "death", "skull and crossbones", "skull", "face", "crossbones", "monster"]
-
-        case .personGettingMassageDarkSkinTone: return ["person getting massage", "dark skin tone", "massage", "person", "massage:", "face", "getting", "dark", "tone", "person getting massage: dark skin tone", "salon", "skin"]
-
-        case .pretzel: return ["pretzel", "twisted"]
-
-        case .personMediumSkinToneBlondHair: return ["person: blond hair", "hair", "person: medium skin tone, blond hair", "blond haired person", "blond", "person:", "tone,", "medium", "medium skin tone", "skin"]
-
-        case .firefighter: return ["firefighter", "fire", "firetruck"]
-
-        case .windChime: return ["celebration", "wind", "bell", "chime"]
-
-        case .flagPitcairnIslands: return ["flag: Pitcairn Islands", "Pitcairn Islands", "flag"]
-
-        case .snowboarderLightSkinTone: return ["snowboarder: light skin tone", "tone", "ski", "light skin tone", "skin", "snowboard", "snowboarder", "light", "snowboarder:", "snow"]
-
-        case .personShruggingMediumLightSkinTone: return ["medium light skin tone", "person", "ignorance", "person shrugging: medium light skin tone", "shrug", "light", "medium", "tone", "skin", "person shrugging", "doubt", "shrugging:", "indifference"]
-
-        case .lowBattery: return ["low battery", "low", "battery", "low energy", "electronic"]
-
-        case .personPlayingWaterPoloDarkSkinTone: return ["water", "person playing water polo", "person", "person playing water polo: dark skin tone", "polo", "tone", "skin", "playing", "polo:", "dark", "dark skin tone"]
-
-        case .handWithFingersSplayed: return ["hand", "hand with fingers splayed", "splayed", "fingers", "finger", "with"]
-
-        case .adhesiveBandage: return ["adhesive bandage", "bandage", "adhesive"]
-
-        case .chartDecreasing: return ["decreasing", "down", "chart", "graph", "trend", "chart decreasing"]
-
-        case .threeThirty: return ["3", "clock", "three thirty", "three", "3:30", "thirty"]
-
-        case .flagUnitedKingdom: return ["United Kingdom", "flag", "flag: United Kingdom"]
-
-        case .familyManManBoyBoy: return ["man", "family", "family:", "boy", "boy,", "man,", "family: man, man, boy, boy"]
-
-        case .signOfTheHornsMediumSkinTone: return ["sign of the horns: medium skin tone", "medium skin tone", "of", "rock on", "sign", "sign of the horns", "horns:", "finger", "tone", "horns", "hand", "the", "medium", "skin"]
-
-        case .personTippingHandLightSkinTone: return ["information", "tipping", "light skin tone", "hand:", "help", "person tipping hand", "skin", "light", "person tipping hand: light skin tone", "person", "hand", "tone", "sassy"]
-
-        case .ogre: return ["monster", "creature", "fairy tale", "ogre", "face", "fantasy"]
-
-        case .backhandIndexPointingLeftMediumSkinTone: return ["pointing", "hand", "medium", "skin", "backhand index pointing left: medium skin tone", "backhand", "tone", "index", "medium skin tone", "backhand index pointing left", "finger", "left:", "point"]
-
-        case .capricorn: return ["Capricorn", "goat", "zodiac"]
-
-        case .lastTrackButton: return ["button", "previous track", "previous scene", "triangle", "last", "track", "arrow", "last track button"]
-
-        case .guardMediumSkinTone: return ["guard: medium skin tone", "guard", "tone", "guard:", "medium", "skin", "medium skin tone"]
-
-        case .lotionBottle: return ["moisturizer", "bottle", "lotion bottle", "shampoo", "sunscreen", "lotion"]
-
-        case .singer: return ["actor", "entertainer", "rock", "singer", "star"]
-
-        case .creditCard: return ["card", "credit", "money"]
-
-        case .personKneeling: return ["kneeling", "kneel", "person", "person kneeling"]
-
-        case .pauseButton: return ["bar", "double", "pause", "pause button", "vertical", "button"]
-
-        case .girlDarkSkinTone: return ["girl: dark skin tone", "zodiac", "young", "skin", "dark", "girl", "dark skin tone", "girl:", "Virgo", "tone"]
-
-        case .evergreenTree: return ["tree", "evergreen", "evergreen tree"]
-
-        case .selfieLightSkinTone: return ["selfie", "selfie:", "light skin tone", "phone", "camera", "light", "selfie: light skin tone", "skin", "tone"]
-
-        case .sparkle: return ["sparkle", "*"]
-
-        case .womenHoldingHandsMediumDarkSkinToneDarkSkinTone: return ["couple", "dark", "women", "hands:", "skin", "holding", "tone,", "dark skin tone", "tone", "women holding hands: medium dark skin tone, dark skin tone", "hand", "women holding hands", "medium", "medium dark skin tone", "holding hands"]
-
-        case .officeBuilding: return ["office", "building", "office building"]
-
-        case .noseLightSkinTone: return ["nose", "tone", "nose:", "light", "light skin tone", "skin", "body", "nose: light skin tone"]
-
-        case .personWalking: return ["hike", "person walking", "walk", "person", "walking"]
-
-        case .womanDancingDarkSkinTone: return ["dark", "woman", "dancing", "woman dancing: dark skin tone", "dance", "skin", "dark skin tone", "tone", "dancing:"]
-
-        case .flagNorthernMarianaIslands: return ["Northern Mariana Islands", "flag", "flag: Northern Mariana Islands"]
-
-        case .clinkingGlasses: return ["clinking", "glasses", "drink", "glass", "celebrate", "clinking glasses", "clink"]
-
-        case .raisingHandsLightSkinTone: return ["light", "raising", "light skin tone", "skin", "hooray", "raising hands", "tone", "raised", "celebration", "hands:", "raising hands: light skin tone", "gesture", "hand"]
-
-        case .flagLaos: return ["flag: Laos", "flag", "Laos"]
-
-        case .artistMediumDarkSkinTone: return ["tone", "artist", "medium dark skin tone", "medium", "palette", "artist: medium dark skin tone", "skin", "artist:", "dark"]
-
-        case .flagEritrea: return ["flag", "flag: Eritrea", "Eritrea"]
-
-        case .peopleHoldingHandsMediumLightSkinTone: return ["holding", "medium light skin tone", "hands:", "couple", "skin", "people", "hold", "hand", "light", "tone", "person", "people holding hands", "holding hands", "medium", "people holding hands: medium light skin tone"]
-
-        case .explodingHead: return ["exploding head", "mind blown", "shocked", "head", "exploding"]
-
-        case .forkAndKnife: return ["and", "cutlery", "fork", "knife", "cooking", "fork and knife"]
-
-        case .womanWhiteHair: return ["woman: white hair", "woman:", "white", "woman", "hair", "adult", "white hair"]
-
-        case .raisedBackOfHand: return ["hand", "back", "of", "raised back of hand", "raised", "backhand"]
-
-        case .thongSandal: return ["thong sandals", "beach sandals", "thong sandal", "sandals", "zōri", "thong", "thongs", "sandal"]
-
-        case .sweatDroplets: return ["sweat", "sweat droplets", "splashing", "comic", "droplets"]
-
-        case .whiteLargeSquare: return ["geometric", "white", "square", "large", "white large square"]
-
-        case .personGettingMassageLightSkinTone: return ["light", "skin", "massage", "person", "tone", "massage:", "person getting massage", "getting", "salon", "person getting massage: light skin tone", "light skin tone", "face"]
-
-        case .egg: return ["food", "breakfast", "egg"]
-
-        case .wiltedFlower: return ["wilted", "flower"]
-
-        case .flyingDisc: return ["disc", "ultimate", "flying disc", "flying"]
-
-        case .flagGambia: return ["Gambia", "flag", "flag: Gambia"]
-
-        case .personInLotusPosition: return ["yoga", "person", "in", "position", "person in lotus position", "meditation", "lotus"]
-
-        case .greenSquare: return ["green", "square"]
-
-        case .shark: return ["shark", "fish"]
-
-        case .personLightSkinToneWhiteHair: return ["hair", "person: light skin tone, white hair", "white hair", "adult", "white", "gender neutral", "skin", "tone,", "unspecified gender", "light skin tone", "light", "person:", "person"]
-
-        case .mouseFace: return ["face", "mouse"]
-
-        case .leo: return ["lion", "Leo", "zodiac"]
-
-        case .hamster: return ["hamster", "pet", "face"]
-
-        case .downArrow: return ["direction", "cardinal", "arrow", "down", "south"]
-
-        case .envelope: return ["email", "envelope", "letter"]
-
-        case .womanDancingMediumDarkSkinTone: return ["skin", "woman dancing: medium dark skin tone", "dancing:", "dark", "dancing", "woman", "dance", "tone", "medium dark skin tone", "medium"]
-
-        case .flagKosovo: return ["Kosovo", "flag", "flag: Kosovo"]
-
-        case .aries: return ["ram", "zodiac", "Aries"]
-
-        case .womanScientistMediumSkinTone: return ["medium skin tone", "biologist", "chemist", "woman", "woman scientist: medium skin tone", "skin", "physicist", "tone", "scientist:", "engineer", "scientist", "medium"]
-
-        case .scissors: return ["tool", "cutting", "scissors"]
-
-        case .womanInManualWheelchair: return ["wheelchair", "in", "accessibility", "manual", "woman in manual wheelchair", "woman"]
-
-        case .spiralNotepad: return ["spiral notepad", "note", "pad", "notepad", "spiral"]
-
-        case .mountFuji: return ["mount fuji", "mountain", "fuji", "mount"]
-
-        case .motorcycle: return ["motorcycle", "racing"]
-
-        case .rightwardsPushingHandDarkSkinTone: return ["rightwards", "tone", "skin", "high five", "hand:", "rightwards pushing hand", "rightward", "dark skin tone", "rightwards pushing hand: dark skin tone", "pushing", "wait", "refuse", "stop", "dark", "push"]
-
-        case .womanAndManHoldingHandsMediumLightSkinToneDarkSkinTone: return ["man", "tone,", "dark", "hand", "tone", "dark skin tone", "hold", "woman", "holding hands", "hands:", "skin", "woman and man holding hands", "light", "and", "medium light skin tone", "holding", "medium", "couple", "woman and man holding hands: medium light skin tone, dark skin tone"]
-
-        case .flagSvalbardJanMayen: return ["Svalbard & Jan Mayen", "flag: Svalbard & Jan Mayen", "flag"]
-
-        case .peacock: return ["peacock", "proud", "peahen", "ostentatious", "bird"]
-
-        case .womanFirefighterLightSkinTone: return ["light", "firefighter:", "skin", "tone", "firetruck", "woman firefighter: light skin tone", "firefighter", "woman", "light skin tone"]
-
-        case .womanSinger: return ["entertainer", "star", "actor", "woman", "singer", "rock"]
-
-        case .personInManualWheelchairMediumSkinTone: return ["person in manual wheelchair: medium skin tone", "in", "accessibility", "person in manual wheelchair", "person", "manual", "wheelchair:", "medium skin tone", "wheelchair", "medium", "skin", "tone"]
-
-        case .pregnantPersonLightSkinTone: return ["skin", "tone", "pregnant person", "pregnant person: light skin tone", "bloated", "person:", "pregnant", "belly", "light", "full", "light skin tone"]
-
-        case .raccoon: return ["curious", "raccoon", "sly"]
-
-        case .seal: return ["seal", "sea lion"]
-
-        case .flagJordan: return ["Jordan", "flag", "flag: Jordan"]
-
-        case .selfieMediumDarkSkinTone: return ["dark", "camera", "medium", "tone", "selfie: medium dark skin tone", "skin", "selfie:", "phone", "medium dark skin tone", "selfie"]
-
-        case .wavingHandDarkSkinTone: return ["hand", "wave", "skin", "waving hand: dark skin tone", "waving", "dark skin tone", "tone", "hand:", "dark"]
-
-        case .coat: return ["jacket", "coat"]
-
-        case .lungs: return ["respiration", "breath", "organ", "exhalation", "lungs", "inhalation"]
-
-        case .grinningFaceWithSweat: return ["grinning face with sweat", "face", "open", "smile", "cold", "sweat", "grinning", "with"]
-
-        case .snowmanWithoutSnow: return ["without", "snowman", "snowman without snow", "cold", "snow"]
-
-        case .womanTeacherMediumLightSkinTone: return ["medium light skin tone", "medium", "instructor", "woman", "light", "tone", "skin", "lecturer", "teacher:", "woman teacher: medium light skin tone", "professor", "teacher"]
-
-        case .dna: return ["biologist", "dna", "genetics", "gene", "life", "evolution"]
-
-        case .waningGibbousMoon: return ["waning", "gibbous", "moon"]
-
-        case .manStudentMediumDarkSkinTone: return ["skin", "man student: medium dark skin tone", "medium dark skin tone", "student", "man", "medium", "graduate", "student:", "tone", "dark"]
-
-        case .brick: return ["bricks", "brick", "mortar", "wall", "clay"]
-
-        case .baggageClaim: return ["baggage", "claim"]
-
-        case .soonArrow: return ["arrow", "SOON"]
-
-        case .sleepingFace: return ["sleep", "ZZZ", "sleeping", "face", "sleeping face", "good night"]
-
-        case .dollarBanknote: return ["note", "currency", "dollar", "money", "bill", "banknote"]
-
-        case .microbe: return ["bacteria", "microbe", "amoeba", "virus"]
-
-        case .handshakeMediumSkinToneMediumDarkSkinTone: return ["meeting", "agreement", "dark", "skin", "medium dark skin tone", "handshake:", "handshake", "hand", "tone,", "tone", "handshake: medium skin tone, medium dark skin tone", "medium skin tone", "shake", "medium"]
-
-        case .horseFace: return ["face", "horse"]
-
-        case .coral: return ["coral", "reef", "ocean"]
-
-        case .trophy: return ["trophy", "prize"]
-
-        case .babyAngelMediumDarkSkinTone: return ["baby angel: medium dark skin tone", "baby", "angel:", "angel", "fantasy", "tone", "face", "medium dark skin tone", "dark", "skin", "medium", "fairy tale"]
-
-        case .slightlyFrowningFace: return ["face", "frown", "slightly", "slightly frowning face", "frowning"]
-
-        case .ninjaMediumDarkSkinTone: return ["hidden", "tone", "stealth", "fighter", "ninja", "medium dark skin tone", "ninja:", "medium", "dark", "ninja: medium dark skin tone", "skin"]
-
-        case .motorizedWheelchair: return ["motorized", "accessibility", "motorized wheelchair", "wheelchair"]
-
-        case .envelopeWithArrow: return ["e mail", "outgoing", "with", "envelope with arrow", "email", "arrow", "envelope"]
-
-        case .personCartwheelingMediumLightSkinTone: return ["person cartwheeling: medium light skin tone", "skin", "person cartwheeling", "tone", "cartwheel", "medium light skin tone", "gymnastics", "medium", "light", "person", "cartwheeling:"]
-
-        case .fileFolder: return ["folder", "file"]
-
-        case .womanSingerLightSkinTone: return ["rock", "star", "woman singer: light skin tone", "light skin tone", "entertainer", "woman", "singer", "tone", "skin", "light", "actor", "singer:"]
-
-        case .cricket: return ["grasshopper", "cricket"]
-
-        case .flagNorthMacedonia: return ["North Macedonia", "flag", "flag: North Macedonia"]
-
-        case .blackCircle: return ["black", "black circle", "geometric", "circle"]
-
-        case .personWhiteHair: return ["person: white hair", "unspecified gender", "adult", "white hair", "gender neutral", "person:", "white", "hair", "person"]
-
-        case .victoryHandLightSkinTone: return ["skin", "hand:", "victory hand: light skin tone", "light", "hand", "victory", "light skin tone", "v", "tone"]
-
-        case .peopleHoldingHandsLightSkinTone: return ["light", "people holding hands: light skin tone", "hand", "couple", "skin", "people holding hands", "holding", "light skin tone", "holding hands", "hold", "people", "hands:", "tone", "person"]
-
-        case .womanSingerMediumDarkSkinTone: return ["woman", "singer", "tone", "star", "dark", "singer:", "woman singer: medium dark skin tone", "medium dark skin tone", "actor", "rock", "entertainer", "skin", "medium"]
-
-        case .snowboarderMediumDarkSkinTone: return ["tone", "ski", "snow", "snowboarder:", "dark", "snowboarder: medium dark skin tone", "snowboarder", "medium dark skin tone", "snowboard", "medium", "skin"]
-
-        case .policeOfficerMediumDarkSkinTone: return ["officer:", "officer", "medium dark skin tone", "cop", "tone", "skin", "dark", "police officer: medium dark skin tone", "police", "medium"]
-
-        case .personLiftingWeightsLightSkinTone: return ["lifting", "skin", "person lifting weights: light skin tone", "tone", "person lifting weights", "lifter", "light skin tone", "weights:", "light", "person", "weight"]
-
-        case .screwdriver: return ["screw", "screwdriver", "tool"]
-
-        case .flagAnguilla: return ["Anguilla", "flag: Anguilla", "flag"]
-
-        case .houses: return ["houses"]
-
-        case .flagIsleOfMan: return ["flag", "Isle of Man", "flag: Isle of Man"]
-
-        case .vibrationMode: return ["cell", "mode", "mobile", "phone", "vibration", "telephone"]
-
-        case .flagDenmark: return ["flag", "flag: Denmark", "Denmark"]
-
-        case .sailboat: return ["sea", "yacht", "sailboat", "boat", "resort"]
-
-        case .chains: return ["chains", "chain"]
-
-        case .cactus: return ["cactus", "plant"]
-
-        case .satellite: return ["satellite", "space"]
-
-        case .badger: return ["honey badger", "pester", "badger"]
-
-        case .sandwich: return ["bread", "sandwich"]
-
-        case .personWithWhiteCaneLightSkinTone: return ["accessibility", "person", "white", "cane:", "person with white cane", "blind", "with", "person with white cane: light skin tone", "skin", "light skin tone", "light", "tone"]
-
-        case .wheelOfDharma: return ["dharma", "wheel", "religion", "wheel of dharma", "Buddhist", "of"]
-
-        case .hotel: return ["hotel", "building"]
-
-        case .personSurfingLightSkinTone: return ["person surfing", "person", "skin", "surfing", "tone", "light", "light skin tone", "person surfing: light skin tone", "surfing:"]
-
-        case .whiteSquareButton: return ["white square button", "square", "white", "geometric", "outlined", "button"]
-
-        case .manTechnologistLightSkinTone: return ["coder", "developer", "tone", "man", "light skin tone", "technologist:", "software", "technologist", "skin", "light", "inventor", "man technologist: light skin tone"]
-
-        case .womanInMotorizedWheelchairDarkSkinTone: return ["wheelchair", "woman", "dark skin tone", "accessibility", "woman in motorized wheelchair", "motorized", "tone", "in", "skin", "woman in motorized wheelchair: dark skin tone", "dark", "wheelchair:"]
-
-        case .blackBird: return ["bird", "black", "raven", "rook", "crow"]
-
-        case .policeCar: return ["car", "police", "patrol"]
-
-        case .clamp: return ["clamp", "vice", "tool", "compress"]
-
-        case .flagVenezuela: return ["Venezuela", "flag", "flag: Venezuela"]
-
-        case .personJugglingMediumLightSkinTone: return ["juggling:", "medium light skin tone", "skin", "person", "light", "medium", "juggle", "person juggling", "skill", "person juggling: medium light skin tone", "tone", "multitask", "balance"]
-
-        case .flagTaiwan: return ["flag: Taiwan", "Taiwan", "flag"]
-
-        case .womanSingerMediumSkinTone: return ["rock", "star", "woman singer: medium skin tone", "medium", "entertainer", "woman", "singer", "tone", "skin", "medium skin tone", "actor", "singer:"]
-
-        case .womanAstronautDarkSkinTone: return ["dark skin tone", "woman astronaut: dark skin tone", "astronaut:", "skin", "rocket", "woman", "astronaut", "tone", "dark"]
-
-        case .cardIndex: return ["card", "index", "rolodex"]
-
-        case .flagStHelena: return ["St. Helena", "flag: St. Helena", "flag"]
-
-        case .leftwardsHandMediumLightSkinTone: return ["leftwards hand: medium light skin tone", "leftward", "hand", "left", "leftwards", "medium light skin tone", "hand:", "medium", "tone", "light", "skin", "leftwards hand"]
-
-        case .faceWithPeekingEye: return ["with", "eye", "peep", "stare", "face", "face with peeking eye", "peeking", "captivated"]
-
-        case .womanWithHeadscarfMediumDarkSkinTone: return ["with", "tichel", "headscarf", "medium", "skin", "dark", "headscarf:", "mantilla", "woman with headscarf: medium dark skin tone", "medium dark skin tone", "woman", "tone", "hijab", "woman with headscarf"]
-
-        case .kangaroo: return ["jump", "kangaroo", "marsupial", "joey"]
-
-        case .syringe: return ["needle", "sick", "shot", "syringe", "medicine"]
-
-        case .vulcanSalute: return ["hand", "spock", "salute", "vulcan", "finger", "vulcan salute"]
-
-        case .memo: return ["memo", "pencil"]
-
-        case .tramCar: return ["car", "tram", "trolleybus"]
-
-        case .rightArrowCurvingUp: return ["right", "arrow", "up", "curving", "right arrow curving up"]
-
-        case .meatOnBone: return ["meat", "bone", "meat on bone", "on"]
-
-        case .dragon: return ["fairy tale", "dragon"]
-
-        case .inboxTray: return ["tray", "box", "letter", "mail", "receive", "inbox"]
-
-        case .flagGuernsey: return ["flag", "flag: Guernsey", "Guernsey"]
-
-        case .flute: return ["music", "recorder", "flute", "woodwind", "pipe", "fife"]
-
-        case .thinkingFace: return ["thinking", "face"]
-
-        case .safetyVest: return ["emergency", "vest", "safety"]
-
-        case .derelictHouse: return ["house", "derelict"]
-
-        case .cigarette: return ["smoking", "cigarette"]
-
-        case .flagCuba: return ["flag: Cuba", "Cuba", "flag"]
-
-        case .writingHandMediumLightSkinTone: return ["tone", "writing", "hand", "medium", "medium light skin tone", "light", "writing hand", "writing hand: medium light skin tone", "hand:", "write", "skin"]
-
-        case .personTippingHandDarkSkinTone: return ["hand:", "dark skin tone", "person tipping hand: dark skin tone", "person", "dark", "tipping", "skin", "hand", "help", "information", "tone", "sassy", "person tipping hand"]
+        case .personInSteamyRoom: return ["steambath", "in", "steamy", "person", "steam", "spa", "pamper", "luxurious", "day", "room", "sauna", "relax", "unwind"]
 
         case .socks: return ["stocking", "socks"]
 
-        case .pushpin: return ["pushpin", "pin"]
+        case .rightArrowCurvingDown: return ["arrow", "curving", "right", "down"]
 
-        case .maleSign: return ["man", "male sign", "male", "sign"]
+        case .personGettingMassageMediumSkinTone: return ["salon", "medium", "headache", "getting", "skin", "face", "person", "tension", "medium skin tone", "massage:", "relaxing", "soothe", "relax", "spa", "therapy", "treatment", "tone", "massage"]
 
-        case .pinchingHandDarkSkinTone: return ["small amount", "dark", "hand:", "skin", "dark skin tone", "pinching hand: dark skin tone", "tone", "pinching hand", "pinching"]
+        case .teacherMediumLightSkinTone: return ["tone", "light", "medium light skin tone", "instructor", "professor", "lecturer", "teacher", "teacher:", "medium", "skin"]
 
-        case .personGolfingLightSkinTone: return ["person golfing: light skin tone", "golf", "skin", "tone", "ball", "light", "light skin tone", "golfing:", "person", "person golfing"]
+        case .handshakeMediumDarkSkinToneMediumLightSkinTone: return ["handshake:", "medium", "meeting", "agreement", "medium dark skin tone", "shake", "light", "tone,", "hand", "dark", "medium light skin tone", "deal", "skin", "tone", "handshake"]
 
-        case .unicorn: return ["unicorn", "face"]
+        case .fourOclock: return ["time", "o’clock", "4", "clock", "4:00", "four"]
 
-        case .flagNigeria: return ["Nigeria", "flag", "flag: Nigeria"]
+        case .manFactoryWorkerMediumDarkSkinTone: return ["worker:", "worker", "skin", "dark", "tone", "industrial", "medium dark skin tone", "man", "medium", "factory", "assembly"]
 
-        case .peopleHoldingHandsMediumDarkSkinToneMediumSkinTone: return ["person", "medium skin tone", "medium", "holding", "dark", "skin", "tone,", "medium dark skin tone", "hands:", "holding hands", "people", "tone", "people holding hands", "hand", "couple", "hold", "people holding hands: medium dark skin tone, medium skin tone"]
+        case .personWhiteHair: return ["person", "adult", "person:", "white hair", "white", "hair"]
 
-        case .artistMediumLightSkinTone: return ["artist", "artist:", "artist: medium light skin tone", "tone", "skin", "medium", "medium light skin tone", "palette", "light"]
+        case .mechanicDarkSkinTone: return ["tone", "dark skin tone", "electrician", "mechanic:", "tradesperson", "skin", "dark", "plumber", "mechanic"]
 
-        case .flagCambodia: return ["flag", "flag: Cambodia", "Cambodia"]
+        case .womanCookMediumDarkSkinTone: return ["medium", "medium dark skin tone", "cook", "dark", "skin", "cook:", "chef", "woman", "tone"]
 
-        case .womanMediumSkinToneCurlyHair: return ["skin", "medium", "hair", "woman: medium skin tone, curly hair", "curly", "woman:", "tone,", "medium skin tone", "adult", "curly hair", "woman"]
+        case .flamingo: return ["bird", "flamboyant", "flamingo", "tropical", "ornithology", "animal"]
+
+        case .horse: return ["equestrian", "racing", "racehorse", "horse", "farm", "animal"]
+
+        case .fire: return ["af", "lit", "fire", "hot", "tool", "flame", "litaf", "burn"]
+
+        case .bathtub: return ["bathtub", "bath"]
+
+        case ._2ndPlaceMedal: return ["second", "silver", "medal", "2nd", "place"]
+
+        case .womensRoom: return ["restroom", "room", "woman", "lavatory", "toilet", "women’s", "bathroom", "WC"]
+
+        case .upDownArrow: return ["up", "down", "arrow", "up down"]
+
+        case .womanWithHeadscarfMediumDarkSkinTone: return ["woman", "with", "tone", "bandana", "dark", "medium dark skin tone", "tichel", "headscarf:", "head", "headscarf", "hijab", "medium", "mantilla", "skin", "kerchief"]
+
+        case .waningGibbousMoon: return ["moon", "waning", "gibbous", "space"]
+
+        case .handshakeMediumLightSkinToneMediumSkinTone: return ["tone,", "tone", "handshake", "medium skin tone", "agreement", "deal", "medium", "skin", "meeting", "shake", "light", "medium light skin tone", "handshake:", "hand"]
+
+        case .manInMotorizedWheelchairMediumSkinTone: return ["skin", "in", "tone", "man", "wheelchair", "medium", "medium skin tone", "accessibility", "wheelchair:", "motorized"]
+
+        case .personMediumSkinTone: return ["person", "skin", "tone", "person:", "medium", "medium skin tone", "adult"]
+
+        case .flexedBicepsDarkSkinTone: return ["bench", "flexed", "ripped", "bodybuilder", "biceps:", "jacked", "dark skin tone", "tone", "press", "skin", "gains", "beast", "flex", "muscle", "strong", "arm", "biceps", "dark", "curls", "gym", "weightlift", "bro"]
+
+        case .crossMark: return ["×", "multiply", "multiplication", "cross", "mark", "cancel", "x"]
+
+        case .personBouncingBall: return ["player", "net", "dribble", "athletic", "championship", "basketball", "bouncing", "person", "throw", "ball"]
+
+        case .raisedFist: return ["clenched", "fist", "punch", "solidarity", "hand", "raised"]
+
+        case .personInBedLightSkinTone: return ["light skin tone", "good", "bed:", "person", "goodnight", "light", "tone", "nap", "hotel", "skin", "night", "tired", "bed", "sleep", "bedtime", "in", "zzz"]
+
+        case .bButtonBloodType: return ["B", "type", "(blood", "button", "blood", "type)"]
+
+        case .flagBurundi: return ["Burundi", "flag"]
+
+        case .videoGame: return ["video", "controller", "game", "entertainment"]
+
+        case .personMediumDarkSkinToneWhiteHair: return ["skin", "person:", "tone,", "white", "hair", "medium dark skin tone", "medium", "adult", "person", "dark", "white hair"]
+
+        case .backArrow: return ["arrow", "BACK"]
+
+        case .sunBehindRainCloud: return ["cloud", "weather", "rain", "sun", "behind"]
+
+        case .japaneseApplicationButton: return ["button", "ideograph", "“application”", "Japanese", "application"]
+
+        case .runningShoe: return ["shoe", "shopping", "shoes", "sneaker", "kick", "athletic", "tennis", "clothes", "running", "fast", "clothing"]
+
+        case .peopleHoldingHandsDarkSkinTone: return ["bae", "hold", "hand", "couple", "flirt", "holding", "dark", "skin", "hands:", "people", "friends", "tone", "dating", "bff", "bestie", "dark skin tone", "twins"]
+
+        case .oncomingFist: return ["boom", "correct", "punch", "rock", "fist", "bruh", "oncoming", "absolutely", "clenched", "knuckle", "bump", "hand", "ttyl", "agree", "bro", "pound"]
+
+        case .chicken: return ["chicken", "animal", "bird", "ornithology"]
+
+        case .cloudWithLightning: return ["weather", "with", "lightning", "cloud"]
+
+        case .personMediumLightSkinTone: return ["person", "adult", "medium light skin tone", "light", "skin", "medium", "person:", "tone"]
+
+        case .blackMediumSmallSquare: return ["medium", "black", "small", "geometric", "square", "medium small"]
+
+        case .wavingHandMediumDarkSkinTone: return ["hi", "medium", "outtie", "skin", "g2g", "wave", "ttfn", "hello", "yo", "greetings", "gtg", "hand:", "waving", "medium dark skin tone", "ttyl", "hand", "hey", "bye", "tone", "later", "dark", "you", "cya"]
+
+        case .mountainCableway: return ["mountain", "gondola", "lift", "cableway", "cable", "ski"]
+
+        case .manDarkSkinToneRedHair: return ["bro", "man:", "dark", "tone,", "man", "skin", "hair", "adult", "dark skin tone", "red", "red hair"]
+
+        case .manCookMediumSkinTone: return ["tone", "chef", "cook", "man", "cook:", "skin", "medium skin tone", "medium"]
+
+        case .babySymbol: return ["symbol", "baby", "changing"]
+
+        case .seeNoEvilMonkey: return ["monkey", "no", "see", "gesture", "forbidden", "embarrassed", "forgot", "watch", "scared", "omg", "secret", "face", "smh", "prohibited", "evil", "hide"]
+
+        case .earWithHearingAid: return ["hearing", "ear", "hard", "accessibility", "with", "aid"]
+
+        case .neutralFace: return ["blank", "unimpressed", "whatever", "unamused", "jealous", "neutral", "awkward", "deadpan", "face", "shade", "expressionless", "unhappy", "oh", "fine", "straight", "meh"]
+
+        case .womanInManualWheelchairLightSkinTone: return ["tone", "woman", "accessibility", "manual", "skin", "light", "wheelchair", "in", "wheelchair:", "light skin tone"]
+
+        case .personDarkSkinTone: return ["dark", "dark skin tone", "skin", "person:", "tone", "adult", "person"]
+
+        case .thumbsUpDarkSkinTone: return ["like", "thumbs", "hand", "+1", "skin", "yes", "thumb", "dark", "dark skin tone", "good", "tone", "up", "up:"]
+
+        case .gingerRoot: return ["beer", "root", "natural", "spice", "ginger", "herb", "health"]
+
+        case .manTeacherMediumLightSkinTone: return ["lecturer", "skin", "medium light skin tone", "tone", "man", "teacher", "instructor", "professor", "teacher:", "medium", "light"]
+
+        case .ribbon: return ["ribbon", "celebration"]
+
+        case .raisedFistDarkSkinTone: return ["dark", "raised", "punch", "solidarity", "skin", "hand", "fist", "dark skin tone", "clenched", "tone", "fist:"]
+
+        case .manWithWhiteCaneDarkSkinTone: return ["dark", "probing", "tone", "dark skin tone", "cane", "blind", "skin", "with", "cane:", "man", "accessibility", "white"]
+
+        case .motorway: return ["road", "motorway", "highway"]
+
+        case .shamrock: return ["plant", "shamrock", "irish"]
+
+        case .indexPointingAtTheViewerDarkSkinTone: return ["pointing", "the", "hand", "viewer:", "skin", "dark", "viewer", "tone", "at", "index", "poke", "dark skin tone", "finger", "you"]
+
+        case .dog: return ["dog", "animal", "dogs", "pet", "animals"]
+
+        case .peopleHoldingHandsMediumDarkSkinToneDarkSkinTone: return ["bae", "medium dark skin tone", "hold", "hand", "couple", "flirt", "holding", "dark", "skin", "hands:", "people", "tone,", "friends", "tone", "medium", "dating", "bff", "bestie", "dark skin tone", "twins"]
+
+        case .whiteCane: return ["accessibility", "blind", "cane", "probing", "white"]
+
+        case .faceWithOpenMouth: return ["open", "omg", "unbelievable", "shocked", "forgot", "with", "you", "face", "whoa", "unreal", "sympathy", "mouth", "believe", "surprised", "wow"]
+
+        case .personGesturingOkDarkSkinTone: return ["tone", "dark", "skin", "hand", "gesturing", "dark skin tone", "exercise", "gesture", "OK", "omg", "person", "OK:"]
+
+        case .deafPersonLightSkinTone: return ["person:", "ear", "deaf", "accessibility", "person", "skin", "gesture", "light", "light skin tone", "tone", "hear"]
+
+        case .palmsUpTogetherMediumDarkSkinTone: return ["together", "medium", "palms", "prayer", "dua", "tone", "skin", "hands", "together:", "up", "medium dark skin tone", "wish", "pray", "dark", "cupped"]
+
+        case .personDarkSkinToneBlondHair: return ["human", "blond haired", "blond", "blond hair", "person", "skin", "dark", "tone,", "person:", "dark skin tone", "hair"]
+
+        case .legDarkSkinTone: return ["skin", "bent", "dark", "leg", "tone", "foot", "knee", "limb", "dark skin tone", "kick", "leg:"]
+
+        case .womanAndManHoldingHandsMediumDarkSkinTone: return ["hands:", "couple", "bff", "skin", "hold", "friends", "bae", "tone", "dating", "man", "dark", "medium dark skin tone", "and", "holding", "twins", "bestie", "medium", "flirt", "woman", "hand"]
+
+        case .personInManualWheelchairMediumLightSkinTone: return ["person", "skin", "wheelchair:", "medium light skin tone", "manual", "in", "medium", "accessibility", "light", "tone", "wheelchair"]
+
+        case .tigerFace: return ["tiger", "face", "animal", "cat", "predator", "big"]
+
+        case .disappointedFace: return ["disappointed", "blame", "losing", "sad", "fail", "dejected", "awful", "unhappy", "face"]
+
+        case .womanScientistMediumSkinTone: return ["physicist", "medium skin tone", "engineer", "mathematician", "biologist", "medium", "scientist", "skin", "chemist", "scientist:", "woman", "tone"]
+
+        case .raisedFistMediumSkinTone: return ["raised", "medium skin tone", "punch", "solidarity", "skin", "hand", "fist", "clenched", "tone", "fist:", "medium"]
+
+        case .dvd: return ["disk", "cd", "DVD", "computer", "dvd", "optical", "Blu ray"]
+
+        case .rollingOnTheFloorLaughing: return ["laugh", "hilarious", "happy", "roflmao", "rolling", "on", "the", "haha", "funny", "hehe", "tear", "rofl", "crying", "joy", "laughing", "lol", "face", "floor", "lmao"]
+
+        case .beachWithUmbrella: return ["with", "beach", "umbrella"]
+
+        case .personShrugging: return ["idk", "who", "guess", "shrugging", "whatever", "dunno", "person", "shrug", "maybe", "ignorance", "doubt", "knows", "indifference"]
+
+        case .rightFacingFistMediumDarkSkinTone: return ["right facing", "medium", "fist", "fist:", "dark", "facing", "medium dark skin tone", "right", "tone", "skin", "rightwards"]
+
+        case .nightWithStars: return ["with", "star", "night", "stars"]
+
+        case .speedboat: return ["boat", "millionaire", "summer", "speedboat", "lake", "luxury", "billionaire", "travel"]
+
+        case .manMediumLightSkinToneCurlyHair: return ["hair", "man", "tone,", "medium", "man:", "medium light skin tone", "bro", "curly hair", "skin", "adult", "light", "curly"]
+
+        case .salt: return ["upset", "salty", "flavor", "mad", "shaker", "condiment", "salt", "taste"]
+
+        case .pineapple: return ["colada", "tropical", "pineapple", "pina", "fruit"]
+
+        case .womanAndManHoldingHandsMediumDarkSkinToneMediumLightSkinTone: return ["hands:", "couple", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "man", "dark", "medium dark skin tone", "medium light skin tone", "and", "twins", "holding", "light", "bestie", "medium", "flirt", "woman", "hand"]
+
+        case .outboxTray: return ["sent", "mail", "letter", "outbox", "box", "tray", "email"]
+
+        case .rightwardsHandMediumLightSkinTone: return ["reach", "right", "handshake", "shake", "skin", "hold", "medium light skin tone", "hand:", "medium", "light", "tone", "rightwards", "rightward", "hand"]
+
+        case .receipt: return ["proof", "bookkeeping", "invoice", "accounting", "evidence", "receipt"]
+
+        case .fiveThirty: return ["five thirty", "5:30", "5", "five", "30", "time", "clock", "thirty"]
+
+        case .flagUnitedKingdom: return ["United Kingdom", "flag"]
+
+        case .personWithSkullcapLightSkinTone: return ["tone", "guapi", "with", "cap", "light skin tone", "gua", "pi", "skullcap:", "skullcap", "Chinese", "mao", "hat", "skin", "light", "person"]
+
+        case .cyclone: return ["twister", "hurricane", "typhoon", "weather", "cyclone", "dizzy"]
+
+        case .ghost: return ["fairy", "ghost", "creature", "haunting", "halloween", "tale", "fantasy", "silly", "excited", "scary", "boo", "face", "monster", "fairytale"]
+
+        case .fairyMediumDarkSkinTone: return ["fantasy", "dark", "fairy", "medium dark skin tone", "tale", "pixie", "myth", "wings", "fairy:", "skin", "medium", "person", "fairytale", "tone"]
+
+        case .cocktailGlass: return ["club", "drink", "mad", "glass", "booze", "martini", "bar", "alcohol", "cocktail", "drinking", "drinks", "men"]
+
+        case .oldWomanLightSkinTone: return ["grandma", "grandmother", "woman", "woman:", "light skin tone", "light", "wise", "skin", "elderly", "granny", "lady", "old", "tone", "adult"]
+
+        case .flagPapuaNewGuinea: return ["Papua New Guinea", "flag"]
+
+        case .earLightSkinTone: return ["ear:", "hearing", "tone", "listening", "listen", "ears", "hear", "light skin tone", "skin", "ear", "light", "sound", "body"]
+
+        case .hole: return ["hole"]
+
+        case .joker: return ["game", "card", "joker", "wildcard"]
+
+        case .personWithWhiteCaneMediumSkinTone: return ["cane:", "probing", "medium", "tone", "cane", "blind", "skin", "with", "medium skin tone", "white", "accessibility", "person"]
+
+        case .moneyBag: return ["million", "money", "moneybag", "cost", "cash", "paying", "rich", "dollar", "paid", "bet", "win", "bag", "pot", "billion", "bank", "gold"]
+
+        case .scientistMediumDarkSkinTone: return ["physicist", "medium dark skin tone", "engineer", "mathematician", "biologist", "medium", "scientist", "skin", "chemist", "scientist:", "dark", "tone"]
+
+        case .guardMediumSkinTone: return ["buckingham", "guard:", "skin", "helmet", "medium skin tone", "medium", "palace", "london", "guard", "tone"]
+
+        case .calendar: return ["date", "calendar"]
+
+        case .thoughtBalloon: return ["thoughts", "comic", "realize", "thought", "wonder", "cartoon", "invention", "invent", "daydream", "cloud", "balloon", "dream", "decisions", "idea", "bubble", "think"]
+
+        case .fourThirty: return ["thirty", "four thirty", "four", "4", "time", "clock", "30", "4:30"]
+
+        case .oncomingFistDarkSkinTone: return ["oncoming", "rock", "absolutely", "bruh", "pound", "skin", "tone", "bro", "fist", "agree", "clenched", "hand", "correct", "dark", "bump", "fist:", "ttyl", "knuckle", "dark skin tone", "boom", "punch"]
+
+        case .womanTeacherLightSkinTone: return ["light skin tone", "lecturer", "professor", "instructor", "skin", "teacher:", "teacher", "light", "tone", "woman"]
+
+        case .raisedFistMediumDarkSkinTone: return ["dark", "medium dark skin tone", "raised", "punch", "solidarity", "skin", "hand", "fist", "clenched", "tone", "fist:", "medium"]
+
+        case .earWithHearingAidLightSkinTone: return ["hearing", "hard", "tone", "ear", "light skin tone", "with", "aid", "accessibility", "aid:", "light", "skin"]
+
+        case .boomerang: return ["repercussion", "rebound", "boomerang", "weapon"]
+
+        case .takeoutBox: return ["oyster", "takeout", "pail", "chopsticks", "delivery", "box", "food"]
+
+        case .flagLebanon: return ["Lebanon", "flag"]
+
+        case .sparkle: return ["sparkle", "*"]
+
+        case .olderPersonMediumDarkSkinTone: return ["medium", "person", "older", "wise", "grandparent", "adult", "elderly", "tone", "medium dark skin tone", "skin", "old", "person:", "dark"]
+
+        case .raisingHandsMediumDarkSkinTone: return ["celebration", "skin", "medium", "tone", "hooray", "raising", "gesture", "raised", "hand", "praise", "hands", "dark", "hands:", "medium dark skin tone"]
+
+        case .flagGibraltar: return ["flag", "Gibraltar"]
+
+        case .personLightSkinTone: return ["skin", "person:", "light", "person", "tone", "light skin tone", "adult"]
+
+        case .womanMediumDarkSkinToneRedHair: return ["lady", "skin", "woman:", "medium", "dark", "tone,", "adult", "hair", "red", "woman", "medium dark skin tone", "red hair"]
+
+        case .tanabataTree: return ["Japanese", "tanabata", "banner", "tree", "celebration"]
+
+        case .whiteFlag: return ["flag", "white", "waving"]
+
+        case .manFeedingBabyDarkSkinTone: return ["dark", "man", "nanny", "baby:", "baby", "skin", "newborn", "tone", "feed", "feeding", "dark skin tone", "father", "nursing", "dad"]
+
+        case .microscope: return ["experiment", "lab", "science", "tool", "microscope"]
+
+        case .spaghetti: return ["meatballs", "pasta", "restaurant", "food", "spaghetti"]
+
+        case .basketball: return ["ball", "sport", "basketball", "hoop"]
+
+        case .accordion: return ["squeeze", "squeezebox", "box", "instrument", "music", "accordion", "concertina"]
+
+        case .bulletTrain: return ["speed", "high speed", "travel", "bullet", "nose", "shinkansen", "train", "railway"]
+
+        case .flagSark: return ["Sark", "flag"]
+
+        case .familyManWomanGirlGirl: return ["woman", "man,", "child", "family", "family:", "girl,", "man", "woman,", "girl"]
+
+        case .flagMalawi: return ["flag", "Malawi"]
+
+        case .personFeedingBabyLightSkinTone: return ["baby:", "nursing", "parent", "newborn", "nanny", "person", "light", "feeding", "skin", "baby", "light skin tone", "tone", "feed"]
+
+        case .personMediumLightSkinToneBlondHair: return ["medium light skin tone", "person", "person:", "medium", "blond", "light", "human", "blond hair", "skin", "tone,", "hair", "blond haired"]
+
+        case .palmsUpTogether: return ["cupped", "prayer", "dua", "hands", "together", "pray", "wish", "up", "palms"]
+
+        case .chopsticks: return ["jeotgarak", "chopsticks", "hashi", "kuaizi"]
+
+        case .backhandIndexPointingLeftMediumDarkSkinTone: return ["medium", "pointing", "point", "left", "index", "finger", "dark", "left:", "skin", "backhand", "hand", "medium dark skin tone", "tone"]
+
+        case .personMediumDarkSkinToneCurlyHair: return ["hair", "adult", "tone,", "dark", "medium dark skin tone", "skin", "person", "medium", "person:", "curly", "curly hair"]
+
+        case .nextTrackButton: return ["triangle", "track", "next", "arrow", "button", "scene"]
+
+        case .confoundedFace: return ["face", "cringe", "confused", "frustrated", "confounded", "mad", "sad", "distraught", "feels", "annoyed"]
+
+        case .pensiveFace: return ["pensive", "lost", "disappointed", "losing", "awful", "dejected", "bored", "died", "sad", "sucks", "face"]
+
+        case .oneOclock: return ["one", "time", "clock", "1:00", "1", "o’clock"]
+
+        case .teacherLightSkinTone: return ["teacher", "instructor", "professor", "light", "light skin tone", "tone", "skin", "lecturer", "teacher:"]
+
+        case .personStandingMediumLightSkinTone: return ["person", "light", "tone", "medium", "skin", "stand", "standing:", "standing", "medium light skin tone"]
+
+        case .flagGermany: return ["flag", "Germany"]
+
+        case .raisedBackOfHandMediumDarkSkinTone: return ["dark", "tone", "medium dark skin tone", "hand:", "medium", "backhand", "skin", "hand", "back", "raised", "of"]
+
+        case .manStudentMediumDarkSkinTone: return ["dark", "medium dark skin tone", "man", "tone", "student:", "skin", "medium", "graduate", "student"]
+
+        case .superheroMediumSkinTone: return ["superhero:", "medium", "skin", "medium skin tone", "tone", "superpower", "hero", "superhero", "good"]
+
+        case .closedMailboxWithLoweredFlag: return ["with", "closed", "mail", "mailbox", "postbox", "lowered", "flag"]
+
+        case .flagComoros: return ["Comoros", "flag"]
+
+        case .manLightSkinTone: return ["light skin tone", "light", "adult", "skin", "tone", "man", "bro", "man:"]
+
+        case .whiteExclamationMark: return ["outlined", "exclamation", "mark", "punctuation", "white", "!"]
+
+        case .wing: return ["soar", "fly", "angelic", "flying", "wing", "heavenly", "mythology", "bird", "aviation", "ascend"]
+
+        case .balloon: return ["balloon", "birthday", "celebrate", "celebration"]
+
+        case .womenHoldingHandsMediumDarkSkinToneLightSkinTone: return ["hands:", "couple", "sisters", "bff", "women", "hold", "friends", "bae", "skin", "tone,", "dating", "tone", "dark", "medium dark skin tone", "holding", "twins", "light", "bestie", "light skin tone", "flirt", "girls", "medium", "hand"]
+
+        case .womanFarmerMediumDarkSkinTone: return ["farmer", "woman", "medium", "rancher", "dark", "gardener", "medium dark skin tone", "skin", "tone", "farmer:"]
+
+        case .girlMediumDarkSkinTone: return ["girl", "kid", "medium dark skin tone", "bright eyed", "girl:", "skin", "medium", "zodiac", "daughter", "younger", "tone", "Virgo", "granddaughter", "young", "dark", "child"]
+
+        case .womanDarkSkinToneCurlyHair: return ["dark", "skin", "tone,", "hair", "woman", "curly", "curly hair", "woman:", "dark skin tone", "lady", "adult"]
+
+        case .foldedHandsMediumSkinTone: return ["thx", "please", "medium skin tone", "five", "gesture", "blessed", "beg", "appreciate", "bow", "tone", "medium", "skin", "ask", "hands:", "hand", "thanks", "high", "folded", "cmon", "pray"]
+
+        case .familyManGirl: return ["man", "family", "girl", "family:", "man,", "child"]
+
+        case .onArrow: return ["ON!", "mark", "arrow"]
+
+        case .filmFrames: return ["frames", "film", "movie", "cinema"]
+
+        case .fleurDeLis: return ["lis", "fleur de lis", "de", "knights", "fleur"]
+
+        case .victoryHandMediumDarkSkinTone: return ["dark", "skin", "medium dark skin tone", "tone", "medium", "peace", "v", "hand", "hand:", "victory"]
+
+        case .steamingBowl: return ["noodle", "chopsticks", "steaming", "food", "ramen", "pho", "bowl", "soup"]
+
+        case .litterInBinSign: return ["in", "litter", "litterbin", "bin", "sign"]
+
+        case .faceWithRollingEyes: return ["with", "shade", "rolling", "eyes", "ugh", "face", "eyeroll", "whatever"]
+
+        case .bellhopBell: return ["bell", "hotel", "bellhop"]
+
+        case .manDancingMediumLightSkinTone: return ["elegant", "flamenco", "medium light skin tone", "dancing", "festive", "man", "let’s", "tango", "dancing:", "medium", "light", "salsa", "groove", "dancer", "skin", "tone", "dance", "flair"]
+
+        case .womanFirefighterDarkSkinTone: return ["woman", "dark skin tone", "dark", "skin", "tone", "firetruck", "firefighter", "fire", "firefighter:"]
+
+        case .trolleybus: return ["tram", "trolley", "bus", "trolleybus"]
+
+        case .bug: return ["animal", "bug", "garden", "insect"]
+
+        case .school: return ["school", "building"]
+
+        case .firstQuarterMoon: return ["moon", "first", "quarter", "space"]
+
+        case .callMeHand: return ["call", "hang", "hand", "loose", "me", "Shaka"]
+
+        case .pizza: return ["pepperoni", "hungry", "food", "pizza", "slice", "cheese"]
+
+        case .backhandIndexPointingDownMediumDarkSkinTone: return ["finger", "medium dark skin tone", "dark", "hand", "down", "index", "down:", "point", "tone", "backhand", "pointing", "skin", "medium"]
+
+        case .manFarmerMediumLightSkinTone: return ["gardener", "medium", "tone", "light", "skin", "farmer:", "man", "rancher", "farmer", "medium light skin tone"]
+
+        case .womanInManualWheelchairMediumLightSkinTone: return ["tone", "wheelchair", "accessibility", "wheelchair:", "light", "medium light skin tone", "manual", "woman", "medium", "in", "skin"]
+
+        case .man: return ["adult", "man", "bro"]
+
+        case .flagPanama: return ["flag", "Panama"]
+
+        case .womanFeedingBabyLightSkinTone: return ["nanny", "feeding", "baby", "nursing", "mother", "baby:", "newborn", "light skin tone", "mom", "woman", "skin", "tone", "light", "feed"]
+
+        case .flagSolomonIslands: return ["flag", "Solomon Islands"]
+
+        case .manFeedingBabyMediumLightSkinTone: return ["tone", "baby:", "skin", "baby", "medium light skin tone", "feed", "light", "nanny", "nursing", "newborn", "man", "medium", "dad", "feeding", "father"]
+
+        case .snowboarderDarkSkinTone: return ["dark", "ski", "sport", "snowboard", "snowboarder:", "dark skin tone", "snowboarder", "snow", "tone", "skin"]
+
+        case .womanCookDarkSkinTone: return ["skin", "tone", "dark skin tone", "cook", "chef", "dark", "cook:", "woman"]
+
+        case .womanMechanicLightSkinTone: return ["skin", "light", "mechanic:", "woman", "electrician", "plumber", "mechanic", "tradesperson", "tone", "light skin tone"]
+
+        case .personSwimmingMediumDarkSkinTone: return ["swim", "swimming:", "person", "skin", "freestyle", "sport", "swimming", "medium", "medium dark skin tone", "dark", "triathlon", "tone", "swimmer"]
+
+        case .flagAngola: return ["Angola", "flag"]
+
+        case .pregnantPersonDarkSkinTone: return ["full", "overeat", "person", "dark", "skin", "pregnant", "tone", "dark skin tone", "bloated", "belly", "stuffed", "person:"]
+
+        case .personClimbingMediumSkinTone: return ["medium", "mountain", "medium skin tone", "climber", "person", "climbing:", "skin", "up", "scale", "climbing", "rock", "tone", "climb"]
+
+        case .lowBattery: return ["energy", "electronic", "drained", "low", "power", "battery"]
+
+        case .familyManWomanBoy: return ["child", "man,", "woman,", "man", "family:", "boy", "woman", "family"]
+
+        case .mageMediumLightSkinTone: return ["light", "summon", "mage", "sorcery", "spell", "sorceress", "sorcerer", "mage:", "skin", "medium light skin tone", "magic", "wizard", "witch", "medium", "fantasy", "tone", "play"]
+
+        case .callMeHandMediumDarkSkinTone: return ["medium", "dark", "skin", "hand", "Shaka", "hand:", "me", "tone", "medium dark skin tone", "loose", "call", "hang"]
+
+        case .microphone: return ["mic", "karaoke", "music", "microphone", "sing", "sound"]
+
+        case .garlic: return ["flavoring", "garlic"]
+
+        case .peopleHoldingHandsDarkSkinToneMediumDarkSkinTone: return ["bae", "medium dark skin tone", "hold", "hand", "couple", "flirt", "holding", "dark", "skin", "hands:", "people", "tone,", "friends", "tone", "medium", "dating", "bff", "bestie", "dark skin tone", "twins"]
+
+        case .personMediumDarkSkinTone: return ["adult", "medium", "skin", "dark", "person", "tone", "medium dark skin tone", "person:"]
+
+        case .womanMechanicDarkSkinTone: return ["plumber", "mechanic", "tradesperson", "skin", "electrician", "mechanic:", "dark skin tone", "dark", "woman", "tone"]
+
+        case .fishCakeWithSwirl: return ["fish", "with", "pastry", "swirl", "cake", "restaurant", "food"]
+
+        case .heavyDollarSign: return ["currency", "billion", "pay", "heavy", "charge", "dollar", "sign", "money", "cash", "million"]
+
+        case .personRunningMediumDarkSkinTone: return ["run", "hurry", "person", "skin", "dark", "fast", "quick", "move", "rush", "medium", "marathon", "running:", "speed", "tone", "race", "racing", "medium dark skin tone"]
+
+        case .womanAndManHoldingHandsMediumDarkSkinToneLightSkinTone: return ["hands:", "couple", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "man", "dark", "medium dark skin tone", "and", "holding", "twins", "light", "bestie", "light skin tone", "flirt", "woman", "medium", "hand"]
+
+        case .personCartwheeling: return ["excited", "cartwheeling", "flip", "somersault", "person", "active", "cartwheel", "happy", "gymnastics"]
+
+        case .pinchedFingersMediumDarkSkinTone: return ["hold", "interrogation", "what", "zip", "tone", "ugh", "fingers", "medium", "dark", "skin", "medium dark skin tone", "pinched", "fingers:", "hand", "relax", "sarcastic", "gesture", "huh", "patience"]
+
+        case .indexPointingUpMediumSkinTone: return ["tone", "skin", "medium skin tone", "finger", "this", "hand", "point", "index", "up", "pointing", "up:", "medium"]
+
+        case .catFace: return ["kitten", "cat", "face", "kitty", "animal", "pet"]
+
+        case .peopleHoldingHandsMediumDarkSkinToneMediumSkinTone: return ["dating", "hold", "medium skin tone", "people", "medium", "twins", "couple", "holding", "tone", "medium dark skin tone", "dark", "friends", "bff", "hands:", "flirt", "skin", "bestie", "hand", "tone,", "bae"]
+
+        case .personGesturingNo: return ["forbidden", "prohibit", "NO", "gesturing", "hand", "person", "gesture", "not"]
+
+        case .notebook: return ["notebook"]
+
+        case .flagCentralAfricanRepublic: return ["flag", "Central African Republic"]
+
+        case .flagSudan: return ["flag", "Sudan"]
+
+        case .raisedHandDarkSkinTone: return ["five", "stop", "dark", "skin", "high", "tone", "5", "hand:", "raised", "hand", "dark skin tone"]
+
+        case .openHandsMediumSkinTone: return ["hands", "hug", "swerve", "jazz", "medium", "open", "medium skin tone", "skin", "hand", "hands:", "tone"]
+
+        case .womanWhiteHair: return ["lady", "hair", "woman:", "white hair", "woman", "white", "adult"]
+
+        case .flagNicaragua: return ["Nicaragua", "flag"]
+
+        case .personInMotorizedWheelchairMediumSkinTone: return ["medium", "accessibility", "skin", "medium skin tone", "wheelchair", "in", "person", "tone", "motorized", "wheelchair:"]
+
+        case .enragedFace: return ["feels", "pouting", "enraged", "maddening", "upset", "rage", "anger", "angry", "red", "face", "mad", "shade", "unhappy"]
+
+        case .circledM: return ["circled", "M", "circle"]
+
+        case .personStandingMediumSkinTone: return ["stand", "medium skin tone", "skin", "medium", "standing:", "person", "tone", "standing"]
+
+        case .oncomingPoliceCar: return ["police", "oncoming", "car"]
+
+        case .womanSingerMediumDarkSkinTone: return ["tone", "dark", "medium", "singer", "singer:", "rock", "woman", "entertainer", "rockstar", "actor", "star", "skin", "medium dark skin tone"]
+
+        case .peopleHoldingHandsMediumDarkSkinTone: return ["dating", "hold", "people", "medium", "twins", "couple", "holding", "tone", "medium dark skin tone", "dark", "friends", "bff", "hands:", "flirt", "skin", "bestie", "hand", "bae"]
+
+        case .familyWomanWomanBoyBoy: return ["family:", "woman,", "boy", "family", "boy,", "woman", "child"]
+
+        case .paperclip: return ["paperclip"]
+
+        case .clipboard: return ["do", "notes", "list", "clipboard"]
+
+        case .tongue: return ["lick", "body", "slurp", "tongue"]
+
+        case .personWithWhiteCaneMediumLightSkinTone: return ["cane:", "person", "cane", "light", "medium light skin tone", "tone", "blind", "medium", "white", "probing", "skin", "accessibility", "with"]
+
+        case .personGolfingDarkSkinTone: return ["putt", "birdie", "range", "ball", "person", "dark skin tone", "driving", "tone", "golfing:", "pga", "dark", "caddy", "skin", "golf", "tee", "green", "golfing"]
+
+        case .japaneseAcceptableButton: return ["acceptable", "button", "“acceptable”", "Japanese", "ideograph"]
+
+        case .deer: return ["animal", "deer"]
+
+        case .mantelpieceClock: return ["clock", "mantelpiece", "time"]
+
+        case .playButton: return ["arrow", "triangle", "play", "right", "button"]
+
+        case .studentDarkSkinTone: return ["student:", "student", "tone", "skin", "graduate", "dark", "dark skin tone"]
+
+        case .flagDominica: return ["Dominica", "flag"]
+
+        case .bucket: return ["cask", "pail", "vat", "bucket"]
+
+        case .womanDarkSkinTone: return ["dark skin tone", "tone", "woman:", "skin", "dark", "lady", "adult", "woman"]
+
+        case .memo: return ["notes", "pencil", "memo", "communication", "media"]
+
+        case .firefighterLightSkinTone: return ["firefighter", "firetruck", "light skin tone", "tone", "skin", "light", "fire", "firefighter:"]
+
+        case .boyLightSkinTone: return ["kid", "boy:", "tone", "grandson", "child", "boy", "skin", "younger", "light skin tone", "bright eyed", "light", "son", "young"]
+
+        case .raisingHandsDarkSkinTone: return ["hand", "hooray", "dark", "gesture", "celebration", "praise", "raised", "hands", "hands:", "tone", "dark skin tone", "raising", "skin"]
+
+        case .studentMediumSkinTone: return ["graduate", "student:", "skin", "medium", "student", "medium skin tone", "tone"]
+
+        case .spider: return ["insect", "animal", "spider"]
+
+        case .cryingCat: return ["cry", "tear", "cat", "crying", "face", "sad", "animal"]
+
+        case .heartExclamation: return ["exclamation", "heart", "punctuation", "heavy", "mark"]
+
+        case .peopleWithBunnyEars: return ["with", "pair", "bunny", "ears", "soulmate", "double", "counterpart", "dancer", "people", "partying", "ear", "party", "bestie", "bff", "twin", "identical", "twinsies"]
+
+        case .topHat: return ["clothing", "fancy", "hat", "formal", "magic", "top", "tophat", "clothes"]
+
+        case .supervillainMediumDarkSkinTone: return ["villain", "supervillain:", "supervillain", "superpower", "medium", "dark", "tone", "bad", "medium dark skin tone", "evil", "criminal", "skin"]
+
+        case .triangularRuler: return ["angle", "triangular", "ruler", "set", "slide", "math", "triangle", "rule"]
+
+        case .backhandIndexPointingLeft: return ["hand", "left", "pointing", "finger", "backhand", "index", "point"]
+
+        case .genie: return ["jinn", "myth", "djinn", "lamp", "rub", "wishes", "genie", "fantasy"]
+
+        case .supervillainLightSkinTone: return ["light", "villain", "supervillain:", "supervillain", "superpower", "tone", "light skin tone", "bad", "evil", "criminal", "skin"]
+
+        case .personPoutingMediumLightSkinTone: return ["whine", "pouting", "disappointed", "scowl", "pouting:", "downtrodden", "person", "light", "grimace", "medium", "tone", "upset", "medium light skin tone", "sulk", "frown", "skin"]
+
+        case .flagTajikistan: return ["Tajikistan", "flag"]
+
+        case .leftwardsHandDarkSkinTone: return ["handshake", "hand", "hold", "shake", "dark", "skin", "hand:", "dark skin tone", "left", "tone", "leftwards", "reach", "leftward"]
 
         case .hotPepper: return ["hot", "pepper"]
 
-        case .womanAndManHoldingHandsMediumSkinTone: return ["holding", "medium skin tone", "medium", "holding hands", "hand", "couple", "tone", "woman and man holding hands", "hold", "and", "skin", "man", "woman and man holding hands: medium skin tone", "woman", "hands:"]
+        case .womanWithWhiteCaneDarkSkinTone: return ["woman", "probing", "tone", "dark skin tone", "cane", "blind", "skin", "with", "cane:", "white", "accessibility", "dark"]
 
-        case .personGettingHaircutMediumLightSkinTone: return ["medium light skin tone", "tone", "person getting haircut: medium light skin tone", "beauty", "medium", "parlor", "skin", "getting", "person getting haircut", "light", "person", "haircut", "haircut:", "barber"]
+        case .girlDarkSkinTone: return ["zodiac", "daughter", "skin", "young", "tone", "girl:", "dark", "Virgo", "granddaughter", "kid", "dark skin tone", "child", "bright eyed", "younger", "girl"]
 
-        case .princeMediumDarkSkinTone: return ["dark", "medium", "prince:", "prince", "medium dark skin tone", "prince: medium dark skin tone", "skin", "tone"]
+        case .om: return ["om", "religion", "Hindu"]
 
-        case .familyManManBoy: return ["family:", "boy", "family", "family: man, man, boy", "man", "man,"]
+        case .motorizedWheelchair: return ["wheelchair", "motorized", "accessibility"]
 
-        case .departmentStore: return ["store", "department"]
+        case .motorScooter: return ["scooter", "motor"]
 
-        case .hotDog: return ["sausage", "dog", "hot dog", "hot", "hotdog", "frankfurter"]
+        case .brick: return ["brick", "clay", "wall", "bricks", "mortar"]
 
-        case .studentDarkSkinTone: return ["dark", "dark skin tone", "skin", "tone", "student: dark skin tone", "student", "student:", "graduate"]
+        case .womanOfficeWorkerMediumSkinTone: return ["worker", "medium skin tone", "office", "manager", "business", "worker:", "medium", "skin", "tone", "white collar", "architect", "woman"]
 
-        case .twoHearts: return ["two", "love", "two hearts", "hearts"]
+        case .firefighterDarkSkinTone: return ["dark", "firefighter", "dark skin tone", "tone", "skin", "fire", "firetruck", "firefighter:"]
 
-        case .personInSuitLevitatingDarkSkinTone: return ["dark skin tone", "skin", "tone", "person in suit levitating: dark skin tone", "person in suit levitating", "in", "levitating:", "dark", "business", "suit", "person"]
+        case .middleFingerMediumDarkSkinTone: return ["dark", "tone", "finger", "medium dark skin tone", "finger:", "middle", "medium", "hand", "skin"]
 
-        case .om: return ["Hindu", "religion", "om"]
+        case .personMountainBikingDarkSkinTone: return ["sport", "biking", "dark", "bike", "bicycle", "bicyclist", "riding", "biking:", "person", "tone", "cyclist", "dark skin tone", "cycle", "skin", "mountain"]
 
-        case .razor: return ["shave", "razor", "sharp"]
+        case .cherryBlossom: return ["springtime", "flower", "blossom", "spring", "cherry", "plant"]
 
-        case .personRaisingHand: return ["raised", "happy", "raising", "gesture", "hand", "person raising hand", "person"]
+        case .womanTechnologist: return ["software", "coder", "technologist", "woman", "developer", "computer", "inventor"]
 
-        case .pencil: return ["pencil"]
+        case .nestingDolls: return ["babooshka", "matryoshka", "babushka", "russia", "baboushka", "dolls", "nesting", "doll"]
 
-        case .linkedPaperclips: return ["linked", "paperclip", "linked paperclips", "paperclips", "link"]
+        case .handshakeMediumDarkSkinToneMediumSkinTone: return ["hand", "medium", "medium dark skin tone", "skin", "tone", "medium skin tone", "tone,", "meeting", "handshake", "deal", "handshake:", "shake", "agreement", "dark"]
 
-        case .handWithFingersSplayedDarkSkinTone: return ["skin", "tone", "hand", "fingers", "dark", "finger", "dark skin tone", "hand with fingers splayed: dark skin tone", "splayed", "hand with fingers splayed", "with", "splayed:"]
+        case .twoOclock: return ["o’clock", "time", "two", "2:00", "2", "clock"]
 
-        case .sunriseOverMountains: return ["mountains", "sunrise", "morning", "sun", "over", "mountain", "sunrise over mountains"]
+        case .womanDarkSkinToneWhiteHair: return ["dark", "woman", "woman:", "lady", "adult", "white hair", "tone,", "white", "hair", "skin", "dark skin tone"]
 
-        case .camera: return ["camera", "video"]
+        case .package: return ["communication", "box", "parcel", "delivery", "shipping", "package"]
 
-        case .womanFarmerMediumDarkSkinTone: return ["skin", "tone", "farmer:", "woman farmer: medium dark skin tone", "gardener", "medium", "dark", "farmer", "rancher", "woman", "medium dark skin tone"]
+        case .flagAfghanistan: return ["flag", "Afghanistan"]
 
-        case .twoHumpCamel: return ["two hump camel", "camel", "two", "bactrian", "hump"]
+        case .leafFlutteringInWind: return ["leaf", "blow", "wind", "fluttering", "in", "flutter"]
 
-        case .movieCamera: return ["camera", "movie", "cinema"]
+        case .personTakingBathDarkSkinTone: return ["tone", "taking", "tub", "person", "bath", "bath:", "dark", "skin", "dark skin tone", "bathtub"]
 
-        case .blackCat: return ["unlucky", "cat", "black"]
+        case .sleepyFace: return ["sleeping", "tired", "crying", "sleepy", "good", "face", "night", "sad", "sleep"]
 
-        case .performingArts: return ["mask", "theatre", "performing arts", "arts", "art", "theater", "performing"]
+        case .familyManWomanGirl: return ["girl", "family", "man,", "woman,", "man", "woman", "family:", "child"]
 
-        case .sadButRelievedFace: return ["whew", "sad but relieved face", "but", "sad", "face", "relieved", "disappointed"]
+        case .manInMotorizedWheelchairMediumDarkSkinTone: return ["skin", "wheelchair", "motorized", "accessibility", "man", "medium dark skin tone", "in", "wheelchair:", "medium", "dark", "tone"]
 
-        case .womenHoldingHandsMediumDarkSkinToneMediumSkinTone: return ["holding hands", "couple", "medium dark skin tone", "medium", "women", "skin", "hand", "women holding hands", "tone", "dark", "medium skin tone", "women holding hands: medium dark skin tone, medium skin tone", "tone,", "holding", "hands:"]
+        case .scissors: return ["paper", "tool", "cut", "cutting", "scissors"]
 
-        case .womanScientistMediumLightSkinTone: return ["scientist", "physicist", "chemist", "tone", "woman scientist: medium light skin tone", "biologist", "medium light skin tone", "woman", "medium", "light", "engineer", "skin", "scientist:"]
+        case .sunWithFace: return ["weather", "sunny", "sunshine", "with", "heat", "bright", "sun", "face", "day", "shine", "beach"]
 
-        case .womanRedHair: return ["woman", "red hair", "woman: red hair", "red", "adult", "hair", "woman:"]
-
-        case .womanFirefighterDarkSkinTone: return ["woman", "firefighter", "tone", "firefighter:", "firetruck", "dark skin tone", "dark", "skin", "woman firefighter: dark skin tone"]
-
-        case .fieldHockey: return ["field", "hockey", "game", "ball", "stick"]
-
-        case .prince: return ["prince"]
-
-        case .manTeacherMediumDarkSkinTone: return ["medium", "dark", "instructor", "man", "tone", "skin", "lecturer", "teacher:", "medium dark skin tone", "man teacher: medium dark skin tone", "professor", "teacher"]
-
-        case .thumbsUpMediumSkinTone: return ["+1", "tone", "thumbs up: medium skin tone", "up:", "medium", "thumbs up", "medium skin tone", "skin", "thumbs", "thumb", "up", "hand"]
-
-        case .copyright: return ["C", "copyright"]
-
-        case .personLiftingWeightsMediumLightSkinTone: return ["weight", "person", "medium", "lifter", "skin", "lifting", "medium light skin tone", "person lifting weights", "person lifting weights: medium light skin tone", "weights:", "light", "tone"]
-
-        case .skull: return ["monster", "fairy tale", "face", "death", "skull"]
-
-        case .reminderRibbon: return ["reminder", "celebration", "ribbon"]
-
-        case .greenSalad: return ["salad", "green", "food"]
-
-        case .flagCongoBrazzaville: return ["Congo   Brazzaville", "flag: Congo   Brazzaville", "flag"]
-
-        case .waterBuffalo: return ["buffalo", "water"]
-
-        case .womanFirefighterMediumDarkSkinTone: return ["firetruck", "woman firefighter: medium dark skin tone", "medium", "dark", "skin", "tone", "woman", "firefighter:", "firefighter", "medium dark skin tone"]
-
-        case .manMediumDarkSkinToneBald: return ["medium", "medium dark skin tone", "skin", "adult", "bald", "dark", "man:", "man: medium dark skin tone, bald", "man", "tone,"]
-
-        case .lastQuarterMoon: return ["moon", "quarter", "last quarter moon", "last"]
-
-        case .divide: return ["÷", "divide", "division", "math", "sign"]
-
-        case .womenHoldingHandsLightSkinTone: return ["women", "hand", "hands:", "light", "holding hands", "couple", "women holding hands", "skin", "tone", "holding", "light skin tone", "women holding hands: light skin tone"]
-
-        case .crossMark: return ["x", "mark", "×", "multiply", "multiplication", "cross", "cancel"]
-
-        case .technologistMediumLightSkinTone: return ["coder", "developer", "technologist: medium light skin tone", "tone", "technologist:", "software", "technologist", "skin", "medium light skin tone", "inventor", "light", "medium"]
-
-        case .flagNewZealand: return ["New Zealand", "flag", "flag: New Zealand"]
-
-        case .flagIndonesia: return ["Indonesia", "flag", "flag: Indonesia"]
-
-        case .ferry: return ["passenger", "boat", "ferry"]
-
-        case .backhandIndexPointingRightMediumLightSkinTone: return ["index", "hand", "skin", "backhand", "backhand index pointing right: medium light skin tone", "medium", "right:", "pointing", "medium light skin tone", "tone", "point", "finger", "light", "backhand index pointing right"]
-
-        case .menHoldingHandsDarkSkinToneMediumSkinTone: return ["men holding hands", "holding", "Gemini", "men", "twins", "zodiac", "tone,", "tone", "hands:", "men holding hands: dark skin tone, medium skin tone", "medium", "man", "skin", "holding hands", "dark", "medium skin tone", "dark skin tone", "couple"]
-
-        case .bellhopBell: return ["bellhop", "hotel", "bell"]
-
-        case .personMountainBikingMediumSkinTone: return ["cyclist", "mountain", "medium", "bicyclist", "biking:", "person mountain biking", "bicycle", "medium skin tone", "skin", "tone", "person", "person mountain biking: medium skin tone", "bike"]
-
-        case .tigerFace: return ["face", "tiger"]
-
-        case .flagBahrain: return ["Bahrain", "flag: Bahrain", "flag"]
-
-        case .loveYouGestureDarkSkinTone: return ["gesture:", "love you gesture: dark skin tone", "love", "you", "dark skin tone", "tone", "ILY", "dark", "hand", "love you gesture", "skin"]
-
-        case .womanBald: return ["adult", "bald", "woman: bald", "woman", "woman:"]
-
-        case .firefighterMediumDarkSkinTone: return ["fire", "firefighter: medium dark skin tone", "tone", "medium", "dark", "firetruck", "firefighter:", "firefighter", "medium dark skin tone", "skin"]
-
-        case .diamondWithADot: return ["geometric", "with", "a", "dot", "diamond", "inside", "diamond with a dot", "comic"]
-
-        case .pregnantManDarkSkinTone: return ["pregnant man", "skin", "dark", "tone", "dark skin tone", "bloated", "pregnant", "belly", "pregnant man: dark skin tone", "full", "man:"]
-
-        case .toothbrush: return ["brush", "bathroom", "clean", "teeth", "dental", "hygiene", "toothbrush"]
-
-        case .mrsClausMediumSkinTone: return ["mother", "Christmas", "Mrs.", "tone", "claus", "skin", "medium skin tone", "Mrs. Claus: medium skin tone", "celebration", "Claus:", "medium"]
-
-        case .grinningFaceWithBigEyes: return ["smile", "with", "open", "grinning face with big eyes", "mouth", "face", "eyes", "grinning", "big"]
-
-        case .bomb: return ["bomb", "comic"]
-
-        case .flagCroatia: return ["Croatia", "flag", "flag: Croatia"]
-
-        case .soap: return ["bathing", "soap", "soapdish", "lather", "bar", "cleaning"]
-
-        case .personInManualWheelchairMediumLightSkinTone: return ["manual", "skin", "medium light skin tone", "medium", "in", "person in manual wheelchair: medium light skin tone", "wheelchair:", "person", "wheelchair", "tone", "person in manual wheelchair", "light", "accessibility"]
-
-        case .chessPawn: return ["chess pawn", "dupe", "chess", "pawn", "expendable"]
-
-        case .dvd: return ["computer", "DVD", "Blu ray", "optical", "dvd", "disk"]
-
-        case .flagNamibia: return ["flag", "flag: Namibia", "Namibia"]
-
-        case .snail: return ["snail"]
-
-        case .personGettingHaircutLightSkinTone: return ["tone", "beauty", "haircut:", "light", "skin", "person getting haircut: light skin tone", "light skin tone", "getting", "barber", "haircut", "parlor", "person", "person getting haircut"]
-
-        case .childLightSkinTone: return ["light", "light skin tone", "tone", "child", "gender neutral", "unspecified gender", "child:", "young", "skin", "child: light skin tone"]
-
-        case .indexPointingAtTheViewerDarkSkinTone: return ["skin", "the", "at", "index", "you", "tone", "point", "dark", "dark skin tone", "index pointing at the viewer", "viewer:", "index pointing at the viewer: dark skin tone", "pointing"]
-
-        case .womenHoldingHandsLightSkinToneMediumSkinTone: return ["light", "hands:", "skin", "holding", "light skin tone", "holding hands", "couple", "tone,", "medium", "women holding hands", "women holding hands: light skin tone, medium skin tone", "hand", "tone", "medium skin tone", "women"]
-
-        case .callMeHandMediumDarkSkinTone: return ["medium dark skin tone", "call me hand: medium dark skin tone", "skin", "call me hand", "medium", "hang loose", "dark", "call", "Shaka", "me", "hand", "hand:", "tone"]
-
-        case .palmsUpTogetherDarkSkinTone: return ["up", "dark", "palms up together", "skin", "dark skin tone", "prayer", "palms", "palms up together: dark skin tone", "together:", "tone"]
-
-        case .leftwardsPushingHandMediumDarkSkinTone: return ["leftwards", "pushing", "push", "medium", "medium dark skin tone", "stop", "tone", "dark", "wait", "leftwards pushing hand", "high five", "hand:", "refuse", "leftwards pushing hand: medium dark skin tone", "skin", "leftward"]
-
-        case .chair: return ["seat", "sit", "chair"]
-
-        case .farmer: return ["farmer", "rancher", "gardener"]
-
-        case .flagMayotte: return ["flag: Mayotte", "flag", "Mayotte"]
-
-        case .smilingFace: return ["outlined", "face", "relaxed", "smiling face", "smile", "smiling"]
-
-        case .girlMediumDarkSkinTone: return ["medium", "girl:", "skin", "tone", "dark", "Virgo", "girl: medium dark skin tone", "girl", "young", "zodiac", "medium dark skin tone"]
-
-        case .womanAndManHoldingHandsMediumDarkSkinToneDarkSkinTone: return ["medium dark skin tone", "woman", "medium", "couple", "hold", "dark", "woman and man holding hands", "skin", "man", "hand", "holding", "holding hands", "and", "dark skin tone", "tone,", "hands:", "woman and man holding hands: medium dark skin tone, dark skin tone", "tone"]
-
-        case .middleFingerLightSkinTone: return ["light skin tone", "finger", "finger:", "hand", "light", "skin", "tone", "middle finger", "middle", "middle finger: light skin tone"]
-
-        case .personMediumDarkSkinToneWhiteHair: return ["person: medium dark skin tone, white hair", "medium", "dark", "person:", "hair", "white", "skin", "tone,", "gender neutral", "white hair", "person", "medium dark skin tone", "unspecified gender", "adult"]
-
-        case .hedgehog: return ["hedgehog", "spiny"]
-
-        case .dimButton: return ["brightness", "dim button", "dim", "low", "button"]
-
-        case .babyAngelDarkSkinTone: return ["baby", "baby angel: dark skin tone", "angel:", "angel", "fantasy", "tone", "dark skin tone", "face", "dark", "skin", "fairy tale"]
-
-        case .thumbsUpMediumDarkSkinTone: return ["+1", "dark", "tone", "medium", "thumbs", "up", "thumbs up: medium dark skin tone", "hand", "up:", "thumb", "skin", "medium dark skin tone", "thumbs up"]
-
-        case .spaghetti: return ["pasta", "spaghetti"]
-
-        case .musicalNotes: return ["musical notes", "note", "notes", "musical", "music"]
-
-        case .personPlayingHandballLightSkinTone: return ["person", "light skin tone", "handball:", "tone", "person playing handball: light skin tone", "handball", "light", "skin", "playing", "ball", "person playing handball"]
-
-        case .flagMyanmarBurma: return ["flag", "flag: Myanmar (Burma)", "Myanmar (Burma)"]
-
-        case .womenHoldingHandsLightSkinToneMediumDarkSkinTone: return ["dark", "hands:", "skin", "women holding hands: light skin tone, medium dark skin tone", "medium dark skin tone", "light skin tone", "women", "holding", "women holding hands", "tone,", "couple", "tone", "hand", "holding hands", "medium", "light"]
-
-        case .indexPointingAtTheViewerMediumDarkSkinTone: return ["point", "the", "you", "pointing", "tone", "at", "index", "viewer:", "medium", "dark", "skin", "index pointing at the viewer", "medium dark skin tone", "index pointing at the viewer: medium dark skin tone"]
-
-        case .flyingSaucer: return ["UFO", "saucer", "flying", "flying saucer"]
-
-        case .flagQatar: return ["Qatar", "flag: Qatar", "flag"]
-
-        case .flagEquatorialGuinea: return ["Equatorial Guinea", "flag", "flag: Equatorial Guinea"]
-
-        case .womenHoldingHandsMediumDarkSkinToneMediumLightSkinTone: return ["women holding hands", "medium light skin tone", "couple", "skin", "hand", "women", "holding", "dark", "medium dark skin tone", "light", "medium", "tone", "tone,", "holding hands", "women holding hands: medium dark skin tone, medium light skin tone", "hands:"]
-
-        case .supervillainMediumSkinTone: return ["skin", "tone", "superpower", "evil", "supervillain", "supervillain: medium skin tone", "villain", "supervillain:", "medium", "criminal", "medium skin tone"]
-
-        case .yenBanknote: return ["bill", "note", "money", "banknote", "yen", "currency"]
-
-        case .electricPlug: return ["plug", "electricity", "electric"]
-
-        case .downRightArrow: return ["direction", "intercardinal", "down", "southeast", "down right arrow", "arrow", "right"]
-
-        case .personInSteamyRoomMediumDarkSkinTone: return ["in", "dark", "medium dark skin tone", "skin", "person in steamy room", "person", "steam room", "medium", "steamy", "tone", "room:", "sauna", "person in steamy room: medium dark skin tone"]
-
-        case .rightArrowCurvingDown: return ["right", "right arrow curving down", "curving", "arrow", "down"]
-
-        case .nestWithEggs: return ["nest", "nesting", "with", "nest with eggs", "eggs"]
-
-        case .ninjaMediumLightSkinTone: return ["ninja", "fighter", "hidden", "skin", "stealth", "ninja: medium light skin tone", "medium light skin tone", "ninja:", "medium", "light", "tone"]
-
-        case .butter: return ["butter", "dairy"]
-
-        case .officeWorkerLightSkinTone: return ["manager", "architect", "white collar", "office", "worker:", "light skin tone", "office worker", "office worker: light skin tone", "business", "light", "tone", "skin"]
-
-        case .thumbsUpLightSkinTone: return ["+1", "thumbs", "thumbs up: light skin tone", "light", "tone", "up:", "thumbs up", "skin", "light skin tone", "thumb", "up", "hand"]
-
-        case .thumbsUpDarkSkinTone: return ["+1", "thumbs", "tone", "up:", "dark", "thumbs up", "skin", "dark skin tone", "thumbs up: dark skin tone", "thumb", "up", "hand"]
-
-        case .chopsticks: return ["chopsticks", "hashi"]
-
-        case .womanScientistMediumDarkSkinTone: return ["skin", "chemist", "dark", "tone", "physicist", "medium dark skin tone", "medium", "scientist:", "biologist", "engineer", "woman scientist: medium dark skin tone", "scientist", "woman"]
-
-        case .womanMechanic: return ["tradesperson", "electrician", "plumber", "woman", "mechanic"]
-
-        case .threeOclock: return ["00", "o’clock", "3:00", "3", "three", "clock"]
-
-        case .sevenThirty: return ["clock", "seven thirty", "7:30", "seven", "7", "thirty"]
-
-        case .womenHoldingHandsMediumDarkSkinToneLightSkinTone: return ["skin", "hand", "tone,", "holding", "tone", "medium", "women holding hands: medium dark skin tone, light skin tone", "hands:", "holding hands", "light", "couple", "women", "women holding hands", "dark", "light skin tone", "medium dark skin tone"]
-
-        case .manMechanic: return ["electrician", "tradesperson", "man", "mechanic", "plumber"]
-
-        case .nestingDolls: return ["doll", "nesting", "dolls", "nesting dolls", "russia"]
-
-        case .pregnantManMediumDarkSkinTone: return ["pregnant man", "medium", "dark", "skin", "tone", "bloated", "pregnant man: medium dark skin tone", "pregnant", "belly", "medium dark skin tone", "full", "man:"]
-
-        case .leftFacingFistLightSkinTone: return ["tone", "facing", "light", "fist:", "left", "left facing fist: light skin tone", "left facing fist", "leftwards", "light skin tone", "skin", "fist"]
-
-        case .manWithWhiteCaneMediumDarkSkinTone: return ["with", "man with white cane: medium dark skin tone", "tone", "medium dark skin tone", "cane:", "dark", "blind", "man", "medium", "man with white cane", "skin", "white", "accessibility"]
-
-        case .pickupTruck: return ["pickup", "pick up", "truck"]
-
-        case .spider: return ["insect", "spider"]
-
-        case .postalHorn: return ["postal", "horn", "post"]
-
-        case .flagPakistan: return ["Pakistan", "flag: Pakistan", "flag"]
-
-        case .shorts: return ["shorts", "underwear", "bathing suit", "pants"]
-
-        case .japaneseVacancyButton: return ["“vacancy”", "Japanese", "Japanese “vacancy” button", "空", "button", "ideograph"]
-
-        case .loveLetter: return ["letter", "love", "heart", "mail"]
-
-        case .manCookMediumLightSkinTone: return ["man", "chef", "cook:", "skin", "light", "man cook: medium light skin tone", "medium", "tone", "cook", "medium light skin tone"]
-
-        case .curryRice: return ["curry", "rice"]
-
-        case .goggles: return ["welding", "goggles", "swimming", "eye protection"]
-
-        case .bButtonBloodType: return ["B button (blood type)", "B", "button", "blood type", "(blood", "type)"]
-
-        case .bicycle: return ["bicycle", "bike"]
-
-        case .flagGabon: return ["Gabon", "flag", "flag: Gabon"]
-
-        case .crayon: return ["crayon"]
-
-        case .womanFeedingBabyMediumLightSkinTone: return ["woman feeding baby: medium light skin tone", "medium light skin tone", "medium", "nursing", "baby:", "baby", "light", "skin", "woman", "tone", "feeding"]
-
-        case .teacher: return ["teacher", "professor", "instructor", "lecturer"]
-
-        case .personWithCrownLightSkinTone: return ["monarch", "light skin tone", "tone", "with", "person with crown: light skin tone", "person", "light", "noble", "person with crown", "royalty", "regal", "skin", "crown:"]
-
-        case .womanMediumLightSkinToneWhiteHair: return ["tone,", "medium light skin tone", "woman", "skin", "white hair", "woman:", "adult", "woman: medium light skin tone, white hair", "light", "white", "medium", "hair"]
-
-        case .peopleHoldingHandsMediumDarkSkinToneLightSkinTone: return ["dark", "people", "light", "holding hands", "hand", "hands:", "light skin tone", "hold", "people holding hands: medium dark skin tone, light skin tone", "couple", "tone,", "tone", "holding", "medium dark skin tone", "people holding hands", "skin", "medium", "person"]
-
-        case .chequeredFlag: return ["flag", "chequered", "chequered flag", "checkered", "racing"]
-
-        case .personInManualWheelchairLightSkinTone: return ["accessibility", "wheelchair", "in", "person in manual wheelchair: light skin tone", "skin", "light skin tone", "person in manual wheelchair", "manual", "wheelchair:", "light", "tone", "person"]
-
-        case .menHoldingHandsMediumSkinTone: return ["twins", "men holding hands: medium skin tone", "holding hands", "men holding hands", "men", "tone", "holding", "hands:", "medium", "medium skin tone", "skin", "zodiac", "Gemini", "man", "couple"]
-
-        case .flagBurundi: return ["Burundi", "flag: Burundi", "flag"]
-
-        case .scientist: return ["scientist", "biologist", "physicist", "chemist", "engineer"]
-
-        case .accordion: return ["accordion", "concertina", "squeeze box"]
-
-        case .rightwardsHandMediumDarkSkinTone: return ["right", "rightwards", "medium", "dark", "medium dark skin tone", "rightward", "hand", "rightwards hand", "skin", "hand:", "tone", "rightwards hand: medium dark skin tone"]
-
-        case .mobilePhoneOff: return ["cell", "mobile", "off", "phone", "telephone"]
-
-        case .personSurfingMediumLightSkinTone: return ["person", "medium light skin tone", "person surfing: medium light skin tone", "surfing", "medium", "surfing:", "light", "skin", "person surfing", "tone"]
-
-        case .grapes: return ["grape", "fruit", "grapes"]
-
-        case .wavingHandMediumLightSkinTone: return ["tone", "hand", "skin", "medium", "light", "medium light skin tone", "waving hand: medium light skin tone", "wave", "waving", "hand:"]
-
-        case .goose: return ["fowl", "goose", "honk", "silly", "bird"]
-
-        case .manAstronautMediumDarkSkinTone: return ["skin", "astronaut:", "man", "astronaut", "medium dark skin tone", "medium", "dark", "tone", "man astronaut: medium dark skin tone", "rocket"]
-
-        case .backpack: return ["bag", "school", "backpack", "satchel", "rucksack"]
-
-        case .flagEswatini: return ["flag: Eswatini", "Eswatini", "flag"]
-
-        case .manCookLightSkinTone: return ["skin", "tone", "man cook: light skin tone", "cook", "cook:", "chef", "light skin tone", "man", "light"]
-
-        case .personPlayingHandballDarkSkinTone: return ["ball", "handball:", "person", "handball", "playing", "person playing handball: dark skin tone", "dark skin tone", "person playing handball", "dark", "skin", "tone"]
-
-        case .filmProjector: return ["movie", "film", "cinema", "projector", "video"]
-
-        case .cowFace: return ["cow", "face"]
-
-        case .studentMediumLightSkinTone: return ["tone", "student: medium light skin tone", "student", "medium", "medium light skin tone", "skin", "student:", "light", "graduate"]
-
-        case .flagBangladesh: return ["flag: Bangladesh", "Bangladesh", "flag"]
-
-        case .handshakeMediumDarkSkinToneMediumLightSkinTone: return ["medium dark skin tone", "tone,", "handshake: medium dark skin tone, medium light skin tone", "meeting", "medium", "dark", "handshake:", "agreement", "tone", "light", "hand", "skin", "handshake", "shake", "medium light skin tone"]
-
-        case .shoppingCart: return ["shopping", "cart", "trolley"]
-
-        case .personGesturingOkDarkSkinTone: return ["person", "dark skin tone", "gesturing", "OK:", "dark", "hand", "gesture", "skin", "person gesturing OK: dark skin tone", "tone", "person gesturing OK", "OK"]
-
-        case .pregnantMan: return ["full", "belly", "pregnant", "pregnant man", "bloated", "man"]
-
-        case .flagMonaco: return ["flag", "flag: Monaco", "Monaco"]
-
-        case .globeShowingEuropeAfrica: return ["Africa", "earth", "globe showing Europe Africa", "world", "globe", "Europe", "showing"]
-
-        case .womanAndManHoldingHandsDarkSkinToneMediumLightSkinTone: return ["woman and man holding hands", "tone", "skin", "hold", "woman", "hands:", "dark", "and", "medium", "couple", "holding", "man", "medium light skin tone", "dark skin tone", "holding hands", "woman and man holding hands: dark skin tone, medium light skin tone", "light", "tone,", "hand"]
-
-        case .handshakeDarkSkinToneLightSkinTone: return ["dark", "hand", "handshake: dark skin tone, light skin tone", "meeting", "skin", "light skin tone", "dark skin tone", "agreement", "light", "tone,", "tone", "handshake", "shake", "handshake:"]
-
-        case .indexPointingAtTheViewerMediumSkinTone: return ["index pointing at the viewer", "medium skin tone", "index pointing at the viewer: medium skin tone", "skin", "tone", "viewer:", "medium", "index", "at", "pointing", "the", "point", "you"]
-
-        case .womanTeacherDarkSkinTone: return ["instructor", "woman", "tone", "skin", "lecturer", "teacher:", "dark skin tone", "woman teacher: dark skin tone", "dark", "professor", "teacher"]
-
-        case .womanTechnologistDarkSkinTone: return ["coder", "developer", "dark skin tone", "woman", "woman technologist: dark skin tone", "software", "technologist", "technologist:", "dark", "skin", "inventor", "tone"]
-
-        case .milkyWay: return ["way", "space", "milky way", "milky"]
-
-        case .personRaisingHandDarkSkinTone: return ["raising", "happy", "hand", "raised", "person", "person raising hand: dark skin tone", "dark", "person raising hand", "dark skin tone", "skin", "hand:", "tone", "gesture"]
-
-        case .magnifyingGlassTiltedRight: return ["tilted", "magnifying glass tilted right", "glass", "right", "tool", "magnifying", "search"]
-
-        case .superhero: return ["superpower", "good", "heroine", "superhero", "hero"]
-
-        case .elephant: return ["elephant"]
-
-        case .artistPalette: return ["painting", "museum", "art", "palette", "artist", "artist palette"]
-
-        case .flagSeychelles: return ["Seychelles", "flag: Seychelles", "flag"]
-
-        case .speakerHighVolume: return ["loud", "volume", "speaker", "speaker high volume", "high"]
+        case .eightThirty: return ["eight thirty", "time", "eight", "clock", "8", "30", "8:30", "thirty"]
 
         case .artist: return ["artist", "palette"]
 
-        case .personRowingBoatMediumSkinTone: return ["rowing", "medium", "skin", "tone", "boat:", "person", "rowboat", "medium skin tone", "boat", "person rowing boat", "person rowing boat: medium skin tone"]
+        case .writingHandDarkSkinTone: return ["skin", "dark", "hand:", "hand", "dark skin tone", "writing", "write", "tone"]
 
-        case .locomotive: return ["railway", "locomotive", "train", "steam", "engine"]
+        case .personInSuitLevitatingMediumLightSkinTone: return ["medium light skin tone", "levitating:", "light", "levitating", "suit", "medium", "person", "skin", "business", "in", "tone"]
 
-        case .greenHeart: return ["green", "green heart", "heart"]
+        case .flagCocosKeelingIslands: return ["Cocos (Keeling) Islands", "flag"]
 
-        case .ngButton: return ["NG", "NG button", "button"]
+        case .backhandIndexPointingLeftMediumLightSkinTone: return ["left", "left:", "light", "point", "pointing", "medium light skin tone", "tone", "finger", "backhand", "hand", "medium", "index", "skin"]
 
-        case .bubbles: return ["soap", "underwater", "bubbles", "burp", "clean"]
+        case .frowningFaceWithOpenMouth: return ["face", "scared", "what", "open", "with", "caught", "wow", "frown", "mouth", "surprise", "frowning", "scary", "guard"]
 
-        case .babyMediumDarkSkinTone: return ["baby:", "medium dark skin tone", "skin", "tone", "baby", "dark", "young", "medium", "baby: medium dark skin tone"]
+        case .dragonFace: return ["fairytale", "tale", "face", "dragon", "animal", "fairy"]
 
-        case .personGesturingOk: return ["hand", "person gesturing OK", "gesture", "person", "OK", "gesturing"]
+        case .manSingerDarkSkinTone: return ["rock", "singer:", "man", "dark skin tone", "rockstar", "actor", "star", "entertainer", "skin", "singer", "dark", "tone"]
 
-        case .manFirefighter: return ["firetruck", "firefighter", "man"]
+        case .leftwardsPushingHandMediumDarkSkinTone: return ["hold", "hand:", "tone", "leftward", "halt", "leftwards", "high", "push", "stop", "pushing", "wait", "medium", "dark", "five", "medium dark skin tone", "refuse", "slap", "skin", "hand", "pause", "block"]
 
-        case .pageFacingUp: return ["page", "document", "page facing up", "facing", "up"]
+        case .womanAndManHoldingHandsDarkSkinToneLightSkinTone: return ["hands:", "couple", "dark skin tone", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "man", "dark", "holding", "and", "twins", "light", "bestie", "light skin tone", "flirt", "woman", "hand"]
 
-        case .whiteMediumSmallSquare: return ["small", "square", "geometric", "white", "medium", "white medium small square"]
+        case .rightFacingFistLightSkinTone: return ["fist", "fist:", "right facing", "rightwards", "light skin tone", "skin", "facing", "right", "light", "tone"]
 
-        case .placard: return ["placard", "demonstration", "picket", "sign", "protest"]
+        case .banana: return ["potassium", "banana", "fruit"]
 
-        case .rightwardsHandMediumSkinTone: return ["medium skin tone", "skin", "rightwards", "medium", "rightward", "tone", "hand:", "rightwards hand", "hand", "right", "rightwards hand: medium skin tone"]
+        case .woozyFace: return ["wavy", "woozy", "drunk", "tipsy", "uneven", "face", "dizzy", "intoxicated", "mouth", "eyes"]
 
-        case .latinCross: return ["latin", "Christian", "cross", "latin cross", "religion"]
+        case .womanOfficeWorkerMediumLightSkinTone: return ["medium light skin tone", "medium", "worker", "business", "white collar", "light", "worker:", "architect", "woman", "manager", "tone", "office", "skin"]
 
-        case .personBowing: return ["sorry", "person", "person bowing", "bowing", "bow", "gesture", "apology"]
+        case .faceWithHandOverMouth: return ["with", "secret", "whoops", "shock", "over", "face", "realization", "sudden", "mouth", "surprise", "giggling", "hand", "oops", "giggle"]
 
-        case .flatShoe: return ["ballet flat", "flat shoe", "slipper", "flat", "slip on", "shoe"]
+        case .oncomingAutomobile: return ["oncoming", "drove", "car", "automobile", "cars", "vehicle"]
 
-        case .flagAscensionIsland: return ["Ascension Island", "flag: Ascension Island", "flag"]
+        case .abButtonBloodType: return ["type", "(blood", "AB", "button", "blood", "type)"]
 
-        case .palmUpHandMediumSkinTone: return ["come", "medium", "hand:", "tone", "palm up hand", "up", "skin", "catch", "palm up hand: medium skin tone", "offer", "beckon", "medium skin tone", "palm"]
+        case .personWithVeilMediumLightSkinTone: return ["skin", "veil:", "tone", "person", "veil", "light", "wedding", "with", "medium light skin tone", "medium"]
 
-        case .menorah: return ["menorah", "candelabrum", "candlestick", "religion"]
+        case .callMeHandDarkSkinTone: return ["skin", "hand", "Shaka", "dark skin tone", "me", "hand:", "tone", "call", "loose", "dark", "hang"]
 
-        case .manScientistLightSkinTone: return ["biologist", "chemist", "skin", "man scientist: light skin tone", "physicist", "man", "tone", "scientist:", "engineer", "scientist", "light", "light skin tone"]
+        case .tShirt: return ["casual", "t", "collar", "clothes", "blue", "clothing", "shopping", "t shirt", "tshirt", "weekend", "shirt", "dressed"]
 
-        case .musicalScore: return ["score", "music", "musical score", "musical"]
+        case .familyManManGirl: return ["man", "family", "girl", "family:", "man,", "child"]
 
-        case .boyMediumDarkSkinTone: return ["tone", "medium", "skin", "boy: medium dark skin tone", "boy:", "boy", "medium dark skin tone", "young", "dark"]
+        case .flagMicronesia: return ["flag", "Micronesia"]
 
-        case .womanAndManHoldingHandsMediumSkinToneMediumDarkSkinTone: return ["tone,", "woman", "medium skin tone", "woman and man holding hands", "medium", "couple", "skin", "and", "medium dark skin tone", "hold", "dark", "holding hands", "hand", "holding", "hands:", "tone", "woman and man holding hands: medium skin tone, medium dark skin tone", "man"]
+        case .familyWomanWomanGirlBoy: return ["woman,", "girl,", "family:", "boy", "girl", "woman", "family", "child"]
 
-        case .personRaisingHandMediumLightSkinTone: return ["raised", "light", "person raising hand: medium light skin tone", "raising", "person", "happy", "person raising hand", "medium", "hand:", "gesture", "medium light skin tone", "tone", "hand", "skin"]
+        case .handWithIndexFingerAndThumbCrossedMediumDarkSkinTone: return ["expensive", "hand", "medium dark skin tone", "index", "heart", "with", "thumb", "finger", "snap", "money", "love", "crossed:", "medium", "crossed", "dark", "<3", "tone", "skin", "and"]
 
-        case .artistMediumSkinTone: return ["artist:", "artist", "medium skin tone", "medium", "artist: medium skin tone", "palette", "skin", "tone"]
+        case .astronautMediumSkinTone: return ["rocket", "medium", "space", "medium skin tone", "skin", "tone", "astronaut", "astronaut:"]
 
-        case .flagMontserrat: return ["flag", "flag: Montserrat", "Montserrat"]
+        case .nameBadge: return ["name", "badge"]
 
-        case .oncomingFist: return ["fist", "clenched", "oncoming fist", "hand", "punch", "oncoming"]
+        case .elevenOclock: return ["11", "11:00", "clock", "eleven", "o’clock", "time"]
 
-        case .raisingHandsMediumLightSkinTone: return ["skin", "gesture", "light", "celebration", "raised", "medium light skin tone", "medium", "raising hands", "raising hands: medium light skin tone", "raising", "tone", "hand", "hands:", "hooray"]
+        case .peopleHoldingHandsMediumLightSkinToneMediumDarkSkinTone: return ["hand", "tone,", "medium light skin tone", "friends", "hold", "medium dark skin tone", "tone", "dating", "light", "twins", "holding", "flirt", "people", "couple", "bae", "medium", "skin", "bestie", "bff", "hands:", "dark"]
 
-        case .flagCoteDivoire: return ["flag: Côte d’Ivoire", "Côte d’Ivoire", "flag"]
+        case .troll: return ["tale", "monster", "fantasy", "fairy", "trolling", "troll"]
 
-        case .personPlayingWaterPoloMediumSkinTone: return ["medium skin tone", "skin", "tone", "medium", "person", "person playing water polo: medium skin tone", "water", "playing", "polo:", "person playing water polo", "polo"]
+        case .printer: return ["printer", "computer"]
 
-        case .victoryHandDarkSkinTone: return ["hand", "dark", "hand:", "dark skin tone", "v", "tone", "victory", "victory hand: dark skin tone", "skin"]
+        case .singerDarkSkinTone: return ["rock", "singer:", "dark skin tone", "star", "rockstar", "actor", "skin", "entertainer", "tone", "singer", "dark"]
 
-        case .flagCookIslands: return ["Cook Islands", "flag: Cook Islands", "flag"]
+        case .menHoldingHandsMediumSkinTone: return ["brothers", "couple", "hands:", "men", "bff", "skin", "hold", "friends", "bae", "tone", "dating", "medium skin tone", "holding", "twins", "boys", "bestie", "medium", "flirt", "hand"]
 
-        case .personWithSkullcapDarkSkinTone: return ["cap", "with", "dark", "person with skullcap: dark skin tone", "gua pi mao", "tone", "person", "hat", "skullcap:", "skullcap", "person with skullcap", "skin", "dark skin tone"]
+        case .menHoldingHandsMediumDarkSkinToneDarkSkinTone: return ["brothers", "couple", "dark skin tone", "men", "hands:", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "dark", "medium dark skin tone", "holding", "twins", "boys", "bestie", "medium", "flirt", "hand"]
 
-        case .highSpeedTrain: return ["high speed train", "railway", "train", "speed", "high", "shinkansen"]
+        case .guardMediumDarkSkinTone: return ["guard", "dark", "skin", "medium dark skin tone", "london", "buckingham", "tone", "palace", "helmet", "guard:", "medium"]
 
-        case .nailPolishMediumLightSkinTone: return ["nail", "nail polish: medium light skin tone", "medium", "medium light skin tone", "care", "cosmetics", "polish", "light", "manicure", "skin", "tone", "polish:"]
+        case .magnifyingGlassTiltedRight: return ["science", "right pointing", "glass", "tool", "contact", "tilted", "magnifying", "lab", "search", "right"]
 
-        case .flamingo: return ["flamingo", "tropical", "flamboyant"]
+        case .horseRacingLightSkinTone: return ["jockey", "racehorse", "racing", "riding", "horse", "racing:", "sport", "light skin tone", "light", "skin", "tone"]
 
-        case .superheroMediumLightSkinTone: return ["hero", "tone", "superhero: medium light skin tone", "superpower", "superhero:", "superhero", "medium light skin tone", "heroine", "medium", "light", "good", "skin"]
+        case .xRay: return ["x ray", "xray", "x", "skull", "bones", "skeleton", "ray", "doctor", "medical"]
 
-        case .okHandMediumSkinTone: return ["OK", "medium skin tone", "hand:", "skin", "tone", "medium", "hand", "OK hand: medium skin tone"]
+        case .mxClausDarkSkinTone: return ["claus", "holiday", "Mx", "Christmas", "dark skin tone", "fairy", "Claus:", "tale", "merry", "fantasy", "xmas", "santa", "dark", "skin", "tone", "celebration"]
 
-        case .flagDominica: return ["flag", "flag: Dominica", "Dominica"]
+        case .flagUruguay: return ["Uruguay", "flag"]
 
-        case .divingMask: return ["diving", "scuba", "snorkeling", "mask", "diving mask"]
+        case .princeDarkSkinTone: return ["dark", "prince:", "royal", "royalty", "fairy", "skin", "king", "fairytale", "dark skin tone", "crown", "fantasy", "tale", "prince", "tone"]
 
-        case .coldFace: return ["frostbite", "freezing", "cold face", "blue faced", "cold", "icicles", "face"]
+        case .callMeHandMediumSkinTone: return ["medium", "medium skin tone", "hand", "Shaka", "hand:", "me", "tone", "call", "loose", "skin", "hang"]
 
-        case .billedCap: return ["cap", "billed", "baseball cap", "billed cap"]
+        case .flagTogo: return ["flag", "Togo"]
 
-        case .receipt: return ["bookkeeping", "evidence", "proof", "receipt", "accounting"]
+        case .handWithIndexFingerAndThumbCrossedMediumLightSkinTone: return ["tone", "expensive", "medium light skin tone", "and", "hand", "snap", "love", "finger", "heart", "index", "thumb", "crossed", "money", "with", "crossed:", "medium", "skin", "<3", "light"]
 
-        case .astronautDarkSkinTone: return ["skin", "dark skin tone", "tone", "rocket", "astronaut", "dark", "astronaut:", "astronaut: dark skin tone"]
+        case .flagGreenland: return ["Greenland", "flag"]
 
-        case .outboxTray: return ["letter", "box", "mail", "outbox", "tray", "sent"]
+        case .personPlayingWaterPoloMediumSkinTone: return ["swimming", "water", "medium", "tone", "medium skin tone", "polo", "sport", "polo:", "skin", "person", "playing", "waterpolo"]
 
-        case .manArtist: return ["artist", "man", "palette"]
+        case .reminderRibbon: return ["ribbon", "celebration", "reminder"]
 
-        case .manScientistDarkSkinTone: return ["biologist", "chemist", "skin", "man scientist: dark skin tone", "physicist", "man", "tone", "scientist:", "engineer", "dark skin tone", "scientist", "dark"]
+        case .blackCircle: return ["black", "geometric", "circle"]
 
-        case .manTechnologistMediumDarkSkinTone: return ["skin", "inventor", "medium", "coder", "man", "man technologist: medium dark skin tone", "software", "developer", "technologist", "technologist:", "dark", "medium dark skin tone", "tone"]
+        case .signOfTheHornsMediumSkinTone: return ["horns:", "of", "medium", "horns", "tone", "the", "hand", "sign", "skin", "medium skin tone", "rock on", "finger"]
 
-        case .manCookDarkSkinTone: return ["chef", "cook:", "man cook: dark skin tone", "skin", "tone", "cook", "dark", "man", "dark skin tone"]
+        case .hamburger: return ["burger", "eat", "food", "hamburger", "hungry", "fast"]
 
-        case .pill: return ["doctor", "pill", "sick", "medicine"]
+        case .japaneseDiscountButton: return ["button", "“discount”", "discount", "Japanese", "ideograph"]
 
-        case .manFactoryWorkerMediumSkinTone: return ["man", "worker", "medium", "industrial", "skin", "tone", "assembly", "man factory worker: medium skin tone", "factory", "medium skin tone", "worker:"]
+        case .brownMushroom: return ["toppings", "sprout", "veggie", "shroom", "brown", "mushroom", "fungi", "pizza", "food", "shiitake", "spore", "nature", "vegetarian", "vegetable", "fungus", "portobello", "truffle"]
 
-        case .rugbyFootball: return ["ball", "rugby", "football"]
+        case .envelope: return ["email", "e mail", "letter", "envelope"]
 
-        case .noPedestrians: return ["no pedestrians", "no", "forbidden", "pedestrians", "not", "pedestrian", "prohibited"]
+        case .mageMediumDarkSkinTone: return ["magic", "witch", "mage", "wizard", "play", "mage:", "sorceress", "fantasy", "summon", "medium", "medium dark skin tone", "skin", "dark", "spell", "sorcerer", "sorcery", "tone"]
 
-        case .candle: return ["light", "candle"]
+        case .flagStMartin: return ["St. Martin", "flag"]
 
-        case .blackSmallSquare: return ["black small square", "square", "geometric", "black", "small"]
+        case .personRowingBoatMediumLightSkinTone: return ["rowboat", "medium", "fishing", "person", "tone", "light", "paddle", "row", "raft", "boat:", "medium light skin tone", "oar", "cruise", "boat", "canoe", "river", "lake", "skin", "rowing"]
 
-        case .aButtonBloodType: return ["A", "blood type", "(blood", "button", "type)", "A button (blood type)"]
+        case .princess: return ["royalty", "tale", "royal", "princess", "fantasy", "queen", "crown", "fairy", "fairytale"]
 
-        case .bellPepper: return ["pepper", "capsicum", "vegetable", "bell", "bell pepper"]
+        case .monkeyFace: return ["banana", "face", "animal", "monkey"]
 
-        case .musicalNote: return ["musical", "note", "music", "musical note"]
+        case .womanAndManHoldingHandsLightSkinToneMediumLightSkinTone: return ["hands:", "couple", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "man", "medium light skin tone", "and", "holding", "twins", "light", "bestie", "light skin tone", "flirt", "woman", "medium", "hand"]
 
-        case .catFace: return ["pet", "cat", "face"]
+        case .personFrowningMediumSkinTone: return ["disturbed", "skin", "frown", "person", "frowning", "gesture", "disappointed", "frowning:", "medium skin tone", "irritated", "medium", "tone", "disgruntled", "frustrated", "annoyed", "upset"]
 
-        case .raisedFistDarkSkinTone: return ["fist", "raised fist: dark skin tone", "raised fist", "clenched", "raised", "fist:", "dark", "punch", "dark skin tone", "skin", "tone", "hand"]
+        case .badger: return ["honey", "pester", "badger", "animal"]
 
-        case .redTrianglePointedDown: return ["red triangle pointed down", "down", "geometric", "red", "triangle", "pointed"]
+        case .japaneseServiceChargeButton: return ["katakana", "charge", "button", "“service", "Japanese", "charge”", "service"]
 
-        case .information: return ["i", "information"]
+        case .personKneelingLightSkinTone: return ["person", "light skin tone", "tone", "kneeling", "skin", "kneel", "knees", "light", "kneeling:"]
 
-        case .peopleHoldingHandsMediumLightSkinToneDarkSkinTone: return ["holding hands", "tone", "dark skin tone", "hands:", "hold", "person", "couple", "medium", "medium light skin tone", "tone,", "people holding hands", "holding", "people holding hands: medium light skin tone, dark skin tone", "light", "dark", "people", "skin", "hand"]
+        case .footMediumDarkSkinTone: return ["dark", "medium dark skin tone", "skin", "feet", "medium", "kick", "tone", "ankle", "foot:", "stomp", "foot"]
 
-        case .waterWave: return ["ocean", "water", "wave"]
+        case .raisedFistMediumLightSkinTone: return ["medium light skin tone", "raised", "punch", "solidarity", "light", "skin", "hand", "fist", "clenched", "tone", "fist:", "medium"]
 
-        case .oldManMediumLightSkinTone: return ["medium", "medium light skin tone", "light", "old", "man", "old man: medium light skin tone", "adult", "man:", "skin", "tone"]
+        case .bison: return ["buffalo", "herd", "wisent", "bison", "animal"]
 
-        case .flagBarbados: return ["flag: Barbados", "Barbados", "flag"]
+        case .officeWorkerMediumLightSkinTone: return ["worker", "medium light skin tone", "office", "manager", "business", "worker:", "medium", "skin", "tone", "white collar", "architect", "light"]
 
-        case .womanAndManHoldingHandsLightSkinTone: return ["woman and man holding hands: light skin tone", "hand", "woman", "hold", "light", "couple", "holding", "hands:", "man", "light skin tone", "holding hands", "and", "skin", "tone", "woman and man holding hands"]
+        case .desktopComputer: return ["monitor", "computer", "desktop"]
 
-        case .babyDarkSkinTone: return ["young", "baby", "skin", "baby: dark skin tone", "tone", "dark skin tone", "dark", "baby:"]
+        case .womanFarmerMediumLightSkinTone: return ["medium", "farmer:", "gardener", "woman", "light", "skin", "farmer", "rancher", "medium light skin tone", "tone"]
 
-        case .bellWithSlash: return ["forbidden", "silent", "quiet", "bell with slash", "with", "slash", "bell", "mute"]
+        case .mobilePhoneWithArrow: return ["arrow", "phone", "call", "receive", "telephone", "with", "build", "cell", "mobile", "communication"]
 
-        case .beamingFaceWithSmilingEyes: return ["smiling", "grin", "beaming", "eye", "eyes", "beaming face with smiling eyes", "face", "with", "smile"]
+        case .atmSign: return ["bank", "teller", "ATM", "cash", "money", "sign", "automated"]
 
-        case .kiss: return ["couple", "kiss"]
+        case .womanCook: return ["cook", "woman", "chef"]
 
-        case .personTippingHandMediumDarkSkinTone: return ["tipping", "medium dark skin tone", "information", "medium", "person", "tone", "sassy", "skin", "dark", "hand:", "hand", "person tipping hand", "person tipping hand: medium dark skin tone", "help"]
+        case .earWithHearingAidDarkSkinTone: return ["accessibility", "dark", "aid:", "with", "tone", "ear", "aid", "skin", "hard", "dark skin tone", "hearing"]
 
-        case .pager: return ["pager"]
+        case .peopleHoldingHandsLightSkinTone: return ["people", "flirt", "skin", "holding", "twins", "bestie", "tone", "hands:", "hold", "friends", "dating", "light skin tone", "bff", "couple", "hand", "light", "bae"]
 
-        case .yoYo: return ["toy", "yo yo", "yo", "fluctuate"]
+        case .flagKuwait: return ["flag", "Kuwait"]
 
-        case .smilingFaceWithOpenHands: return ["smiling", "hugging", "open", "with", "smiling face with open hands", "open hands", "face", "hands", "smiling face", "hug"]
+        case .personRaisingHand: return ["question", "person", "raise", "here", "know", "hand", "gesture", "pick", "me", "raising"]
 
-        case .ringedPlanet: return ["ringed planet", "saturn", "ringed", "saturnine", "planet"]
+        case .dagger: return ["weapon", "dagger", "knife"]
 
-        case .flagKyrgyzstan: return ["Kyrgyzstan", "flag", "flag: Kyrgyzstan"]
+        case .okHandMediumSkinTone: return ["dope", "three", "pinch", "hand:", "rad", "tone", "sure", "medium", "fosho", "bet", "skin", "sweet", "awesome", "OK", "gotcha", "fleek", "hand", "medium skin tone", "legit", "got", "okay"]
 
-        case .leopard: return ["leopard"]
+        case .teacupWithoutHandle: return ["tea", "oolong", "drink", "teacup", "cup", "without", "handle", "beverage"]
 
-        case .manLightSkinToneBald: return ["tone,", "man", "man: light skin tone, bald", "light skin tone", "man:", "bald", "adult", "light", "skin"]
+        case .womanDancingMediumDarkSkinTone: return ["elegant", "flamenco", "medium dark skin tone", "dancing", "festive", "woman", "tango", "let’s", "dancing:", "medium", "skin", "salsa", "groove", "dancer", "dark", "tone", "dance", "flair"]
 
-        case .purpleSquare: return ["square", "purple"]
+        case .khanda: return ["Khanda", "Deg", "khanda", "Fateh", "Sikhism", "Khalsa", "religion", "Tegh", "Sikh"]
 
-        case .womenHoldingHands: return ["hand", "holding", "holding hands", "hands", "women", "women holding hands", "couple"]
+        case .grinningCat: return ["smiling", "animal", "open", "grinning", "face", "smile", "cat", "mouth"]
 
-        case .womenHoldingHandsMediumLightSkinToneMediumSkinTone: return ["tone,", "light", "medium", "hand", "hands:", "tone", "holding", "medium light skin tone", "holding hands", "women holding hands: medium light skin tone, medium skin tone", "couple", "women holding hands", "women", "medium skin tone", "skin"]
+        case .personSwimmingMediumSkinTone: return ["swimming", "swim", "person", "medium", "freestyle", "swimmer", "swimming:", "sport", "triathlon", "skin", "tone", "medium skin tone"]
 
-        case .princessDarkSkinTone: return ["princess:", "fairy tale", "fantasy", "dark skin tone", "princess", "dark", "tone", "princess: dark skin tone", "skin"]
+        case .womanFarmerMediumSkinTone: return ["rancher", "medium skin tone", "gardener", "woman", "medium", "skin", "tone", "farmer", "farmer:"]
 
-        case .mageLightSkinTone: return ["tone", "mage: light skin tone", "light skin tone", "sorcerer", "mage", "sorceress", "wizard", "light", "mage:", "witch", "skin"]
+        case .eagle: return ["ornithology", "eagle", "bird", "animal"]
 
-        case .womanCookLightSkinTone: return ["cook:", "cook", "light skin tone", "chef", "woman", "skin", "tone", "woman cook: light skin tone", "light"]
+        case .beerMug: return ["mug", "drinking", "beer", "booze", "bar", "ale", "pint", "octoberfest", "oktoberfest", "drinks", "drink", "summer", "alcohol", "stein"]
 
-        case .personWithSkullcapLightSkinTone: return ["gua pi mao", "skullcap:", "tone", "person with skullcap", "skullcap", "light skin tone", "person", "hat", "with", "skin", "cap", "light", "person with skullcap: light skin tone"]
+        case .leaflessTree: return ["tree", "dead", "barren", "branches", "leafless", "trunk", "wood", "winter", "bare", "drought"]
 
-        case .personGesturingNoMediumSkinTone: return ["forbidden", "tone", "gesturing", "skin", "medium skin tone", "gesture", "hand", "person", "NO:", "person gesturing NO: medium skin tone", "medium", "prohibited", "person gesturing NO"]
+        case .flagFrenchGuiana: return ["flag", "French Guiana"]
 
-        case .personSwimmingDarkSkinTone: return ["tone", "skin", "swim", "person swimming", "dark", "dark skin tone", "person", "person swimming: dark skin tone", "swimming:"]
+        case .personInSuitLevitatingDarkSkinTone: return ["business", "tone", "dark skin tone", "in", "skin", "suit", "levitating", "levitating:", "dark", "person"]
 
-        case .personStandingMediumDarkSkinTone: return ["person standing: medium dark skin tone", "person standing", "person", "dark", "stand", "skin", "standing:", "medium dark skin tone", "standing", "medium", "tone"]
+        case .womanAndManHoldingHandsMediumSkinToneMediumLightSkinTone: return ["hands:", "couple", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "man", "medium skin tone", "medium light skin tone", "and", "holding", "twins", "light", "bestie", "medium", "flirt", "woman", "hand"]
 
-        case .flagNorway: return ["flag", "flag: Norway", "Norway"]
+        case .medicalSymbol: return ["medicine", "symbol", "staff", "aesculapius", "medical"]
 
-        case .astronautMediumSkinTone: return ["rocket", "medium skin tone", "astronaut:", "skin", "astronaut", "astronaut: medium skin tone", "tone", "medium"]
+        case .personBowingDarkSkinTone: return ["beg", "person", "ask", "pity", "sorry", "bowing:", "apology", "regret", "dark", "bow", "dark skin tone", "meditate", "gesture", "bowing", "tone", "favor", "skin", "forgive", "meditation"]
 
-        case .breastFeedingDarkSkinTone: return ["skin", "breast feeding", "dark skin tone", "nursing", "feeding:", "breast", "dark", "breast feeding: dark skin tone", "tone", "baby"]
+        case .poundBanknote: return ["note", "money", "cash", "pounds", "bill", "banknote", "currency", "pound", "bank", "billion"]
 
-        case .pinchedFingersMediumLightSkinTone: return ["medium light skin tone", "medium", "pinched", "tone", "pinched fingers: medium light skin tone", "fingers", "fingers:", "sarcastic", "light", "skin", "hand gesture", "interrogation"]
+        case .leftwardsPushingHand: return ["push", "pushing", "stop", "hand", "pause", "leftward", "leftwards", "block", "halt", "hold", "slap", "five", "wait", "high", "refuse"]
 
-        case .brokenHeart: return ["broken heart", "break", "heart", "broken"]
+        case .menHoldingHandsMediumLightSkinTone: return ["brothers", "couple", "hands:", "men", "bff", "skin", "hold", "friends", "bae", "tone", "dating", "medium light skin tone", "holding", "twins", "boys", "light", "bestie", "medium", "flirt", "hand"]
 
-        case .earMediumDarkSkinTone: return ["ear:", "dark", "medium", "body", "ear", "skin", "tone", "medium dark skin tone", "ear: medium dark skin tone"]
+        case .jar: return ["container", "empty", "store", "nothing", "condiment", "jar", "sauce"]
 
-        case .militaryHelmet: return ["helmet", "military", "army", "warrior", "soldier"]
+        case .manAstronautDarkSkinTone: return ["space", "man", "dark skin tone", "astronaut", "astronaut:", "rocket", "dark", "skin", "tone"]
 
-        case .flatbread: return ["lavash", "pita", "flatbread", "naan", "arepa"]
+        case .backhandIndexPointingDownMediumLightSkinTone: return ["backhand", "tone", "index", "light", "medium light skin tone", "hand", "medium", "finger", "down", "skin", "point", "pointing", "down:"]
 
-        case .pinchedFingersLightSkinTone: return ["skin", "tone", "pinched", "light skin tone", "fingers", "fingers:", "pinched fingers: light skin tone", "sarcastic", "light", "hand gesture", "interrogation"]
+        case .footLightSkinTone: return ["foot:", "light", "feet", "tone", "foot", "stomp", "skin", "light skin tone", "kick", "ankle"]
 
-        case .house: return ["house", "home"]
+        case .personGettingMassageMediumLightSkinTone: return ["salon", "medium", "headache", "getting", "skin", "medium light skin tone", "face", "person", "tension", "massage:", "relaxing", "soothe", "relax", "spa", "therapy", "treatment", "light", "tone", "massage"]
 
-        case .personFacepalmingLightSkinTone: return ["exasperation", "person facepalming: light skin tone", "tone", "disbelief", "person facepalming", "palm", "facepalming:", "skin", "person", "face", "light skin tone", "light"]
+        case .womanDancingMediumSkinTone: return ["elegant", "flamenco", "dancing", "woman", "festive", "dancing:", "tango", "let’s", "medium", "skin", "tone", "salsa", "groove", "dancer", "dance", "flair", "medium skin tone"]
 
-        case .personGesturingNoDarkSkinTone: return ["person gesturing NO", "dark skin tone", "prohibited", "gesture", "dark", "forbidden", "person", "person gesturing NO: dark skin tone", "tone", "gesturing", "NO:", "skin", "hand"]
+        case .personInManualWheelchairDarkSkinTone: return ["wheelchair", "person", "wheelchair:", "tone", "in", "skin", "accessibility", "dark skin tone", "dark", "manual"]
 
-        case .eightThirty: return ["8", "eight", "clock", "eight thirty", "8:30", "thirty"]
+        case .newMoon: return ["new", "moon", "dark", "space"]
 
-        case .curlingStone: return ["game", "curling", "rock", "curling stone", "stone"]
+        case .officeBuilding: return ["job", "city", "office", "cubical", "building"]
 
-        case .womanStudent: return ["graduate", "student", "woman"]
+        case .radio: return ["entertainment", "radio", "video", "tbt"]
 
-        case .middleFinger: return ["middle", "middle finger", "hand", "finger"]
+        case .peopleHoldingHandsLightSkinToneMediumLightSkinTone: return ["dating", "medium light skin tone", "holding", "tone,", "friends", "light skin tone", "people", "twins", "flirt", "light", "medium", "couple", "bae", "bff", "tone", "hold", "hands:", "skin", "hand", "bestie"]
 
-        case .flagSaoTomePrincipe: return ["flag: São Tomé & Príncipe", "São Tomé & Príncipe", "flag"]
+        case .globeShowingEuropeAfrica: return ["showing", "world", "Africa", "Europe Africa", "globe", "Europe", "earth"]
 
-        case .familyManBoy: return ["family:", "boy", "family", "man", "family: man, boy", "man,"]
+        case .handshake: return ["agreement", "meeting", "hand", "handshake", "deal", "shake"]
 
-        case .personInBedMediumSkinTone: return ["medium", "skin", "medium skin tone", "person in bed", "tone", "in", "bed:", "person", "hotel", "good night", "sleep", "person in bed: medium skin tone"]
+        case .flagPeru: return ["Peru", "flag"]
 
-        case .slotMachine: return ["machine", "slot", "game", "slot machine"]
+        case .vampire: return ["undead", "vampire", "halloween", "blood", "fangs", "scary", "Dracula", "supernatural", "teeth"]
 
-        case .personSurfing: return ["surfing", "person", "person surfing"]
+        case .childMediumLightSkinTone: return ["skin", "kid", "tone", "bright eyed", "light", "younger", "young", "child:", "medium light skin tone", "grandchild", "medium", "child"]
 
-        case .womanFeedingBabyMediumDarkSkinTone: return ["medium dark skin tone", "feeding", "woman", "nursing", "baby", "woman feeding baby: medium dark skin tone", "medium", "dark", "skin", "baby:", "tone"]
+        case .japaneseMonthlyAmountButton: return ["Japanese", "amount”", "amount", "ideograph", "button", "“monthly", "monthly"]
 
-        case .womanAndManHoldingHandsMediumDarkSkinToneMediumLightSkinTone: return ["holding", "hand", "holding hands", "woman and man holding hands: medium dark skin tone, medium light skin tone", "hold", "woman", "medium dark skin tone", "hands:", "medium", "dark", "tone,", "tone", "skin", "light", "woman and man holding hands", "couple", "medium light skin tone", "and", "man"]
+        case .robot: return ["face", "robot", "monster"]
 
-        case .manWithWhiteCane: return ["accessibility", "with", "man with white cane", "cane", "man", "white", "blind"]
+        case .taxi: return ["vehicle", "car", "drive", "taxi", "cabbie", "yellow", "cab"]
 
-        case .indexPointingUpDarkSkinTone: return ["dark skin tone", "hand", "up:", "point", "index pointing up: dark skin tone", "tone", "skin", "pointing", "dark", "finger", "up", "index pointing up", "index"]
+        case .screwdriver: return ["handy", "screwdriver", "tool", "screw", "flathead"]
 
-        case .personInManualWheelchairDarkSkinTone: return ["tone", "person in manual wheelchair: dark skin tone", "wheelchair:", "dark skin tone", "accessibility", "in", "manual", "dark", "wheelchair", "skin", "person in manual wheelchair", "person"]
+        case .waxingGibbousMoon: return ["gibbous", "moon", "waxing", "space"]
 
-        case .womanArtistMediumLightSkinTone: return ["light", "skin", "tone", "medium", "artist", "woman artist: medium light skin tone", "woman", "medium light skin tone", "palette", "artist:"]
+        case .womanAstronautMediumDarkSkinTone: return ["skin", "woman", "tone", "astronaut", "astronaut:", "rocket", "medium dark skin tone", "medium", "dark", "space"]
 
-        case .breastFeedingMediumDarkSkinTone: return ["breast feeding", "nursing", "breast", "medium dark skin tone", "medium", "dark", "skin", "tone", "baby", "breast feeding: medium dark skin tone", "feeding:"]
+        case .personWearingTurbanMediumSkinTone: return ["person", "medium", "turban:", "tone", "skin", "turban", "wearing", "medium skin tone"]
 
-        case .clappingHandsDarkSkinTone: return ["hands:", "clap", "tone", "dark skin tone", "clapping hands", "clapping", "clapping hands: dark skin tone", "hand", "skin", "dark"]
+        case .clappingHandsDarkSkinTone: return ["skin", "nice", "hand", "applause", "awesome", "clap", "approval", "homie", "great", "prayed", "clapping", "good", "congratulations", "hands:", "well", "dark skin tone", "dark", "yay", "tone", "excited", "job", "congrats"]
 
-        case .peopleHoldingHandsDarkSkinToneMediumDarkSkinTone: return ["people holding hands", "people", "hold", "medium dark skin tone", "dark skin tone", "hands:", "holding", "holding hands", "dark", "people holding hands: dark skin tone, medium dark skin tone", "hand", "skin", "medium", "person", "tone,", "tone", "couple"]
+        case .gemStone: return ["wedding", "romance", "money", "gem", "engagement", "stone", "jewel", "diamond"]
 
-        case .flexedBicepsDarkSkinTone: return ["dark skin tone", "dark", "skin", "tone", "muscle", "biceps:", "flex", "biceps", "flexed", "flexed biceps: dark skin tone", "flexed biceps", "comic"]
+        case .noseMediumDarkSkinTone: return ["dark", "odor", "nosey", "tone", "skin", "nose:", "medium dark skin tone", "medium", "smells", "nose", "noses", "smell", "body"]
 
-        case .womanArtistMediumSkinTone: return ["woman artist: medium skin tone", "skin", "woman", "artist:", "tone", "palette", "medium skin tone", "medium", "artist"]
+        case .manScientistLightSkinTone: return ["physicist", "engineer", "man", "mathematician", "biologist", "skin", "scientist", "tone", "chemist", "scientist:", "light", "light skin tone"]
 
-        case .speechBalloon: return ["comic", "balloon", "bubble", "dialog", "speech"]
+        case .rooster: return ["animal", "ornithology", "bird", "rooster"]
 
-        case .personWearingTurbanMediumSkinTone: return ["tone", "person wearing turban", "medium", "turban:", "person wearing turban: medium skin tone", "medium skin tone", "skin", "turban", "wearing", "person"]
+        case .womanAndManHoldingHandsDarkSkinToneMediumLightSkinTone: return ["hands:", "couple", "dark skin tone", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "man", "dark", "medium light skin tone", "and", "holding", "twins", "light", "bestie", "medium", "flirt", "woman", "hand"]
 
-        case .oncomingBus: return ["bus", "oncoming"]
+        case .flagFrance: return ["flag", "France"]
 
-        case .highHeeledShoe: return ["woman", "high heeled shoe", "shoe", "heeled", "high", "heel", "clothing"]
+        case .doubleCurlyLoop: return ["double", "curly", "loop", "curl"]
 
-        case .fountain: return ["fountain"]
+        case .desertIsland: return ["island", "desert"]
 
-        case .menHoldingHandsLightSkinToneDarkSkinTone: return ["twins", "holding", "dark", "men", "zodiac", "hands:", "holding hands", "light", "skin", "couple", "tone", "man", "dark skin tone", "men holding hands: light skin tone, dark skin tone", "tone,", "Gemini", "men holding hands", "light skin tone"]
+        case .coolButton: return ["button", "COOL"]
 
-        case .ox: return ["bull", "ox", "Taurus", "zodiac"]
+        case .flagVenezuela: return ["flag", "Venezuela"]
 
-        case .personMediumSkinToneWhiteHair: return ["person", "white", "medium skin tone", "adult", "medium", "unspecified gender", "gender neutral", "person: medium skin tone, white hair", "white hair", "hair", "tone,", "skin", "person:"]
+        case .inputLatinLowercase: return ["abcd", "lowercase", "latin", "letters", "input"]
 
-        case .manInMotorizedWheelchairMediumLightSkinTone: return ["accessibility", "in", "man in motorized wheelchair: medium light skin tone", "tone", "wheelchair", "light", "medium light skin tone", "motorized", "man in motorized wheelchair", "skin", "wheelchair:", "medium", "man"]
+        case .womanScientist: return ["biologist", "woman", "scientist", "physicist", "chemist", "engineer", "mathematician"]
 
-        case .constructionWorkerDarkSkinTone: return ["skin", "worker:", "dark skin tone", "construction", "hat", "worker", "construction worker: dark skin tone", "dark", "tone"]
+        case .manMediumSkinToneWhiteHair: return ["bro", "man", "medium skin tone", "tone,", "man:", "skin", "hair", "medium", "white", "white hair", "adult"]
 
-        case .womanMechanicLightSkinTone: return ["light", "skin", "tone", "plumber", "light skin tone", "mechanic:", "electrician", "mechanic", "tradesperson", "woman", "woman mechanic: light skin tone"]
+        case .okHandMediumLightSkinTone: return ["dope", "three", "pinch", "hand:", "rad", "tone", "sure", "medium", "fosho", "bet", "skin", "sweet", "awesome", "medium light skin tone", "OK", "gotcha", "fleek", "hand", "light", "legit", "got", "okay"]
 
-        case .bank: return ["building", "bank"]
+        case .womanStudentMediumSkinTone: return ["medium", "student", "student:", "skin", "tone", "graduate", "woman", "medium skin tone"]
 
-        case .oncomingTaxi: return ["oncoming", "taxi"]
+        case .raisedHandMediumSkinTone: return ["stop", "skin", "tone", "high", "5", "hand:", "medium skin tone", "medium", "raised", "hand", "five"]
 
-        case .mensRoom: return ["WC", "toilet", "men’s", "bathroom", "restroom", "man", "lavatory", "room", "men’s room"]
+        case .compass: return ["magnetic", "orienteering", "compass", "navigation", "direction"]
 
-        case .endArrow: return ["END", "arrow"]
+        case .dumpling: return ["jiaozi", "pierogi", "dumpling", "empanada", "potsticker", "gyōza"]
 
-        case .personWithVeilLightSkinTone: return ["person", "wedding", "veil:", "light", "veil", "skin", "with", "bride", "light skin tone", "tone", "person with veil", "person with veil: light skin tone"]
+        case .womanMechanicMediumSkinTone: return ["mechanic", "tone", "medium", "plumber", "mechanic:", "tradesperson", "electrician", "medium skin tone", "woman", "skin"]
 
-        case .personFrowningLightSkinTone: return ["light", "person frowning", "gesture", "tone", "person", "frown", "person frowning: light skin tone", "light skin tone", "frowning:", "skin"]
+        case .callMeHandMediumLightSkinTone: return ["medium", "skin", "hand", "Shaka", "hand:", "me", "light", "tone", "medium light skin tone", "loose", "call", "hang"]
 
-        case .manSingerMediumDarkSkinTone: return ["dark", "singer", "star", "medium dark skin tone", "man singer: medium dark skin tone", "singer:", "skin", "rock", "medium", "actor", "tone", "man", "entertainer"]
+        case .victoryHandMediumSkinTone: return ["tone", "peace", "medium", "v", "hand", "hand:", "medium skin tone", "skin", "victory"]
 
-        case .chestnut: return ["plant", "chestnut"]
+        case .supervillain: return ["bad", "criminal", "supervillain", "superpower", "evil", "villain"]
 
-        case .okHand: return ["OK", "hand"]
+        case .personLightSkinToneRedHair: return ["person:", "light", "hair", "red hair", "skin", "adult", "light skin tone", "red", "tone,", "person"]
 
-        case .manScientist: return ["scientist", "biologist", "physicist", "chemist", "engineer", "man"]
+        case .creditCard: return ["pay", "charge", "bank", "cash", "card", "credit", "money"]
 
-        case .orangeHeart: return ["orange", "orange heart", "heart"]
+        case .fuelPump: return ["station", "diesel", "gasoline", "fuelpump", "gas", "pump", "fuel"]
 
-        case .personTippingHandMediumSkinTone: return ["sassy", "skin", "information", "help", "tone", "person tipping hand: medium skin tone", "person tipping hand", "hand:", "medium", "person", "tipping", "hand", "medium skin tone"]
+        case .stuffedFlatbread: return ["kebab", "gyro", "food", "stuffed", "falafel", "flatbread"]
 
-        case .skier: return ["ski", "snow", "skier"]
+        case .menHoldingHandsMediumDarkSkinTone: return ["brothers", "couple", "hands:", "men", "bff", "skin", "hold", "friends", "bae", "tone", "dating", "dark", "medium dark skin tone", "holding", "twins", "boys", "bestie", "medium", "flirt", "hand"]
 
-        case .indexPointingAtTheViewerMediumLightSkinTone: return ["tone", "you", "point", "at", "index", "medium light skin tone", "medium", "index pointing at the viewer", "the", "light", "skin", "viewer:", "index pointing at the viewer: medium light skin tone", "pointing"]
+        case .manSingerMediumDarkSkinTone: return ["man", "dark", "tone", "medium dark skin tone", "entertainer", "singer:", "actor", "singer", "star", "rockstar", "rock", "medium", "skin"]
 
-        case .womanArtistMediumDarkSkinTone: return ["artist", "woman artist: medium dark skin tone", "palette", "medium", "tone", "woman", "medium dark skin tone", "skin", "dark", "artist:"]
+        case .flagZambia: return ["Zambia", "flag"]
 
-        case .olderPersonMediumSkinTone: return ["adult", "medium", "older", "old", "person:", "unspecified gender", "medium skin tone", "tone", "skin", "older person: medium skin tone", "older person", "gender neutral"]
+        case .fairyMediumSkinTone: return ["skin", "tale", "medium skin tone", "medium", "person", "fairy:", "fairy", "myth", "tone", "fairytale", "pixie", "fantasy", "wings"]
 
-        case .personCartwheeling: return ["cartwheel", "gymnastics", "person cartwheeling", "person", "cartwheeling"]
+        case .fearfulFace: return ["fearful", "worried", "scared", "anxious", "fear", "blame", "afraid", "face"]
 
-        case .womenHoldingHandsMediumLightSkinTone: return ["women", "tone", "women holding hands: medium light skin tone", "hands:", "light", "hand", "holding", "holding hands", "medium", "women holding hands", "couple", "medium light skin tone", "skin"]
-
-        case .snowboarder: return ["ski", "snowboard", "snow", "snowboarder"]
-
-        case .supervillainLightSkinTone: return ["tone", "supervillain: light skin tone", "light skin tone", "superpower", "evil", "supervillain", "supervillain:", "villain", "light", "criminal", "skin"]
-
-        case .raisedHandMediumLightSkinTone: return ["high 5", "hand", "hand:", "medium", "high five", "raised hand", "raised hand: medium light skin tone", "medium light skin tone", "skin", "raised", "light", "tone"]
-
-        case .growingHeart: return ["excited", "nervous", "growing", "growing heart", "pulse", "heart"]
-
-        case .familyWomanWomanGirlBoy: return ["girl,", "woman,", "family", "boy", "woman", "family: woman, woman, girl, boy", "girl", "family:"]
-
-        case .flagAndorra: return ["Andorra", "flag: Andorra", "flag"]
-
-        case .registered: return ["R", "registered"]
-
-        case .personWithWhiteCaneDarkSkinTone: return ["dark skin tone", "person with white cane", "blind", "person with white cane: dark skin tone", "with", "white", "cane:", "skin", "person", "dark", "tone", "accessibility"]
-
-        case .shakingFace: return ["face", "shaking", "earthquake", "shock", "vibrate"]
-
-        case .vampireLightSkinTone: return ["undead", "tone", "light skin tone", "vampire:", "Dracula", "vampire", "vampire: light skin tone", "light", "skin"]
-
-        case .beans: return ["kidney", "beans", "legume", "food"]
-
-        case .personClimbingMediumLightSkinTone: return ["person climbing: medium light skin tone", "climber", "climbing:", "medium", "person", "medium light skin tone", "person climbing", "light", "skin", "tone"]
-
-        case .moneyBag: return ["moneybag", "bag", "dollar", "money"]
-
-        case .familyManManGirlBoy: return ["family:", "girl", "man,", "girl,", "man", "boy", "family: man, man, girl, boy", "family"]
-
-        case .womanWithWhiteCaneMediumLightSkinTone: return ["skin", "tone", "cane:", "woman", "with", "white", "woman with white cane", "medium", "medium light skin tone", "light", "accessibility", "blind", "woman with white cane: medium light skin tone"]
-
-        case .goblin: return ["creature", "face", "fantasy", "fairy tale", "goblin", "monster"]
-
-        case .deafPersonDarkSkinTone: return ["deaf person: dark skin tone", "ear", "person:", "skin", "tone", "deaf", "hear", "accessibility", "deaf person", "dark skin tone", "dark"]
-
-        case .womanWithHeadscarfLightSkinTone: return ["woman", "tichel", "light skin tone", "with", "light", "headscarf", "mantilla", "tone", "woman with headscarf: light skin tone", "headscarf:", "skin", "woman with headscarf", "hijab"]
-
-        case .faceWithMedicalMask: return ["medical", "cold", "doctor", "face", "with", "sick", "mask", "face with medical mask"]
-
-        case .fiveThirty: return ["clock", "5", "five", "five thirty", "thirty", "5:30"]
-
-        case .flagMauritius: return ["flag", "flag: Mauritius", "Mauritius"]
-
-        case .flagNetherlands: return ["flag", "flag: Netherlands", "Netherlands"]
-
-        case .flagUnitedArabEmirates: return ["flag: United Arab Emirates", "United Arab Emirates", "flag"]
-
-        case .whiteFlower: return ["white flower", "flower", "white"]
-
-        case .keycap10: return ["keycap:", "10", "keycap", "keycap: 10"]
-
-        case .womanFarmerMediumSkinTone: return ["medium skin tone", "medium", "skin", "gardener", "woman farmer: medium skin tone", "farmer", "rancher", "woman", "farmer:", "tone"]
-
-        case .teddyBear: return ["bear", "toy", "plush", "teddy", "teddy bear", "stuffed", "plaything"]
-
-        case .familyManGirl: return ["family: man, girl", "family:", "man", "family", "girl", "man,"]
-
-        case .clappingHandsLightSkinTone: return ["clapping", "clapping hands", "light skin tone", "clap", "hands:", "light", "skin", "tone", "hand", "clapping hands: light skin tone"]
-
-        case .fiveOclock: return ["00", "five", "5:00", "5", "o’clock", "clock"]
-
-        case .manLightSkinToneCurlyHair: return ["man: light skin tone, curly hair", "light", "light skin tone", "curly", "tone,", "skin", "hair", "man:", "adult", "man", "curly hair"]
-
-        case .foot: return ["foot", "kick", "stomp"]
-
-        case .alienMonster: return ["extraterrestrial", "ufo", "face", "monster", "creature", "alien"]
-
-        case .detectiveMediumDarkSkinTone: return ["detective", "medium dark skin tone", "skin", "spy", "tone", "dark", "medium", "sleuth", "detective:", "detective: medium dark skin tone"]
-
-        case .oldMan: return ["old", "adult", "man"]
-
-        case .softIceCream: return ["ice", "dessert", "sweet", "cream", "icecream", "soft"]
-
-        case .personInSuitLevitatingLightSkinTone: return ["person", "person in suit levitating", "person in suit levitating: light skin tone", "in", "skin", "business", "tone", "light", "suit", "light skin tone", "levitating:"]
-
-        case .blueberries: return ["blueberries", "berry", "bilberry", "blue", "blueberry"]
-
-        case .shrimp: return ["food", "small", "shrimp", "shellfish"]
-
-        case .petriDish: return ["lab", "petri", "biologist", "dish", "petri dish", "culture", "bacteria", "biology"]
-
-        case .peopleHoldingHandsDarkSkinToneMediumSkinTone: return ["tone,", "person", "people holding hands: dark skin tone, medium skin tone", "people holding hands", "medium", "tone", "dark skin tone", "hold", "couple", "hands:", "dark", "holding", "holding hands", "medium skin tone", "people", "skin", "hand"]
-
-        case .fourOclock: return ["4:00", "4", "clock", "four", "o’clock", "00"]
-
-        case .stuffedFlatbread: return ["flatbread", "gyro", "falafel", "food", "kebab", "stuffed"]
-
-        case .bentoBox: return ["bento", "box"]
-
-        case .womanFarmerDarkSkinTone: return ["dark", "dark skin tone", "woman farmer: dark skin tone", "woman", "farmer:", "skin", "rancher", "tone", "farmer", "gardener"]
-
-        case .flagItaly: return ["flag: Italy", "flag", "Italy"]
-
-        case .victoryHand: return ["victory", "hand", "v"]
-
-        case .personInLotusPositionMediumSkinTone: return ["skin", "medium skin tone", "lotus", "yoga", "person", "position:", "medium", "in", "person in lotus position", "meditation", "tone", "person in lotus position: medium skin tone"]
-
-        case .seedling: return ["young", "seedling"]
-
-        case .raisedBackOfHandMediumSkinTone: return ["medium", "back", "tone", "skin", "raised back of hand: medium skin tone", "raised back of hand", "hand:", "raised", "medium skin tone", "backhand", "of"]
-
-        case .manInManualWheelchairLightSkinTone: return ["light", "accessibility", "man", "manual", "light skin tone", "man in manual wheelchair: light skin tone", "wheelchair", "in", "man in manual wheelchair", "tone", "wheelchair:", "skin"]
-
-        case .fondue: return ["cheese", "melted", "chocolate", "Swiss", "pot", "fondue"]
-
-        case .personDarkSkinToneRedHair: return ["person: dark skin tone, red hair", "tone,", "hair", "gender neutral", "dark", "adult", "red", "unspecified gender", "skin", "red hair", "person:", "dark skin tone", "person"]
-
-        case .flagClippertonIsland: return ["Clipperton Island", "flag", "flag: Clipperton Island"]
-
-        case .flagRomania: return ["Romania", "flag: Romania", "flag"]
-
-        case .tongue: return ["body", "tongue"]
-
-        case .sake: return ["bar", "bottle", "cup", "drink", "beverage", "sake"]
-
-        case .stopSign: return ["sign", "stop", "octagonal"]
-
-        case .faceWithSpiralEyes: return ["hypnotized", "trouble", "face", "with", "eyes", "dizzy", "face with spiral eyes", "whoa", "spiral"]
-
-        case .personInMotorizedWheelchairMediumSkinTone: return ["tone", "wheelchair", "person in motorized wheelchair", "motorized", "medium skin tone", "wheelchair:", "medium", "in", "person in motorized wheelchair: medium skin tone", "accessibility", "skin", "person"]
-
-        case .japaneseNoVacancyButton: return ["button", "“no vacancy”", "Japanese “no vacancy” button", "Japanese", "“no", "満", "ideograph", "vacancy”"]
-
-        case .handWithIndexFingerAndThumbCrossedMediumDarkSkinTone: return ["snap", "money", "crossed:", "medium", "love", "and", "heart", "thumb", "skin", "hand with index finger and thumb crossed: medium dark skin tone", "dark", "finger", "tone", "medium dark skin tone", "hand", "with", "hand with index finger and thumb crossed", "index", "expensive"]
-
-        case .cookDarkSkinTone: return ["cook", "cook:", "chef", "tone", "dark skin tone", "dark", "cook: dark skin tone", "skin"]
-
-        case .fireEngine: return ["truck", "engine", "fire"]
-
-        case .peopleHugging: return ["thanks", "people hugging", "hug", "hello", "people", "goodbye", "hugging"]
-
-        case .filmFrames: return ["movie", "cinema", "film", "frames"]
-
-        case .flagUsVirginIslands: return ["flag: U.S. Virgin Islands", "flag", "U.S. Virgin Islands"]
-
-        case .mansShoe: return ["man", "man’s", "shoe", "man’s shoe", "clothing"]
-
-        case .faceWithDiagonalMouth: return ["with", "diagonal", "mouth", "skeptical", "disappointed", "unsure", "face", "meh", "face with diagonal mouth"]
-
-        case .horseRacingMediumDarkSkinTone: return ["skin", "racing", "racing:", "tone", "jockey", "horse", "horse racing: medium dark skin tone", "dark", "racehorse", "medium dark skin tone", "medium"]
-
-        case .backhandIndexPointingLeftDarkSkinTone: return ["backhand", "index", "dark skin tone", "backhand index pointing left: dark skin tone", "left:", "pointing", "dark", "finger", "point", "tone", "hand", "skin", "backhand index pointing left"]
-
-        case .sagittarius: return ["Sagittarius", "zodiac", "archer"]
-
-        case .baby: return ["young", "baby"]
-
-        case .backhandIndexPointingRightMediumSkinTone: return ["finger", "medium skin tone", "point", "pointing", "tone", "skin", "medium", "backhand index pointing right: medium skin tone", "backhand index pointing right", "right:", "hand", "index", "backhand"]
-
-        case .personInLotusPositionMediumLightSkinTone: return ["person in lotus position: medium light skin tone", "meditation", "light", "in", "person", "person in lotus position", "yoga", "position:", "tone", "lotus", "skin", "medium light skin tone", "medium"]
-
-        case .personDarkSkinToneBeard: return ["person: dark skin tone, beard", "dark skin tone", "skin", "tone,", "person:", "dark", "person", "person: beard", "beard"]
-
-        case .pinchedFingersMediumSkinTone: return ["interrogation", "medium", "pinched", "tone", "fingers", "medium skin tone", "fingers:", "sarcastic", "skin", "hand gesture", "pinched fingers: medium skin tone"]
-
-        case .mouseTrap: return ["mouse", "bait", "mouse trap", "snare", "mousetrap", "trap"]
-
-        case .cyclone: return ["typhoon", "hurricane", "dizzy", "cyclone", "twister"]
-
-        case .customs: return ["customs"]
-
-        case .birthdayCake: return ["cake", "celebration", "dessert", "birthday", "pastry", "sweet"]
-
-        case .personInSteamyRoom: return ["sauna", "person in steamy room", "person", "steamy", "in", "room", "steam room"]
-
-        case .frontFacingBabyChick: return ["front facing baby chick", "baby", "facing", "bird", "front", "chick"]
-
-        case .fairyLightSkinTone: return ["Oberon", "light skin tone", "fairy:", "skin", "tone", "fairy", "Titania", "light", "Puck", "fairy: light skin tone"]
-
-        case .personMediumSkinToneCurlyHair: return ["medium skin tone", "person", "hair", "medium", "curly hair", "gender neutral", "skin", "person:", "tone,", "adult", "curly", "unspecified gender", "person: medium skin tone, curly hair"]
-
-        case .familyWomanGirlGirl: return ["woman,", "family:", "family: woman, girl, girl", "family", "girl", "woman", "girl,"]
-
-        case .manMediumLightSkinToneBald: return ["man:", "medium", "medium light skin tone", "tone,", "light", "man", "bald", "man: medium light skin tone, bald", "adult", "skin"]
-
-        case .sleepyFace: return ["sleep", "sleepy face", "face", "sleepy", "good night"]
-
-        case .brownSquare: return ["brown", "square"]
-
-        case .flagFrenchPolynesia: return ["flag: French Polynesia", "French Polynesia", "flag"]
-
-        case .eye: return ["eye", "body"]
-
-        case .doubleCurlyLoop: return ["double", "loop", "curl", "double curly loop", "curly"]
-
-        case .joystick: return ["video game", "joystick", "game"]
-
-        case .menHoldingHandsLightSkinToneMediumSkinTone: return ["twins", "men holding hands", "tone", "holding", "light", "light skin tone", "zodiac", "hands:", "couple", "skin", "man", "holding hands", "medium skin tone", "men", "men holding hands: light skin tone, medium skin tone", "tone,", "medium", "Gemini"]
-
-        case .atomSymbol: return ["atom symbol", "symbol", "atheist", "atom"]
-
-        case .umbrellaOnGround: return ["umbrella on ground", "sun", "rain", "on", "ground", "umbrella"]
+        case .womanAstronautMediumLightSkinTone: return ["astronaut", "medium light skin tone", "rocket", "space", "light", "astronaut:", "skin", "tone", "woman", "medium"]
 
         case .floppyDisk: return ["disk", "computer", "floppy"]
 
-        case .wedding: return ["wedding", "chapel", "romance"]
+        case .ticket: return ["stub", "admission", "ticket"]
 
-        case .personLiftingWeights: return ["weights", "person", "lifting", "weight", "lifter", "person lifting weights"]
+        case .rightwardsHand: return ["rightward", "shake", "hold", "right", "handshake", "rightwards", "hand", "reach"]
 
-        case .singerMediumSkinTone: return ["rock", "star", "medium", "tone", "entertainer", "singer", "singer: medium skin tone", "skin", "medium skin tone", "actor", "singer:"]
+        case .personRunningDarkSkinTone: return ["speed", "racing", "run", "skin", "tone", "dark skin tone", "rush", "fast", "hurry", "dark", "marathon", "person", "race", "running:", "quick", "move"]
 
-        case .sparklingHeart: return ["heart", "sparkle", "sparkling", "sparkling heart", "excited"]
+        case .skunk: return ["stink", "animal", "skunk"]
 
-        case .santaClausMediumDarkSkinTone: return ["father", "Claus:", "Santa", "claus", "santa", "medium dark skin tone", "medium", "Christmas", "celebration", "dark", "skin", "tone", "Santa Claus: medium dark skin tone"]
+        case .personTippingHandMediumSkinTone: return ["hand:", "tone", "medium", "person", "gossip", "tipping", "sarcastic", "sassy", "flick", "skin", "whatever", "seriously", "hand", "medium skin tone", "flip", "fetch", "sarcasm"]
 
-        case .bread: return ["loaf", "bread"]
+        case .flagLesotho: return ["flag", "Lesotho"]
 
-        case .elevenOclock: return ["00", "11:00", "eleven", "o’clock", "11", "clock"]
+        case .personInMotorizedWheelchairMediumLightSkinTone: return ["motorized", "medium", "person", "wheelchair:", "skin", "in", "light", "accessibility", "medium light skin tone", "tone", "wheelchair"]
 
-        case ._1stPlaceMedal: return ["gold", "1st place medal", "medal", "place", "first", "1st"]
+        case .cardIndexDividers: return ["card", "dividers", "index"]
 
-        case .openHandsDarkSkinTone: return ["open", "dark skin tone", "open hands: dark skin tone", "dark", "hand", "hands:", "skin", "tone", "open hands"]
+        case .checkBoxWithCheck: return ["box", "✓", "tick", "done", "off", "check", "with", "ballot", "checked"]
 
-        case .manFirefighterMediumSkinTone: return ["firefighter:", "firetruck", "medium skin tone", "medium", "man", "man firefighter: medium skin tone", "firefighter", "tone", "skin"]
+        case .flagUkraine: return ["Ukraine", "flag"]
 
-        case .fairyMediumSkinTone: return ["fairy: medium skin tone", "fairy", "medium", "skin", "tone", "fairy:", "Puck", "Titania", "medium skin tone", "Oberon"]
+        case .canoe: return ["canoe", "boat"]
 
-        case .rollerSkate: return ["skate", "roller"]
+        case .manMediumSkinToneRedHair: return ["man", "medium skin tone", "bro", "skin", "red", "hair", "red hair", "man:", "tone,", "medium", "adult"]
 
-        case .personBikingMediumSkinTone: return ["biking:", "biking", "person biking: medium skin tone", "person biking", "medium", "tone", "bicycle", "medium skin tone", "person", "skin", "cyclist"]
+        case .flagRussia: return ["Russia", "flag"]
 
-        case .indexPointingUpMediumDarkSkinTone: return ["index", "medium dark skin tone", "up:", "medium", "tone", "dark", "point", "up", "finger", "skin", "pointing", "hand", "index pointing up: medium dark skin tone", "index pointing up"]
+        case .astronautMediumLightSkinTone: return ["medium", "space", "medium light skin tone", "skin", "light", "astronaut:", "tone", "astronaut", "rocket"]
 
-        case .cupcake: return ["cupcake", "bakery", "sweet"]
+        case .manArtistMediumSkinTone: return ["palette", "artist:", "artist", "medium skin tone", "skin", "tone", "man", "medium"]
 
-        case .orangeBook: return ["book", "orange"]
+        case .capricorn: return ["horoscope", "goat", "Capricorn", "zodiac"]
 
-        case .tanabataTree: return ["banner", "Japanese", "tanabata", "celebration", "tree", "tanabata tree"]
+        case .personRowingBoat: return ["boat", "lake", "oar", "rowing", "row", "paddle", "cruise", "rowboat", "raft", "person", "river", "canoe", "fishing"]
+
+        case .harp: return ["harp", "love", "music", "instrument", "cupid", "orchestra"]
+
+        case .menHoldingHandsMediumSkinToneDarkSkinTone: return ["brothers", "couple", "dark skin tone", "men", "hands:", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "medium skin tone", "dark", "holding", "twins", "boys", "bestie", "medium", "flirt", "hand"]
+
+        case .upwardsButton: return ["arrow", "red", "up", "button", "upwards"]
+
+        case .womansClothes: return ["woman", "woman’s", "dressed", "blouse", "clothes", "dress", "clothing", "collar", "lady", "shirt", "shopping"]
+
+        case .flagAustria: return ["flag", "Austria"]
+
+        case .christmasTree: return ["tree", "celebration", "Christmas"]
+
+        case .womanTechnologistLightSkinTone: return ["light", "coder", "technologist:", "technologist", "computer", "inventor", "skin", "tone", "software", "developer", "woman", "light skin tone"]
+
+        case .broom: return ["cleaning", "sweeping", "witch", "broom"]
+
+        case .cigarette: return ["smoking", "cigarette"]
+
+        case .rollerCoaster: return ["roller", "coaster", "amusement", "theme", "park"]
+
+        case .cookDarkSkinTone: return ["dark skin tone", "cook:", "chef", "skin", "cook", "dark", "tone"]
+
+        case .manAstronautMediumDarkSkinTone: return ["rocket", "medium dark skin tone", "space", "medium", "tone", "skin", "astronaut:", "dark", "astronaut", "man"]
+
+        case .raisedBackOfHandLightSkinTone: return ["of", "hand", "raised", "tone", "light skin tone", "light", "back", "hand:", "skin", "backhand"]
+
+        case .avocado: return ["fruit", "avocado", "food"]
+
+        case .maleSign: return ["sign", "male", "man"]
+
+        case .knot: return ["cord", "tie", "rope", "twist", "knot", "tangled", "twine"]
+
+        case .flagBolivia: return ["flag", "Bolivia"]
+
+        case .personTippingHandMediumDarkSkinTone: return ["hand:", "tone", "medium dark skin tone", "medium", "dark", "person", "gossip", "tipping", "sarcastic", "sassy", "flick", "skin", "whatever", "seriously", "hand", "flip", "fetch", "sarcasm"]
+
+        case .spiralShell: return ["sea", "animal", "shell", "beach", "conch", "spiral"]
+
+        case .tumblerGlass: return ["whisky", "glass", "scotch", "tumbler", "whiskey", "liquor", "shot"]
+
+        case .personTakingBathMediumSkinTone: return ["person", "taking", "tub", "skin", "tone", "bath", "bath:", "bathtub", "medium", "medium skin tone"]
+
+        case .manTeacherMediumSkinTone: return ["professor", "teacher:", "tone", "medium skin tone", "lecturer", "teacher", "man", "medium", "instructor", "skin"]
+
+        case .kiss: return ["dating", "babe", "anniversary", "xoxo", "date", "mwah", "romance", "bae", "person", "kiss", "couple", "heart", "love", "together"]
+
+        case .familyWomanGirlBoy: return ["woman", "family:", "woman,", "family", "girl", "boy", "child", "girl,"]
+
+        case .ewe: return ["lamb", "animal", "farm", "wool", "ewe", "female", "baa", "fluffy", "sheep"]
+
+        case .flagMorocco: return ["Morocco", "flag"]
+
+        case .upArrow: return ["up", "arrow", "cardinal", "north", "direction"]
+
+        case .lotus: return ["purity", "Hinduism", "calm", "lotus", "flower", "beauty", "peace", "Buddhism", "serenity"]
+
+        case .information: return ["I", "information"]
+
+        case .personSwimmingLightSkinTone: return ["person", "swim", "light", "freestyle", "swimmer", "light skin tone", "swimming:", "sport", "triathlon", "skin", "tone", "swimming"]
+
+        case .personSurfingLightSkinTone: return ["sport", "ocean", "waves", "surfing", "tone", "person", "light", "swell", "light skin tone", "surfer", "surfing:", "beach", "skin", "surf"]
+
+        case .bellWithSlash: return ["sound", "no", "with", "not", "forbidden", "mute", "prohibited", "quiet", "slash", "bell", "silent"]
+
+        case .starStruck: return ["face", "star struck", "excited", "grinning", "wow", "eyes", "star", "struck", "smile", "starry eyed"]
+
+        case .sandwich: return ["bread", "sandwich"]
+
+        case .pie: return ["pastry", "fruit", "slice", "pie", "filling", "meat", "pumpkin", "apple"]
+
+        case .bubbles: return ["bubbles", "floating", "underwater", "burp", "soap", "pearl", "bubble", "clean"]
+
+        case .womanAstronautLightSkinTone: return ["space", "woman", "rocket", "light skin tone", "tone", "astronaut", "light", "astronaut:", "skin"]
+
+        case .womanAndManHoldingHandsDarkSkinToneMediumDarkSkinTone: return ["hands:", "couple", "dark skin tone", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "man", "dark", "medium dark skin tone", "and", "holding", "twins", "bestie", "medium", "flirt", "woman", "hand"]
+
+        case .mate: return ["drink", "mate"]
+
+        case .personClimbingMediumDarkSkinTone: return ["rock", "scale", "medium dark skin tone", "mountain", "medium", "dark", "climbing:", "climb", "climber", "tone", "person", "skin", "up", "climbing"]
+
+        case .raisedHand: return ["stop", "five", "high", "hand", "5", "raised"]
+
+        case .chartIncreasing: return ["data", "growth", "upward", "trend", "up", "right", "chart", "increasing", "graph"]
+
+        case .whiteSquareButton: return ["geometric", "button", "white", "outlined", "square"]
+
+        case .wavingHandMediumLightSkinTone: return ["ttyl", "greetings", "yo", "waving", "light", "medium", "you", "cya", "medium light skin tone", "gtg", "hello", "hi", "outtie", "skin", "tone", "hand:", "wave", "hand", "g2g", "bye", "later", "hey", "ttfn"]
+
+        case .artistPalette: return ["art", "colorful", "arty", "entertainment", "painting", "creative", "painter", "artsy", "artist", "museum", "palette"]
+
+        case .mxClausMediumDarkSkinTone: return ["claus", "Mx", "tale", "holiday", "Christmas", "fantasy", "merry", "fairy", "santa", "xmas", "dark", "skin", "celebration", "Claus:", "tone", "medium", "medium dark skin tone"]
+
+        case .backhandIndexPointingUpMediumSkinTone: return ["medium", "point", "medium skin tone", "hand", "finger", "index", "pointing", "up", "tone", "backhand", "skin", "up:"]
+
+        case .constructionWorkerLightSkinTone: return ["work", "worker:", "skin", "hat", "worker", "person", "man", "construction", "build", "repair", "light", "rebuild", "hardhat", "light skin tone", "fix", "tone", "remodel"]
+
+        case .flagEcuador: return ["flag", "Ecuador"]
+
+        case .middleFingerMediumLightSkinTone: return ["light", "skin", "tone", "middle", "finger:", "medium light skin tone", "medium", "hand", "finger"]
+
+        case .openFileFolder: return ["folder", "file", "open"]
+
+        case .eyes: return ["googly", "omg", "seeing", "looking", "face", "peep", "body", "see", "look", "eyes", "eye"]
+
+        case .wood: return ["timber", "wood", "lumber", "log"]
+
+        case .alienMonster: return ["monster", "pixelated", "fairy", "extraterrestrial", "space", "gamer", "face", "fairytale", "game", "ufo", "alien", "creature", "tale", "games", "fantasy"]
+
+        case .woman: return ["lady", "woman", "adult"]
+
+        case .womanFactoryWorkerDarkSkinTone: return ["woman", "assembly", "factory", "tone", "industrial", "dark", "skin", "dark skin tone", "worker:", "worker"]
+
+        case .mobilePhone: return ["communication", "phone", "cell", "telephone", "mobile"]
+
+        case .manCookLightSkinTone: return ["light skin tone", "skin", "tone", "cook:", "light", "chef", "cook", "man"]
+
+        case .kaaba: return ["kaaba", "islam", "Muslim", "hajj", "religion", "umrah"]
+
+        case .moose: return ["alces", "antlers", "animal", "moose", "elk", "mammal"]
+
+        case .flagLiechtenstein: return ["Liechtenstein", "flag"]
+
+        case .womanLightSkinTone: return ["light", "adult", "skin", "woman", "tone", "light skin tone", "lady", "woman:"]
+
+        case .writingHandMediumDarkSkinTone: return ["write", "hand", "skin", "medium", "hand:", "medium dark skin tone", "writing", "tone", "dark"]
+
+        case .indexPointingAtTheViewerLightSkinTone: return ["at", "viewer", "hand", "index", "light skin tone", "you", "pointing", "light", "tone", "viewer:", "finger", "skin", "poke", "the"]
+
+        case .duck: return ["animal", "ornithology", "bird", "duck"]
+
+        case .house: return ["home", "ranch", "house", "settle", "simple", "suburbia", "heart", "country", "where", "building", "suburban"]
+
+        case .pouringLiquid: return ["pouring", "oops", "water", "pour", "spill", "empty", "accident", "liquid", "glass", "drink"]
+
+        case .exclamationQuestionMark: return ["exclamation", "interrobang", "punctuation", "?", "mark", "!?", "!", "question"]
+
+        case .manCook: return ["chef", "cook", "man"]
+
+        case .manInManualWheelchairMediumDarkSkinTone: return ["tone", "accessibility", "medium dark skin tone", "medium", "dark", "wheelchair:", "skin", "man", "manual", "wheelchair", "in"]
+
+        case .coupleWithHeart: return ["kiss", "heart", "love", "babe", "anniversary", "together", "dating", "bae", "relationship", "with", "you", "couple", "romance", "person"]
+
+        case .personInSteamyRoomMediumDarkSkinTone: return ["person", "luxurious", "sauna", "steamy", "tone", "pamper", "relax", "steambath", "in", "medium", "day", "unwind", "room:", "steam", "dark", "skin", "spa", "medium dark skin tone", "room"]
+
+        case .personBlondHair: return ["person", "hair", "person:", "human", "blond haired", "blond"]
+
+        case .womanInMotorizedWheelchairMediumSkinTone: return ["medium skin tone", "motorized", "in", "wheelchair:", "tone", "accessibility", "wheelchair", "skin", "medium", "woman"]
+
+        case .chestnut: return ["almond", "chestnut", "plant"]
+
+        case .pager: return ["communication", "pager"]
+
+        case .womanTeacherMediumDarkSkinTone: return ["skin", "tone", "teacher:", "lecturer", "teacher", "professor", "medium dark skin tone", "instructor", "woman", "medium", "dark"]
+
+        case .womanMediumDarkSkinToneWhiteHair: return ["white", "skin", "tone,", "hair", "white hair", "medium dark skin tone", "woman", "woman:", "adult", "medium", "dark", "lady"]
+
+        case .womanStudent: return ["woman", "graduate", "student"]
+
+        case .wolf: return ["wolf", "animal", "face"]
+
+        case .flagSlovakia: return ["flag", "Slovakia"]
+
+        case .starAndCrescent: return ["Muslim", "star", "ramadan", "religion", "islam", "and", "crescent"]
+
+        case .cockroach: return ["insect", "pest", "roach", "animal", "cockroach"]
+
+        case .clButton: return ["CL", "button"]
+
+        case .womanCookLightSkinTone: return ["light", "woman", "skin", "tone", "chef", "cook:", "light skin tone", "cook"]
+
+        case .personInBedMediumSkinTone: return ["hotel", "nap", "bed:", "tone", "sleep", "medium skin tone", "bed", "night", "zzz", "bedtime", "person", "tired", "good", "goodnight", "skin", "in", "medium"]
+
+        case .deafPersonMediumLightSkinTone: return ["person:", "ear", "deaf", "accessibility", "person", "medium light skin tone", "gesture", "medium", "light", "skin", "tone", "hear"]
+
+        case .dango: return ["Japanese", "sweet", "skewer", "dango", "dessert", "stick"]
+
+        case .personInTuxedoMediumLightSkinTone: return ["person", "tuxedo", "tuxedo:", "skin", "in", "tone", "medium", "wedding", "formal", "light", "medium light skin tone"]
+
+        case .books: return ["novels", "books", "education", "knowledge", "reading", "school", "library", "book", "study", "fantasy"]
+
+        case .chipmunk: return ["chipmunk", "squirrel", "animal"]
+
+        case .serviceDog: return ["dog", "service", "assistance", "accessibility", "animal"]
+
+        case .giraffe: return ["giraffe", "spots", "animal"]
+
+        case .olderPersonLightSkinTone: return ["elderly", "grandparent", "person:", "adult", "skin", "person", "old", "tone", "older", "light skin tone", "light", "wise"]
+
+        case .menHoldingHandsLightSkinToneMediumSkinTone: return ["brothers", "couple", "hands:", "men", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "medium skin tone", "holding", "twins", "boys", "light", "bestie", "light skin tone", "flirt", "medium", "hand"]
+
+        case .personInLotusPositionMediumDarkSkinTone: return ["yoga", "zen", "cross", "yogi", "serenity", "medium", "peace", "medium dark skin tone", "legged", "person", "dark", "legs", "in", "relax", "position:", "skin", "meditation", "tone", "lotus", "position"]
+
+        case .personBowingMediumLightSkinTone: return ["beg", "person", "ask", "pity", "sorry", "bowing:", "apology", "regret", "bow", "light", "medium light skin tone", "medium", "meditate", "gesture", "bowing", "tone", "favor", "skin", "forgive", "meditation"]
+
+        case .personJugglingMediumSkinTone: return ["multitask", "balance", "juggle", "medium", "tone", "manage", "medium skin tone", "balancing", "skill", "person", "juggling:", "act", "handle", "skin", "juggling"]
+
+        case .station: return ["train", "station", "railway"]
+
+        case .detective: return ["spy", "detective", "sleuth"]
+
+        case .blackCat: return ["unlucky", "meow", "animal", "feline", "cat", "black", "halloween"]
+
+        case .personDarkSkinToneCurlyHair: return ["adult", "dark", "curly hair", "person", "curly", "dark skin tone", "person:", "skin", "hair", "tone,"]
+
+        case .personInLotusPositionMediumLightSkinTone: return ["yoga", "light", "zen", "cross", "medium light skin tone", "yogi", "serenity", "medium", "peace", "skin", "legged", "person", "legs", "in", "relax", "position:", "meditation", "tone", "lotus", "position"]
+
+        case .peaPod: return ["vegetable", "pod", "beans", "legume", "veggie", "soybean", "pea", "edamame", "beanstalk"]
+
+        case .womanInMotorizedWheelchair: return ["motorized", "in", "wheelchair", "accessibility", "woman"]
+
+        case .bone: return ["dog", "bone", "bones", "skeleton", "wishbone"]
+
+        case .camel: return ["one", "camel", "desert", "animal", "dromedary", "hump"]
+
+        case .flagEngland: return ["England", "flag"]
+
+        case .movieCamera: return ["camera", "bollywood", "record", "cinema", "film", "movie", "hollywood"]
+
+        case .flagSanMarino: return ["San Marino", "flag"]
+
+        case .cryingFace: return ["crying", "feels", "cry", "triste", "awful", "sad", "face", "tear", "miss", "unhappy"]
+
+        case .farmerDarkSkinTone: return ["farmer", "dark skin tone", "tone", "skin", "rancher", "gardener", "farmer:", "dark"]
+
+        case .flagUzbekistan: return ["Uzbekistan", "flag"]
+
+        case .flagCeutaMelilla: return ["Ceuta & Melilla", "flag"]
+
+        case .personWithSkullcapDarkSkinTone: return ["person", "mao", "pi", "skullcap", "skullcap:", "hat", "guapi", "Chinese", "cap", "tone", "dark", "with", "gua", "skin", "dark skin tone"]
+
+        case .honeybee: return ["spring", "animal", "insect", "bumblebee", "bee", "nature", "honeybee", "honey"]
+
+        case .personClimbingLightSkinTone: return ["climbing:", "rock", "mountain", "climbing", "light skin tone", "climb", "up", "person", "climber", "skin", "light", "scale", "tone"]
+
+        case .recordButton: return ["record", "button", "circle"]
+
+        case .babyChick: return ["chick", "animal", "bird", "ornithology", "baby"]
+
+        case .flagHaiti: return ["flag", "Haiti"]
+
+        case .boar: return ["animal", "boar", "pig"]
+
+        case .partyPopper: return ["hooray", "party", "awesome", "celebrate", "tada", "woohoo", "popper", "excited", "celebration", "birthday"]
+
+        case .cowFace: return ["farm", "milk", "cow", "moo", "face", "animal"]
+
+        case .crystalBall: return ["tale", "magic", "fortune", "fairytale", "future", "ball", "fairy", "tool", "fantasy", "crystal"]
+
+        case .selfieMediumDarkSkinTone: return ["selfie", "selfie:", "phone", "medium dark skin tone", "medium", "camera", "dark", "skin", "tone"]
+
+        case .selfieMediumSkinTone: return ["phone", "tone", "selfie", "selfie:", "medium skin tone", "camera", "medium", "skin"]
+
+        case .nailPolish: return ["makeup", "bored", "manicure", "nail", "whatever", "polish", "care", "done", "cosmetics"]
+
+        case .meatOnBone: return ["bone", "on", "meat"]
+
+        case .speakingHead: return ["silhouette", "face", "head", "speaking", "speak"]
+
+        case .skis: return ["skis", "sport", "ski", "snow"]
+
+        case .personWithSkullcapMediumDarkSkinTone: return ["medium", "person", "skullcap:", "hat", "Chinese", "medium dark skin tone", "skullcap", "dark", "skin", "with", "tone", "pi", "mao", "cap", "guapi", "gua"]
+
+        case .personPlayingHandballMediumSkinTone: return ["chuck", "pitch", "handball:", "medium", "person", "lob", "handball", "playing", "hurl", "toss", "throw", "sport", "catch", "tone", "athletics", "skin", "ball", "medium skin tone"]
+
+        case .flexedBicepsMediumLightSkinTone: return ["beast", "gym", "bench", "flexed", "muscle", "curls", "flex", "skin", "tone", "biceps", "medium light skin tone", "medium", "bro", "press", "jacked", "light", "gains", "ripped", "strong", "bodybuilder", "biceps:", "arm", "weightlift"]
+
+        case .personPoutingLightSkinTone: return ["downtrodden", "whine", "tone", "pouting:", "frown", "sulk", "light skin tone", "pouting", "grimace", "skin", "disappointed", "scowl", "person", "upset", "light"]
+
+        case .carrot: return ["food", "carrot", "vegetable"]
+
+        case .horseFace: return ["horse", "animal", "farm", "equine", "dressage", "horses", "face"]
+
+        case .monorail: return ["vehicle", "monorail"]
+
+        case .womansSandal: return ["woman’s", "sandal", "clothing", "shoe", "woman"]
+
+        case .womenHoldingHandsDarkSkinToneMediumLightSkinTone: return ["hands:", "couple", "dark skin tone", "sisters", "bff", "women", "hold", "friends", "bae", "skin", "tone,", "dating", "tone", "dark", "medium light skin tone", "holding", "twins", "light", "bestie", "medium", "flirt", "girls", "hand"]
+
+        case .personKneelingMediumLightSkinTone: return ["kneel", "medium", "light", "person", "kneeling:", "kneeling", "skin", "medium light skin tone", "knees", "tone"]
+
+        case .oneThirty: return ["30", "1:30", "thirty", "1", "time", "one thirty", "clock", "one"]
+
+        case .cinema: return ["cinema", "movie", "film", "camera"]
+
+        case .handWithFingersSplayedDarkSkinTone: return ["splayed", "stop", "fingers", "with", "splayed:", "dark", "finger", "skin", "tone", "raised", "hand", "dark skin tone"]
+
+        case .selfieDarkSkinTone: return ["selfie:", "skin", "camera", "dark", "tone", "selfie", "phone", "dark skin tone"]
+
+        case .cooking: return ["frying", "up", "side", "egg", "over", "restaurant", "cooking", "fry", "breakfast", "sunny", "easy", "pan"]
+
+        case .musicalNote: return ["sound", "musical", "music", "note"]
+
+        case .sevenOclock: return ["seven", "7", "7:00", "0", "clock", "o’clock"]
+
+        case .smilingFace: return ["outlined", "smile", "smiling", "happy", "face", "relaxed"]
+
+        case .brain: return ["smart", "intelligent", "brain"]
+
+        case .manLightSkinToneBald: return ["light skin tone", "bald", "light", "adult", "man:", "bro", "skin", "man", "tone,"]
+
+        case .orangeHeart: return ["orange", "143", "heart"]
+
+        case .japanesePassingGradeButton: return ["grade", "ideograph", "grade”", "“passing", "passing", "Japanese", "button"]
+
+        case .personPlayingWaterPoloMediumLightSkinTone: return ["light", "polo:", "swimming", "waterpolo", "polo", "medium", "playing", "tone", "water", "person", "skin", "medium light skin tone", "sport"]
+
+        case .kissingCat: return ["face", "eyes", "animal", "kiss", "closed", "kissing", "cat", "eye"]
+
+        case .tradeMark: return ["TM", "mark", "trade", "trademark"]
+
+        case .articulatedLorry: return ["vehicle", "truck", "move", "semi", "articulated", "drive", "car", "lorry"]
+
+        case .droplet: return ["nature", "droplet", "sweat", "cold", "water", "comic", "tear", "sad", "weather", "drop"]
+
+        case .personGesturingOkMediumSkinTone: return ["medium", "tone", "skin", "hand", "gesturing", "gesture", "exercise", "medium skin tone", "OK", "omg", "person", "OK:"]
+
+        case .faceWithDiagonalMouth: return ["disappointed", "with", "skeptical", "confused", "confusion", "unsure", "doubt", "frustrated", "face", "whatever", "diagonal", "meh", "wtv", "frustration", "doubtful", "mouth"]
+
+        case .womanFirefighterLightSkinTone: return ["firefighter:", "firetruck", "woman", "tone", "firefighter", "fire", "light", "skin", "light skin tone"]
+
+        case .princessLightSkinTone: return ["queen", "crown", "light", "royal", "light skin tone", "skin", "tale", "tone", "princess", "fairytale", "princess:", "fairy", "fantasy", "royalty"]
+
+        case .whiteSmallSquare: return ["white", "small", "square", "geometric"]
+
+        case .counterclockwiseArrowsButton: return ["vu", "arrow", "button", "rewindershins", "again", "anticlockwise", "counterclockwise", "deja", "arrows", "refresh"]
+
+        case .personPlayingWaterPoloLightSkinTone: return ["swimming", "water", "tone", "light skin tone", "polo", "light", "sport", "polo:", "skin", "person", "playing", "waterpolo"]
+
+        case .detectiveLightSkinTone: return ["detective", "detective:", "sleuth", "spy", "skin", "light skin tone", "light", "tone"]
+
+        case .cat: return ["cats", "kitten", "animals", "pet", "cat", "animal"]
+
+        case .friedShrimp: return ["fried", "prawn", "tempura", "shrimp"]
+
+        case .bacon: return ["food", "breakfast", "meat", "bacon"]
+
+        case .sari: return ["clothing", "sari", "dress"]
+
+        case .sewingNeedle: return ["tailoring", "stitches", "thread", "sew", "sewing", "embroidery", "needle", "sutures"]
+
+        case .thumbsDownLightSkinTone: return ["1", "down", "light", "bad", "tone", "thumbs", "down:", "dislike", "thumb", "hand", "no", "good", "skin", "light skin tone", "nope"]
+
+        case .nazarAmulet: return ["blue", "talisman", "amulet", "evil eye", "bead", "charm", "nazar"]
+
+        case .militaryMedal: return ["military", "award", "celebration", "medal"]
+
+        case .bagel: return ["breakfast", "bakery", "bread", "bagel", "schmear"]
+
+        case .breastFeeding: return ["feeding", "breast feeding", "nursing", "woman", "mom", "baby", "mother", "breast"]
+
+        case .manBald: return ["adult", "man", "man:", "bro", "bald"]
+
+        case .handshakeMediumSkinTone: return ["handshake:", "meeting", "medium", "deal", "medium skin tone", "skin", "hand", "handshake", "agreement", "shake", "tone"]
+
+        case .pineDecoration: return ["Japanese", "pine", "plant", "decoration", "bamboo", "celebration"]
+
+        case .rightFacingFist: return ["fist", "right facing", "facing", "rightwards", "right"]
+
+        case .footMediumSkinTone: return ["stomp", "foot", "medium skin tone", "feet", "foot:", "ankle", "skin", "tone", "kick", "medium"]
+
+        case .breastFeedingMediumDarkSkinTone: return ["nursing", "breast", "mom", "feeding:", "skin", "woman", "medium dark skin tone", "medium", "feeding", "breast feeding", "dark", "baby", "tone", "mother"]
+
+        case .antennaBars: return ["bars", "cell", "bar", "mobile", "phone", "signal", "communication", "telephone", "antenna"]
+
+        case .pinchingHandLightSkinTone: return ["pinching", "little", "hand:", "tone", "light skin tone", "fingers", "sort", "skin", "light", "amount", "hand", "bit", "small"]
+
+        case .palmDownHandMediumSkinTone: return ["tone", "skin", "shoo", "drop", "dismiss", "hand:", "down", "up", "hand", "medium skin tone", "dropped", "palm", "medium", "pick"]
+
+        case .handshakeMediumLightSkinTone: return ["handshake:", "skin", "tone", "meeting", "medium", "deal", "medium light skin tone", "hand", "handshake", "agreement", "shake", "light"]
+
+        case .worm: return ["annelid", "animal", "earthworm", "parasite", "worm"]
+
+        case .merpersonMediumLightSkinTone: return ["ocean", "trident", "merperson", "folklore", "sea", "siren", "skin", "medium light skin tone", "medium", "fairytale", "creature", "light", "merperson:", "tone"]
+
+        case .rightFacingFistDarkSkinTone: return ["dark skin tone", "dark", "right facing", "fist:", "skin", "right", "rightwards", "fist", "facing", "tone"]
+
+        case .technologistLightSkinTone: return ["coder", "technologist:", "technologist", "computer", "inventor", "skin", "tone", "software", "developer", "light", "light skin tone"]
+
+        case .flagNiger: return ["Niger", "flag"]
+
+        case .flagAlandIslands: return ["Åland Islands", "flag"]
+
+        case .divingMask: return ["snorkeling", "mask", "diving", "scuba"]
+
+        case .flagBelize: return ["flag", "Belize"]
+
+        case .olderPerson: return ["person", "grandparent", "adult", "wise", "older", "old", "elderly"]
+
+        case .personFeedingBabyMediumLightSkinTone: return ["person", "nursing", "tone", "feeding", "medium", "newborn", "baby:", "parent", "feed", "skin", "nanny", "light", "medium light skin tone", "baby"]
+
+        case .santaClausLightSkinTone: return ["light skin tone", "holiday", "xmas", "skin", "Christmas", "father", "claus", "merry", "light", "santa", "fantasy", "tale", "fairy", "tone", "Claus:", "celebration", "Santa"]
+
+        case .familyManManGirlBoy: return ["family:", "man", "girl", "boy", "child", "family", "man,", "girl,"]
+
+        case .flagVietnam: return ["Vietnam", "flag"]
+
+        case .manFactoryWorker: return ["factory", "assembly", "worker", "man", "industrial"]
+
+        case .panda: return ["face", "animal", "panda", "bamboo"]
+
+        case .womanWithWhiteCaneMediumLightSkinTone: return ["white", "blind", "woman", "medium", "cane", "accessibility", "light", "cane:", "tone", "skin", "probing", "medium light skin tone", "with"]
+
+        case .departmentStore: return ["store", "building", "department"]
+
+        case .cardFileBox: return ["file", "box", "card"]
+
+        case .menHoldingHandsDarkSkinToneLightSkinTone: return ["brothers", "couple", "dark skin tone", "men", "hands:", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "dark", "holding", "twins", "boys", "light", "bestie", "light skin tone", "flirt", "hand"]
+
+        case .militaryHelmet: return ["military", "war", "warrior", "army", "soldier", "helmet"]
+
+        case .handshakeMediumSkinToneLightSkinTone: return ["agreement", "meeting", "light", "medium skin tone", "tone", "medium", "skin", "hand", "deal", "handshake", "tone,", "handshake:", "light skin tone", "shake"]
+
+        case .zebra: return ["animal", "stripe", "zebra"]
+
+        case .fountainPen: return ["fountain", "pen"]
+
+        case .bird: return ["ornithology", "animal", "bird"]
+
+        case .flagAntarctica: return ["flag", "Antarctica"]
+
+        case .backpack: return ["education", "backpack", "rucksack", "bag", "school", "bookbag", "backpacking", "satchel"]
+
+        case .personFacepalmingMediumDarkSkinTone: return ["person", "bewilder", "not", "exasperation", "medium dark skin tone", "facepalming:", "dark", "disbelief", "shock", "smh", "oh", "medium", "facepalm", "again", "tone", "skin", "omg", "no"]
+
+        case .manInManualWheelchairLightSkinTone: return ["light", "tone", "light skin tone", "wheelchair:", "in", "accessibility", "wheelchair", "manual", "skin", "man"]
+
+        case .shoppingBags: return ["bags", "bag", "hotel", "shopping"]
+
+        case .personBowingMediumSkinTone: return ["forgive", "person", "beg", "pity", "sorry", "bowing:", "apology", "regret", "bow", "medium", "meditate", "gesture", "bowing", "tone", "favor", "skin", "medium skin tone", "ask", "meditation"]
+
+        case .snowmanWithoutSnow: return ["cold", "snowman", "snow", "without", "man"]
+
+        case .womanAndManHoldingHandsMediumSkinToneDarkSkinTone: return ["hands:", "couple", "dark skin tone", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "man", "medium skin tone", "dark", "holding", "and", "twins", "bestie", "medium", "flirt", "woman", "hand"]
+
+        case .womanAstronaut: return ["astronaut", "rocket", "space", "woman"]
+
+        case .elephant: return ["animal", "elephant"]
+
+        case .iceCream: return ["food", "restaurant", "dessert", "cream", "sweet", "ice"]
+
+        case .kitchenKnife: return ["kitchen", "knife", "hocho", "weapon", "cooking", "tool", "chef"]
+
+        case .manFarmerMediumSkinTone: return ["medium", "man", "gardener", "medium skin tone", "skin", "farmer", "farmer:", "tone", "rancher"]
+
+        case .closedMailboxWithRaisedFlag: return ["raised", "communication", "with", "closed", "mail", "mailbox", "postbox", "flag"]
+
+        case .necktie: return ["employed", "clothing", "necktie", "serious", "shirt", "tie"]
+
+        case .personSwimming: return ["swimmer", "sport", "person", "swimming", "triathlon", "swim", "freestyle"]
+
+        case .rhinoceros: return ["rhinoceros", "animal"]
+
+        case .faceWithSymbolsOnMouth: return ["on", "face", "censor", "mouth", "pissed", "with", "cussing", "cursing", "mad", "swearing", "symbols"]
+
+        case .womanArtistMediumSkinTone: return ["woman", "artist", "artist:", "medium", "palette", "skin", "tone", "medium skin tone"]
+
+        case .television: return ["television", "tv", "video"]
+
+        case .footDarkSkinTone: return ["feet", "kick", "dark skin tone", "dark", "ankle", "tone", "foot", "stomp", "foot:", "skin"]
+
+        case .flagNauru: return ["flag", "Nauru"]
+
+        case .grapes: return ["Dionysus", "grape", "fruit", "grapes"]
+
+        case .winkingFaceWithTongue: return ["tongue", "crazy", "winking", "joke", "weirdo", "yolo", "loopy", "wacky", "stuck out", "wink", "with", "face", "epic", "party", "nutty", "funny", "eye"]
+
+        case .watch: return ["watch", "clock", "time"]
+
+        case .skier: return ["snow", "ski", "skier"]
+
+        case .womanMediumSkinToneWhiteHair: return ["skin", "lady", "medium", "white hair", "tone,", "white", "hair", "adult", "woman", "woman:", "medium skin tone"]
+
+        case .plus: return ["plus", "+"]
+
+        case .elevenThirty: return ["thirty", "11", "11:30", "30", "clock", "eleven", "eleven thirty", "time"]
+
+        case .personRaisingHandLightSkinTone: return ["tone", "pick", "here", "know", "hand", "me", "gesture", "raise", "light skin tone", "light", "hand:", "skin", "raising", "question", "person"]
+
+        case .placard: return ["protest", "card", "demonstration", "picket", "notice", "placard", "sign", "plaque"]
+
+        case .scientistLightSkinTone: return ["physicist", "engineer", "mathematician", "biologist", "skin", "scientist", "tone", "chemist", "scientist:", "light", "light skin tone"]
+
+        case .personInTuxedo: return ["formal", "person", "tuxedo", "wedding", "in"]
+
+        case .babyAngelLightSkinTone: return ["fairy", "light skin tone", "angel", "church", "baby", "skin", "fairytale", "face", "tale", "fantasy", "angel:", "tone", "light"]
+
+        case .waxingCrescentMoon: return ["crescent", "waxing", "space", "moon", "dreams"]
+
+        case .callMeHandLightSkinTone: return ["light skin tone", "hand", "Shaka", "hand:", "me", "light", "tone", "call", "loose", "skin", "hang"]
+
+        case .fortuneCookie: return ["prophecy", "fortune", "cookie"]
+
+        case .noMobilePhones: return ["cell", "telephone", "no", "not", "forbidden", "prohibited", "phone", "mobile", "phones"]
+
+        case .playgroundSlide: return ["amusement", "playground", "park", "sliding", "theme", "play", "slide", "playing"]
+
+        case .pisces: return ["Pisces", "zodiac", "fish", "horoscope"]
+
+        case .manDarkSkinToneWhiteHair: return ["white hair", "bro", "tone,", "dark", "adult", "man", "hair", "white", "dark skin tone", "man:", "skin"]
+
+        case .vulcanSaluteMediumLightSkinTone: return ["hand", "medium light skin tone", "salute:", "medium", "finger", "vulcan", "salute", "light", "tone", "Vulcan", "hands", "skin"]
+
+        case .umbrella: return ["umbrella", "clothing", "rain"]
+
+        case .pregnantWomanMediumLightSkinTone: return ["skin", "light", "woman:", "medium light skin tone", "pregnant", "medium", "woman", "tone"]
+
+        case .flagTanzania: return ["flag", "Tanzania"]
+
+        case .womanMediumSkinToneCurlyHair: return ["skin", "woman", "tone,", "lady", "curly", "hair", "medium", "woman:", "medium skin tone", "curly hair", "adult"]
+
+        case .personGolfing: return ["driving", "ball", "green", "putt", "tee", "range", "pga", "golf", "golfing", "birdie", "person", "caddy"]
+
+        case .womanAndManHoldingHandsLightSkinToneDarkSkinTone: return ["hands:", "couple", "dark skin tone", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "man", "dark", "holding", "and", "twins", "light", "bestie", "light skin tone", "flirt", "woman", "hand"]
+
+        case .stopwatch: return ["time", "clock", "stopwatch"]
+
+        case .earMediumLightSkinTone: return ["hearing", "medium light skin tone", "listen", "body", "ears", "light", "ear", "hear", "listening", "sound", "skin", "ear:", "tone", "medium"]
+
+        case .personSurfing: return ["waves", "ocean", "sport", "person", "beach", "surf", "surfing", "swell", "surfer"]
+
+        case .olive: return ["olive", "food"]
+
+        case .flagPortugal: return ["flag", "Portugal"]
+
+        case .palmUpHand: return ["me", "beckon", "up", "offer", "catch", "come", "know", "lift", "hold", "hand", "tell", "palm"]
+
+        case .rescueWorkersHelmet: return ["helmet", "rescue", "worker’s", "hat", "cross", "aid", "face"]
+
+        case .farmer: return ["gardener", "farmer", "rancher"]
+
+        case .rightwardsPushingHandMediumDarkSkinTone: return ["hold", "rightward", "hand:", "tone", "stop", "halt", "high", "push", "wait", "medium", "pushing", "dark", "skin", "five", "medium dark skin tone", "refuse", "slap", "rightwards", "hand", "pause", "block"]
+
+        case .shoppingCart: return ["shopping", "cart", "trolley"]
+
+        case .singerMediumLightSkinTone: return ["rock", "singer:", "medium light skin tone", "star", "rockstar", "actor", "medium", "entertainer", "skin", "singer", "tone", "light"]
+
+        case .princessMediumSkinTone: return ["princess:", "royalty", "queen", "crown", "princess", "tale", "skin", "fairy", "medium", "fairytale", "royal", "fantasy", "tone", "medium skin tone"]
+
+        case .repeatButton: return ["repeat", "clockwise", "button", "arrow"]
+
+        case .manInMotorizedWheelchair: return ["motorized", "in", "man", "accessibility", "wheelchair"]
+
+        case .grinningCatWithSmilingEyes: return ["with", "grin", "face", "cat", "animal", "eye", "grinning", "smile", "smiling", "eyes"]
+
+        case .flagMozambique: return ["Mozambique", "flag"]
+
+        case .greyHeart: return ["heart", "emotion", "love", "grey", "silver", "143", "slate", "gray", "ily", "special"]
+
+        case .personFrowningMediumLightSkinTone: return ["frowning", "annoyed", "tone", "person", "disappointed", "frowning:", "frustrated", "irritated", "light", "upset", "disturbed", "disgruntled", "medium", "gesture", "frown", "medium light skin tone", "skin"]
+
+        case .personPlayingWaterPoloMediumDarkSkinTone: return ["sport", "medium", "skin", "medium dark skin tone", "waterpolo", "polo:", "playing", "water", "dark", "person", "tone", "swimming", "polo"]
+
+        case .flexedBicepsLightSkinTone: return ["ripped", "skin", "arm", "press", "bodybuilder", "tone", "biceps:", "gains", "light skin tone", "flexed", "jacked", "beast", "biceps", "weightlift", "strong", "bench", "curls", "light", "gym", "flex", "bro", "muscle"]
+
+        case .endArrow: return ["arrow", "END"]
+
+        case .notebookWithDecorativeCover: return ["decorated", "book", "notebook", "school", "education", "decorative", "with", "writing", "cover"]
+
+        case .peacock: return ["peacock", "ornithology", "animal", "ostentatious", "bird", "peahen", "proud", "colorful", "pretty"]
+
+        case .manArtistLightSkinTone: return ["light", "artist", "man", "artist:", "tone", "light skin tone", "skin", "palette"]
+
+        case .womenHoldingHandsMediumDarkSkinToneMediumSkinTone: return ["hands:", "couple", "sisters", "bff", "women", "hold", "friends", "bae", "skin", "tone,", "dating", "medium skin tone", "dark", "tone", "medium dark skin tone", "holding", "twins", "bestie", "medium", "flirt", "girls", "hand"]
+
+        case .worriedFace: return ["sad", "anxious", "worried", "worry", "stress", "stressed", "face", "butterflies", "surprised", "nerves", "nervous"]
+
+        case .personSwimmingMediumLightSkinTone: return ["light", "person", "freestyle", "swimmer", "medium light skin tone", "swimming", "triathlon", "swimming:", "sport", "medium", "skin", "tone", "swim"]
+
+        case .personInLotusPositionMediumSkinTone: return ["yoga", "medium skin tone", "zen", "cross", "yogi", "serenity", "medium", "peace", "skin", "legged", "person", "legs", "in", "relax", "position:", "meditation", "tone", "lotus", "position"]
+
+        case .redHair: return ["redhead", "hair", "red", "ginger"]
+
+        case .oldManMediumDarkSkinTone: return ["adult", "grandfather", "dark", "gramps", "tone", "grandpa", "man", "medium", "old", "medium dark skin tone", "man:", "bald", "elderly", "skin", "wise"]
+
+        case .flagCambodia: return ["flag", "Cambodia"]
+
+        case .radioButton: return ["radio", "geometric", "button"]
+
+        case .personWithSkullcapMediumSkinTone: return ["pi", "medium skin tone", "medium", "skullcap", "skin", "guapi", "cap", "with", "person", "Chinese", "skullcap:", "gua", "mao", "tone", "hat"]
+
+        case .manAstronaut: return ["astronaut", "man", "space", "rocket"]
+
+        case .womanScientistDarkSkinTone: return ["physicist", "dark skin tone", "engineer", "mathematician", "biologist", "skin", "scientist", "tone", "chemist", "scientist:", "woman", "dark"]
+
+        case .purpleSquare: return ["purple", "square"]
+
+        case .personFacepalmingMediumLightSkinTone: return ["person", "bewilder", "not", "exasperation", "facepalming:", "light", "disbelief", "shock", "medium light skin tone", "oh", "smh", "facepalm", "medium", "again", "tone", "skin", "omg", "no"]
+
+        case .technologistDarkSkinTone: return ["coder", "technologist:", "dark skin tone", "technologist", "computer", "inventor", "skin", "tone", "software", "developer", "dark"]
+
+        case .fairy: return ["person", "pixie", "tale", "myth", "fairy", "wings", "fairytale", "fantasy"]
+
+        case .ejectButton: return ["button", "eject"]
+
+        case .tooth: return ["white", "dentist", "teeth", "pearly", "tooth"]
+
+        case .personInBedMediumLightSkinTone: return ["bed", "goodnight", "bed:", "zzz", "nap", "in", "tired", "medium light skin tone", "night", "medium", "sleep", "tone", "good", "hotel", "bedtime", "skin", "person", "light"]
+
+        case .personShruggingMediumSkinTone: return ["person", "shrug", "guess", "idk", "whatever", "doubt", "indifference", "maybe", "shrugging", "dunno", "shrugging:", "knows", "medium", "ignorance", "tone", "who", "skin", "medium skin tone"]
+
+        case .manTechnologistMediumLightSkinTone: return ["light", "technologist", "medium", "computer", "developer", "tone", "coder", "medium light skin tone", "software", "skin", "inventor", "technologist:", "man"]
+
+        case .graduationCap: return ["education", "clothing", "hat", "cap", "graduation", "celebration", "scholar"]
+
+        case .farmerMediumDarkSkinTone: return ["rancher", "medium", "dark", "tone", "farmer", "medium dark skin tone", "skin", "gardener", "farmer:"]
+
+        case .crossedFingersLightSkinTone: return ["crossed", "tone", "cross", "light", "finger", "fingers:", "skin", "light skin tone", "luck", "fingers", "hand"]
+
+        case .spiderWeb: return ["spider", "web"]
+
+        case .cloud: return ["cloud", "weather"]
+
+        case .personCartwheelingMediumSkinTone: return ["tone", "somersault", "active", "excited", "cartwheeling", "medium", "flip", "skin", "happy", "person", "cartwheeling:", "cartwheel", "medium skin tone", "gymnastics"]
+
+        case .flagStBarthelemy: return ["flag", "St. Barthélemy"]
+
+        case .straightRuler: return ["edge", "ruler", "math", "straightedge", "angle", "straight"]
+
+        case .balanceScale: return ["weight", "zodiac", "scale", "Libra", "scales", "justice", "balance", "tool"]
+
+        case .singerMediumSkinTone: return ["rock", "singer:", "medium skin tone", "star", "rockstar", "actor", "medium", "entertainer", "skin", "singer", "tone"]
+
+        case .americanFootball: return ["sport", "super", "football", "bowl", "ball", "american"]
+
+        case .brokenHeart: return ["crushed", "heart", "broken", "emotion", "break", "lonely", "heartbroken", "sad"]
+
+        case .hippopotamus: return ["hippopotamus", "hippo", "animal"]
+
+        case .indexPointingUpMediumLightSkinTone: return ["light", "medium", "hand", "up", "up:", "index", "medium light skin tone", "finger", "point", "skin", "tone", "this", "pointing"]
+
+        case .rightwardsHandDarkSkinTone: return ["tone", "hand:", "dark", "dark skin tone", "reach", "hold", "rightwards", "handshake", "rightward", "right", "skin", "shake", "hand"]
+
+        case .spoutingWhale: return ["beach", "face", "ocean", "spouting", "whale", "animal"]
+
+        case .slotMachine: return ["machine", "casino", "slots", "gamble", "game", "slot", "gambling"]
+
+        case .blueCircle: return ["blue", "geometric", "circle"]
+
+        case .pregnantWomanMediumSkinTone: return ["woman", "tone", "skin", "pregnant", "woman:", "medium skin tone", "medium"]
+
+        case .automobile: return ["driving", "car", "automobile", "vehicle"]
+
+        case .musicalScore: return ["music", "musical", "score", "note"]
+
+        case .closedUmbrella: return ["closed", "rain", "umbrella", "clothing"]
+
+        case .backhandIndexPointingLeftMediumSkinTone: return ["left:", "point", "medium", "left", "hand", "medium skin tone", "finger", "index", "pointing", "tone", "backhand", "skin"]
+
+        case .backhandIndexPointingRight: return ["hand", "right", "finger", "backhand", "index", "pointing", "point"]
+
+        case .sparkler: return ["sparkler", "celebration", "boom", "sparkle", "fireworks"]
+
+        case .womanBald: return ["woman:", "lady", "bald", "adult", "woman"]
+
+        case .flagMarshallIslands: return ["Marshall Islands", "flag"]
+
+        case .okButton: return ["okay", "OK", "button"]
+
+        case .flagCongoKinshasa: return ["Congo   Kinshasa", "flag"]
+
+        case .manTechnologistMediumDarkSkinTone: return ["developer", "technologist", "software", "man", "inventor", "medium dark skin tone", "coder", "technologist:", "medium", "dark", "skin", "computer", "tone"]
+
+        case .squintingFaceWithTongue: return ["eyes", "gross", "face", "whatever", "omg", "closed", "eye", "taste", "stuck out", "horrible", "squinting", "tongue", "yolo", "with"]
+
+        case .firstQuarterMoonFace: return ["space", "first", "moon", "quarter", "face"]
+
+        case .fairyLightSkinTone: return ["pixie", "fairy:", "light", "tale", "skin", "tone", "fairytale", "light skin tone", "fairy", "wings", "person", "fantasy", "myth"]
+
+        case .sunglasses: return ["eye", "eyewear", "sunglasses", "glasses", "dark"]
+
+        case .womenHoldingHandsMediumDarkSkinTone: return ["hands:", "couple", "sisters", "bff", "women", "hold", "friends", "bae", "skin", "tone", "dating", "dark", "medium dark skin tone", "holding", "twins", "bestie", "medium", "flirt", "girls", "hand"]
+
+        case .personInMotorizedWheelchairDarkSkinTone: return ["person", "wheelchair", "wheelchair:", "skin", "tone", "accessibility", "in", "dark skin tone", "motorized", "dark"]
+
+        case .santaClausMediumDarkSkinTone: return ["santa", "celebration", "Christmas", "tale", "fairy", "father", "merry", "dark", "holiday", "fantasy", "xmas", "Santa", "medium dark skin tone", "tone", "Claus:", "skin", "medium", "claus"]
+
+        case .japaneseProhibitedButton: return ["button", "“prohibited”", "prohibited", "Japanese", "ideograph"]
+
+        case .eightPointedStar: return ["pointed", "star", "*", "eight pointed", "eight"]
+
+        case .manTeacher: return ["man", "instructor", "lecturer", "professor", "teacher"]
+
+        case .flagVaticanCity: return ["flag", "Vatican City"]
+
+        case .megaphone: return ["megaphone", "sound", "cheering"]
+
+        case .bald: return ["chemotherapy", "hairless", "bald", "no", "shaven", "hair"]
+
+        case .kite: return ["fly", "kite", "soar"]
+
+        case .bear: return ["animal", "bear", "face", "growl", "grizzly", "honey"]
+
+        case .oilDrum: return ["drum", "oil"]
+
+        case .flagDjibouti: return ["flag", "Djibouti"]
+
+        case .greenHeart: return ["romantic", "143", "love", "ily", "green", "heart", "emotion"]
+
+        case .childMediumSkinTone: return ["skin", "kid", "bright eyed", "medium skin tone", "younger", "young", "child:", "tone", "grandchild", "medium", "child"]
+
+        case .teacherDarkSkinTone: return ["skin", "teacher:", "professor", "tone", "teacher", "lecturer", "dark skin tone", "dark", "instructor"]
+
+        case .tenThirty: return ["30", "ten", "thirty", "clock", "time", "10:30", "ten thirty", "10"]
+
+        case .raisedBackOfHandMediumSkinTone: return ["back", "skin", "hand", "backhand", "raised", "of", "hand:", "medium", "medium skin tone", "tone"]
+
+        case .beverageBox: return ["straw", "box", "beverage", "sweet", "juice"]
+
+        case .flagSierraLeone: return ["Sierra Leone", "flag"]
+
+        case .flagPhilippines: return ["flag", "Philippines"]
+
+        case .bellPepper: return ["capsicum", "pepper", "food", "vegetable", "bell"]
+
+        case .womanArtistMediumDarkSkinTone: return ["skin", "woman", "medium", "palette", "medium dark skin tone", "artist:", "dark", "tone", "artist"]
+
+        case .ledger: return ["ledger", "notebook"]
+
+        case .womanRedHair: return ["red", "woman:", "red hair", "lady", "adult", "hair", "woman"]
+
+        case .flagNorthKorea: return ["North Korea", "flag"]
+
+        case .flagGabon: return ["Gabon", "flag"]
+
+        case .couchAndLamp: return ["lamp", "hotel", "and", "couch"]
+
+        case .mountain: return ["mountain"]
+
+        case .sneezingFace: return ["fever", "face", "flu", "sick", "gesundheit", "sneeze", "sneezing"]
+
+        case .gorilla: return ["animal", "gorilla"]
+
+        case .manSingerLightSkinTone: return ["rock", "singer:", "man", "star", "rockstar", "actor", "skin", "entertainer", "tone", "singer", "light", "light skin tone"]
+
+        case .mansShoe: return ["clothing", "man’s", "shoes", "kick", "brown", "feet", "shoe", "man", "foot", "clothes", "shopping"]
+
+        case .personLightSkinToneCurlyHair: return ["person:", "skin", "person", "light skin tone", "adult", "curly hair", "tone,", "light", "hair", "curly"]
+
+        case .manMediumLightSkinToneRedHair: return ["tone,", "medium light skin tone", "hair", "adult", "medium", "red", "man", "red hair", "bro", "man:", "light", "skin"]
+
+        case .shallowPanOfFood: return ["of", "paella", "pan", "shallow", "food", "casserole"]
+
+        case .womanTeacherMediumSkinTone: return ["woman", "skin", "lecturer", "instructor", "teacher", "medium", "professor", "teacher:", "tone", "medium skin tone"]
+
+        case .womanAndManHoldingHandsMediumSkinToneMediumDarkSkinTone: return ["hands:", "couple", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "man", "medium skin tone", "dark", "medium dark skin tone", "and", "holding", "twins", "bestie", "medium", "flirt", "woman", "hand"]
+
+        case .coconut: return ["colada", "palm", "coconut", "piña"]
+
+        case .twelveThirty: return ["12:30", "clock", "thirty", "30", "time", "12", "twelve", "twelve thirty"]
+
+        case .pregnantWomanDarkSkinTone: return ["woman:", "dark", "dark skin tone", "pregnant", "skin", "woman", "tone"]
+
+        case .hourglassNotDone: return ["yolo", "flowing", "timer", "done", "hours", "not", "waiting", "hourglass", "sand"]
+
+        case .noEntry: return ["pass", "fail", "forbidden", "do", "no", "traffic", "entry", "prohibited", "not"]
+
+        case .personBikingMediumDarkSkinTone: return ["bike", "riding", "tone", "cyclist", "skin", "person", "medium dark skin tone", "cycle", "biking:", "sport", "biking", "dark", "bicyclist", "bicycle", "medium"]
+
+        case .meltingFace: return ["dissolve", "liquid", "hot", "sarcasm", "sarcastic", "disappear", "haha", "melting", "embarrassed", "melt", "lol", "face", "heat"]
+
+        case .loveYouGestureMediumLightSkinTone: return ["hand", "you", "fingers", "gesture:", "light", "medium light skin tone", "ILY", "gesture", "love", "medium", "three", "love you", "tone", "skin"]
+
+        case .personWithVeilLightSkinTone: return ["veil:", "with", "veil", "person", "light", "tone", "light skin tone", "wedding", "skin"]
+
+        case .scorpion: return ["Scorpio", "scorpion", "zodiac", "Scorpius"]
+
+        case .manDancingDarkSkinTone: return ["elegant", "flamenco", "man", "dancing", "festive", "dark skin tone", "let’s", "tango", "dancing:", "skin", "tone", "salsa", "groove", "dancer", "dark", "dance", "flair"]
+
+        case .flagHonduras: return ["flag", "Honduras"]
+
+        case .personRowingBoatMediumDarkSkinTone: return ["rowboat", "medium", "fishing", "medium dark skin tone", "person", "dark", "tone", "paddle", "row", "raft", "boat:", "oar", "cruise", "boat", "canoe", "river", "lake", "skin", "rowing"]
+
+        case .tRex: return ["Tyrannosaurus", "dinosaur", "T Rex", "T", "Rex"]
+
+        case .whiteMediumSquare: return ["medium", "square", "geometric", "white"]
+
+        case .fullMoon: return ["space", "full", "moon"]
+
+        case .womanAndManHoldingHandsMediumLightSkinToneLightSkinTone: return ["hands:", "couple", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "man", "medium light skin tone", "and", "holding", "twins", "light", "bestie", "light skin tone", "flirt", "woman", "medium", "hand"]
+
+        case .heartWithRibbon: return ["heart", "ily", "ribbon", "valentine", "anniversary", "xoxo", "emotion", "with", "143", "kisses"]
+
+        case .babyMediumSkinTone: return ["baby:", "infant", "tone", "newborn", "goo", "baby", "medium skin tone", "pregnant", "young", "skin", "babies", "medium", "children"]
+
+        case .heartHandsDarkSkinTone: return ["tone", "dark", "love", "skin", "heart", "hands:", "dark skin tone", "<3", "you", "hands"]
+
+        case .flashlight: return ["electric", "flashlight", "light", "tool", "torch"]
+
+        case .honeyPot: return ["honey", "jar", "bear", "food", "sweet", "pot", "barrel", "honeypot"]
+
+        case .crossedFingersMediumDarkSkinTone: return ["crossed", "dark", "tone", "cross", "medium", "finger", "medium dark skin tone", "fingers:", "skin", "luck", "fingers", "hand"]
+
+        case .writingHandMediumLightSkinTone: return ["writing", "write", "light", "skin", "tone", "hand", "medium light skin tone", "medium", "hand:"]
+
+        case .manFactoryWorkerMediumLightSkinTone: return ["tone", "worker:", "medium light skin tone", "light", "man", "skin", "industrial", "assembly", "medium", "factory", "worker"]
+
+        case .pinchedFingersLightSkinTone: return ["hold", "interrogation", "what", "zip", "tone", "light skin tone", "ugh", "fingers", "skin", "fingers:", "pinched", "light", "hand", "relax", "sarcastic", "huh", "gesture", "patience"]
+
+        case .confettiBall: return ["woohoo", "celebration", "celebrate", "party", "confetti", "ball"]
+
+        case .supervillainDarkSkinTone: return ["villain", "supervillain:", "dark skin tone", "superpower", "supervillain", "dark", "tone", "bad", "evil", "criminal", "skin"]
+
+        case .faxMachine: return ["fax", "communication", "machine"]
+
+        case .flagGambia: return ["flag", "Gambia"]
+
+        case .elf: return ["folklore", "magical", "magic", "elf", "fantasy", "elves", "myth", "enchantment"]
+
+        case .personLiftingWeightsMediumLightSkinTone: return ["deadlift", "workout", "barbell", "powerlifting", "lifting", "weights:", "skin", "weightlifter", "medium light skin tone", "lifter", "bodybuilder", "light", "person", "tone", "weight", "medium", "weights"]
+
+        case .flagBulgaria: return ["flag", "Bulgaria"]
+
+        case .crown: return ["queen", "crown", "royal", "win", "clothing", "royalty", "king", "medieval", "family"]
+
+        case .handshakeMediumLightSkinToneDarkSkinTone: return ["agreement", "tone,", "shake", "medium", "dark", "meeting", "dark skin tone", "tone", "deal", "handshake", "skin", "hand", "light", "medium light skin tone", "handshake:"]
+
+        case .femaleSign: return ["sign", "woman", "female"]
+
+        case .musicalKeyboard: return ["piano", "instrument", "keyboard", "music", "musical"]
+
+        case .cloudWithLightningAndRain: return ["lightning", "thunder", "and", "rain", "with", "thunderstorm", "cloud"]
+
+        case .palmDownHandLightSkinTone: return ["skin", "hand", "pick", "shoo", "up", "drop", "palm", "hand:", "dropped", "tone", "light skin tone", "light", "down", "dismiss"]
+
+        case .womanArtist: return ["artist", "woman", "palette"]
+
+        case .womanMediumLightSkinToneRedHair: return ["red", "hair", "adult", "tone,", "skin", "lady", "red hair", "light", "woman", "medium light skin tone", "medium", "woman:"]
+
+        case .flagLaos: return ["Laos", "flag"]
+
+        case .flagColombia: return ["flag", "Colombia"]
+
+        case .postbox: return ["mail", "mailbox", "postbox"]
+
+        case .manDarkSkinToneCurlyHair: return ["hair", "skin", "adult", "man:", "bro", "curly", "dark", "man", "tone,", "curly hair", "dark skin tone"]
+
+        case .artistMediumLightSkinTone: return ["light", "medium light skin tone", "artist:", "artist", "palette", "medium", "tone", "skin"]
+
+        case .reverseButton: return ["arrow", "button", "reverse", "triangle", "left"]
+
+        case .palmUpHandMediumDarkSkinTone: return ["offer", "dark", "beckon", "know", "hand", "hold", "lift", "tell", "come", "palm", "up", "medium dark skin tone", "me", "catch", "hand:", "medium", "skin", "tone"]
+
+        case .oButtonBloodType: return ["type", "O", "(blood", "button", "blood", "type)"]
+
+        case .chair: return ["chair", "seat", "sit"]
+
+        case .personBouncingBallMediumDarkSkinTone: return ["dribble", "championship", "player", "bouncing", "throw", "dark", "ball:", "athletic", "medium", "medium dark skin tone", "person", "net", "ball", "skin", "tone", "basketball"]
+
+        case .olderPersonDarkSkinTone: return ["elderly", "grandparent", "person:", "adult", "dark", "skin", "person", "old", "dark skin tone", "older", "tone", "wise"]
+
+        case .key: return ["major", "password", "unlock", "keys", "key", "lock"]
+
+        case .snowman: return ["snowman", "cold", "man", "snow"]
+
+        case .leftwardsPushingHandLightSkinTone: return ["hold", "hand:", "tone", "leftward", "high", "leftwards", "halt", "light skin tone", "push", "pushing", "stop", "wait", "skin", "five", "refuse", "slap", "light", "hand", "pause", "block"]
+
+        case .nailPolishDarkSkinTone: return ["skin", "dark", "nail", "makeup", "bored", "care", "whatever", "polish:", "cosmetics", "dark skin tone", "polish", "done", "manicure", "tone"]
+
+        case .womanWithHeadscarf: return ["woman", "tichel", "head", "hijab", "bandana", "headscarf", "kerchief", "with", "mantilla"]
+
+        case .cucumber: return ["vegetable", "cucumber", "food", "pickle"]
+
+        case .hikingBoot: return ["boot", "hiking", "outdoors", "shoe", "brown", "camping", "backpacking"]
+
+        case .star: return ["star", "stars", "white", "astronomy", "medium"]
+
+        case .faceWithoutMouth: return ["expressionless", "without", "silent", "awkward", "face", "mute", "speechless", "silence", "blank", "mouth", "mouthless", "quiet", "secret"]
+
+        case .runningShirt: return ["athletics", "sash", "shirt", "running"]
+
+        case .triangularFlag: return ["construction", "golf", "post", "flag", "triangular"]
+
+        case .okHandDarkSkinTone: return ["dope", "three", "pinch", "hand:", "rad", "tone", "sure", "skin", "fosho", "bet", "dark", "sweet", "dark skin tone", "awesome", "OK", "gotcha", "fleek", "hand", "legit", "got", "okay"]
+
+        case .slightlySmilingFace: return ["smile", "slightly", "smiling", "happy", "face"]
+
+        case .oldWomanMediumSkinTone: return ["medium", "grandma", "skin", "elderly", "grandmother", "wise", "tone", "granny", "adult", "woman:", "medium skin tone", "lady", "woman", "old"]
+
+        case .hotSprings: return ["hot", "springs", "hotsprings", "steaming"]
+
+        case .flagGeorgia: return ["flag", "Georgia"]
+
+        case .womanSingerMediumSkinTone: return ["rock", "singer:", "medium skin tone", "star", "rockstar", "actor", "medium", "entertainer", "skin", "singer", "tone", "woman"]
+
+        case .flexedBiceps: return ["bench", "beast", "muscle", "bodybuilder", "bro", "jacked", "arm", "gains", "press", "curls", "strong", "flex", "gym", "flexed", "ripped", "biceps", "weightlift"]
+
+        case .handshakeMediumSkinToneDarkSkinTone: return ["handshake:", "hand", "meeting", "deal", "dark", "medium", "tone,", "handshake", "skin", "agreement", "shake", "medium skin tone", "dark skin tone", "tone"]
+
+        case .victoryHand: return ["hand", "victory", "v", "peace"]
+
+        case .personGettingMassageMediumDarkSkinTone: return ["salon", "medium", "headache", "medium dark skin tone", "getting", "skin", "face", "person", "tension", "massage:", "relaxing", "soothe", "relax", "spa", "therapy", "treatment", "dark", "tone", "massage"]
+
+        case .forkAndKnifeWithPlate: return ["and", "eat", "dinner", "cooking", "with", "knife", "plate", "fork"]
+
+        case .leftArrow: return ["direction", "arrow", "west", "cardinal", "left"]
+
+        case .rightwardsPushingHandDarkSkinTone: return ["hold", "rightward", "hand:", "tone", "stop", "high", "halt", "push", "wait", "skin", "pushing", "dark", "five", "dark skin tone", "refuse", "slap", "rightwards", "hand", "pause", "block"]
+
+        case .handshakeDarkSkinToneMediumLightSkinTone: return ["skin", "dark skin tone", "meeting", "shake", "medium light skin tone", "tone,", "handshake", "light", "handshake:", "agreement", "dark", "hand", "tone", "deal", "medium"]
+
+        case .barberPole: return ["cut", "pole", "shave", "barber", "haircut", "fresh"]
+
+        case .flagPoland: return ["flag", "Poland"]
+
+        case .telescope: return ["tool", "telescope", "science", "extraterrestrial", "contact"]
+
+        case .personMediumLightSkinToneBald: return ["medium", "person:", "adult", "skin", "medium light skin tone", "light", "bald", "tone,", "person"]
+
+        case .ferry: return ["passenger", "boat", "ferry"]
+
+        case .ear: return ["listen", "ears", "sound", "hearing", "body", "listening", "hear", "ear"]
+
+        case .personGettingHaircut: return ["groom", "barber", "shears", "cosmetology", "cut", "chop", "person", "style", "beauty", "haircut", "hair", "parlor", "getting"]
+
+        case .openHandsLightSkinTone: return ["hands", "hug", "swerve", "jazz", "light skin tone", "open", "skin", "hand", "light", "hands:", "tone"]
+
+        case .flagAnguilla: return ["Anguilla", "flag"]
+
+        case .faceHoldingBackTears: return ["sad", "cry", "back", "gratitude", "holding", "resist", "tears", "joy", "face", "please", "grateful", "proud", "admiration", "aww", "feelings", "embarrassed"]
+
+        case .guardLightSkinTone: return ["light skin tone", "skin", "tone", "london", "palace", "guard:", "light", "helmet", "buckingham", "guard"]
+
+        case .backhandIndexPointingUpLightSkinTone: return ["point", "light skin tone", "hand", "index", "finger", "pointing", "up", "light", "backhand", "tone", "skin", "up:"]
+
+        case .trophy: return ["trophy", "victory", "sport", "winning", "win", "prize", "champs", "champion", "slay"]
+
+        case .flagRomania: return ["flag", "Romania"]
+
+        case .flagNorfolkIsland: return ["Norfolk Island", "flag"]
+
+        case .cityscapeAtDusk: return ["city", "cityscape", "evening", "dusk", "sunset", "at", "building", "landscape", "sun"]
+
+        case .manTeacherLightSkinTone: return ["skin", "man", "light skin tone", "teacher:", "tone", "teacher", "professor", "instructor", "light", "lecturer"]
+
+        case .womanMediumLightSkinToneCurlyHair: return ["tone,", "woman:", "curly hair", "woman", "adult", "light", "curly", "hair", "medium", "lady", "medium light skin tone", "skin"]
+
+        case .mosque: return ["Muslim", "masjid", "religion", "mosque", "islam"]
+
+        case .starOfDavid: return ["star", "religion", "David", "Jewish", "judaism", "of", "Jew"]
+
+        case .flagUnitedStates: return ["United States", "flag"]
+
+        case .mapOfJapan: return ["of", "Japan", "map"]
+
+        case .manFirefighterMediumSkinTone: return ["man", "firefighter", "medium", "tone", "fire", "firefighter:", "firetruck", "skin", "medium skin tone"]
+
+        case .ogre: return ["mask", "face", "creature", "fantasy", "fairytale", "monster", "ogre", "scary", "fairy", "devil", "tale"]
+
+        case .womanFactoryWorkerMediumLightSkinTone: return ["worker:", "medium", "medium light skin tone", "light", "woman", "industrial", "assembly", "skin", "worker", "tone", "factory"]
+
+        case .mxClausMediumSkinTone: return ["medium", "Claus:", "celebration", "holiday", "claus", "Mx", "santa", "Christmas", "medium skin tone", "tale", "merry", "tone", "fairy", "xmas", "skin", "fantasy"]
+
+        case .kimono: return ["clothing", "comfortable", "kimono"]
+
+        case .shark: return ["animal", "fish", "shark"]
+
+        case .verticalTrafficLight: return ["light", "intersection", "stoplight", "drove", "traffic", "vertical", "signal", "stop"]
+
+        case .flagStPierreMiquelon: return ["St. Pierre & Miquelon", "flag"]
+
+        case .handWithIndexFingerAndThumbCrossedMediumSkinTone: return ["medium skin tone", "<3", "hand", "finger", "heart", "skin", "with", "and", "thumb", "snap", "crossed", "love", "tone", "medium", "crossed:", "index", "money", "expensive"]
+
+        case .singerLightSkinTone: return ["rock", "singer:", "star", "rockstar", "actor", "skin", "entertainer", "tone", "singer", "light", "light skin tone"]
+
+        case .womenHoldingHandsMediumLightSkinToneDarkSkinTone: return ["hands:", "couple", "dark skin tone", "sisters", "bff", "women", "hold", "friends", "bae", "skin", "tone,", "dating", "tone", "dark", "medium light skin tone", "holding", "twins", "light", "bestie", "medium", "flirt", "girls", "hand"]
+
+        case .redEnvelope: return ["luck", "see", "envelope", "hóngbāo", "lai", "gift", "money", "red", "good"]
+
+        case .pinchingHand: return ["pinching", "bit", "little", "amount", "small", "hand", "sort", "fingers"]
+
+        case .handshakeDarkSkinToneMediumSkinTone: return ["medium", "meeting", "deal", "dark", "dark skin tone", "tone,", "tone", "handshake:", "medium skin tone", "hand", "shake", "handshake", "agreement", "skin"]
+
+        case .sunset: return ["building", "sun", "sunset", "dusk"]
+
+        case .tramCar: return ["trolley", "car", "bus", "trolleybus", "tram"]
+
+        case .hundredPoints: return ["agree", "yup", "points", "clearly", "keep", "perfect", "faithful", "fleek", "a+", "100", "definitely", "point", "hundred", "score", "full", "TRUE", "truth"]
+
+        case .church: return ["bless", "church", "chapel", "Christian", "religion", "cross"]
+
+        case .electricPlug: return ["electric", "electricity", "plug"]
+
+        case .loveHotel: return ["building", "hotel", "love"]
+
+        case .videoCamera: return ["camcorder", "camera", "tbt", "video"]
+
+        case .personMountainBikingMediumDarkSkinTone: return ["mountain", "bicyclist", "person", "sport", "riding", "dark", "cyclist", "bicycle", "biking", "cycle", "biking:", "bike", "medium", "medium dark skin tone", "skin", "tone"]
+
+        case .taurus: return ["Taurus", "bull", "ox", "horoscope", "zodiac"]
+
+        case .ophiuchus: return ["bearer", "Ophiuchus", "zodiac", "snake", "serpent"]
+
+        case .openHandsMediumLightSkinTone: return ["hands", "hug", "swerve", "jazz", "medium", "open", "medium light skin tone", "hand", "light", "skin", "hands:", "tone"]
+
+        case .manMediumSkinToneCurlyHair: return ["medium skin tone", "man:", "medium", "skin", "tone,", "curly", "hair", "curly hair", "adult", "man", "bro"]
+
+        case .toothbrush: return ["clean", "bathroom", "brush", "hygiene", "dental", "toothbrush", "teeth", "toiletry"]
+
+        case .tenOclock: return ["clock", "0", "10", "o’clock", "10:00", "ten"]
+
+        case .flagWallisFutuna: return ["Wallis & Futuna", "flag"]
+
+        case .mammoth: return ["extinction", "tusk", "animal", "wooly", "large", "mammoth"]
+
+        case .lastTrackButton: return ["track", "button", "previous", "last", "arrow", "scene", "triangle"]
+
+        case .sportsMedal: return ["medal", "gold", "award", "sports", "winner"]
+
+        case .santaClausMediumSkinTone: return ["tale", "medium", "Claus:", "tone", "holiday", "claus", "fairy", "fantasy", "merry", "medium skin tone", "xmas", "father", "celebration", "santa", "Christmas", "Santa", "skin"]
+
+        case .alien: return ["creature", "tale", "fantasy", "monster", "face", "extraterrestrial", "space", "fairytale", "fairy", "alien", "ufo"]
+
+        case .latinCross: return ["religion", "cross", "christ", "Christian", "latin"]
+
+        case .nose: return ["noses", "smells", "nose", "nosey", "odor", "body", "smell"]
+
+        case .flagSeychelles: return ["flag", "Seychelles"]
+
+        case .loveYouGestureLightSkinTone: return ["tone", "skin", "light", "gesture", "gesture:", "love you", "hand", "fingers", "you", "love", "ILY", "light skin tone", "three"]
+
+        case .topArrow: return ["up", "arrow", "homie", "TOP"]
+
+        case .mrsClausMediumSkinTone: return ["fairy", "Mrs", "xmas", "mother", "medium skin tone", "santa", "Claus:", "tone", "tale", "merry", "medium", "holiday", "Christmas", "skin", "celebration", "Mrs.", "claus", "fantasy"]
+
+        case .personFacepalmingDarkSkinTone: return ["person", "bewilder", "not", "exasperation", "facepalming:", "dark", "disbelief", "shock", "dark skin tone", "oh", "smh", "facepalm", "again", "tone", "skin", "omg", "no"]
+
+        case .flagGuam: return ["flag", "Guam"]
+
+        case .personWithSkullcapMediumLightSkinTone: return ["gua", "mao", "pi", "skin", "with", "Chinese", "tone", "person", "light", "skullcap:", "guapi", "medium", "cap", "hat", "skullcap", "medium light skin tone"]
+
+        case .handWithFingersSplayed: return ["splayed", "hand", "raised", "with", "stop", "fingers", "finger"]
+
+        case .prince: return ["prince", "fantasy", "fairytale", "royal", "fairy", "tale", "crown", "king", "royalty"]
+
+        case .flagBermuda: return ["Bermuda", "flag"]
+
+        case .train: return ["arrived", "railway", "train", "choo"]
+
+        case .personGesturingOkMediumDarkSkinTone: return ["skin", "gesture", "medium dark skin tone", "OK", "medium", "gesturing", "tone", "omg", "person", "dark", "hand", "exercise", "OK:"]
+
+        case .whiteHeart: return ["white", "143", "heart"]
+
+        case .menHoldingHandsDarkSkinToneMediumSkinTone: return ["brothers", "couple", "dark skin tone", "men", "hands:", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "medium skin tone", "dark", "holding", "twins", "boys", "bestie", "medium", "flirt", "hand"]
+
+        case .flagClippertonIsland: return ["Clipperton Island", "flag"]
+
+        case .motorBoat: return ["motor", "motorboat", "boat"]
+
+        case .manTeacherDarkSkinTone: return ["teacher:", "teacher", "skin", "tone", "dark", "dark skin tone", "professor", "lecturer", "instructor", "man"]
+
+        case .womanLightSkinToneRedHair: return ["red hair", "light", "tone,", "hair", "lady", "adult", "woman", "skin", "red", "light skin tone", "woman:"]
+
+        case .earMediumSkinTone: return ["tone", "hearing", "body", "hear", "listen", "ear:", "ear", "sound", "medium skin tone", "medium", "skin", "listening", "ears"]
+
+        case .flagIraq: return ["Iraq", "flag"]
+
+        case .ninjaDarkSkinTone: return ["skin", "fighter", "person", "fight", "hidden", "stealth", "secret", "ninja", "assassin", "war", "sly", "ninja:", "dark skin tone", "dark", "tone", "skills", "soldier"]
+
+        case .manAstronautMediumSkinTone: return ["man", "space", "medium", "astronaut:", "astronaut", "rocket", "skin", "tone", "medium skin tone"]
+
+        case .manCookMediumLightSkinTone: return ["chef", "medium", "cook:", "light", "medium light skin tone", "cook", "skin", "tone", "man"]
+
+        case .personPlayingHandballLightSkinTone: return ["athletics", "pitch", "hurl", "sport", "throw", "toss", "handball:", "playing", "light", "skin", "light skin tone", "chuck", "ball", "catch", "person", "tone", "lob", "handball"]
+
+        case .laptop: return ["laptop", "pc", "personal", "office", "computer"]
+
+        case .pick: return ["mining", "pick", "tool", "hammer"]
+
+        case .personInSteamyRoomLightSkinTone: return ["room:", "luxurious", "steambath", "unwind", "day", "steam", "steamy", "skin", "pamper", "room", "in", "sauna", "light", "person", "relax", "spa", "light skin tone", "tone"]
+
+        case .violin: return ["music", "violin", "instrument"]
+
+        case .palmTree: return ["plant", "beach", "palm", "tree", "tropical"]
+
+        case .womenHoldingHandsMediumLightSkinTone: return ["hands:", "couple", "sisters", "bff", "women", "hold", "friends", "bae", "skin", "tone", "dating", "medium light skin tone", "holding", "twins", "light", "bestie", "medium", "flirt", "girls", "hand"]
+
+        case .mechanicMediumSkinTone: return ["plumber", "skin", "tone", "medium", "medium skin tone", "mechanic", "electrician", "tradesperson", "mechanic:"]
+
+        case .personDarkSkinToneBald: return ["adult", "dark", "tone,", "person", "dark skin tone", "bald", "person:", "skin"]
+
+        case .wheel: return ["tire", "turn", "circle", "wheel", "car", "vehicle"]
+
+        case .personRedHair: return ["person:", "red hair", "person", "adult", "red", "hair"]
+
+        case .nineThirty: return ["thirty", "nine", "9:30", "time", "clock", "9", "30", "nine thirty"]
+
+        case .nestWithEggs: return ["eggs", "egg", "branch", "nest", "nesting", "bird", "with"]
+
+        case .familyAdultChild: return ["adult", "family", "adult,", "child", "family:"]
+
+        case .peopleHoldingHands: return ["hands", "twins", "people", "dating", "hold", "couple", "friends", "flirt", "holding", "hand", "bestie", "bae", "bff"]
+
+        case .personFeedingBabyDarkSkinTone: return ["parent", "nursing", "newborn", "nanny", "baby:", "skin", "feeding", "dark", "tone", "person", "dark skin tone", "feed", "baby"]
+
+        case .leftFacingFistMediumDarkSkinTone: return ["medium dark skin tone", "tone", "leftwards", "left facing", "left", "fist", "fist:", "medium", "dark", "facing", "skin"]
+
+        case .elevator: return ["accessibility", "lift", "hoist", "elevator"]
+
+        case .astronautDarkSkinTone: return ["tone", "rocket", "dark skin tone", "skin", "astronaut:", "astronaut", "dark", "space"]
+
+        case .foldedHands: return ["gesture", "beg", "ask", "hands", "folded", "appreciate", "pray", "please", "high", "bow", "cmon", "blessed", "thanks", "hand", "five", "thx"]
+
+        case .backhandIndexPointingUpMediumLightSkinTone: return ["skin", "medium", "hand", "backhand", "index", "up:", "light", "point", "tone", "finger", "pointing", "up", "medium light skin tone"]
+
+        case .pinchedFingers: return ["relax", "zip", "what", "hold", "interrogation", "patience", "hand", "pinched", "sarcastic", "huh", "fingers", "gesture", "ugh"]
+
+        case .personWithVeil: return ["person", "veil", "wedding", "with"]
+
+        case .clappingHands: return ["job", "well", "clap", "awesome", "congratulations", "excited", "yay", "good", "clapping", "approval", "nice", "prayed", "hands", "great", "hand", "homie", "applause", "congrats"]
+
+        case .superheroMediumDarkSkinTone: return ["superpower", "superhero:", "medium dark skin tone", "hero", "superhero", "medium", "dark", "skin", "tone", "good"]
+
+        case .flagNorway: return ["flag", "Norway"]
+
+        case .fourLeafClover: return ["lucky", "clover", "four leaf", "4", "leaf", "plant", "four", "irish"]
+
+        case .womanMechanicMediumLightSkinTone: return ["tone", "mechanic", "plumber", "electrician", "medium light skin tone", "medium", "light", "mechanic:", "skin", "woman", "tradesperson"]
+
+        case .detectiveMediumDarkSkinTone: return ["dark", "detective:", "medium", "medium dark skin tone", "detective", "tone", "sleuth", "skin", "spy"]
+
+        case .pencil: return ["pencil"]
+
+        case .teacherMediumSkinTone: return ["skin", "medium skin tone", "professor", "lecturer", "teacher:", "tone", "medium", "instructor", "teacher"]
+
+        case .thumbsUpLightSkinTone: return ["skin", "hand", "light skin tone", "light", "up", "thumbs", "good", "thumb", "+1", "up:", "yes", "tone", "like"]
+
+        case .desert: return ["desert"]
+
+        case .whiteMediumSmallSquare: return ["white", "medium", "small", "geometric", "square", "medium small"]
+
+        case .loveYouGestureMediumSkinTone: return ["ILY", "medium", "three", "gesture", "tone", "fingers", "hand", "you", "love", "medium skin tone", "skin", "love you", "gesture:"]
+
+        case .personMediumLightSkinToneWhiteHair: return ["adult", "person:", "medium", "person", "skin", "tone,", "hair", "white hair", "medium light skin tone", "light", "white"]
+
+        case .framedPicture: return ["picture", "museum", "frame", "framed", "art", "painting"]
+
+        case .classicalBuilding: return ["building", "classical"]
+
+        case .mountainRailway: return ["railway", "car", "mountain", "trip"]
+
+        case .mageLightSkinTone: return ["witch", "mage:", "light", "skin", "sorceress", "light skin tone", "tone", "wizard", "sorcery", "sorcerer", "play", "magic", "spell", "fantasy", "mage", "summon"]
+
+        case .crescentMoon: return ["crescent", "moon", "space", "ramadan"]
+
+        case .rightwardsPushingHandMediumLightSkinTone: return ["hold", "rightward", "hand:", "tone", "stop", "high", "halt", "push", "wait", "medium", "pushing", "skin", "five", "refuse", "slap", "medium light skin tone", "rightwards", "light", "hand", "pause", "block"]
+
+        case .flagFrenchSouthernTerritories: return ["flag", "French Southern Territories"]
+
+        case .carpentrySaw: return ["trim", "lumber", "carpenter", "tool", "saw", "carpentry", "cut"]
+
+        case .bus: return ["vehicle", "bus", "school"]
+
+        case .signOfTheHornsDarkSkinTone: return ["of", "dark skin tone", "the", "skin", "tone", "dark", "horns", "rock on", "horns:", "finger", "sign", "hand"]
+
+        case .bookmarkTabs: return ["marker", "mark", "tabs", "bookmark"]
+
+        case .oldWomanMediumLightSkinTone: return ["elderly", "grandmother", "woman:", "wise", "skin", "granny", "tone", "adult", "medium light skin tone", "grandma", "light", "woman", "old", "medium", "lady"]
+
+        case .flatbread: return ["gordita", "lavash", "food", "pita", "bread", "naan", "flatbread", "arepa"]
+
+        case .nationalPark: return ["park", "national"]
+
+        case .flagSintMaarten: return ["flag", "Sint Maarten"]
+
+        case .roundPushpin: return ["pin", "pushpin", "map", "location", "round"]
+
+        case .catWithTearsOfJoy: return ["of", "joy", "laugh", "tear", "with", "laughing", "cat", "face", "animal", "tears", "lol"]
+
+        case .tropicalFish: return ["tropical", "fishes", "fish", "animal"]
+
+        case .manRedHair: return ["man", "red", "hair", "red hair", "man:", "adult", "bro"]
+
+        case .barChart: return ["bar", "data", "graph", "chart"]
+
+        case .leftArrowCurvingRight: return ["curving", "right", "left", "arrow"]
+
+        case .personGesturingOkMediumLightSkinTone: return ["gesture", "OK:", "hand", "exercise", "gesturing", "medium", "light", "medium light skin tone", "tone", "OK", "omg", "skin", "person"]
+
+        case .forkAndKnife: return ["cutlery", "delicious", "lunch", "and", "cooking", "breakfast", "food", "fork", "knife", "yum", "dinner", "hungry", "feed", "yummy", "restaurant", "breaky", "eat"]
+
+        case .lightRail: return ["monorail", "light", "rail", "railway", "arrived"]
+
+        case .autoRickshaw: return ["tuk", "auto", "rickshaw"]
+
+        case .seal: return ["lion", "seal", "ocean", "sea", "animal"]
+
+        case .faceWithThermometer: return ["face", "thermometer", "sick", "with", "ill"]
+
+        case .clinkingBeerMugs: return ["bottoms", "bar", "beer", "clink", "drinks", "clinking", "cheers", "booze", "mugs", "alcohol", "drinking"]
+
+        case .backhandIndexPointingUpMediumDarkSkinTone: return ["point", "hand", "up:", "tone", "backhand", "skin", "index", "medium", "up", "dark", "finger", "pointing", "medium dark skin tone"]
+
+        case .snowboarderMediumDarkSkinTone: return ["snowboard", "snowboarder", "sport", "medium dark skin tone", "snowboarder:", "medium", "snow", "dark", "skin", "tone", "ski"]
+
+        case .manFeedingBabyMediumSkinTone: return ["dad", "feeding", "nanny", "nursing", "skin", "newborn", "feed", "medium", "man", "medium skin tone", "baby", "baby:", "tone", "father"]
+
+        case .manFarmer: return ["rancher", "gardener", "farmer", "man"]
+
+        case .personPlayingWaterPoloDarkSkinTone: return ["swimming", "water", "dark skin tone", "tone", "polo", "dark", "sport", "polo:", "skin", "person", "playing", "waterpolo"]
+
+        case .beaver: return ["beaver", "animal", "dam", "teeth"]
+
+        case .grinningSquintingFace: return ["lol", "eyes", "open", "smiling", "squinting", "smile", "hahaha", "face", "closed", "laugh", "mouth", "grinning", "haha", "rofl", "happy"]
+
+        case .tram: return ["tram", "trolleybus"]
+
+        case .flagReunion: return ["Réunion", "flag"]
+
+        case .womanAndManHoldingHandsLightSkinToneMediumDarkSkinTone: return ["hands:", "couple", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "man", "dark", "medium dark skin tone", "and", "holding", "twins", "light", "bestie", "light skin tone", "flirt", "woman", "medium", "hand"]
+
+        case .noseMediumSkinTone: return ["medium", "skin", "noses", "tone", "medium skin tone", "nose", "body", "odor", "nosey", "smell", "smells", "nose:"]
+
+        case .womanArtistDarkSkinTone: return ["dark skin tone", "tone", "woman", "artist:", "dark", "skin", "artist", "palette"]
+
+        case .pregnantWomanLightSkinTone: return ["skin", "pregnant", "light skin tone", "light", "woman", "tone", "woman:"]
+
+        case .factoryWorkerMediumDarkSkinTone: return ["skin", "assembly", "factory", "industrial", "worker", "medium", "dark", "tone", "worker:", "medium dark skin tone"]
+
+        case .leftwardsHand: return ["left", "hold", "leftward", "reach", "handshake", "leftwards", "hand", "shake"]
+
+        case .flagKenya: return ["Kenya", "flag"]
+
+        case .coat: return ["up", "coat", "bundle", "cold", "brr", "jacket"]
+
+        case .personWithSkullcap: return ["cap", "hat", "gua", "person", "Chinese", "pi", "mao", "with", "skullcap", "guapi"]
+
+        case .deafPersonMediumDarkSkinTone: return ["person:", "ear", "deaf", "accessibility", "person", "medium", "gesture", "dark", "skin", "tone", "medium dark skin tone", "hear"]
+
+        case .angryFace: return ["face", "feels", "upset", "anger", "mad", "rage", "unhappy", "angry", "blame", "frustrated", "maddening", "shade"]
+
+        case .nauseatedFace: return ["face", "nauseated", "vomit", "sick", "nasty", "gross"]
+
+        case .child: return ["bright eyed", "young", "grandchild", "child", "kid", "younger"]
+
+        case .manArtistMediumLightSkinTone: return ["medium", "medium light skin tone", "light", "artist:", "palette", "artist", "tone", "skin", "man"]
+
+        case .flagMauritania: return ["Mauritania", "flag"]
+
+        case .chartDecreasing: return ["chart", "down", "trend", "graph", "negative", "decreasing", "data", "downward"]
+
+        case .safetyPin: return ["rock", "diaper", "safety", "punk", "pin"]
+
+        case .openHandsDarkSkinTone: return ["hands", "hug", "dark skin tone", "jazz", "swerve", "open", "skin", "hand", "dark", "hands:", "tone"]
+
+        case .olderPersonMediumLightSkinTone: return ["medium", "grandparent", "medium light skin tone", "adult", "elderly", "skin", "person:", "light", "old", "wise", "person", "tone", "older"]
+
+        case .pill: return ["drugs", "pill", "medicated", "pills", "medicine", "doctor", "sick", "vitamin"]
+
+        case .personPlayingHandball: return ["person", "chuck", "lob", "toss", "hurl", "handball", "playing", "pitch", "catch", "ball", "athletics", "sport", "throw"]
+
+        case .personRunning: return ["quick", "person", "run", "marathon", "move", "running", "rush", "speed", "hurry", "racing", "fast", "race"]
+
+        case .flagCuba: return ["flag", "Cuba"]
+
+        case .peopleHoldingHandsMediumDarkSkinToneLightSkinTone: return ["dating", "hold", "people", "medium", "twins", "light skin tone", "couple", "holding", "tone", "medium dark skin tone", "dark", "friends", "bff", "hands:", "flirt", "skin", "bestie", "hand", "light", "tone,", "bae"]
+
+        case .handshakeLightSkinToneMediumSkinTone: return ["shake", "handshake:", "handshake", "deal", "hand", "light", "medium", "medium skin tone", "tone,", "tone", "meeting", "light skin tone", "agreement", "skin"]
+
+        case .beans: return ["beans", "legume", "food", "small", "kidney"]
+
+        case .sun: return ["space", "rays", "sun", "sunny", "weather", "bright"]
+
+        case .pregnantManMediumDarkSkinTone: return ["medium", "full", "overeat", "medium dark skin tone", "man:", "dark", "man", "pregnant", "skin", "tone", "bloated", "belly"]
+
+        case .personWithCrownMediumDarkSkinTone: return ["royal", "with", "crown:", "monarch", "medium dark skin tone", "royalty", "medium", "crown", "tone", "dark", "person", "noble", "skin", "regal"]
+
+        case .beetle: return ["bug", "animal", "beetle", "insect"]
+
+        case .personInManualWheelchairLightSkinTone: return ["manual", "accessibility", "person", "wheelchair:", "light", "wheelchair", "tone", "skin", "in", "light skin tone"]
+
+        case .personBouncingBallMediumLightSkinTone: return ["bouncing", "basketball", "throw", "player", "person", "medium light skin tone", "net", "championship", "light", "skin", "dribble", "ball", "athletic", "ball:", "tone", "medium"]
+
+        case .yenBanknote: return ["bill", "banknote", "money", "yen", "currency", "bank", "note"]
+
+        case .diamondSuit: return ["diamond", "game", "suit", "card"]
+
+        case .inboxTray: return ["letter", "zero", "mail", "box", "receive", "email", "tray", "inbox"]
+
+        case .skull: return ["monster", "i’m", "face", "skull", "fairytale", "yolo", "tale", "body", "fairy", "death", "dead", "lmao"]
+
+        case .personStanding: return ["standing", "person", "stand"]
+
+        case .supervillainMediumSkinTone: return ["skin", "villain", "supervillain:", "supervillain", "superpower", "medium", "tone", "bad", "evil", "criminal", "medium skin tone"]
+
+        case .womanTechnologistMediumDarkSkinTone: return ["woman", "technologist", "developer", "tone", "technologist:", "medium", "skin", "medium dark skin tone", "software", "dark", "inventor", "computer", "coder"]
+
+        case .cookMediumLightSkinTone: return ["cook:", "cook", "medium light skin tone", "tone", "medium", "chef", "light", "skin"]
+
+        case .hotel: return ["building", "hotel"]
+
+        case .foldedHandsMediumDarkSkinTone: return ["thx", "please", "gesture", "five", "blessed", "beg", "appreciate", "bow", "tone", "medium", "skin", "dark", "ask", "medium dark skin tone", "hands:", "hand", "thanks", "high", "folded", "cmon", "pray"]
+
+        case .trumpet: return ["instrument", "music", "trumpet"]
+
+        case .personWearingTurban: return ["person", "turban", "wearing"]
+
+        case .leftwardsHandMediumLightSkinTone: return ["leftward", "medium light skin tone", "skin", "left", "hand:", "tone", "leftwards", "medium", "reach", "handshake", "hold", "shake", "light", "hand"]
+
+        case .shavedIce: return ["shaved", "ice", "sweet", "restaurant", "dessert"]
+
+        case .earMediumDarkSkinTone: return ["medium", "ears", "skin", "dark", "ear", "ear:", "medium dark skin tone", "tone", "listening", "hearing", "body", "sound", "listen", "hear"]
+
+        case .billedCap: return ["bent", "baseball", "dad", "billed", "cap", "hat"]
+
+        case .dress: return ["clothes", "dressed", "dress", "shopping", "clothing", "fancy"]
+
+        case .upLeftArrow: return ["arrow", "northwest", "intercardinal", "up", "up left", "direction", "left"]
+
+        case .personInMotorizedWheelchairLightSkinTone: return ["accessibility", "tone", "in", "wheelchair:", "wheelchair", "light skin tone", "light", "skin", "motorized", "person"]
+
+        case .manDarkSkinToneBald: return ["tone,", "man:", "dark skin tone", "bald", "bro", "skin", "adult", "man", "dark"]
+
+        case .personInBed: return ["good", "tired", "night", "hotel", "bed", "bedtime", "person", "goodnight", "sleep", "zzz", "nap", "in"]
+
+        case .milkyWay: return ["milky", "space", "way"]
+
+        case .hotBeverage: return ["chai", "hot", "morning", "beverage", "caffeine", "coffee", "drink", "tea", "cafe", "steaming"]
+
+        case .babyAngelMediumLightSkinTone: return ["fantasy", "skin", "fairytale", "medium light skin tone", "medium", "baby", "tale", "light", "face", "fairy", "angel:", "tone", "church", "angel"]
+
+        case .personJuggling: return ["skill", "balance", "handle", "juggling", "act", "balancing", "multitask", "manage", "person", "juggle"]
+
+        case .syringe: return ["doctor", "shot", "medicine", "needle", "sick", "tool", "flu", "syringe", "vaccination"]
+
+        case .personInSuitLevitating: return ["business", "suit", "person", "levitating", "in"]
+
+        case .womanMediumLightSkinTone: return ["woman:", "light", "medium", "skin", "tone", "adult", "woman", "lady", "medium light skin tone"]
+
+        case .cookie: return ["dessert", "sweet", "chocolate", "chip", "cookie"]
+
+        case .pregnantPersonMediumLightSkinTone: return ["light", "belly", "person:", "skin", "medium light skin tone", "person", "medium", "bloated", "tone", "stuffed", "overeat", "pregnant", "full"]
+
+        case .hospital: return ["hospital", "building", "doctor", "medicine"]
+
+        case .yawningFace: return ["night", "nap", "bored", "goodnight", "tired", "yawning", "sleep", "sleepy", "bedtime", "zzz", "yawn", "whatever", "face"]
+
+        case .personMediumDarkSkinToneBald: return ["adult", "dark", "person:", "person", "skin", "bald", "medium", "medium dark skin tone", "tone,"]
+
+        case .manCookDarkSkinTone: return ["dark", "cook:", "skin", "tone", "chef", "dark skin tone", "man", "cook"]
+
+        case .clinkingGlasses: return ["drink", "glasses", "clink", "glass", "celebrate", "clinking"]
+
+        case .pregnantPersonLightSkinTone: return ["light", "full", "overeat", "person", "skin", "pregnant", "tone", "stuffed", "bloated", "belly", "light skin tone", "person:"]
+
+        case .personInTuxedoMediumDarkSkinTone: return ["skin", "medium dark skin tone", "medium", "tone", "formal", "tuxedo", "person", "tuxedo:", "wedding", "in", "dark"]
+
+        case .manSingerMediumLightSkinTone: return ["man", "rockstar", "star", "entertainer", "skin", "actor", "light", "medium", "singer:", "medium light skin tone", "rock", "singer", "tone"]
+
+        case .foldedHandsMediumLightSkinTone: return ["thx", "please", "gesture", "five", "blessed", "beg", "appreciate", "bow", "tone", "medium", "skin", "light", "ask", "hands:", "hand", "medium light skin tone", "thanks", "high", "folded", "cmon", "pray"]
+
+        case .wrappedGift: return ["box", "surprise", "christmas", "bow", "gift", "celebration", "wrapped", "birthday", "present"]
+
+        case .womanStudentMediumLightSkinTone: return ["skin", "student:", "medium light skin tone", "tone", "light", "woman", "graduate", "medium", "student"]
+
+        case .personMountainBikingMediumSkinTone: return ["riding", "bicycle", "biking", "bike", "cyclist", "sport", "bicyclist", "tone", "medium skin tone", "mountain", "skin", "cycle", "biking:", "person", "medium"]
+
+        case .kissMark: return ["kiss", "emotion", "kissing", "dating", "romance", "lips", "mark", "sexy", "heart"]
+
+        case .flagEgypt: return ["Egypt", "flag"]
+
+        case .faceWithMonocle: return ["fancy", "classy", "face", "stuffy", "rich", "wealthy", "with", "monocle"]
+
+        case .gemini: return ["Gemini", "zodiac", "twins", "horoscope"]
+
+        case .placeOfWorship: return ["of", "pray", "worship", "religion", "place"]
+
+        case .womanLightSkinToneWhiteHair: return ["skin", "white hair", "adult", "light", "light skin tone", "tone,", "woman", "woman:", "lady", "white", "hair"]
+
+        case .cityscape: return ["cityscape", "city"]
+
+        case .wavyDash: return ["wavy", "punctuation", "dash"]
+
+        case .adhesiveBandage: return ["adhesive", "bandage"]
+
+        case .fairyMediumLightSkinTone: return ["fairy", "tale", "fairy:", "tone", "myth", "pixie", "fantasy", "light", "person", "medium light skin tone", "wings", "skin", "medium", "fairytale"]
+
+        case .sloth: return ["sloth", "slow", "lazy"]
+
+        case .windFace: return ["face", "blow", "cloud", "wind"]
+
+        case .pawPrints: return ["paws", "feet", "print", "paw", "prints"]
+
+        case .flagPakistan: return ["flag", "Pakistan"]
+
+        case .middleFingerMediumSkinTone: return ["middle", "medium", "finger", "skin", "medium skin tone", "hand", "tone", "finger:"]
+
+        case .explodingHead: return ["head", "exploding", "mind", "blown", "mindblown", "shocked", "explode", "no", "way"]
+
+        case .gloves: return ["gloves", "hand"]
+
+        case .highSpeedTrain: return ["shinkansen", "speed", "high", "railway", "train", "high speed"]
+
+        case .shovel: return ["snow", "spade", "hole", "shovel", "scoop", "garden", "dig", "plant", "bury"]
+
+        case .shortcake: return ["cake", "pastry", "slice", "dessert", "sweet", "shortcake"]
+
+        case .oncomingTaxi: return ["cabbie", "cab", "cars", "yellow", "oncoming", "taxi", "drove", "hail"]
+
+        case .hamsa: return ["Fatima", "hand", "protection", "fortune", "amulet", "guide", "Mary", "palm", "protect", "Miriam", "hamsa"]
+
+        case .peach: return ["fruit", "peach"]
+
+        case .familyManBoyBoy: return ["boy", "man", "child", "boy,", "family", "family:", "man,"]
+
+        case .flagEritrea: return ["flag", "Eritrea"]
+
+        case .personGesturingNoMediumDarkSkinTone: return ["not", "hand", "medium", "gesturing", "dark", "skin", "NO", "NO:", "person", "forbidden", "prohibit", "gesture", "medium dark skin tone", "tone"]
+
+        case .flagBrunei: return ["Brunei", "flag"]
+
+        case .flagDiegoGarcia: return ["Diego Garcia", "flag"]
+
+        case .shuffleTracksButton: return ["arrow", "tracks", "button", "shuffle", "crossed"]
+
+        case .japaneseSymbolForBeginner: return ["tool", "green", "Japanese", "for", "leaf", "beginner", "symbol", "yellow", "chevron"]
+
+        case .pileOfPoo: return ["comic", "stinks", "smelly", "turd", "monster", "doo", "pile", "fml", "stink", "face", "poop", "poo", "bs", "stinky", "smh", "dung", "of"]
+
+        case .flagBelgium: return ["Belgium", "flag"]
+
+        case .signOfTheHornsMediumLightSkinTone: return ["of", "finger", "rock on", "light", "the", "tone", "hand", "medium", "horns", "horns:", "medium light skin tone", "skin", "sign"]
+
+        case .fishingPole: return ["entertainment", "pole", "fish", "fishing", "sport"]
+
+        case .crossedSwords: return ["weapon", "crossed", "swords"]
+
+        case .largeOrangeDiamond: return ["orange", "large", "diamond", "geometric"]
+
+        case .personJugglingLightSkinTone: return ["skill", "balance", "juggle", "juggling", "balancing", "person", "light", "manage", "multitask", "handle", "juggling:", "act", "tone", "light skin tone", "skin"]
+
+        case .controlKnobs: return ["music", "knobs", "control"]
+
+        case .trackball: return ["computer", "trackball"]
+
+        case .pregnantMan: return ["overeat", "pregnant", "belly", "full", "man", "bloated"]
+
+        case .peopleHoldingHandsLightSkinToneMediumSkinTone: return ["dating", "holding", "tone,", "friends", "light skin tone", "people", "twins", "flirt", "light", "medium", "couple", "bae", "bff", "tone", "hold", "hands:", "medium skin tone", "skin", "hand", "bestie"]
+
+        case .waterCloset: return ["lavatory", "restroom", "closet", "WC", "toilet", "bathroom", "water"]
+
+        case .recyclingSymbol: return ["recycle", "recycling", "symbol"]
+
+        case .flagTaiwan: return ["Taiwan", "flag"]
+
+        case .personWalkingDarkSkinTone: return ["gait", "tone", "stroll", "stride", "dark", "dark skin tone", "walk", "man", "pace", "pedestrian", "hike", "person", "walking", "walking:", "skin", "amble"]
+
+        case .peopleHoldingHandsMediumSkinToneLightSkinTone: return ["hand", "tone,", "friends", "hold", "tone", "dating", "light skin tone", "twins", "holding", "flirt", "light", "people", "couple", "bae", "medium", "skin", "bestie", "bff", "medium skin tone", "hands:"]
+
+        case .personInLotusPositionLightSkinTone: return ["tone", "yoga", "light", "zen", "cross", "yogi", "serenity", "peace", "skin", "legged", "person", "legs", "in", "relax", "position:", "light skin tone", "meditation", "lotus", "position"]
+
+        case .policeOfficerDarkSkinTone: return ["over", "officer", "arrest", "officer:", "cop", "apprehend", "dark", "undercover", "police", "dark skin tone", "law", "skin", "tone", "pulled", "citation"]
+
+        case .heartDecoration: return ["hearth", "heart", "143", "white", "decoration", "emotion", "purple"]
+
+        case .babyMediumLightSkinTone: return ["tone", "light", "children", "skin", "newborn", "baby", "infant", "babies", "baby:", "medium light skin tone", "young", "pregnant", "medium", "goo"]
+
+        case .personWithCrownDarkSkinTone: return ["monarch", "regal", "person", "dark skin tone", "crown:", "royalty", "crown", "royal", "noble", "skin", "dark", "with", "tone"]
+
+        case .rightArrowCurvingLeft: return ["left", "curving", "arrow", "right"]
+
+        case .sailboat: return ["resort", "sailboat", "sailing", "yacht", "boat", "sea"]
+
+        case .womanArtistMediumLightSkinTone: return ["artist", "palette", "medium light skin tone", "woman", "skin", "tone", "medium", "light", "artist:"]
+
+        case .rolledUpNewspaper: return ["newspaper", "rolled", "rolled up", "paper", "news", "up"]
+
+        case .flagAzerbaijan: return ["flag", "Azerbaijan"]
+
+        case .cook: return ["cook", "chef"]
+
+        case .superheroLightSkinTone: return ["light", "hero", "superpower", "superhero", "skin", "tone", "superhero:", "light skin tone", "good"]
+
+        case .pear: return ["fruit", "pear"]
+
+        case .womenHoldingHandsMediumSkinTone: return ["hands:", "couple", "sisters", "bff", "women", "hold", "friends", "bae", "skin", "tone", "dating", "medium skin tone", "holding", "twins", "bestie", "medium", "flirt", "girls", "hand"]
+
+        case .womanScientistMediumDarkSkinTone: return ["engineer", "chemist", "biologist", "woman", "medium dark skin tone", "dark", "physicist", "skin", "tone", "mathematician", "scientist", "scientist:", "medium"]
+
+        case .inputLatinLetters: return ["abc", "latin", "alphabet", "letters", "input"]
+
+        case .backhandIndexPointingLeftLightSkinTone: return ["left:", "point", "left", "hand", "light skin tone", "index", "finger", "pointing", "light", "tone", "backhand", "skin"]
+
+        case .orangeBook: return ["orange", "library", "reading", "education", "book", "fantasy"]
+
+        case .manMediumLightSkinToneWhiteHair: return ["tone,", "bro", "skin", "man:", "hair", "man", "medium light skin tone", "medium", "light", "white", "white hair", "adult"]
+
+        case .womanTechnologistMediumSkinTone: return ["coder", "medium skin tone", "technologist", "technologist:", "computer", "inventor", "medium", "skin", "software", "developer", "woman", "tone"]
+
+        case .dna: return ["gene", "life", "genetics", "dna", "biologist", "evolution"]
+
+        case .coupleWithHeartMediumSkinTone: return ["together", "couple", "skin", "heart", "bae", "love", "heart:", "dating", "babe", "medium skin tone", "you", "tone", "romance", "relationship", "with", "person", "medium", "anniversary", "kiss"]
+
+        case .saxophone: return ["music", "sax", "saxophone", "instrument"]
+
+        case .crossMarkButton: return ["mark", "multiplication", "multiply", "cross", "square", "×", "x", "button"]
+
+        case .officeWorkerDarkSkinTone: return ["worker", "dark skin tone", "manager", "office", "business", "worker:", "skin", "tone", "white collar", "architect", "dark"]
+
+        case .personClimbingMediumLightSkinTone: return ["rock", "up", "tone", "person", "medium light skin tone", "light", "scale", "climbing:", "climb", "medium", "mountain", "climber", "climbing", "skin"]
+
+        case .fieldHockey: return ["hockey", "field", "game", "stick", "ball"]
+
+        case .bell: return ["break", "bell", "sound", "church"]
+
+        case .singer: return ["rock", "actor", "entertainer", "rockstar", "singer", "star"]
+
+        case .farmerMediumSkinTone: return ["medium skin tone", "tone", "medium", "rancher", "gardener", "skin", "farmer", "farmer:"]
+
+        case .blackHeart: return ["black", "wicked", "heart", "evil"]
+
+        case .manFactoryWorkerLightSkinTone: return ["factory", "light skin tone", "assembly", "man", "worker:", "light", "skin", "tone", "industrial", "worker"]
+
+        case .personFacepalmingMediumSkinTone: return ["person", "bewilder", "not", "exasperation", "facepalming:", "disbelief", "shock", "smh", "oh", "medium", "facepalm", "again", "tone", "skin", "medium skin tone", "omg", "no"]
+
+        case .foldingHandFan: return ["folding", "fan", "clack", "flutter", "hand", "cooling", "flirt", "hot", "cool", "clap", "shy", "dance"]
+
+        case .personKneelingMediumDarkSkinTone: return ["kneeling:", "medium", "skin", "kneel", "dark", "tone", "medium dark skin tone", "kneeling", "person", "knees"]
+
+        case .bed: return ["bed", "sleep", "hotel"]
+
+        case .flagGuineaBissau: return ["flag", "Guinea Bissau"]
+
+        case .grinningFaceWithSweat: return ["mouth", "with", "smile", "cold", "sweat", "stressed", "smiling", "open", "excited", "grinning", "nervous", "face", "dejected", "stress"]
+
+        case .flagJordan: return ["Jordan", "flag"]
+
+        case .loveYouGestureDarkSkinTone: return ["love you", "fingers", "gesture:", "tone", "gesture", "skin", "hand", "you", "dark", "love", "dark skin tone", "ILY", "three"]
+
+        case .smilingFaceWithSmilingEyes: return ["face", "with", "satisfied", "blush", "smiling", "eye", "eyes", "glad", "smile"]
+
+        case .womenHoldingHandsMediumSkinToneMediumDarkSkinTone: return ["hands:", "couple", "sisters", "bff", "women", "hold", "friends", "bae", "skin", "tone,", "dating", "medium skin tone", "dark", "tone", "medium dark skin tone", "holding", "twins", "bestie", "medium", "flirt", "girls", "hand"]
+
+        case .fastForwardButton: return ["double", "button", "fast forward", "forward", "arrow", "fast"]
+
+        case .personTippingHand: return ["sarcasm", "fetch", "flick", "flip", "gossip", "person", "sarcastic", "sassy", "tipping", "hand", "whatever", "seriously"]
+
+        case .handshakeLightSkinTone: return ["handshake:", "tone", "meeting", "deal", "light skin tone", "skin", "hand", "handshake", "agreement", "shake", "light"]
+
+        case .scientistMediumSkinTone: return ["physicist", "medium skin tone", "engineer", "mathematician", "biologist", "medium", "scientist", "skin", "chemist", "scientist:", "tone"]
+
+        case .mrsClausLightSkinTone: return ["fairy", "Mrs", "xmas", "santa", "mother", "Claus:", "tone", "tale", "light skin tone", "light", "merry", "holiday", "Christmas", "skin", "celebration", "Mrs.", "claus", "fantasy"]
+
+        case .diamondWithADot: return ["geometric", "comic", "dot", "a", "with", "diamond"]
+
+        case .womanMediumDarkSkinToneCurlyHair: return ["curly", "medium", "medium dark skin tone", "woman:", "hair", "adult", "skin", "curly hair", "tone,", "lady", "woman", "dark"]
+
+        case .womanAndManHoldingHandsMediumLightSkinToneMediumSkinTone: return ["hands:", "couple", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "man", "medium skin tone", "medium light skin tone", "and", "holding", "twins", "light", "bestie", "medium", "flirt", "woman", "hand"]
+
+        case .writingHandLightSkinTone: return ["hand", "skin", "write", "hand:", "light skin tone", "light", "writing", "tone"]
+
+        case .rightwardsPushingHand: return ["five", "rightward", "pushing", "pause", "wait", "hold", "halt", "push", "high", "stop", "rightwards", "slap", "refuse", "block", "hand"]
+
+        case .flagThailand: return ["flag", "Thailand"]
+
+        case .nailPolishMediumLightSkinTone: return ["whatever", "polish:", "done", "medium light skin tone", "cosmetics", "skin", "light", "tone", "polish", "makeup", "medium", "care", "bored", "manicure", "nail"]
+
+        case .personGettingHaircutMediumLightSkinTone: return ["haircut:", "groom", "medium", "getting", "cosmetology", "skin", "medium light skin tone", "cut", "style", "person", "haircut", "shears", "parlor", "beauty", "light", "chop", "tone", "barber", "hair"]
+
+        case .hammer: return ["improvement", "home", "repairs", "tool", "hammer"]
+
+        case .personRunningMediumLightSkinTone: return ["person", "racing", "rush", "hurry", "move", "medium light skin tone", "running:", "run", "fast", "race", "medium", "tone", "speed", "marathon", "quick", "skin", "light"]
+
+        case .handshakeMediumLightSkinToneLightSkinTone: return ["hand", "deal", "light skin tone", "skin", "agreement", "tone,", "meeting", "handshake", "medium", "handshake:", "tone", "shake", "medium light skin tone", "light"]
+
+        case .mrsClausDarkSkinTone: return ["fairy", "Mrs", "dark skin tone", "xmas", "santa", "mother", "Claus:", "tone", "tale", "merry", "dark", "holiday", "Christmas", "skin", "celebration", "Mrs.", "claus", "fantasy"]
+
+        case ._guard: return ["helmet", "guard", "buckingham", "palace", "london"]
+
+        case .menHoldingHandsLightSkinToneDarkSkinTone: return ["brothers", "couple", "dark skin tone", "men", "hands:", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "dark", "holding", "twins", "boys", "light", "bestie", "light skin tone", "flirt", "hand"]
+
+        case .pageFacingUp: return ["document", "up", "page", "paper", "facing"]
+
+        case .earWithHearingAidMediumSkinTone: return ["skin", "hard", "accessibility", "with", "hearing", "medium", "aid", "aid:", "ear", "medium skin tone", "tone"]
+
+        case .teacher: return ["teacher", "professor", "instructor", "lecturer"]
+
+        case .pigNose: return ["smell", "farm", "animal", "face", "pig", "snout", "nose"]
+
+        case .faceBlowingAKiss: return ["kiss", "bae", "smooch", "heart", "face", "you", "love", "xoxo", "ily", "miss", "blowing", "adorbs", "lover", "flirt", "a", "romantic", "muah"]
+
+        case .womanOfficeWorkerLightSkinTone: return ["woman", "light", "worker", "office", "manager", "business", "worker:", "skin", "tone", "white collar", "architect", "light skin tone"]
+
+        case .personWithWhiteCane: return ["white", "accessibility", "with", "person", "probing", "cane", "blind"]
+
+        case .pinchedFingersMediumSkinTone: return ["hold", "interrogation", "what", "zip", "tone", "ugh", "fingers", "medium", "skin", "fingers:", "pinched", "hand", "relax", "medium skin tone", "sarcastic", "huh", "gesture", "patience"]
+
+        case .boyMediumSkinTone: return ["medium skin tone", "boy", "bright eyed", "kid", "boy:", "skin", "child", "tone", "grandson", "son", "young", "younger", "medium"]
+
+        case .womanMediumLightSkinToneBald: return ["woman:", "adult", "lady", "medium", "tone,", "medium light skin tone", "skin", "woman", "light", "bald"]
+
+        case .ship: return ["passenger", "boat", "ship", "travel"]
+
+        case .womanMechanic: return ["electrician", "mechanic", "tradesperson", "woman", "plumber"]
+
+        case .merpersonLightSkinTone: return ["light", "trident", "folklore", "merperson", "sea", "ocean", "skin", "creature", "merperson:", "fairytale", "light skin tone", "tone", "siren"]
+
+        case .flagChina: return ["flag", "China"]
+
+        case .pancakes: return ["hotcake", "pancakes", "pancake", "breakfast", "crêpe", "food"]
+
+        case .crayon: return ["crayon"]
+
+        case .shootingStar: return ["star", "falling", "night", "shooting", "space"]
+
+        case .personFacepalmingLightSkinTone: return ["person", "bewilder", "not", "exasperation", "light skin tone", "facepalming:", "light", "disbelief", "shock", "smh", "oh", "facepalm", "again", "tone", "skin", "omg", "no"]
+
+        case .salutingFace: return ["ma’am", "luck", "face", "sir", "OK", "troops", "yes", "respect", "good", "saluting", "salute"]
+
+        case .womanAndManHoldingHandsMediumLightSkinTone: return ["hands:", "couple", "bff", "skin", "hold", "friends", "bae", "tone", "dating", "man", "medium light skin tone", "and", "holding", "twins", "light", "bestie", "medium", "flirt", "woman", "hand"]
+
+        case .handWithIndexFingerAndThumbCrossedLightSkinTone: return ["heart", "light", "index", "skin", "with", "<3", "expensive", "finger", "snap", "thumb", "light skin tone", "hand", "crossed", "and", "crossed:", "tone", "money", "love"]
+
+        case .amphora: return ["amphora", "cooking", "drink", "tool", "weapon", "Aquarius", "jug", "zodiac"]
+
+        case .menHoldingHandsMediumLightSkinToneLightSkinTone: return ["brothers", "couple", "hands:", "men", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "medium light skin tone", "holding", "twins", "boys", "light", "bestie", "light skin tone", "flirt", "medium", "hand"]
+
+        case .mechanicMediumDarkSkinTone: return ["medium", "tradesperson", "medium dark skin tone", "mechanic", "skin", "dark", "electrician", "plumber", "tone", "mechanic:"]
+
+        case .mirror: return ["reflector", "speculum", "mirror", "makeup", "reflection"]
+
+        case .studioMicrophone: return ["studio", "mic", "music", "microphone"]
+
+        case .clownFace: return ["clown", "face"]
+
+        case .flagMontenegro: return ["Montenegro", "flag"]
+
+        case .alarmClock: return ["late", "hrs", "hours", "time", "clock", "alarm", "waiting"]
+
+        case .personKneelingDarkSkinTone: return ["kneel", "dark skin tone", "skin", "tone", "kneeling:", "dark", "kneeling", "person", "knees"]
+
+        case .revolvingHearts: return ["emotion", "anniversary", "revolving", "adorbs", "heart", "143", "hearts"]
+
+        case .earOfCorn: return ["maze", "corn", "farm", "of", "maize", "crops", "ear"]
+
+        case .manScientistMediumLightSkinTone: return ["medium light skin tone", "physicist", "scientist:", "chemist", "man", "scientist", "engineer", "medium", "mathematician", "skin", "biologist", "light", "tone"]
+
+        case .personClimbing: return ["climb", "mountain", "climber", "climbing", "up", "scale", "rock", "person"]
+
+        case .personFeedingBabyMediumSkinTone: return ["skin", "parent", "newborn", "feeding", "person", "medium skin tone", "nursing", "feed", "nanny", "baby:", "baby", "tone", "medium"]
+
+        case .closedBook: return ["education", "book", "closed"]
+
+        case .blackNib: return ["pen", "nib", "black"]
+
+        case .snowboarder: return ["snowboard", "ski", "snowboarder", "sport", "snow"]
+
+        case .flagSamoa: return ["Samoa", "flag"]
+
+        case .lightBulb: return ["electric", "comic", "idea", "light", "bulb"]
+
+        case .studentMediumLightSkinTone: return ["light", "medium", "student", "medium light skin tone", "student:", "graduate", "skin", "tone"]
+
+        case .womanTeacher: return ["teacher", "woman", "professor", "instructor", "lecturer"]
+
+        case .mouseTrap: return ["cheese", "trap", "snare", "mousetrap", "bait", "lure", "mouse"]
+
+        case .womanFeedingBabyMediumDarkSkinTone: return ["nanny", "dark", "mom", "feeding", "skin", "nursing", "newborn", "medium", "feed", "baby", "baby:", "mother", "medium dark skin tone", "woman", "tone"]
+
+        case .yellowHeart: return ["ily", "love", "cardiac", "heart", "emotion", "143", "yellow"]
+
+        case .japaneseDolls: return ["dolls", "festival", "doll", "Japanese", "celebration"]
+
+        case .pregnantManMediumSkinTone: return ["medium", "full", "overeat", "man:", "man", "medium skin tone", "pregnant", "skin", "tone", "bloated", "belly"]
+
+        case .whiteHair: return ["white", "old", "gray", "hair"]
+
+        case .puzzlePiece: return ["puzzle", "interlocking", "clue", "piece", "jigsaw"]
+
+        case .cloudWithRain: return ["cloud", "weather", "rain", "with"]
+
+        case .studentLightSkinTone: return ["student", "graduate", "student:", "skin", "tone", "light", "light skin tone"]
+
+        case .womanFactoryWorker: return ["assembly", "woman", "factory", "industrial", "worker"]
+
+        case .familyWomanBoy: return ["woman,", "boy", "family", "woman", "family:", "child"]
+
+        case .fairyDarkSkinTone: return ["skin", "fantasy", "dark skin tone", "fairy:", "fairytale", "myth", "dark", "tone", "tale", "person", "pixie", "wings", "fairy"]
+
+        case .womanDarkSkinToneBald: return ["lady", "woman", "dark skin tone", "dark", "bald", "skin", "woman:", "adult", "tone,"]
+
+        case .heartHandsLightSkinTone: return ["heart", "light skin tone", "hands", "you", "hands:", "light", "<3", "skin", "tone", "love"]
+
+        case .lyingFace: return ["face", "lying", "lie", "pinocchio", "liar"]
+
+        case .clockwiseVerticalArrows: return ["reload", "vertical", "arrows", "refresh", "clockwise", "arrow"]
+
+        case .ninja: return ["ninja", "soldier", "person", "war", "stealth", "fight", "fighter", "secret", "skills", "assassin", "hidden", "sly"]
+
+        case .sunBehindSmallCloud: return ["cloud", "weather", "sun", "small", "behind"]
+
+        case .clamp: return ["clamp", "tool", "compress", "vice"]
+
+        case .magnifyingGlassTiltedLeft: return ["glass", "tilted", "science", "magnifying", "lab", "left pointing", "left", "search", "tool"]
+
+        case .personBowingLightSkinTone: return ["tone", "light skin tone", "regret", "bowing:", "ask", "gesture", "light", "meditation", "forgive", "favor", "meditate", "bowing", "apology", "bow", "pity", "skin", "beg", "sorry", "person"]
+
+        case .flagIran: return ["Iran", "flag"]
+
+        case .flagEuropeanUnion: return ["European Union", "flag"]
+
+        case .flagSouthKorea: return ["flag", "South Korea"]
+
+        case .anguishedFace: return ["unhappy", "wow", "scared", "what", "surprise", "scary", "face", "forgot", "anguished", "stressed"]
+
+        case .railwayTrack: return ["track", "railway", "train"]
+
+        case .longDrum: return ["beat", "drum", "rhythm", "conga", "long", "instrument"]
+
+        case .wheelOfDharma: return ["of", "Buddhist", "dharma", "religion", "wheel"]
+
+        case .whiteFlower: return ["flower", "white"]
+
+        case .scientist: return ["engineer", "biologist", "physicist", "chemist", "scientist", "mathematician"]
+
+        case .artistMediumSkinTone: return ["palette", "medium", "artist:", "skin", "artist", "medium skin tone", "tone"]
+
+        case .sushi: return ["food", "sushi"]
+
+        case .pickupTruck: return ["flatbed", "car", "pickup", "truck", "pick up", "automobile", "transportation"]
+
+        case .curlingStone: return ["stone", "game", "curling", "rock"]
+
+        case .mobilePhoneOff: return ["cell", "off", "mobile", "phone", "telephone"]
+
+        case .personSurfingDarkSkinTone: return ["ocean", "skin", "dark skin tone", "sport", "surf", "surfing:", "dark", "beach", "tone", "person", "waves", "swell", "surfing", "surfer"]
+
+        case .womanInManualWheelchairMediumSkinTone: return ["wheelchair:", "skin", "tone", "in", "manual", "wheelchair", "accessibility", "woman", "medium skin tone", "medium"]
+
+        case .personTakingBathMediumLightSkinTone: return ["light", "medium", "person", "medium light skin tone", "taking", "bath:", "tone", "bath", "skin", "bathtub", "tub"]
+
+        case .faceExhaling: return ["whisper", "whistle", "gasp", "groan", "sigh", "blowing", "exhaling", "blow", "exhale", "relief", "exhausted", "smoke", "face", "smiley"]
+
+        case .orthodoxCross: return ["Christian", "cross", "religion", "orthodox"]
+
+        case .twoThirty: return ["two", "thirty", "2", "2:30", "time", "two thirty", "30", "clock"]
+
+        case .personLiftingWeightsMediumDarkSkinTone: return ["medium", "weightlifter", "medium dark skin tone", "weight", "person", "skin", "lifter", "bodybuilder", "barbell", "tone", "workout", "deadlift", "weights:", "dark", "powerlifting", "weights", "lifting"]
+
+        case .pauseButton: return ["vertical", "bar", "pause", "double", "button"]
+
+        case .breastFeedingDarkSkinTone: return ["skin", "tone", "mother", "nursing", "woman", "feeding", "breast", "baby", "mom", "dark skin tone", "breast feeding", "dark", "feeding:"]
+
+        case .koala: return ["bear", "under", "australia", "animal", "koala", "marsupial", "down", "face"]
+
+        case .funeralUrn: return ["ashes", "death", "funeral", "urn"]
+
+        case .personWearingTurbanLightSkinTone: return ["wearing", "light skin tone", "person", "turban", "skin", "turban:", "tone", "light"]
+
+        case .babyAngelDarkSkinTone: return ["fairy", "dark", "fairytale", "dark skin tone", "skin", "angel", "church", "face", "baby", "angel:", "tale", "fantasy", "tone"]
+
+        case .redCircle: return ["circle", "red", "geometric"]
+
+        case .basket: return ["basket", "picnic", "laundry", "farming"]
+
+        case .japaneseFreeOfChargeButton: return ["free", "charge", "Japanese", "button", "charge”", "“free", "ideograph", "of"]
+
+        case .oden: return ["seafood", "restaurant", "stick", "food", "kebab", "skewer", "oden"]
+
+        case .familyAdultAdultChild: return ["adult", "family", "family:", "child", "adult,"]
+
+        case .manTechnologistMediumSkinTone: return ["coder", "medium skin tone", "man", "technologist", "technologist:", "computer", "inventor", "medium", "skin", "developer", "software", "tone"]
+
+        case .leo: return ["horoscope", "lion", "zodiac", "Leo"]
+
+        case .flagCroatia: return ["Croatia", "flag"]
+
+        case .personStandingLightSkinTone: return ["light", "stand", "tone", "standing:", "standing", "person", "light skin tone", "skin"]
+
+        case .personMediumLightSkinToneRedHair: return ["light", "skin", "red hair", "person:", "adult", "tone,", "red", "medium", "medium light skin tone", "person", "hair"]
+
+        case .indexPointingUpMediumDarkSkinTone: return ["point", "pointing", "medium", "dark", "hand", "tone", "medium dark skin tone", "up", "skin", "finger", "this", "up:", "index"]
+
+        case .coupleWithHeartMediumLightSkinTone: return ["together", "couple", "skin", "heart", "bae", "love", "heart:", "dating", "babe", "you", "tone", "medium light skin tone", "romance", "relationship", "with", "person", "light", "medium", "anniversary", "kiss"]
+
+        case .redHeart: return ["emotion", "love", "heart", "red"]
+
+        case .faceWithRaisedEyebrow: return ["emoji", "mild", "surprise", "distrust", "what", "disbelief", "skeptic", "eyebrow", "face", "with", "disapproval", "skeptical", "skepticism", "hmm", "raised"]
+
+        case .tridentEmblem: return ["trident", "ship", "poseidon", "tool", "emblem", "anchor"]
+
+        case .upRightArrow: return ["arrow", "up right", "northeast", "direction", "intercardinal", "up", "right"]
+
+        case .flagTuvalu: return ["flag", "Tuvalu"]
+
+        case .fondue: return ["food", "cheese", "ski", "fondue", "pot", "chocolate", "melted"]
+
+        case .redTrianglePointedDown: return ["red", "geometric", "pointed", "triangle", "down"]
+
+        case .bustsInSilhouette: return ["bff", "in", "friends", "people", "bust", "everyone", "friend", "busts", "silhouette"]
+
+        case .faceWithSteamFromNose: return ["furious", "from", "won", "steam", "fury", "triumph", "with", "feels", "face", "fume", "fuming", "unhappy", "nose", "angry", "anger", "mad"]
+
+        case .fireExtinguisher: return ["quench", "extinguish", "fire", "extinguisher"]
+
+        case .babyLightSkinTone: return ["tone", "skin", "light", "young", "goo", "pregnant", "light skin tone", "babies", "baby:", "infant", "baby", "children", "newborn"]
+
+        case .tiredFace: return ["sad", "cost", "nap", "tired", "feels", "sneeze", "face"]
+
+        case .thumbsUpMediumSkinTone: return ["up", "tone", "thumbs", "yes", "hand", "thumb", "like", "good", "skin", "up:", "medium skin tone", "+1", "medium"]
+
+        case .oldManDarkSkinTone: return ["bald", "grandfather", "man:", "gramps", "adult", "wise", "old", "tone", "grandpa", "skin", "dark", "dark skin tone", "man", "elderly"]
+
+        case .manAstronautLightSkinTone: return ["tone", "space", "light", "man", "skin", "astronaut", "astronaut:", "light skin tone", "rocket"]
+
+        case .blowfish: return ["animal", "blowfish", "fish"]
+
+        case .womanInMotorizedWheelchairMediumDarkSkinTone: return ["wheelchair", "medium dark skin tone", "woman", "in", "dark", "skin", "medium", "accessibility", "wheelchair:", "tone", "motorized"]
+
+        case .noBicycles: return ["forbidden", "not", "no", "bike", "bicycles", "bicycle", "prohibited"]
+
+        case .vulcanSalute: return ["hand", "Vulcan", "salute", "hands", "vulcan", "finger"]
+
+        case .flagRwanda: return ["flag", "Rwanda"]
+
+        case .personJugglingMediumLightSkinTone: return ["act", "person", "handle", "multitask", "skin", "manage", "juggle", "skill", "juggling:", "balancing", "medium", "tone", "juggling", "balance", "light", "medium light skin tone"]
+
+        case .coin: return ["metal", "gold", "coin", "dollar", "euro", "money", "silver", "treasure", "rich"]
+
+        case .smilingFaceWithSunglasses: return ["bright", "slay", "smile", "cool", "chilling", "beach", "win", "relaxed", "awesome", "shades", "style", "swag", "face", "with", "smiling", "bro", "rad", "sunglasses"]
+
+        case .grinningFaceWithBigEyes: return ["happy", "with", "eyes", "grinning", "big", "awesome", "face", "yay", "open", "mouth", "smiling", "teeth", "smile", "grin"]
+
+        case .computerDisk: return ["minidisk", "disk", "optical", "computer"]
+
+        case .bikini: return ["beach", "swim", "bathing", "pool", "clothing", "bikini", "suit"]
+
+        case .personMediumLightSkinToneBeard: return ["medium light skin tone", "light", "skin", "person:", "beard", "medium", "whiskers", "tone,", "person", "bearded"]
+
+        case .candle: return ["light", "candle"]
+
+        case .pretzel: return ["pretzel", "convoluted", "twisted"]
+
+        case .snowboarderMediumLightSkinTone: return ["medium light skin tone", "tone", "light", "snowboard", "snowboarder", "snowboarder:", "medium", "snow", "sport", "skin", "ski"]
+
+        case .smilingFaceWithTear: return ["face", "relieved", "touched", "smiling", "joy", "smile", "tear", "proud", "grateful", "happy", "with", "smiley", "glad", "pain"]
+
+        case .hammerAndWrench: return ["spanner", "wrench", "hammer", "tool", "and"]
+
+        case .keyboard: return ["keyboard", "computer"]
+
+        case .microbe: return ["bacteria", "microbe", "virus", "amoeba", "science"]
+
+        case .astronautMediumDarkSkinTone: return ["astronaut", "space", "medium dark skin tone", "medium", "rocket", "skin", "astronaut:", "dark", "tone"]
+
+        case .vibrationMode: return ["communication", "mobile", "phone", "vibration", "cell", "mode", "telephone"]
+
+        case .shorts: return ["shorts", "pants", "suit", "underwear", "swimsuit", "bathing"]
+
+        case .tractor: return ["tractor", "vehicle"]
+
+        case .kissMediumLightSkinTone: return ["together", "couple", "mwah", "skin", "heart", "bae", "love", "tone", "dating", "babe", "medium light skin tone", "romance", "person", "date", "light", "kiss:", "medium", "anniversary", "xoxo", "kiss"]
+
+        case .manOfficeWorkerLightSkinTone: return ["light", "worker", "man", "office", "manager", "business", "worker:", "skin", "tone", "white collar", "architect", "light skin tone"]
+
+        case .personJugglingMediumDarkSkinTone: return ["skin", "act", "balance", "dark", "juggling", "medium", "handle", "juggle", "juggling:", "tone", "manage", "balancing", "skill", "multitask", "person", "medium dark skin tone"]
+
+        case ._1stPlaceMedal: return ["1st", "place", "first", "gold", "medal"]
+
+        case .mechanicMediumLightSkinTone: return ["medium light skin tone", "tradesperson", "electrician", "light", "skin", "plumber", "tone", "mechanic", "mechanic:", "medium"]
+
+        case .familyAdultChildChild: return ["child,", "family:", "adult,", "adult", "child", "family"]
+
+        case .flagBelarus: return ["flag", "Belarus"]
+
+        case .speakNoEvilMonkey: return ["no", "monkey", "face", "oops", "stealth", "prohibited", "quiet", "forbidden", "speak", "evil", "gesture", "not", "secret", "animal"]
+
+        case .mrsClausMediumLightSkinTone: return ["fairy", "Mrs", "xmas", "medium light skin tone", "mother", "santa", "Claus:", "tone", "tale", "light", "merry", "medium", "holiday", "Christmas", "skin", "celebration", "Mrs.", "claus", "fantasy"]
+
+        case .purse: return ["purse", "dress", "shopping", "clothes", "fancy", "handbag", "clothing", "coin"]
+
+        case .womanMediumSkinTone: return ["medium skin tone", "medium", "lady", "tone", "adult", "woman", "woman:", "skin"]
+
+        case .link: return ["link", "links"]
+
+        case .briefcase: return ["office", "briefcase"]
+
+        case .boyMediumLightSkinTone: return ["child", "skin", "kid", "tone", "boy", "medium light skin tone", "younger", "bright eyed", "son", "grandson", "young", "light", "boy:", "medium"]
+
+        case .thumbsDownDarkSkinTone: return ["hand", "thumbs", "tone", "down", "1", "no", "down:", "dark skin tone", "skin", "thumb", "dark", "bad", "dislike", "good", "nope"]
+
+        case .manWithWhiteCane: return ["accessibility", "man", "white", "probing", "blind", "with", "cane"]
+
+        case .personTippingHandDarkSkinTone: return ["hand:", "tone", "dark", "dark skin tone", "person", "gossip", "tipping", "sarcastic", "sassy", "flick", "skin", "whatever", "seriously", "hand", "flip", "fetch", "sarcasm"]
+
+        case .mageDarkSkinTone: return ["summon", "tone", "dark skin tone", "witch", "sorceress", "wizard", "dark", "skin", "magic", "mage:", "sorcery", "spell", "play", "mage", "sorcerer", "fantasy"]
+
+        case .identificationCard: return ["license", "security", "card", "document", "ID", "identification", "credentials"]
+
+        case .womanFeedingBabyMediumSkinTone: return ["baby", "mother", "nursing", "feed", "tone", "newborn", "nanny", "baby:", "medium skin tone", "skin", "woman", "mom", "medium", "feeding"]
+
+        case .palmDownHandMediumLightSkinTone: return ["hand:", "hand", "medium", "palm", "shoo", "down", "pick", "up", "dismiss", "dropped", "tone", "medium light skin tone", "skin", "drop", "light"]
+
+        case .manWithWhiteCaneMediumLightSkinTone: return ["with", "medium", "man", "blind", "accessibility", "skin", "medium light skin tone", "probing", "tone", "light", "cane:", "white", "cane"]
+
+        case .mountFuji: return ["mountain", "mount", "nature", "fuji"]
+
+        case .personFrowningMediumDarkSkinTone: return ["dark", "annoyed", "upset", "frown", "frowning:", "disappointed", "disgruntled", "medium", "irritated", "tone", "person", "disturbed", "frustrated", "frowning", "gesture", "medium dark skin tone", "skin"]
+
+        case .detectiveDarkSkinTone: return ["spy", "sleuth", "detective:", "detective", "dark", "skin", "dark skin tone", "tone"]
+
+        case .ambulance: return ["ambulance", "vehicle", "emergency"]
+
+        case .mechanicalLeg: return ["accessibility", "leg", "mechanical", "prosthetic"]
+
+        case .flagMontserrat: return ["Montserrat", "flag"]
+
+        case .flute: return ["flautist", "instrument", "marching", "music", "woodwind", "recorder", "fife", "piccolo", "orchestra", "pipe", "band", "flute"]
+
+        case .leftFacingFistDarkSkinTone: return ["fist", "left", "dark", "skin", "leftwards", "tone", "facing", "fist:", "dark skin tone", "left facing"]
+
+        case .handWithFingersSplayedMediumSkinTone: return ["splayed", "skin", "fingers", "with", "splayed:", "tone", "finger", "medium skin tone", "medium", "raised", "hand", "stop"]
+
+        case .moai: return ["stoneface", "statue", "travel", "moai", "moyai", "face"]
+
+        case .dodo: return ["large", "extinction", "ornithology", "animal", "dodo", "bird"]
+
+        case .lockedWithPen: return ["with", "nib", "lock", "pen", "privacy", "ink", "locked"]
+
+        case .linkedPaperclips: return ["paperclip", "linked", "link", "paperclips"]
+
+        case .dragon: return ["fairytale", "tale", "knights", "fairy", "animal", "dragon"]
+
+        case .leafyGreen: return ["leafy", "green", "burgers", "kale", "choy", "lettuce", "salad", "cabbage", "bok"]
+
+        case .fastUpButton: return ["up", "button", "fast", "double", "arrow"]
+
+        case .faceWithSpiralEyes: return ["hypnotized", "trouble", "smiley", "face", "confused", "with", "woah", "omg", "dizzy", "eyes", "woozy", "spiral", "whoa"]
+
+        case .familyAdultAdultChildChild: return ["child,", "adult", "family", "family:", "child", "adult,"]
+
+        case .womanMediumLightSkinToneWhiteHair: return ["woman", "lady", "woman:", "adult", "tone,", "medium", "white", "light", "skin", "hair", "medium light skin tone", "white hair"]
+
+        case .personLightSkinToneWhiteHair: return ["white hair", "light skin tone", "tone,", "light", "hair", "skin", "adult", "white", "person:", "person"]
+
+        case .flagTristanDaCunha: return ["Tristan da Cunha", "flag"]
+
+        case .merpersonMediumDarkSkinTone: return ["dark", "tone", "merperson:", "sea", "trident", "folklore", "siren", "creature", "merperson", "fairytale", "medium", "skin", "medium dark skin tone", "ocean"]
+
+        case .warning: return ["warning", "caution"]
+
+        case .manInManualWheelchair: return ["wheelchair", "in", "man", "accessibility", "manual"]
+
+        case .legMediumDarkSkinTone: return ["medium", "bent", "skin", "dark", "leg", "tone", "foot", "knee", "limb", "leg:", "kick", "medium dark skin tone"]
+
+        case .personWearingTurbanDarkSkinTone: return ["wearing", "dark skin tone", "person", "skin", "turban:", "turban", "tone", "dark"]
+
+        case .personClimbingDarkSkinTone: return ["climber", "dark", "up", "mountain", "climb", "skin", "dark skin tone", "person", "tone", "scale", "climbing:", "rock", "climbing"]
+
+        case .coupleWithHeartMediumDarkSkinTone: return ["together", "couple", "skin", "heart", "bae", "love", "heart:", "dating", "babe", "you", "dark", "medium dark skin tone", "romance", "relationship", "tone", "with", "person", "medium", "anniversary", "kiss"]
+
+        case .lemon: return ["lemon", "sour", "fruit", "citrus"]
+
+        case .moonCake: return ["yuèbǐng", "moon", "festival", "autumn", "cake"]
+
+        case .otter: return ["playful", "fishing", "otter", "animal"]
+
+        case .personTakingBath: return ["tub", "bath", "taking", "person", "bathtub"]
+
+        case .snowboarderLightSkinTone: return ["snowboard", "snowboarder", "snow", "ski", "tone", "light", "sport", "light skin tone", "snowboarder:", "skin"]
+
+        case .personWalkingMediumDarkSkinTone: return ["pace", "medium dark skin tone", "stride", "amble", "person", "walking", "walk", "skin", "pedestrian", "medium", "hike", "walking:", "tone", "stroll", "man", "gait", "dark"]
+
+        case .personWithWhiteCaneLightSkinTone: return ["tone", "probing", "light", "light skin tone", "cane", "blind", "skin", "with", "cane:", "white", "accessibility", "person"]
+
+        case .firefighterMediumDarkSkinTone: return ["firetruck", "firefighter", "medium", "dark", "fire", "firefighter:", "medium dark skin tone", "skin", "tone"]
+
+        case .manWithWhiteCaneMediumDarkSkinTone: return ["with", "medium", "probing", "cane", "man", "tone", "skin", "dark", "blind", "accessibility", "white", "medium dark skin tone", "cane:"]
+
+        case .flagTurkiye: return ["flag", "Türkiye"]
+
+        case .legLightSkinTone: return ["skin", "bent", "light", "leg", "tone", "foot", "knee", "limb", "light skin tone", "kick", "leg:"]
+
+        case .blackBird: return ["corvid", "rook", "caw", "beak", "animal", "ornithology", "black", "bird", "raven", "crow"]
+
+        case .noseDarkSkinTone: return ["dark", "skin", "noses", "tone", "dark skin tone", "nose", "body", "odor", "nosey", "smell", "smells", "nose:"]
+
+        case .partyingFace: return ["hooray", "happy", "hat", "bday", "face", "birthday", "horn", "excited", "party", "celebration", "partying", "celebrate"]
+
+        case .womenHoldingHandsMediumSkinToneDarkSkinTone: return ["hands:", "couple", "dark skin tone", "sisters", "bff", "women", "hold", "friends", "bae", "skin", "tone,", "dating", "medium skin tone", "dark", "tone", "holding", "twins", "bestie", "medium", "flirt", "girls", "hand"]
+
+        case .moonViewingCeremony: return ["ceremony", "celebration", "moon", "viewing"]
+
+        case .poodle: return ["fluffy", "animal", "poodle", "dog"]
+
+        case .womanAstronautMediumSkinTone: return ["astronaut", "skin", "woman", "medium", "rocket", "medium skin tone", "space", "astronaut:", "tone"]
+
+        case .downcastFaceWithSweat: return ["cold", "downcast", "close", "scared", "feels", "sweat", "sad", "with", "nervous", "yikes", "headache", "face"]
+
+        case .flagPalau: return ["Palau", "flag"]
+
+        case .heartSuit: return ["hearts", "suit", "game", "card", "emotion", "heart"]
+
+        case .spiralCalendar: return ["calendar", "pad", "spiral"]
+
+        case .womanFeedingBabyMediumLightSkinTone: return ["nursing", "skin", "feeding", "baby:", "medium", "tone", "feed", "woman", "mom", "medium light skin tone", "light", "nanny", "baby", "newborn", "mother"]
+
+        case .personLiftingWeightsDarkSkinTone: return ["bodybuilder", "barbell", "skin", "weightlifter", "dark skin tone", "person", "powerlifting", "weights", "lifting", "dark", "deadlift", "tone", "weight", "lifter", "workout", "weights:"]
+
+        case .flagAlbania: return ["flag", "Albania"]
+
+        case .glassOfMilk: return ["milk", "of", "glass", "drink"]
+
+        case .constructionWorkerMediumSkinTone: return ["work", "worker:", "skin", "hat", "medium skin tone", "worker", "person", "man", "construction", "build", "repair", "rebuild", "hardhat", "tone", "fix", "remodel", "medium"]
+
+        case .divide: return ["heavy", "divide", "sign", "math", "division", "÷"]
+
+        case .flagFalklandIslands: return ["flag", "Falkland Islands"]
+
+        case .blueberries: return ["bilberry", "blueberry", "fruit", "blueberries", "berry", "blue", "food", "berries"]
+
+        case .manInManualWheelchairDarkSkinTone: return ["wheelchair", "dark skin tone", "man", "in", "tone", "dark", "accessibility", "manual", "wheelchair:", "skin"]
+
+        case .openMailboxWithRaisedFlag: return ["mailbox", "raised", "with", "flag", "mail", "open", "postbox"]
+
+        case .label: return ["tag", "label"]
+
+        case .curlyLoop: return ["curl", "curly", "loop"]
+
+        case .euroBanknote: return ["bank", "bill", "money", "euro", "note", "banknote", "currency", "rich", "100"]
+
+        case .baguetteBread: return ["food", "bread", "french", "baguette"]
+
+        case .dimButton: return ["dim", "brightness", "button", "low"]
+
+        case .raisingHandsLightSkinTone: return ["raised", "hooray", "hands:", "hand", "gesture", "raising", "praise", "hands", "light", "celebration", "tone", "skin", "light skin tone"]
+
+        case .flagKyrgyzstan: return ["Kyrgyzstan", "flag"]
+
+        case .manFarmerDarkSkinTone: return ["tone", "farmer", "farmer:", "dark skin tone", "rancher", "man", "gardener", "skin", "dark"]
+
+        case .japanesePostOffice: return ["Japanese", "office", "building", "post"]
+
+        case .flagNewZealand: return ["New Zealand", "flag"]
+
+        case .okHandLightSkinTone: return ["dope", "three", "pinch", "hand:", "rad", "tone", "light skin tone", "sure", "skin", "fosho", "bet", "sweet", "awesome", "OK", "gotcha", "fleek", "hand", "light", "legit", "got", "okay"]
+
+        case .flagSuriname: return ["Suriname", "flag"]
+
+        case .tornado: return ["whirlwind", "weather", "cloud", "tornado"]
+
+        case .personPoutingMediumDarkSkinTone: return ["pouting:", "frown", "scowl", "sulk", "upset", "downtrodden", "grimace", "dark", "medium", "tone", "whine", "pouting", "medium dark skin tone", "disappointed", "person", "skin"]
+
+        case .leftSpeechBubble: return ["speech", "dialog", "bubble", "left", "balloon"]
+
+        case .signOfTheHornsLightSkinTone: return ["the", "tone", "horns", "rock on", "of", "finger", "horns:", "light", "light skin tone", "skin", "hand", "sign"]
+
+        case .flagChad: return ["flag", "Chad"]
+
+        case .manFeedingBaby: return ["father", "nursing", "nanny", "man", "feeding", "newborn", "baby", "feed", "dad"]
+
+        case .openHandsMediumDarkSkinTone: return ["hands", "hug", "medium dark skin tone", "jazz", "swerve", "medium", "open", "skin", "hand", "dark", "hands:", "tone"]
+
+        case .manFeedingBabyMediumDarkSkinTone: return ["medium dark skin tone", "dad", "nanny", "newborn", "nursing", "baby", "man", "dark", "baby:", "skin", "feed", "medium", "feeding", "tone", "father"]
+
+        case .soccerBall: return ["football", "soccer", "sport", "futbol", "ball"]
+
+        case .womenHoldingHandsMediumDarkSkinToneMediumLightSkinTone: return ["hands:", "couple", "sisters", "bff", "women", "hold", "friends", "bae", "skin", "tone,", "dating", "tone", "dark", "medium dark skin tone", "medium light skin tone", "holding", "twins", "light", "bestie", "medium", "flirt", "girls", "hand"]
+
+        case .flagNorthMacedonia: return ["North Macedonia", "flag"]
+
+        case .flagKiribati: return ["flag", "Kiribati"]
+
+        case .personShruggingLightSkinTone: return ["person", "shrug", "guess", "idk", "whatever", "doubt", "indifference", "maybe", "shrugging", "dunno", "light skin tone", "knows", "shrugging:", "light", "ignorance", "tone", "who", "skin"]
+
+        case .feather: return ["bird", "feather", "light", "plumage", "flight"]
+
+        case .personPlayingHandballMediumLightSkinTone: return ["pitch", "handball:", "medium", "light", "person", "lob", "handball", "playing", "hurl", "toss", "throw", "sport", "catch", "medium light skin tone", "tone", "athletics", "skin", "ball", "chuck"]
+
+        case .blackSquareButton: return ["button", "geometric", "square", "black"]
+
+        case .wrench: return ["tool", "home", "wrench", "improvement", "spanner"]
+
+        case .deliveryTruck: return ["truck", "car", "drive", "delivery", "vehicle"]
+
+        case .manMechanicDarkSkinTone: return ["dark", "dark skin tone", "electrician", "plumber", "mechanic:", "man", "skin", "tradesperson", "mechanic", "tone"]
+
+        case .horseRacingMediumLightSkinTone: return ["tone", "jockey", "racehorse", "racing", "riding", "horse", "racing:", "medium light skin tone", "sport", "light", "skin", "medium"]
+
+        case .womanInManualWheelchairMediumDarkSkinTone: return ["in", "skin", "medium dark skin tone", "tone", "dark", "wheelchair:", "wheelchair", "manual", "accessibility", "woman", "medium"]
+
+        case .flagAlgeria: return ["Algeria", "flag"]
+
+        case .lotionBottle: return ["bottle", "moisturizer", "shampoo", "sunscreen", "lotion"]
+
+        case .personInTuxedoLightSkinTone: return ["light skin tone", "wedding", "tone", "tuxedo:", "light", "person", "skin", "formal", "tuxedo", "in"]
+
+        case .personGesturingNoLightSkinTone: return ["NO", "forbidden", "skin", "tone", "light skin tone", "gesturing", "light", "gesture", "NO:", "person", "hand", "not", "prohibit"]
+
+        case .handshakeMediumSkinToneMediumDarkSkinTone: return ["deal", "tone", "dark", "medium dark skin tone", "meeting", "skin", "handshake", "agreement", "tone,", "medium skin tone", "handshake:", "medium", "shake", "hand"]
+
+        case .personBouncingBallLightSkinTone: return ["dribble", "light", "ball:", "light skin tone", "throw", "net", "championship", "ball", "bouncing", "skin", "athletic", "basketball", "person", "tone", "player"]
+
+        case .carpStreamer: return ["carp", "celebration", "streamer"]
+
+        case .palmsUpTogetherLightSkinTone: return ["wish", "cupped", "together", "palms", "pray", "together:", "light skin tone", "light", "dua", "up", "skin", "hands", "prayer", "tone"]
+
+        case .razor: return ["shave", "razor", "sharp"]
+
+        case .hook: return ["catch", "ensnare", "hook", "point", "selling", "crook", "curve"]
+
+        case .filmProjector: return ["movie", "projector", "video", "film", "cinema"]
+
+        case .roastedSweetPotato: return ["sweet", "potato", "roasted", "food"]
+
+        case .parachute: return ["parasail", "parachute", "skydive", "hang glide"]
+
+        case .wastebasket: return ["can", "waste", "wastebasket", "trash", "garbage"]
+
+        case .manMechanicMediumLightSkinTone: return ["mechanic:", "medium light skin tone", "man", "tradesperson", "skin", "medium", "electrician", "mechanic", "tone", "plumber", "light"]
+
+        case .smallOrangeDiamond: return ["orange", "small", "diamond", "geometric"]
+
+        case .manArtistMediumDarkSkinTone: return ["man", "artist:", "skin", "artist", "medium dark skin tone", "medium", "palette", "dark", "tone"]
+
+        case .flagCanaryIslands: return ["Canary Islands", "flag"]
+
+        case .smilingFaceWithHalo: return ["angel", "fairy", "face", "happy", "spirit", "with", "smiling", "angels", "halo", "angelic", "smile", "blessed", "innocent", "tale", "fairytale", "peaceful", "fantasy"]
+
+        case .badminton: return ["birdie", "game", "badminton", "racquet", "shuttlecock"]
+
+        case .astonishedFace: return ["way", "cost", "totally", "face", "shocked", "astonished", "no", "omg"]
+
+        case .ferrisWheel: return ["theme", "wheel", "park", "ferris", "amusement"]
+
+        case .mango: return ["tropical", "mango", "fruit", "food"]
+
+        case .faceWithOpenEyesAndHandOverMouth: return ["shock", "face", "amazement", "mouth", "disbelief", "hand", "omg", "gasp", "embarrass", "over", "quiet", "and", "eyes", "scared", "awe", "open", "surprise", "with"]
+
+        case .turkey: return ["bird", "thanksgiving", "gobble", "turkey"]
+
+        case .sunrise: return ["sun", "sunrise", "morning", "nature"]
+
+        case .cricketGame: return ["bat", "game", "ball", "cricket"]
+
+        case .doubleExclamationMark: return ["mark", "!", "exclamation", "double", "bangbang", "punctuation", "!!"]
+
+        case .waterWave: return ["water", "nature", "wave", "ocean", "surf", "surfer", "surfing"]
+
+        case .personGettingMassageLightSkinTone: return ["salon", "light skin tone", "headache", "getting", "skin", "face", "person", "tension", "massage:", "relaxing", "soothe", "relax", "spa", "therapy", "treatment", "light", "tone", "massage"]
+
+        case .flagVanuatu: return ["flag", "Vanuatu"]
+
+        case .rabbit: return ["pet", "rabbit", "animal", "bunny"]
+
+        case .womanMediumDarkSkinTone: return ["woman:", "tone", "skin", "medium", "woman", "adult", "lady", "dark", "medium dark skin tone"]
+
+        case .whiteLargeSquare: return ["white", "square", "geometric", "large"]
+
+        case .toolbox: return ["red", "toolbox", "box", "tool", "chest", "mechanic"]
+
+        case .girl: return ["granddaughter", "bright eyed", "zodiac", "kid", "Virgo", "daughter", "child", "young", "younger", "girl"]
+
+        case .rightwardsHandMediumSkinTone: return ["handshake", "hand", "right", "rightward", "hand:", "medium skin tone", "rightwards", "reach", "medium", "hold", "skin", "tone", "shake"]
+
+        case .synagogue: return ["religion", "synagogue", "Jewish", "temple", "Jew", "judaism"]
+
+        case .personInTuxedoMediumSkinTone: return ["wedding", "person", "medium", "tuxedo:", "tuxedo", "skin", "tone", "formal", "medium skin tone", "in"]
+
+        case .personGolfingMediumDarkSkinTone: return ["putt", "birdie", "range", "ball", "person", "medium dark skin tone", "driving", "tone", "golfing:", "pga", "dark", "caddy", "medium", "skin", "golf", "tee", "green", "golfing"]
+
+        case .victoryHandLightSkinTone: return ["peace", "v", "victory", "light skin tone", "hand", "tone", "skin", "hand:", "light"]
+
+        case .rat: return ["rat", "animal"]
+
+        case .flagJamaica: return ["flag", "Jamaica"]
+
+        case .babyBottle: return ["babies", "baby", "born", "milk", "infant", "birth", "drink", "newborn", "bottle"]
+
+        case .flagCameroon: return ["flag", "Cameroon"]
+
+        case .oldKey: return ["key", "old", "clue", "lock"]
+
+        case .snowflake: return ["weather", "snowflake", "snow", "cold"]
+
+        case .flagMacaoSarChina: return ["flag", "Macao SAR China"]
+
+        case .raisingHandsMediumLightSkinTone: return ["medium", "hooray", "medium light skin tone", "hands", "hands:", "skin", "tone", "praise", "raising", "raised", "light", "gesture", "hand", "celebration"]
+
+        case .personGolfingMediumLightSkinTone: return ["putt", "birdie", "medium light skin tone", "ball", "person", "range", "driving", "tone", "golfing:", "pga", "caddy", "medium", "skin", "golf", "light", "tee", "green", "golfing"]
+
+        case .beatingHeart: return ["pulsating", "pulse", "beating", "ily", "heart", "love", "emotion", "heartbeat", "cardio", "143"]
+
+        case .potableWater: return ["water", "drinking", "potable"]
+
+        case .peopleHoldingHandsMediumSkinToneDarkSkinTone: return ["dating", "hold", "medium skin tone", "people", "medium", "twins", "couple", "holding", "tone", "dark skin tone", "dark", "friends", "bff", "hands:", "flirt", "skin", "bestie", "hand", "tone,", "bae"]
+
+        case .sake: return ["bottle", "restaurant", "drink", "cup", "sake", "bar", "beverage"]
+
+        case .personSurfingMediumDarkSkinTone: return ["waves", "skin", "ocean", "beach", "surfer", "swell", "tone", "surfing", "surfing:", "medium dark skin tone", "person", "surf", "medium", "sport", "dark"]
+
+        case .palmUpHandLightSkinTone: return ["beckon", "tell", "hand", "light", "skin", "hold", "come", "offer", "palm", "up", "know", "light skin tone", "me", "catch", "tone", "hand:", "lift"]
+
+        case .flagNiue: return ["flag", "Niue"]
+
+        case .droolingFace: return ["drooling", "face"]
+
+        case .elfDarkSkinTone: return ["elves", "elf", "enchantment", "dark", "folklore", "myth", "elf:", "magical", "fantasy", "magic", "tone", "skin", "dark skin tone"]
+
+        case .backhandIndexPointingDownDarkSkinTone: return ["down", "dark", "skin", "finger", "hand", "dark skin tone", "backhand", "index", "point", "pointing", "tone", "down:"]
+
+        case .personGesturingOk: return ["gesturing", "hand", "exercise", "person", "gesture", "OK", "omg"]
+
+        case .rainbow: return ["glbtq", "glbt", "genderqueer", "lesbian", "transgender", "lgbt", "gay", "nature", "pride", "rain", "lgbtq", "lgbtqia", "trans", "rainbow", "weather", "queer"]
+
+        case .oncomingFistMediumSkinTone: return ["oncoming", "rock", "absolutely", "bruh", "pound", "skin", "tone", "bro", "medium", "fist", "agree", "clenched", "medium skin tone", "hand", "correct", "bump", "fist:", "ttyl", "knuckle", "punch", "boom"]
+
+        case .flagLiberia: return ["flag", "Liberia"]
+
+        case .iceHockey: return ["puck", "ice", "stick", "hockey", "game"]
+
+        case .cutOfMeat: return ["chop", "steak", "of", "cut", "meat", "red", "lambchop", "porkchop"]
+
+        case .moneyMouthFace: return ["paid", "money", "money mouth", "mouth", "face"]
+
+        case .faceWithTearsOfJoy: return ["with", "laugh", "hilarious", "happy", "roflmao", "haha", "funny", "hehe", "tear", "feels", "rofl", "of", "crying", "joy", "tears", "lol", "face", "lmao"]
+
+        case .thumbsUpMediumLightSkinTone: return ["medium light skin tone", "up:", "thumb", "+1", "thumbs", "up", "like", "tone", "medium", "hand", "skin", "yes", "good", "light"]
+
+        case .flagNamibia: return ["Namibia", "flag"]
+
+        case .stopButton: return ["square", "stop", "button"]
+
+        case .personWithVeilDarkSkinTone: return ["person", "veil", "wedding", "dark", "tone", "dark skin tone", "veil:", "with", "skin"]
+
+        case .scarf: return ["bundle", "scarf", "cold", "up", "neck"]
+
+        case .thermometer: return ["weather", "thermometer"]
+
+        case .mxClausMediumLightSkinTone: return ["medium", "tone", "Christmas", "Mx", "xmas", "medium light skin tone", "fantasy", "Claus:", "santa", "tale", "merry", "claus", "fairy", "skin", "holiday", "celebration", "light"]
+
+        case .personRowingBoatMediumSkinTone: return ["rowboat", "medium", "fishing", "person", "medium skin tone", "tone", "paddle", "row", "raft", "boat:", "oar", "cruise", "boat", "canoe", "river", "lake", "skin", "rowing"]
+
+        case .okHandMediumDarkSkinTone: return ["dope", "three", "pinch", "hand:", "rad", "tone", "sure", "medium", "fosho", "bet", "dark", "skin", "sweet", "medium dark skin tone", "awesome", "OK", "gotcha", "fleek", "hand", "legit", "got", "okay"]
+
+        case .llama: return ["animal", "wool", "llama", "guanaco", "alpaca", "vicuña"]
+
+        case .womanInManualWheelchair: return ["woman", "in", "wheelchair", "accessibility", "manual"]
+
+        case .bridgeAtNight: return ["bridge", "night", "at"]
+
+        case .personWithWhiteCaneMediumDarkSkinTone: return ["accessibility", "tone", "blind", "probing", "person", "with", "white", "medium", "dark", "skin", "cane:", "medium dark skin tone", "cane"]
+
+        case .winkingFace: return ["slide", "winks", "face", "wink", "flirt", "heartbreaker", "winking", "sexy", "tease"]
+
+        case .idButton: return ["button", "ID", "identity"]
+
+        case .pushpin: return ["pushpin", "pin", "collage"]
+
+        case .sparkles: return ["*", "sparkle", "magic", "sparkles", "star"]
+
+        case .manMediumDarkSkinToneBald: return ["skin", "bro", "adult", "man", "medium", "medium dark skin tone", "man:", "dark", "tone,", "bald"]
+
+        case .personJugglingDarkSkinTone: return ["juggling:", "manage", "multitask", "balancing", "person", "balance", "juggle", "skill", "dark", "dark skin tone", "juggling", "handle", "tone", "act", "skin"]
+
+        case .telephoneReceiver: return ["phone", "communication", "receiver", "voip", "telephone"]
+
+        case .flagEquatorialGuinea: return ["Equatorial Guinea", "flag"]
+
+        case .ice: return ["cold", "ice", "iceberg", "cube"]
+
+        case .indexPointingAtTheViewerMediumSkinTone: return ["pointing", "skin", "poke", "viewer", "viewer:", "hand", "index", "tone", "medium", "finger", "at", "medium skin tone", "the", "you"]
+
+        case .tulip: return ["growth", "blossom", "flower", "tulip", "plant"]
+
+        case .personInManualWheelchairMediumSkinTone: return ["medium", "accessibility", "medium skin tone", "wheelchair", "wheelchair:", "manual", "person", "in", "tone", "skin"]
+
+        case .singerMediumDarkSkinTone: return ["rock", "singer:", "medium dark skin tone", "star", "rockstar", "actor", "medium", "entertainer", "skin", "singer", "dark", "tone"]
+
+        case .freeButton: return ["button", "FREE"]
+
+        case .peopleHoldingHandsMediumSkinTone: return ["hand", "friends", "hold", "tone", "dating", "twins", "holding", "flirt", "people", "couple", "bae", "medium", "skin", "bestie", "bff", "medium skin tone", "hands:"]
+
+        case .lipstick: return ["makeup", "date", "lipstick", "cosmetics"]
+
+        case .battery: return ["battery"]
+
+        case .tropicalDrink: return ["alcohol", "drunk", "booze", "tropical", "club", "tropics", "mai", "party", "tai", "cocktail", "drinks", "drink", "drinking", "bar"]
+
+        case .flagSaudiArabia: return ["Saudi Arabia", "flag"]
+
+        case .flagSingapore: return ["flag", "Singapore"]
+
+        case .stethoscope: return ["medicine", "doctor", "heart", "stethoscope"]
+
+        case .astronautLightSkinTone: return ["tone", "light", "rocket", "astronaut", "space", "astronaut:", "light skin tone", "skin"]
+
+        case .wavingHandDarkSkinTone: return ["you", "bye", "later", "dark", "wave", "waving", "hey", "hand", "cya", "yo", "skin", "hand:", "g2g", "outtie", "dark skin tone", "hi", "ttfn", "gtg", "ttyl", "hello", "greetings", "tone"]
+
+        case .sleepingFace: return ["goodnight", "yawn", "face", "tired", "sleeping", "bedtime", "good", "nap", "zzz", "whatever", "bed", "sleep", "night"]
+
+        case .brownCircle: return ["brown", "circle"]
+
+        case .palmUpHandMediumLightSkinTone: return ["know", "medium", "light", "offer", "come", "hold", "up", "tone", "tell", "beckon", "lift", "hand", "palm", "me", "hand:", "medium light skin tone", "catch", "skin"]
+
+        case .threeThirty: return ["clock", "three thirty", "30", "three", "3", "thirty", "3:30", "time"]
+
+        case .pigFace: return ["pig", "bacon", "pork", "animal", "farm", "face"]
+
+        case .rightArrowCurvingUp: return ["right", "arrow", "up", "curving"]
+
+        case .flagMexico: return ["flag", "Mexico"]
+
+        case .raisedHandMediumDarkSkinTone: return ["stop", "dark", "skin", "tone", "medium dark skin tone", "high", "5", "hand:", "medium", "raised", "hand", "five"]
+
+        case .peopleHoldingHandsMediumSkinToneMediumLightSkinTone: return ["hand", "tone,", "medium light skin tone", "friends", "hold", "tone", "dating", "light", "twins", "holding", "flirt", "people", "couple", "bae", "medium", "skin", "bestie", "bff", "medium skin tone", "hands:"]
+
+        case .flagFinland: return ["flag", "Finland"]
+
+        case .mrsClausMediumDarkSkinTone: return ["fairy", "Mrs", "xmas", "mother", "santa", "Claus:", "tone", "tale", "medium dark skin tone", "merry", "dark", "medium", "holiday", "Christmas", "skin", "celebration", "Mrs.", "claus", "fantasy"]
+
+        case .artistDarkSkinTone: return ["artist:", "dark", "artist", "skin", "palette", "dark skin tone", "tone"]
+
+        case .orangeCircle: return ["circle", "orange"]
+
+        case .leftwardsPushingHandDarkSkinTone: return ["hold", "hand:", "tone", "leftward", "high", "leftwards", "halt", "push", "stop", "pushing", "wait", "dark", "skin", "five", "dark skin tone", "refuse", "slap", "hand", "pause", "block"]
+
+        case .womanAndManHoldingHandsDarkSkinToneMediumSkinTone: return ["hands:", "couple", "dark skin tone", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "man", "medium skin tone", "dark", "holding", "and", "twins", "bestie", "medium", "flirt", "woman", "hand"]
+
+        case .horseRacing: return ["jockey", "racehorse", "horse", "racing", "riding", "sport"]
+
+        case .racingCar: return ["racing", "zoom", "car"]
+
+        case .factoryWorkerMediumLightSkinTone: return ["industrial", "worker", "assembly", "medium", "medium light skin tone", "light", "tone", "factory", "worker:", "skin"]
+
+        case .taco: return ["mexican", "taco"]
+
+        case .flagIreland: return ["Ireland", "flag"]
+
+        case .relievedFace: return ["relief", "relieved", "zen", "face", "peace", "calm"]
+
+        case .pageWithCurl: return ["document", "curl", "with", "page", "paper"]
+
+        case .lightBlueHeart: return ["emotion", "heart", "ily", "love", "teal", "cyan", "sky", "special", "blue", "like", "cute", "143", "light"]
+
+        case .flagStLucia: return ["St. Lucia", "flag"]
+
+        case .manMediumLightSkinToneBald: return ["medium light skin tone", "medium", "skin", "man:", "man", "bald", "tone,", "bro", "adult", "light"]
+
+        case .cameraWithFlash: return ["flash", "with", "video", "camera"]
+
+        case .prohibited: return ["smoke", "forbidden", "entry", "prohibited", "no", "not"]
+
+        case .rightAngerBubble: return ["balloon", "bubble", "right", "mad", "angry", "anger"]
+
+        case .cupWithStraw: return ["cup", "soft", "straw", "malt", "water", "juice", "with", "soda", "drink"]
+
+        case .flagIndonesia: return ["Indonesia", "flag"]
+
+        case .leftFacingFistMediumSkinTone: return ["tone", "facing", "left", "fist:", "medium", "medium skin tone", "leftwards", "skin", "left facing", "fist"]
+
+        case .fountain: return ["fountain"]
+
+        case .backhandIndexPointingUp: return ["index", "hand", "point", "pointing", "finger", "backhand", "up"]
+
+        case .personRaisingHandDarkSkinTone: return ["hand", "raise", "know", "hand:", "tone", "pick", "dark skin tone", "skin", "me", "question", "here", "gesture", "raising", "person", "dark"]
+
+        case .rosette: return ["rosette", "plant"]
+
+        case .eMail: return ["letter", "email", "e mail", "mail", "e"]
+
+        case .womanFeedingBabyDarkSkinTone: return ["mother", "skin", "tone", "feeding", "feed", "baby", "nanny", "dark skin tone", "nursing", "dark", "newborn", "mom", "baby:", "woman"]
+
+        case .postalHorn: return ["postal", "horn", "post"]
+
+        case .ox: return ["farm", "zodiac", "animal", "animals", "bull", "Taurus", "ox"]
+
+        case .mouse: return ["mouse", "animal", "animals"]
+
+        case .flagSerbia: return ["Serbia", "flag"]
+
+        case .goose: return ["goose", "gander", "duck", "animal", "ornithology", "flock", "silly", "honk", "bird", "geese", "gaggle", "fowl"]
+
+        case .kissDarkSkinTone: return ["together", "couple", "dark skin tone", "mwah", "skin", "heart", "bae", "love", "tone", "dating", "babe", "dark", "romance", "person", "date", "kiss:", "anniversary", "xoxo", "kiss"]
+
+        case .personGettingHaircutMediumDarkSkinTone: return ["haircut:", "groom", "medium", "medium dark skin tone", "getting", "cosmetology", "skin", "cut", "style", "person", "haircut", "shears", "parlor", "beauty", "dark", "chop", "tone", "barber", "hair"]
+
+        case .oncomingBus: return ["cars", "bus", "oncoming"]
+
+        case .manWithWhiteCaneMediumSkinTone: return ["cane:", "probing", "medium", "tone", "cane", "blind", "skin", "with", "medium skin tone", "man", "accessibility", "white"]
+
+        case .peopleHugging: return ["hello", "people", "farewell", "comfort", "friendship", "embrace", "goodbye", "hug", "hugging", "thanks", "love"]
+
+        case .flagBritishIndianOceanTerritory: return ["flag", "British Indian Ocean Territory"]
+
+        case .peopleHoldingHandsDarkSkinToneMediumSkinTone: return ["bae", "hold", "hand", "couple", "flirt", "holding", "medium skin tone", "dark", "hands:", "people", "skin", "tone,", "friends", "tone", "medium", "dating", "bff", "bestie", "dark skin tone", "twins"]
+
+        case .fallenLeaf: return ["fallen", "autumn", "leaf", "fall", "falling"]
+
+        case .highHeeledShoe: return ["fashion", "clothing", "woman", "shoes", "high", "clothes", "high heeled", "shoe", "heeled", "dress", "stiletto", "heel", "shopping", "heels"]
+
+        case .farmerMediumLightSkinTone: return ["gardener", "rancher", "farmer:", "farmer", "medium", "light", "skin", "tone", "medium light skin tone"]
+
+        case .crossedFlags: return ["celebration", "Japanese", "crossed", "cross", "flags"]
+
+        case .personWithCrownMediumLightSkinTone: return ["crown:", "person", "with", "medium light skin tone", "medium", "tone", "royal", "regal", "monarch", "crown", "skin", "royalty", "light", "noble"]
+
+        case .ninjaLightSkinTone: return ["sly", "stealth", "fight", "light", "skin", "light skin tone", "tone", "ninja", "assassin", "soldier", "secret", "ninja:", "fighter", "person", "hidden", "war", "skills"]
+
+        case .dottedLineFace: return ["whatever", "wtv", "hidden", "hide", "depressed", "introvert", "dotted", "face", "disappear", "invisible", "line", "meh"]
+
+        case .manWithWhiteCaneLightSkinTone: return ["tone", "probing", "light", "light skin tone", "cane", "blind", "skin", "with", "cane:", "man", "accessibility", "white"]
+
+        case .oldMan: return ["elderly", "old", "bald", "grandpa", "man", "grandfather", "wise", "gramps", "adult"]
+
+        case .personBowingMediumDarkSkinTone: return ["forgive", "person", "beg", "pity", "sorry", "bowing:", "apology", "regret", "dark", "medium dark skin tone", "bow", "medium", "meditate", "gesture", "bowing", "tone", "favor", "skin", "ask", "meditation"]
+
+        case .baby: return ["children", "pregnant", "young", "babies", "baby", "newborn", "goo", "infant"]
+
+        case .sosButton: return ["button", "SOS", "help"]
+
+        case .handWithIndexFingerAndThumbCrossed: return ["money", "with", "snap", "crossed", "love", "thumb", "and", "finger", "index", "expensive", "hand", "heart", "<3"]
+
+        case .inputSymbols: return ["♪", "input", "%", "&", "〒", "symbols"]
+
+        case ._3rdPlaceMedal: return ["place", "third", "3rd", "medal", "bronze"]
+
+        case .customs: return ["customs", "packing"]
+
+        case .statueOfLiberty: return ["york", "Liberty", "nyc", "statue", "ny", "of", "liberty", "new", "Statue"]
+
+        case .constructionWorkerMediumDarkSkinTone: return ["work", "worker:", "skin", "hat", "worker", "person", "medium dark skin tone", "man", "construction", "build", "repair", "rebuild", "hardhat", "dark", "fix", "tone", "remodel", "medium"]
+
+        case .handshakeMediumDarkSkinToneDarkSkinTone: return ["medium", "dark", "shake", "hand", "medium dark skin tone", "dark skin tone", "skin", "deal", "tone,", "meeting", "tone", "handshake", "handshake:", "agreement"]
+
+        case .flagCongoBrazzaville: return ["flag", "Congo   Brazzaville"]
+
+        case .familyManManBoy: return ["man", "boy", "family", "family:", "man,", "child"]
+
+        case .personStandingDarkSkinTone: return ["tone", "standing:", "skin", "dark skin tone", "stand", "dark", "person", "standing"]
+
+        case .helicopter: return ["roflcopter", "helicopter", "vehicle", "travel", "copter"]
+
+        case .unamusedFace: return ["unhappy", "fine", "uhh", "unamused", "ugh", "jealous", "whatever", "jelly", "weird", "...", "bored", "pissed", "smh", "face", "jel"]
+
+        case .womenHoldingHandsLightSkinToneMediumLightSkinTone: return ["hands:", "couple", "sisters", "bff", "women", "hold", "friends", "bae", "skin", "tone,", "dating", "tone", "medium light skin tone", "holding", "twins", "light", "bestie", "light skin tone", "flirt", "girls", "medium", "hand"]
+
+        case .personWithCrownLightSkinTone: return ["tone", "person", "monarch", "crown:", "royal", "regal", "skin", "light", "royalty", "light skin tone", "with", "crown", "noble"]
+
+        case .personRowingBoatLightSkinTone: return ["oar", "boat:", "light", "raft", "fishing", "rowboat", "lake", "river", "row", "skin", "canoe", "person", "cruise", "rowing", "boat", "tone", "paddle", "light skin tone"]
+
+        case .bubbleTea: return ["milk", "tea", "boba", "bubble", "food", "pearl"]
+
+        case .manTechnologistLightSkinTone: return ["coder", "technologist:", "man", "technologist", "computer", "inventor", "skin", "tone", "developer", "software", "light", "light skin tone"]
+
+        case .scorpio: return ["scorpion", "horoscope", "Scorpio", "zodiac", "Scorpius"]
+
+        case .shintoShrine: return ["shinto", "religion", "shrine"]
+
+        case .camping: return ["camping"]
+
+        case .raisedBackOfHandDarkSkinTone: return ["dark", "hand:", "backhand", "back", "skin", "dark skin tone", "tone", "raised", "of", "hand"]
+
+        case .brightButton: return ["button", "brightness", "bright", "light"]
+
+        case .flagBhutan: return ["flag", "Bhutan"]
+
+        case .personMountainBikingLightSkinTone: return ["cyclist", "bike", "biking", "cycle", "person", "light skin tone", "riding", "skin", "tone", "light", "mountain", "biking:", "bicyclist", "sport", "bicycle"]
+
+        case .womanStudentDarkSkinTone: return ["dark skin tone", "student", "student:", "dark", "graduate", "tone", "woman", "skin"]
+
+        case .flagBenin: return ["flag", "Benin"]
+
+        case .handshakeDarkSkinTone: return ["agreement", "hand", "handshake:", "skin", "deal", "dark skin tone", "meeting", "shake", "dark", "handshake", "tone"]
+
+        case .menHoldingHandsMediumLightSkinToneMediumSkinTone: return ["brothers", "couple", "hands:", "men", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "medium skin tone", "medium light skin tone", "holding", "twins", "boys", "light", "bestie", "medium", "flirt", "hand"]
+
+        case .drum: return ["drum", "drumsticks", "music"]
+
+        case .womenHoldingHandsDarkSkinToneLightSkinTone: return ["hands:", "couple", "dark skin tone", "sisters", "bff", "women", "hold", "friends", "bae", "skin", "tone,", "dating", "tone", "dark", "holding", "twins", "light", "bestie", "light skin tone", "flirt", "girls", "hand"]
+
+        case .noPedestrians: return ["forbidden", "no", "pedestrians", "not", "pedestrian", "prohibited"]
+
+        case .womanCookMediumSkinTone: return ["skin", "tone", "cook", "medium", "chef", "cook:", "medium skin tone", "woman"]
+
+        case .womanAstronautDarkSkinTone: return ["space", "woman", "dark", "rocket", "skin", "tone", "astronaut", "astronaut:", "dark skin tone"]
+
+        case .smilingFaceWithOpenHands: return ["hands", "open", "hugging", "with", "hug", "face", "smiling"]
+
+        case .technologistMediumDarkSkinTone: return ["coder", "medium dark skin tone", "technologist", "technologist:", "computer", "inventor", "medium", "skin", "software", "developer", "dark", "tone"]
+
+        case .peopleHoldingHandsMediumLightSkinToneLightSkinTone: return ["dating", "medium light skin tone", "holding", "tone,", "friends", "light skin tone", "people", "twins", "flirt", "medium", "light", "couple", "bae", "bff", "tone", "hold", "hands:", "skin", "hand", "bestie"]
+
+        case .curryRice: return ["rice", "curry", "food"]
+
+        case .flagChristmasIsland: return ["flag", "Christmas Island"]
+
+        case .redSquare: return ["card", "penalty", "square", "red"]
+
+        case .poutingCat: return ["animal", "face", "cat", "pouting"]
+
+        case .unicorn: return ["face", "unicorn"]
+
+        case .okHand: return ["got", "fosho", "bet", "okay", "three", "OK", "dope", "awesome", "legit", "hand", "gotcha", "sure", "sweet", "pinch", "rad", "fleek"]
+
+        case .personInSuitLevitatingLightSkinTone: return ["business", "light", "levitating", "light skin tone", "levitating:", "in", "suit", "skin", "tone", "person"]
+
+        case .rock: return ["rock", "tough", "solid", "stone", "heavy", "boulder"]
+
+        case .rose: return ["plant", "beauty", "flower", "rose", "valentine", "elegant", "red", "love"]
+
+        case .flagAscensionIsland: return ["flag", "Ascension Island"]
+
+        case .flagTurkmenistan: return ["flag", "Turkmenistan"]
+
+        case .flagAruba: return ["Aruba", "flag"]
+
+        case .flagIceland: return ["Iceland", "flag"]
+
+        case .goat: return ["Capricorn", "farm", "milk", "goat", "zodiac", "animal"]
+
+        case .coffin: return ["coffin", "death", "dead", "vampire"]
+
+        case .personCartwheelingMediumDarkSkinTone: return ["dark", "cartwheeling", "skin", "person", "cartwheeling:", "tone", "flip", "cartwheel", "medium", "happy", "medium dark skin tone", "somersault", "active", "gymnastics", "excited"]
+
+        case .earWithHearingAidMediumDarkSkinTone: return ["accessibility", "skin", "with", "hard", "ear", "aid", "aid:", "medium", "dark", "medium dark skin tone", "hearing", "tone"]
+
+        case .noOneUnderEighteen: return ["not", "age", "18", "prohibited", "restriction", "one", "eighteen", "forbidden", "no", "underage", "under"]
+
+        case .pig: return ["pig", "bacon", "pork", "animal", "sow", "farm"]
+
+        case .clubSuit: return ["game", "clubs", "card", "club", "suit"]
+
+        case .peopleHoldingHandsMediumLightSkinToneDarkSkinTone: return ["hand", "tone,", "dark skin tone", "friends", "hold", "medium light skin tone", "tone", "dating", "light", "twins", "holding", "flirt", "people", "couple", "bae", "medium", "skin", "bestie", "bff", "hands:", "dark"]
+
+        case .shield: return ["weapon", "shield"]
+
+        case .artistMediumDarkSkinTone: return ["palette", "dark", "skin", "artist:", "medium", "artist", "medium dark skin tone", "tone"]
+
+        case .manMechanicLightSkinTone: return ["mechanic:", "plumber", "tone", "mechanic", "man", "tradesperson", "light skin tone", "light", "skin", "electrician"]
+
+        case .personBikingMediumLightSkinTone: return ["bike", "person", "cyclist", "cycle", "biking:", "bicyclist", "riding", "medium", "bicycle", "skin", "tone", "light", "medium light skin tone", "sport", "biking"]
+
+        case .personGettingMassageDarkSkinTone: return ["salon", "headache", "getting", "skin", "face", "person", "tension", "massage:", "relaxing", "soothe", "relax", "spa", "therapy", "dark skin tone", "treatment", "dark", "tone", "massage"]
+
+        case .wineGlass: return ["alcohol", "bar", "glass", "beverage", "drink", "restaurant", "drinking", "booze", "club", "wine", "drinks"]
+
+        case .mechanicalArm: return ["accessibility", "prosthetic", "mechanical", "arm"]
+
+        case .jellyfish: return ["stinger", "marine", "plankton", "jellyfish", "animal", "sting", "burn", "aquarium", "life", "invertebrate", "jelly", "ouch", "ocean", "tentacles", "sea"]
+
+        case .pregnantManDarkSkinTone: return ["full", "overeat", "man:", "dark", "man", "pregnant", "skin", "tone", "dark skin tone", "bloated", "belly"]
+
+        case .flagLibya: return ["Libya", "flag"]
+
+        case .manMechanic: return ["tradesperson", "mechanic", "plumber", "man", "electrician"]
+
+        case .leopard: return ["predator", "zoo", "leopard", "animal", "cat", "big"]
+
+        case .softIceCream: return ["restaurant", "serve", "soft", "dessert", "sweet", "food", "cream", "icecream", "ice"]
+
+        case .flagIsleOfMan: return ["flag", "Isle of Man"]
+
+        case .womanAndManHoldingHandsDarkSkinTone: return ["hands:", "couple", "dark skin tone", "bff", "skin", "hold", "friends", "bae", "tone", "dating", "man", "dark", "holding", "and", "twins", "bestie", "flirt", "woman", "hand"]
+
+        case .blackMediumSquare: return ["medium", "black", "geometric", "square"]
+
+        case .victoryHandMediumLightSkinTone: return ["v", "medium light skin tone", "hand", "peace", "light", "hand:", "victory", "medium", "skin", "tone"]
+
+        case .personGettingMassage: return ["soothe", "relaxing", "person", "spa", "relax", "face", "getting", "tension", "therapy", "salon", "headache", "massage", "treatment"]
+
+        case .anxiousFaceWithSweat: return ["sweat", "rushed", "with", "scared", "eek", "mouth", "open", "yikes", "cold", "anxious", "blue", "nervous", "face"]
+
+        case .flagSpain: return ["Spain", "flag"]
+
+        case .blackFlag: return ["black", "flag", "waving"]
+
+        case .personCartwheelingLightSkinTone: return ["cartwheeling:", "excited", "gymnastics", "person", "flip", "active", "skin", "tone", "cartwheeling", "cartwheel", "somersault", "happy", "light skin tone", "light"]
+
+        case .flagCanada: return ["Canada", "flag"]
+
+        case .constructionWorkerDarkSkinTone: return ["work", "worker:", "skin", "hat", "worker", "person", "man", "construction", "build", "repair", "rebuild", "hardhat", "dark skin tone", "fix", "dark", "remodel", "tone"]
+
+        case .oldManMediumLightSkinTone: return ["gramps", "man:", "medium", "old", "medium light skin tone", "skin", "elderly", "grandfather", "wise", "tone", "grandpa", "man", "light", "bald", "adult"]
+
+        case .footMediumLightSkinTone: return ["medium", "tone", "foot", "stomp", "kick", "ankle", "medium light skin tone", "feet", "foot:", "light", "skin"]
+
+        case .oldWoman: return ["lady", "elderly", "adult", "wise", "granny", "woman", "grandmother", "old", "grandma"]
+
+        case .flagNigeria: return ["flag", "Nigeria"]
+
+        case .pen: return ["pen", "ballpoint"]
+
+        case .personBikingLightSkinTone: return ["biking", "riding", "person", "bicyclist", "light", "skin", "tone", "cyclist", "biking:", "light skin tone", "sport", "bicycle", "cycle", "bike"]
+
+        case .personPlayingHandballDarkSkinTone: return ["pitch", "handball:", "person", "dark skin tone", "lob", "handball", "playing", "hurl", "toss", "throw", "sport", "catch", "tone", "athletics", "dark", "skin", "ball", "chuck"]
+
+        case .mage: return ["wizard", "mage", "magic", "play", "sorcery", "sorcerer", "fantasy", "summon", "sorceress", "spell", "witch"]
+
+        case .tiger: return ["predator", "big", "zoo", "animal", "tiger", "cat"]
+
+        case .princeLightSkinTone: return ["fairy", "prince", "skin", "crown", "tale", "light skin tone", "royalty", "royal", "fantasy", "tone", "light", "prince:", "fairytale", "king"]
+
+        case .flagChile: return ["flag", "Chile"]
+
+        case .cow: return ["milk", "moo", "cow", "animal", "farm", "animals"]
+
+        case .thumbsUp: return ["hand", "up", "thumbs", "like", "+1", "thumb", "yes", "good"]
+
+        case .houses: return ["houses", "house"]
+
+        case .peopleHoldingHandsLightSkinToneDarkSkinTone: return ["dating", "holding", "tone,", "friends", "light skin tone", "people", "twins", "flirt", "light", "couple", "bae", "dark", "bff", "tone", "hold", "hands:", "dark skin tone", "skin", "hand", "bestie"]
+
+        case .mageMediumSkinTone: return ["fantasy", "medium", "play", "wizard", "sorcerer", "magic", "summon", "sorcery", "spell", "mage", "mage:", "witch", "medium skin tone", "sorceress", "skin", "tone"]
+
+        case .guardMediumLightSkinTone: return ["palace", "london", "tone", "skin", "guard:", "medium light skin tone", "buckingham", "guard", "medium", "light", "helmet"]
+
+        case .womansHat: return ["hats", "clothes", "garden", "party", "clothing", "hat", "woman", "woman’s"]
+
+        case .goalNet: return ["net", "goal"]
+
+        case .flagTimorLeste: return ["flag", "Timor Leste"]
+
+        case .flagSenegal: return ["flag", "Senegal"]
+
+        case .personRunningMediumSkinTone: return ["racing", "fast", "hurry", "rush", "speed", "skin", "run", "race", "running:", "marathon", "person", "tone", "medium skin tone", "medium", "move", "quick"]
+
+        case .pregnantManMediumLightSkinTone: return ["medium", "medium light skin tone", "full", "overeat", "man:", "light", "man", "pregnant", "skin", "tone", "bloated", "belly"]
+
+        case .speakerMediumVolume: return ["volume", "sound", "speaker", "medium"]
+
+        case .rollOfPaper: return ["paper", "toilet", "towels", "roll", "of"]
+
+        case .sheafOfRice: return ["plant", "sheaf", "grains", "of", "grain", "rice", "ear"]
+
+        case .yinYang: return ["lives", "difficult", "yin", "total", "yang", "taoist", "religion", "tao", "yinyang"]
+
+        case .flagGuatemala: return ["flag", "Guatemala"]
+
+        case .flagFrenchPolynesia: return ["flag", "French Polynesia"]
+
+        case .flagWales: return ["flag", "Wales"]
+
+        case .loveYouGesture: return ["you", "love you", "love", "gesture", "ILY", "fingers", "three", "hand"]
+
+        case .womenHoldingHandsDarkSkinTone: return ["hands:", "couple", "dark skin tone", "sisters", "bff", "women", "hold", "friends", "bae", "skin", "tone", "dating", "dark", "holding", "twins", "bestie", "flirt", "girls", "hand"]
+
+        case .childLightSkinTone: return ["skin", "kid", "bright eyed", "light", "younger", "young", "child:", "tone", "grandchild", "light skin tone", "child"]
+
+        case .handWithFingersSplayedMediumLightSkinTone: return ["fingers", "stop", "hand", "splayed:", "finger", "medium", "medium light skin tone", "light", "with", "skin", "splayed", "raised", "tone"]
+
+        case .anatomicalHeart: return ["organ", "red", "real", "anatomical", "heartbeat", "cardiology", "pulse", "beat", "heart"]
+
+        case .flagCyprus: return ["Cyprus", "flag"]
+
+        case .personWalkingMediumSkinTone: return ["hike", "medium", "pace", "walking", "walk", "walking:", "pedestrian", "person", "tone", "gait", "stroll", "medium skin tone", "skin", "amble", "man", "stride"]
+
+        case .flagHungary: return ["Hungary", "flag"]
+
+        case .aries: return ["ram", "Aries", "horoscope", "zodiac"]
+
+        case .womenHoldingHandsMediumSkinToneLightSkinTone: return ["hands:", "couple", "sisters", "bff", "women", "hold", "friends", "bae", "skin", "tone,", "dating", "medium skin tone", "tone", "holding", "twins", "light", "bestie", "light skin tone", "flirt", "girls", "medium", "hand"]
+
+        case .menHoldingHands: return ["brothers", "boys", "twins", "dating", "flirt", "bestie", "hands", "holding", "men", "hand", "bff", "bae", "friends", "couple", "hold"]
+
+        case .legMediumLightSkinTone: return ["medium light skin tone", "bent", "medium", "light", "leg", "tone", "foot", "knee", "limb", "leg:", "kick", "skin"]
+
+        case .breastFeedingLightSkinTone: return ["breast", "light", "woman", "feeding", "nursing", "feeding:", "skin", "baby", "tone", "breast feeding", "mom", "light skin tone", "mother"]
+
+        case .personInLotusPosition: return ["meditation", "zen", "peace", "serenity", "position", "relax", "cross", "in", "lotus", "yoga", "legs", "legged", "yogi", "person"]
+
+        case .abacus: return ["abacus", "calculator", "calculation"]
+
+        case .fish: return ["fish", "fishes", "zodiac", "dinner", "fishing", "Pisces", "animal"]
+
+        case .fly: return ["pest", "fly", "rotting", "insect", "disease", "animal", "maggot"]
+
+        case .ringBuoy: return ["swim", "life", "buoy", "lifesaver", "save", "preserver", "rescue", "safety", "saver", "float", "ring"]
+
+        case .womanDarkSkinToneRedHair: return ["dark", "adult", "hair", "dark skin tone", "woman", "skin", "red", "woman:", "tone,", "red hair", "lady"]
+
+        case .handshakeDarkSkinToneMediumDarkSkinTone: return ["hand", "agreement", "dark", "dark skin tone", "medium", "handshake:", "shake", "meeting", "skin", "tone,", "handshake", "medium dark skin tone", "tone", "deal"]
+
+        case .menorah: return ["candelabrum", "religion", "jewish", "judaism", "candlestick", "menorah", "hanukkah"]
+
+        case .flagCzechia: return ["Czechia", "flag"]
+
+        case .satelliteAntenna: return ["aliens", "contact", "dish", "science", "satellite", "antenna"]
+
+        case .womanWithHeadscarfMediumSkinTone: return ["headscarf", "tone", "medium skin tone", "hijab", "with", "mantilla", "tichel", "kerchief", "woman", "bandana", "headscarf:", "medium", "skin", "head"]
+
+        case .personLiftingWeights: return ["weightlifter", "barbell", "deadlift", "workout", "lifter", "bodybuilder", "weights", "weight", "lifting", "person", "powerlifting"]
+
+        case .personDarkSkinToneWhiteHair: return ["dark", "white hair", "skin", "person:", "tone,", "white", "hair", "person", "adult", "dark skin tone"]
+
+        case .glowingStar: return ["sparkle", "night", "glittery", "glowing", "glow", "star", "win", "shining"]
+
+        case .japaneseBargainButton: return ["button", "bargain", "“bargain”", "Japanese", "ideograph"]
+
+        case .flagMaldives: return ["flag", "Maldives"]
+
+        case .broccoli: return ["broccoli", "cabbage", "wild"]
+
+        case .womanCookMediumLightSkinTone: return ["medium light skin tone", "cook", "tone", "chef", "cook:", "woman", "medium", "light", "skin"]
+
+        case .frowningFace: return ["frown", "sad", "frowning", "face"]
+
+        case .flagIsrael: return ["flag", "Israel"]
+
+        case .chains: return ["chain", "chains"]
+
+        case .menHoldingHandsMediumSkinToneMediumLightSkinTone: return ["brothers", "couple", "hands:", "men", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "medium skin tone", "medium light skin tone", "holding", "twins", "boys", "light", "bestie", "medium", "flirt", "hand"]
+
+        case .personFencing: return ["fencing", "fencer", "person", "sword"]
+
+        case .oncomingFistMediumDarkSkinTone: return ["oncoming", "rock", "absolutely", "bruh", "pound", "skin", "tone", "bro", "medium", "fist", "medium dark skin tone", "clenched", "agree", "hand", "correct", "dark", "bump", "fist:", "ttyl", "knuckle", "punch", "boom"]
+
+        case .faceWithHeadBandage: return ["injury", "face", "head bandage", "bandage", "head", "ouch", "with", "hurt"]
+
+        case .threeOclock: return ["time", "3:00", "o’clock", "three", "clock", "3"]
+
+        case .vulcanSaluteDarkSkinTone: return ["skin", "vulcan", "hand", "dark", "finger", "dark skin tone", "salute", "hands", "tone", "Vulcan", "salute:"]
+
+        case .twoHumpCamel: return ["two hump", "camel", "bactrian", "hump", "animal", "two", "desert"]
+
+        case .familyManGirlBoy: return ["girl", "child", "man,", "boy", "family", "girl,", "man", "family:"]
+
+        case .babyAngelMediumSkinTone: return ["fairy", "skin", "angel", "medium skin tone", "baby", "face", "church", "angel:", "medium", "fantasy", "tone", "fairytale", "tale"]
+
+        case .sunflower: return ["outdoors", "sunflower", "sun", "plant", "flower"]
+
+        case .princessDarkSkinTone: return ["fantasy", "crown", "princess", "fairytale", "tale", "tone", "dark", "fairy", "royal", "skin", "dark skin tone", "princess:", "queen", "royalty"]
+
+        case .flowerPlayingCards: return ["card", "game", "playing", "flower", "cards", "Japanese"]
+
+        case .hotFace: return ["heat", "face", "panting", "sweating", "dying", "stroke", "hot", "feverish", "red faced", "tongue"]
+
+        case .flagMyanmarBurma: return ["flag", "Myanmar (Burma)"]
+
+        case .comet: return ["space", "comet"]
+
+        case .oldManMediumSkinTone: return ["skin", "wise", "man:", "old", "tone", "elderly", "bald", "man", "gramps", "adult", "medium skin tone", "grandfather", "medium", "grandpa"]
+
+        case .ninjaMediumDarkSkinTone: return ["skin", "fighter", "person", "fight", "hidden", "medium dark skin tone", "stealth", "ninja", "assassin", "secret", "war", "sly", "ninja:", "dark", "tone", "medium", "skills", "soldier"]
+
+        case .raisedFistLightSkinTone: return ["raised", "punch", "solidarity", "light skin tone", "light", "skin", "hand", "fist", "clenched", "tone", "fist:"]
+
+        case .menHoldingHandsMediumSkinToneMediumDarkSkinTone: return ["brothers", "couple", "hands:", "men", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "medium skin tone", "dark", "medium dark skin tone", "holding", "twins", "boys", "bestie", "medium", "flirt", "hand"]
+
+        case .personInLotusPositionDarkSkinTone: return ["yoga", "zen", "cross", "yogi", "serenity", "dark skin tone", "peace", "skin", "legged", "person", "dark", "legs", "in", "relax", "position:", "meditation", "tone", "lotus", "position"]
+
+        case .coupleWithHeartDarkSkinTone: return ["together", "couple", "dark skin tone", "skin", "heart", "bae", "love", "heart:", "dating", "babe", "you", "dark", "tone", "romance", "relationship", "with", "person", "anniversary", "kiss"]
+
+        case .evergreenTree: return ["tree", "evergreen", "christmas", "forest", "pine"]
+
+        case .passengerShip: return ["passenger", "ship"]
+
+        case .manInMotorizedWheelchairLightSkinTone: return ["wheelchair", "light", "motorized", "wheelchair:", "light skin tone", "accessibility", "man", "in", "skin", "tone"]
+
+        case .postOffice: return ["building", "post", "office", "European"]
+
+        case .wheelchairSymbol: return ["access", "handicap", "symbol", "wheelchair"]
+
+        case .flagGuinea: return ["flag", "Guinea"]
+
+        case .gameDie: return ["entertainment", "die", "game", "dice"]
+
+        case .yellowCircle: return ["yellow", "circle"]
+
+        case .womanTeacherMediumLightSkinTone: return ["instructor", "medium", "teacher", "medium light skin tone", "woman", "light", "tone", "lecturer", "teacher:", "professor", "skin"]
+
+        case .flagUnitedArabEmirates: return ["flag", "United Arab Emirates"]
+
+        case .womanAndManHoldingHandsLightSkinToneMediumSkinTone: return ["hands:", "couple", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "man", "medium skin tone", "holding", "and", "twins", "light", "bestie", "light skin tone", "flirt", "woman", "medium", "hand"]
+
+        case .studentMediumDarkSkinTone: return ["student:", "dark", "medium dark skin tone", "student", "graduate", "medium", "skin", "tone"]
+
+        case .hinduTemple: return ["temple", "hindu"]
+
+        case .flagMadagascar: return ["flag", "Madagascar"]
+
+        case .crab: return ["zodiac", "crab", "Cancer"]
+
+        case .owl: return ["ornithology", "animal", "owl", "wise", "bird"]
+
+        case .headphone: return ["headphone", "sound", "earbud"]
+
+        case .flagIndia: return ["India", "flag"]
+
+        case .croissant: return ["breakfast", "bread", "food", "crescent", "french", "roll", "croissant"]
+
+        case .flagGhana: return ["flag", "Ghana"]
+
+        case .boxingGlove: return ["boxing", "glove"]
+
+        case .emptyNest: return ["nest", "empty", "branch", "home", "nesting"]
+
+        case .dropOfBlood: return ["drop", "bleed", "donation", "of", "menstruation", "injury", "medicine", "blood"]
+
+        case .personStandingMediumDarkSkinTone: return ["dark", "person", "tone", "medium", "stand", "standing:", "medium dark skin tone", "standing", "skin"]
+
+        case .snowCappedMountain: return ["snow", "mountain", "capped", "cold", "snow capped"]
+
+        case .faceSavoringFood: return ["yummy", "full", "yum", "smiling", "um", "delicious", "eat", "smile", "food", "savor", "hungry", "tasty", "face", "savoring"]
+
+        case .hedgehog: return ["spiny", "animal", "hedgehog"]
+
+        case .octopus: return ["ocean", "octopus", "animal", "creature"]
+
+        case .newButton: return ["NEW", "button"]
+
+        case .spoon: return ["tableware", "eat", "spoon"]
+
+        case .scientistMediumLightSkinTone: return ["physicist", "medium light skin tone", "engineer", "mathematician", "biologist", "medium", "scientist", "skin", "chemist", "scientist:", "light", "tone"]
+
+        case .personFrowningDarkSkinTone: return ["upset", "disappointed", "annoyed", "dark skin tone", "dark", "frustrated", "frowning:", "disturbed", "person", "irritated", "frowning", "gesture", "disgruntled", "frown", "skin", "tone"]
+
+        case .familyManBoy: return ["man", "boy", "family", "family:", "man,", "child"]
+
+        case .candy: return ["halloween", "restaurant", "candy", "sweet", "tooth", "wrapper", "cavities", "dessert"]
+
+        case .lollipop: return ["food", "lollipop", "restaurant", "candy", "dessert", "sweet"]
+
+        case .handshakeMediumDarkSkinTone: return ["agreement", "hand", "handshake:", "skin", "deal", "meeting", "medium dark skin tone", "shake", "medium", "dark", "handshake", "tone"]
+
+        case .lion: return ["lion", "safari", "face", "order", "alpha", "animal", "mane", "roar", "strong", "zodiac", "rawr", "Leo"]
+
+        case .angryFaceWithHorns: return ["purple", "shade", "evil", "face", "imp", "angry", "mischievous", "fantasy", "demon", "devil", "fairytale", "fairy", "with", "horns", "tale"]
+
+        case .womanFirefighterMediumDarkSkinTone: return ["firetruck", "medium", "firefighter", "fire", "medium dark skin tone", "skin", "tone", "woman", "firefighter:", "dark"]
+
+        case .womanScientistLightSkinTone: return ["physicist", "light", "engineer", "mathematician", "biologist", "skin", "scientist", "tone", "chemist", "scientist:", "woman", "light skin tone"]
+
+        case .whale: return ["ocean", "beach", "whale", "animal"]
+
+        case .wavingHandLightSkinTone: return ["g2g", "waving", "you", "greetings", "skin", "hand:", "light skin tone", "ttyl", "hi", "outtie", "gtg", "ttfn", "yo", "light", "hello", "later", "hey", "tone", "cya", "bye", "hand", "wave"]
+
+        case .volleyball: return ["game", "volleyball", "ball"]
+
+        case .fastDownButton: return ["arrow", "button", "fast", "double", "down"]
+
+        case .signOfTheHornsMediumDarkSkinTone: return ["rock on", "medium", "horns:", "skin", "horns", "sign", "dark", "the", "hand", "medium dark skin tone", "finger", "tone", "of"]
+
+        case .rightFacingFistMediumSkinTone: return ["right facing", "medium", "medium skin tone", "skin", "fist", "right", "facing", "rightwards", "fist:", "tone"]
+
+        case .flagSyria: return ["Syria", "flag"]
+
+        case .womenHoldingHandsLightSkinToneMediumDarkSkinTone: return ["hands:", "couple", "sisters", "bff", "women", "hold", "friends", "bae", "skin", "tone,", "dating", "tone", "dark", "medium dark skin tone", "holding", "twins", "light", "bestie", "light skin tone", "flirt", "girls", "medium", "hand"]
+
+        case .headstone: return ["cemetery", "dead", "rip", "tombstone", "headstone", "tomb", "graveyard", "grave", "memorial"]
+
+        case .flushedFace: return ["geez", "flushed", "dead", "awkward", "impressed", "amazed", "embarrassed", "hot", "wow", "jeez", "crazy", "dazed", "face", "disbelief", "what", "heat"]
+
+        case .womanTechnologistDarkSkinTone: return ["coder", "technologist:", "dark skin tone", "technologist", "computer", "inventor", "skin", "tone", "software", "developer", "woman", "dark"]
+
+        case .downRightArrow: return ["down right", "down", "direction", "right", "southeast", "arrow", "intercardinal"]
+
+        case .flagYemen: return ["Yemen", "flag"]
+
+        case .rocket: return ["rocket", "rockets", "space", "travel", "launch"]
+
+        case .personMediumLightSkinToneCurlyHair: return ["light", "tone,", "curly", "hair", "skin", "adult", "person", "person:", "medium", "curly hair", "medium light skin tone"]
+
+        case .wavingHandMediumSkinTone: return ["medium skin tone", "wave", "hello", "later", "you", "tone", "yo", "hand", "cya", "hey", "gtg", "outtie", "g2g", "ttfn", "bye", "hand:", "medium", "ttyl", "waving", "skin", "greetings", "hi"]
+
+        case .leftFacingFist: return ["left", "facing", "left facing", "fist", "leftwards"]
+
+        case .indexPointingUpDarkSkinTone: return ["dark", "skin", "finger", "this", "hand", "dark skin tone", "point", "index", "up", "pointing", "up:", "tone"]
+
+        case .handshakeMediumLightSkinToneMediumDarkSkinTone: return ["handshake", "deal", "medium", "dark", "tone,", "light", "hand", "agreement", "medium light skin tone", "meeting", "tone", "skin", "handshake:", "medium dark skin tone", "shake"]
+
+        case .flagItaly: return ["Italy", "flag"]
+
+        case .pinchingHandMediumDarkSkinTone: return ["little", "dark", "fingers", "skin", "hand:", "medium dark skin tone", "amount", "pinching", "sort", "medium", "bit", "small", "tone", "hand"]
+
+        case .personDarkSkinToneRedHair: return ["red hair", "person", "tone,", "dark skin tone", "red", "dark", "adult", "skin", "hair", "person:"]
+
+        case .loudlyCryingFace: return ["bawling", "sad", "unhappy", "crying", "face", "loudly", "sob", "tears", "tear", "cry"]
+
+        case .womanStudentLightSkinTone: return ["tone", "graduate", "light", "woman", "light skin tone", "student", "student:", "skin"]
+
+        case .blackSmallSquare: return ["small", "black", "geometric", "square"]
+
+        case .selfieLightSkinTone: return ["skin", "selfie:", "light skin tone", "phone", "selfie", "light", "camera", "tone"]
+
+        case .santaClaus: return ["santa", "merry", "fairy", "Claus", "Santa", "celebration", "tale", "xmas", "Christmas", "fantasy", "holiday", "claus", "father"]
+
+        case .flagMalaysia: return ["flag", "Malaysia"]
+
+        case .hammerAndPick: return ["hammer", "tool", "pick", "and"]
+
+        case .eye: return ["one", "eye", "body", "1"]
+
+        case .loudspeaker: return ["loudspeaker", "public", "loud", "sound", "address", "communication"]
+
+        case .sagittarius: return ["archer", "horoscope", "Sagittarius", "zodiac"]
+
+        case .womanDancingLightSkinTone: return ["elegant", "flamenco", "light skin tone", "dancing", "festive", "woman", "tango", "let’s", "dancing:", "light", "skin", "salsa", "groove", "dancer", "tone", "dance", "flair"]
+
+        case .flagBosniaHerzegovina: return ["flag", "Bosnia & Herzegovina"]
+
+        case .luggage: return ["roller", "suitcase", "packing", "bag", "travel", "luggage"]
+
+        case .plunger: return ["plumber", "plunger", "poop", "suction", "cup", "force", "toilet"]
+
+        case .safetyVest: return ["vest", "emergency", "safety"]
+
+        case .manFirefighterMediumLightSkinTone: return ["man", "tone", "medium light skin tone", "fire", "light", "firefighter:", "firefighter", "firetruck", "skin", "medium"]
+
+        case .flagDenmark: return ["Denmark", "flag"]
+
+        case .flagBarbados: return ["flag", "Barbados"]
+
+        case .indexPointingUp: return ["finger", "pointing", "point", "this", "up", "hand", "index"]
+
+        case .personMediumSkinToneBeard: return ["whiskers", "person", "skin", "medium skin tone", "beard", "person:", "medium", "tone,", "bearded"]
+
+        case .fireEngine: return ["truck", "fire", "engine"]
+
+        case .perseveringFace: return ["concentrate", "persevering", "focus", "face", "concentration", "persevere", "headache"]
+
+        case .legMediumSkinTone: return ["medium", "bent", "leg", "medium skin tone", "tone", "foot", "knee", "limb", "leg:", "kick", "skin"]
+
+        case .student: return ["graduate", "student"]
+
+        case .coldFace: return ["blue", "face", "cold", "frostbite", "teeth", "icicles", "freezing", "subzero", "blue faced"]
+
+        case .snake: return ["bearer", "animal", "Ophiuchus", "serpent", "snake", "zodiac"]
+
+        case .flagSlovenia: return ["Slovenia", "flag"]
+
+        case .manInManualWheelchairMediumSkinTone: return ["medium skin tone", "wheelchair:", "accessibility", "medium", "manual", "tone", "man", "in", "skin", "wheelchair"]
+
+        case .womanAndManHoldingHandsMediumDarkSkinToneDarkSkinTone: return ["hands:", "couple", "dark skin tone", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "man", "dark", "medium dark skin tone", "and", "holding", "twins", "bestie", "medium", "flirt", "woman", "hand"]
+
+        case .aerialTramway: return ["gondola", "ropeway", "tramway", "aerial", "car", "cable"]
+
+        case .vulcanSaluteLightSkinTone: return ["light skin tone", "vulcan", "hands", "skin", "tone", "finger", "salute:", "Vulcan", "light", "hand", "salute"]
+
+        case .mapleLeaf: return ["falling", "leaf", "maple"]
+
+        case .manMediumSkinToneBald: return ["skin", "adult", "man", "bro", "medium skin tone", "tone,", "man:", "bald", "medium"]
+
+        case .sunriseOverMountains: return ["over", "mountains", "sun", "morning", "sunrise"]
+
+        case .kissingFace: return ["kiss", "143", "face", "you", "love", "xoxo", "ily", "dating", "date", "flirt", "kissing", "smooches", "smooch"]
+
+        case .thumbsDownMediumLightSkinTone: return ["medium light skin tone", "down:", "tone", "no", "skin", "bad", "thumb", "thumbs", "medium", "down", "good", "1", "hand", "dislike", "nope", "light"]
+
+        case .manSinger: return ["star", "man", "rockstar", "actor", "singer", "rock", "entertainer"]
+
+        case .volcano: return ["mountain", "eruption", "nature", "volcano"]
+
+        case .skullAndCrossbones: return ["crossbones", "and", "bone", "face", "dead", "monster", "death", "skull"]
+
+        case .flagNetherlands: return ["flag", "Netherlands"]
+
+        case .window: return ["frame", "window", "fresh", "opening", "transparent", "air", "view"]
+
+        case .doughnut: return ["doughnut", "breakfast", "donut", "food", "dessert", "sweet"]
+
+        case .personFeedingBaby: return ["newborn", "feeding", "baby", "person", "parent", "nanny", "nursing", "feed"]
+
+        case .personGesturingOkLightSkinTone: return ["light", "tone", "skin", "hand", "gesturing", "gesture", "exercise", "light skin tone", "OK", "omg", "person", "OK:"]
+
+        case .kissMediumSkinTone: return ["together", "couple", "mwah", "skin", "heart", "bae", "love", "tone", "dating", "babe", "medium skin tone", "romance", "person", "date", "kiss:", "medium", "anniversary", "xoxo", "kiss"]
+
+        case .japaneseCongratulationsButton: return ["button", "“congratulations”", "congratulations", "Japanese", "ideograph"]
+
+        case .manLightSkinToneRedHair: return ["red hair", "light", "adult", "man", "bro", "man:", "skin", "tone,", "light skin tone", "hair", "red"]
+
+        case .convenienceStore: return ["convenience", "hours", "store", "24", "building"]
+
+        case .horseRacingDarkSkinTone: return ["jockey", "dark", "racehorse", "racing", "riding", "horse", "racing:", "sport", "tone", "skin", "dark skin tone"]
+
+        case .openBook: return ["library", "book", "education", "fantasy", "novels", "reading", "knowledge", "open"]
+
+        case .firefighterMediumSkinTone: return ["tone", "medium skin tone", "fire", "firetruck", "medium", "skin", "firefighter:", "firefighter"]
+
+        case .horizontalTrafficLight: return ["stop", "horizontal", "signal", "traffic", "intersection", "stoplight", "light"]
+
+        case .greenApple: return ["fruit", "apple", "green"]
+
+        case .womanAndManHoldingHandsMediumLightSkinToneDarkSkinTone: return ["hands:", "couple", "dark skin tone", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "man", "dark", "medium light skin tone", "and", "holding", "twins", "light", "bestie", "medium", "flirt", "woman", "hand"]
+
+        case .wiltedFlower: return ["flower", "wilted", "dying"]
+
+        case .maracas: return ["dance", "maracas", "shake", "shaker", "rattle", "music", "percussion", "instrument", "cha", "party"]
+
+        case .monkey: return ["monkey", "animal", "banana"]
+
+        case .womanFarmer: return ["farmer", "rancher", "gardener", "woman"]
+
+        case .middleFinger: return ["hand", "middle", "finger"]
+
+        case .deafPersonDarkSkinTone: return ["person:", "ear", "deaf", "accessibility", "person", "dark", "dark skin tone", "gesture", "skin", "tone", "hear"]
+
+        case .locomotive: return ["locomotive", "engine", "train", "steam", "railway", "travel", "caboose", "trains"]
+
+        case .thread: return ["spool", "thread", "string", "sewing", "needle"]
+
+        case .thongSandal: return ["flip", "thong", "sandals", "sandal", "beach", "shoe", "flop", "thongs", "zōri"]
+
+        case .soonArrow: return ["brb", "omw", "SOON", "arrow"]
+
+        case .princeMediumSkinTone: return ["medium", "prince:", "tone", "king", "crown", "medium skin tone", "fairytale", "tale", "royalty", "fairy", "royal", "prince", "skin", "fantasy"]
+
+        case .womanLightSkinToneCurlyHair: return ["skin", "adult", "light", "tone,", "curly", "light skin tone", "woman", "hair", "curly hair", "woman:", "lady"]
+
+        case .oncomingFistLightSkinTone: return ["oncoming", "light", "rock", "absolutely", "bruh", "pound", "skin", "tone", "light skin tone", "bro", "fist", "agree", "clenched", "hand", "correct", "bump", "fist:", "ttyl", "knuckle", "punch", "boom"]
+
+        case .goggles: return ["scuba", "protection", "welding", "dive", "swimming", "eye", "goggles"]
+
+        case .palmUpHandDarkSkinTone: return ["offer", "come", "know", "up", "catch", "dark", "dark skin tone", "tell", "skin", "me", "lift", "palm", "hold", "hand", "beckon", "hand:", "tone"]
+
+        case .noseMediumLightSkinTone: return ["smell", "medium light skin tone", "nosey", "smells", "noses", "body", "light", "tone", "nose:", "odor", "nose", "medium", "skin"]
+
+        case .sevenThirty: return ["thirty", "seven thirty", "7:30", "7", "seven", "clock", "30"]
+
+        case .satellite: return ["space", "satellite"]
+
+        case .horseRacingMediumDarkSkinTone: return ["jockey", "medium dark skin tone", "racehorse", "dark", "racing", "riding", "horse", "racing:", "sport", "tone", "skin", "medium"]
+
+        case .rightwardsPushingHandMediumSkinTone: return ["hold", "rightward", "hand:", "tone", "stop", "halt", "high", "push", "wait", "medium", "pushing", "skin", "five", "refuse", "slap", "rightwards", "hand", "medium skin tone", "pause", "block"]
+
+        case .selfie: return ["camera", "phone", "selfie"]
+
+        case .personInSteamyRoomMediumLightSkinTone: return ["skin", "steamy", "in", "pamper", "person", "day", "sauna", "spa", "steambath", "room", "unwind", "medium", "room:", "tone", "light", "relax", "luxurious", "medium light skin tone", "steam"]
+
+        case .flagMalta: return ["Malta", "flag"]
+
+        case .riceBall: return ["rice", "ball", "food", "Japanese"]
+
+        case .lastQuarterMoonFace: return ["last", "dreams", "face", "moon", "quarter"]
+
+        case .pinchingHandDarkSkinTone: return ["pinching", "sort", "skin", "hand:", "hand", "amount", "dark", "small", "dark skin tone", "tone", "bit", "fingers", "little"]
+
+        case .axe: return ["wood", "axe", "chop", "hatchet", "ax", "split"]
+
+        case .teacherMediumDarkSkinTone: return ["medium dark skin tone", "medium", "tone", "dark", "teacher:", "teacher", "skin", "instructor", "lecturer", "professor"]
+
+        case .personRaisingHandMediumDarkSkinTone: return ["here", "raise", "pick", "medium", "hand", "hand:", "me", "medium dark skin tone", "tone", "question", "person", "raising", "know", "dark", "skin", "gesture"]
+
+        case .factory: return ["factory", "building"]
+
+        case .seat: return ["seat", "chair"]
+
+        case .girlLightSkinTone: return ["Virgo", "girl:", "younger", "light", "skin", "light skin tone", "zodiac", "girl", "tone", "young", "granddaughter", "kid", "bright eyed", "daughter", "child"]
+
+        case .flagTokelau: return ["flag", "Tokelau"]
+
+        case .multiply: return ["×", "multiply", "cancel", "x", "multiplication", "sign"]
+
+        case .kissLightSkinTone: return ["together", "couple", "mwah", "skin", "heart", "bae", "love", "tone", "dating", "babe", "romance", "person", "date", "light", "light skin tone", "kiss:", "anniversary", "xoxo", "kiss"]
+
+        case .faceWithMedicalMask: return ["doctor", "dr", "medicine", "sick", "dentist", "medical", "with", "mask", "cold", "germs", "dermatologist", "face"]
+
+        case .grinningFace: return ["grinning", "cheery", "cheerful", "face", "happy", "grin", "smile", "laugh", "nice", "smiling", "teeth"]
+
+        case .flagNepal: return ["flag", "Nepal"]
+
+        case .bookmark: return ["mark", "bookmark"]
+
+        case .personInMotorizedWheelchair: return ["motorized", "person", "wheelchair", "accessibility", "in"]
+
+        case .personGesturingNoDarkSkinTone: return ["forbidden", "gesturing", "dark skin tone", "NO", "hand", "person", "tone", "not", "NO:", "prohibit", "dark", "gesture", "skin"]
+
+        case .eggplant: return ["vegetable", "aubergine", "eggplant"]
+
+        case .womanWithWhiteCaneLightSkinTone: return ["woman", "probing", "tone", "light", "light skin tone", "cane", "blind", "skin", "with", "cane:", "white", "accessibility"]
+
+        case .riceCracker: return ["food", "rice", "cracker"]
+
+        case .officeWorkerMediumDarkSkinTone: return ["worker", "medium dark skin tone", "office", "manager", "business", "worker:", "medium", "skin", "tone", "white collar", "architect", "dark"]
+
+        case .faceWithBagsUnderEyes: return ["late", "face", "bored", "bags", "sleepy", "tired", "under", "exhausted", "with", "fatigued", "eyes", "weary"]
+
+        case .womanAndManHoldingHands: return ["holding", "friends", "hands", "bff", "flirt", "and", "man", "hold", "hand", "woman", "couple", "twins", "dating", "bestie", "bae"]
+
+        case .redApple: return ["health", "ripe", "food", "diet", "red", "apple", "fruit"]
+
+        case .guardDarkSkinTone: return ["guard:", "skin", "london", "palace", "dark skin tone", "tone", "buckingham", "helmet", "dark", "guard"]
+
+        case .manMediumLightSkinTone: return ["tone", "man:", "light", "skin", "medium light skin tone", "medium", "adult", "man", "bro"]
+
+        case .manStudentLightSkinTone: return ["student:", "light skin tone", "tone", "light", "student", "skin", "graduate", "man"]
+
+        case .custard: return ["pudding", "custard", "sweet", "dessert"]
+
+        case .mensRoom: return ["room", "man", "toilet", "restroom", "men’s", "lavatory", "WC", "bathroom"]
+
+        case .nutAndBolt: return ["bolt", "home", "improvement", "nut", "and", "tool"]
+
+        case .chequeredFlag: return ["racing", "game", "race", "sport", "flags", "flag", "finish", "chequered", "win", "checkered"]
+
+        case .purpleHeart: return ["ily", "love", "emotion", "143", "heart", "bestest", "purple"]
+
+        case .womanDancing: return ["woman", "dancing", "flair", "elegant", "flamenco", "dance", "festive", "groove", "let’s", "salsa", "dancer", "tango"]
+
+        case .flagBahamas: return ["flag", "Bahamas"]
+
+        case .backhandIndexPointingUpDarkSkinTone: return ["skin", "point", "hand", "index", "dark skin tone", "finger", "pointing", "up", "backhand", "tone", "dark", "up:"]
+
+        case .merpersonMediumSkinTone: return ["medium", "creature", "merperson:", "merperson", "skin", "trident", "tone", "siren", "sea", "medium skin tone", "ocean", "folklore", "fairytale"]
+
+        case .herb: return ["plant", "herb", "leaf"]
+
+        case .horseRacingMediumSkinTone: return ["jockey", "racehorse", "medium skin tone", "racing", "riding", "horse", "racing:", "sport", "tone", "skin", "medium"]
+
+        case .babyAngelMediumDarkSkinTone: return ["angel:", "angel", "church", "medium dark skin tone", "tale", "fairy", "baby", "medium", "tone", "face", "dark", "skin", "fantasy", "fairytale"]
+
+        case .hairPick: return ["hair", "groom", "comb", "pick", "Afro"]
+
+        case .personInBedDarkSkinTone: return ["dark", "tired", "bed:", "skin", "sleep", "dark skin tone", "night", "zzz", "good", "bed", "in", "nap", "bedtime", "hotel", "person", "tone", "goodnight"]
+
+        case .flagTrinidadTobago: return ["Trinidad & Tobago", "flag"]
+
+        case .backhandIndexPointingDownMediumSkinTone: return ["down", "medium", "medium skin tone", "skin", "finger", "hand", "backhand", "index", "point", "pointing", "tone", "down:"]
+
+        case .heavyEqualsSign: return ["answer", "equality", "math", "equals", "sign", "heavy", "equal"]
+
+        case .japaneseReservedButton: return ["button", "“reserved”", "reserved", "Japanese", "ideograph"]
+
+        case .tamale: return ["food", "mexican", "wrapped", "tamale", "pamonha"]
+
+        case .menHoldingHandsLightSkinTone: return ["brothers", "couple", "hands:", "men", "bff", "skin", "hold", "friends", "bae", "tone", "dating", "holding", "twins", "boys", "light", "bestie", "light skin tone", "flirt", "hand"]
+
+        case .telephone: return ["telephone", "phone"]
+
+        case .factoryWorker: return ["assembly", "factory", "worker", "industrial"]
+
+        case .manTechnologistDarkSkinTone: return ["coder", "technologist:", "man", "dark skin tone", "technologist", "computer", "inventor", "skin", "tone", "developer", "software", "dark"]
+
+        case .aquarius: return ["water", "Aquarius", "bearer", "horoscope", "zodiac"]
+
+        case .personGesturingNoMediumLightSkinTone: return ["medium light skin tone", "prohibit", "skin", "tone", "NO:", "NO", "medium", "forbidden", "light", "hand", "person", "gesture", "not", "gesturing"]
+
+        case .bat: return ["vampire", "bat", "animal"]
+
+        case .flagNewCaledonia: return ["New Caledonia", "flag"]
+
+        case .penguin: return ["antarctica", "animal", "ornithology", "penguin", "bird"]
+
+        case .foldedHandsDarkSkinTone: return ["thx", "please", "gesture", "five", "blessed", "beg", "appreciate", "bow", "tone", "skin", "dark", "ask", "dark skin tone", "hands:", "hand", "thanks", "high", "folded", "cmon", "pray"]
+
+        case .personBald: return ["adult", "person:", "person", "bald"]
+
+        case .virgo: return ["horoscope", "Virgo", "zodiac"]
+
+        case .falafel: return ["chickpea", "falafel", "meatball"]
+
+        case .pottedPlant: return ["grow", "pot", "potted", "decor", "nurturing", "house", "plant"]
+
+        case .frontFacingBabyChick: return ["front facing", "facing", "baby", "animal", "bird", "chick", "newborn", "ornithology", "front"]
+
+        case .flagCapeVerde: return ["flag", "Cape Verde"]
+
+        case .lungs: return ["exhalation", "lung", "respiration", "organ", "breathe", "breath", "inhalation", "lungs"]
+
+        case .tokyoTower: return ["Tokyo", "tower"]
+
+        case .fileFolder: return ["file", "folder"]
+
+        case .briefs: return ["briefs", "swimsuit", "bathing", "underwear", "one piece", "suit"]
+
+        case .flagHeardMcdonaldIslands: return ["flag", "Heard & McDonald Islands"]
+
+        case .blueHeart: return ["emotion", "blue", "heart", "143", "ily", "romance", "love"]
+
+        case .manualWheelchair: return ["wheelchair", "accessibility", "manual"]
+
+        case .loveLetter: return ["valentine", "love", "mail", "letter", "heart", "romance"]
+
+        case .shower: return ["shower", "water"]
+
+        case .pregnantPerson: return ["overeat", "full", "person", "stuffed", "belly", "pregnant", "bloated"]
+
+        case .menHoldingHandsMediumLightSkinToneDarkSkinTone: return ["brothers", "couple", "dark skin tone", "men", "hands:", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "dark", "medium light skin tone", "holding", "twins", "boys", "light", "bestie", "medium", "flirt", "hand"]
+
+        case .flagBouvetIsland: return ["flag", "Bouvet Island"]
+
+        case .womanWithWhiteCaneMediumDarkSkinTone: return ["with", "white", "tone", "cane:", "probing", "medium", "dark", "blind", "medium dark skin tone", "cane", "accessibility", "skin", "woman"]
+
+        case .womanMechanicMediumDarkSkinTone: return ["electrician", "plumber", "dark", "woman", "tradesperson", "mechanic:", "skin", "mechanic", "tone", "medium", "medium dark skin tone"]
+
+        case .curlyHair: return ["afro", "curly", "ringlets", "hair"]
+
+        case .flagUsVirginIslands: return ["U.S. Virgin Islands", "flag"]
+
+        case .raisedBackOfHandMediumLightSkinTone: return ["skin", "medium light skin tone", "of", "back", "raised", "light", "hand", "hand:", "backhand", "tone", "medium"]
+
+        case .guitar: return ["music", "instrument", "strat", "guitar"]
+
+        case .aButtonBloodType: return ["button", "type)", "type", "A", "(blood", "blood"]
+
+        case .nailPolishMediumDarkSkinTone: return ["nail", "skin", "whatever", "care", "tone", "medium", "done", "dark", "cosmetics", "bored", "polish:", "medium dark skin tone", "manicure", "polish", "makeup"]
+
+        case .downLeftArrow: return ["direction", "down", "southwest", "intercardinal", "down left", "arrow", "left"]
+
+        case .rabbitFace: return ["pet", "face", "animal", "bunny", "rabbit"]
+
+        case .japaneseNoVacancyButton: return ["vacancy", "vacancy”", "Japanese", "“no", "ideograph", "no", "button"]
+
+        case .womenHoldingHandsDarkSkinToneMediumSkinTone: return ["hands:", "couple", "dark skin tone", "sisters", "bff", "women", "hold", "friends", "bae", "skin", "tone,", "dating", "medium skin tone", "dark", "tone", "holding", "twins", "bestie", "medium", "flirt", "girls", "hand"]
+
+        case .eightOclock: return ["8:00", "eight", "8", "o’clock", "time", "clock"]
+
+        case .heartHandsMediumDarkSkinTone: return ["love", "tone", "hands", "dark", "hands:", "heart", "<3", "you", "medium dark skin tone", "medium", "skin"]
+
+        case .zzz: return ["good", "sleepy", "comic", "zzz", "goodnight", "tired", "ZZZ", "night", "sleep", "sleeping"]
+
+        case .butterfly: return ["pretty", "butterfly", "insect"]
+
+        case .flagGreece: return ["flag", "Greece"]
+
+        case .personMediumSkinToneBlondHair: return ["medium skin tone", "blond hair", "human", "tone,", "blond", "medium", "skin", "blond haired", "hair", "person", "person:"]
+
+        case .personWithVeilMediumSkinTone: return ["with", "medium", "veil", "wedding", "veil:", "medium skin tone", "person", "skin", "tone"]
+
+        case .zipperMouthFace: return ["mouth", "quiet", "secret", "shut", "zipper mouth", "keep", "face", "zipper", "zip"]
+
+        case .nailPolishMediumSkinTone: return ["care", "skin", "done", "cosmetics", "medium", "medium skin tone", "makeup", "tone", "nail", "manicure", "bored", "polish", "whatever", "polish:"]
+
+        case .checkMarkButton: return ["complete", "button", "completed", "✓", "checkmark", "checked", "done", "check", "mark", "tick", "fixed"]
+
+        case .upsideDownFace: return ["face", "upside down", "hehe", "upside", "down", "smile"]
+
+        case .manInMotorizedWheelchairMediumLightSkinTone: return ["medium light skin tone", "motorized", "man", "light", "accessibility", "skin", "in", "wheelchair", "wheelchair:", "medium", "tone"]
+
+        case .balletShoes: return ["shoes", "dance", "ballet"]
+
+        case .orangutan: return ["animal", "ape", "monkey", "orangutan"]
+
+        case .mushroom: return ["mushroom", "toadstool", "fungus"]
+
+        case .mrsClaus: return ["tale", "santa", "merry", "mother", "claus", "Claus", "fairy", "holiday", "fantasy", "celebration", "xmas", "Mrs.", "Christmas", "Mrs"]
+
+        case .personInBedMediumDarkSkinTone: return ["person", "bedtime", "bed:", "tone", "hotel", "medium dark skin tone", "good", "dark", "skin", "nap", "sleep", "zzz", "medium", "tired", "bed", "in", "goodnight", "night"]
+
+        case .musicalNotes: return ["note", "sound", "music", "notes", "musical"]
+
+        case .envelopeWithArrow: return ["email", "communication", "send", "with", "outgoing", "sent", "down", "mail", "letter", "envelope", "e mail", "arrow"]
+
+        case .playOrPauseButton: return ["triangle", "button", "play", "right", "arrow", "pause", "or"]
+
+        case .dove: return ["dove", "bird", "fly", "peace", "ornithology"]
+
+        case .handshakeMediumSkinToneMediumLightSkinTone: return ["deal", "medium", "skin", "light", "meeting", "medium skin tone", "shake", "medium light skin tone", "tone", "tone,", "hand", "handshake:", "handshake", "agreement"]
+
+        case .ninjaMediumSkinTone: return ["skin", "fighter", "medium skin tone", "person", "fight", "hidden", "stealth", "secret", "ninja", "assassin", "war", "sly", "ninja:", "tone", "medium", "skills", "soldier"]
+
+        case .flagQatar: return ["Qatar", "flag"]
+
+        case .flagTunisia: return ["flag", "Tunisia"]
+
+        case .yellowSquare: return ["square", "yellow", "card", "penalty"]
+
+        case .upButton: return ["UP", "UP!", "button", "mark"]
+
+        case .door: return ["door", "back", "closet", "front"]
+
+        case .registered: return ["registered", "R"]
+
+        case .nailPolishLightSkinTone: return ["done", "polish:", "nail", "light", "skin", "manicure", "tone", "polish", "light skin tone", "cosmetics", "bored", "care", "makeup", "whatever"]
+
+        case .twelveOclock: return ["time", "o’clock", "twelve", "12:00", "12", "clock"]
+
+        case .partAlternationMark: return ["alternation", "mark", "part"]
+
+        case .detectiveMediumSkinTone: return ["sleuth", "tone", "skin", "medium skin tone", "detective:", "detective", "spy", "medium"]
+
+        case .peopleHoldingHandsMediumDarkSkinToneMediumLightSkinTone: return ["dating", "hold", "people", "medium", "twins", "couple", "holding", "tone", "medium dark skin tone", "medium light skin tone", "dark", "friends", "bff", "hands:", "flirt", "skin", "bestie", "hand", "light", "tone,", "bae"]
+
+        case .manScientistMediumDarkSkinTone: return ["medium", "skin", "chemist", "engineer", "dark", "man", "physicist", "biologist", "mathematician", "scientist", "tone", "scientist:", "medium dark skin tone"]
+
+        case .leftLuggage: return ["luggage", "locker", "baggage", "left", "case"]
+
+        case .melon: return ["fruit", "cantaloupe", "melon"]
+
+        case .menHoldingHandsMediumDarkSkinToneMediumSkinTone: return ["brothers", "couple", "hands:", "men", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "medium skin tone", "dark", "medium dark skin tone", "holding", "twins", "boys", "bestie", "medium", "flirt", "hand"]
+
+        case .officeWorkerLightSkinTone: return ["light", "worker", "office", "manager", "business", "worker:", "skin", "tone", "white collar", "architect", "light skin tone"]
+
+        case .rightArrow: return ["direction", "cardinal", "arrow", "east", "right"]
+
+        case .squid: return ["animal", "mollusk", "squid", "food"]
+
+        case .flagTonga: return ["flag", "Tonga"]
+
+        case .backhandIndexPointingDown: return ["down", "finger", "hand", "index", "point", "pointing", "backhand"]
+
+        case .mouseFace: return ["mouse", "animal", "face"]
+
+        case .manDancingMediumSkinTone: return ["elegant", "flamenco", "dancing", "man", "festive", "dancing:", "let’s", "tango", "medium", "skin", "tone", "salsa", "groove", "dancer", "dance", "flair", "medium skin tone"]
+
+        case .lacrosse: return ["goal", "sports", "stick", "lacrosse", "ball"]
+
+        case .womenHoldingHandsLightSkinToneDarkSkinTone: return ["hands:", "couple", "dark skin tone", "sisters", "bff", "women", "hold", "friends", "bae", "skin", "tone,", "dating", "tone", "dark", "holding", "twins", "light", "bestie", "light skin tone", "flirt", "girls", "hand"]
+
+        case .manOfficeWorkerDarkSkinTone: return ["worker", "dark skin tone", "man", "manager", "office", "business", "worker:", "skin", "tone", "white collar", "architect", "dark"]
+
+        case .slightlyFrowningFace: return ["face", "frown", "frowning", "sad", "slightly"]
+
+        case .personWithCrown: return ["royal", "noble", "with", "monarch", "crown", "person", "regal", "royalty"]
+
+        case .handWithFingersSplayedMediumDarkSkinTone: return ["tone", "with", "raised", "hand", "splayed", "medium dark skin tone", "dark", "splayed:", "fingers", "medium", "skin", "finger", "stop"]
+
+        case .womanTechnologistMediumLightSkinTone: return ["woman", "medium", "coder", "software", "inventor", "medium light skin tone", "computer", "technologist", "developer", "tone", "technologist:", "skin", "light"]
+
+        case .performingArts: return ["thespian", "arts", "art", "actor", "mask", "entertainment", "performing", "theater", "actress", "theatre"]
+
+        case .blueBook: return ["book", "education", "blue", "fantasy", "reading", "library"]
+
+        case .motorcycle: return ["racing", "motorcycle"]
+
+        case .womanInMotorizedWheelchairLightSkinTone: return ["woman", "accessibility", "tone", "motorized", "wheelchair", "light", "in", "light skin tone", "wheelchair:", "skin"]
+
+        case .vampireMediumDarkSkinTone: return ["undead", "Dracula", "medium dark skin tone", "scary", "teeth", "medium", "fangs", "blood", "dark", "halloween", "supernatural", "skin", "tone", "vampire", "vampire:"]
+
+        case .raisingHands: return ["hands", "gesture", "hand", "raised", "celebration", "raising", "praise", "hooray"]
+
+        case .noLittering: return ["litter", "littering", "forbidden", "no", "not", "prohibited"]
+
+        case .fox: return ["face", "fox", "animal"]
+
+        case .openMailboxWithLoweredFlag: return ["mail", "postbox", "with", "mailbox", "flag", "open", "lowered"]
+
+        case .flagEstonia: return ["flag", "Estonia"]
+
+        case .flagStVincentGrenadines: return ["flag", "St. Vincent & Grenadines"]
+
+        case .foot: return ["ankle", "feet", "foot", "kick", "stomp"]
+
+        case .peopleHoldingHandsMediumLightSkinToneMediumSkinTone: return ["hand", "tone,", "medium light skin tone", "friends", "hold", "tone", "dating", "light", "twins", "holding", "flirt", "people", "couple", "bae", "medium", "skin", "bestie", "bff", "medium skin tone", "hands:"]
+
+        case .womanOfficeWorkerDarkSkinTone: return ["dark", "worker", "dark skin tone", "business", "manager", "office", "worker:", "skin", "tone", "white collar", "architect", "woman"]
+
+        case .indexPointingAtTheViewer: return ["pointing", "you", "index", "viewer", "hand", "the", "finger", "at", "poke"]
+
+        case .ngButton: return ["button", "NG"]
+
+        case .policeOfficerMediumDarkSkinTone: return ["over", "pulled", "dark", "arrest", "cop", "undercover", "officer", "skin", "apprehend", "medium", "law", "tone", "citation", "police", "officer:", "medium dark skin tone"]
+
+        case .flagAntiguaBarbuda: return ["Antigua & Barbuda", "flag"]
+
+        case .farmerLightSkinTone: return ["rancher", "farmer", "light", "light skin tone", "gardener", "tone", "farmer:", "skin"]
+
+        case .palmDownHandDarkSkinTone: return ["dark skin tone", "shoo", "hand:", "down", "dismiss", "tone", "palm", "hand", "dropped", "dark", "skin", "drop", "pick", "up"]
+
+        case .japaneseSecretButton: return ["button", "secret", "“secret”", "Japanese", "ideograph"]
+
+        case .chartIncreasingWithYen: return ["yen", "bank", "money", "with", "increasing", "graph", "trend", "market", "growth", "currency", "chart", "rise", "upward"]
+
+        case .personMediumSkinToneBald: return ["person", "medium", "medium skin tone", "person:", "adult", "skin", "bald", "tone,"]
+
+        case .menHoldingHandsDarkSkinToneMediumDarkSkinTone: return ["brothers", "couple", "dark skin tone", "men", "hands:", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "dark", "medium dark skin tone", "holding", "twins", "boys", "bestie", "medium", "flirt", "hand"]
+
+        case .tangerine: return ["tangerine", "vitamin", "nectarine", "citrus", "c", "orange", "fruit"]
+
+        case .womanAndManHoldingHandsMediumSkinToneLightSkinTone: return ["hands:", "couple", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "man", "medium skin tone", "holding", "and", "twins", "light", "bestie", "light skin tone", "flirt", "woman", "medium", "hand"]
+
+        case .footprints: return ["footprint", "barefoot", "walk", "footprints", "clothing", "omw", "print"]
+
+        case .flagHongKongSarChina: return ["flag", "Hong Kong SAR China"]
+
+        case .ballotBoxWithBallot: return ["with", "ballot", "box"]
+
+        case .seedling: return ["seedling", "sapling", "sprout", "young", "plant"]
+
+        case .manDarkSkinTone: return ["man:", "tone", "dark", "dark skin tone", "adult", "bro", "skin", "man"]
+
+        case .egg: return ["food", "breakfast", "egg"]
+
+        case .pregnantPersonMediumDarkSkinTone: return ["medium dark skin tone", "overeat", "stuffed", "bloated", "dark", "medium", "person:", "pregnant", "belly", "tone", "full", "person", "skin"]
+
+        case .highVoltage: return ["thunder", "voltage", "lightning", "thunderbolt", "zap", "electric", "high", "electricity", "danger", "nature"]
+
+        case .womanSingerDarkSkinTone: return ["rock", "singer:", "dark skin tone", "star", "rockstar", "actor", "skin", "entertainer", "tone", "singer", "dark", "woman"]
+
+        case .noSmoking: return ["not", "forbidden", "prohibited", "smoking", "no", "smoke"]
+
+        case .raccoon: return ["sly", "curious", "raccoon", "animal"]
+
+        case .grinningFaceWithSmilingEyes: return ["eye", "face", "laugh", "eyes", "mouth", "smile", "grin", "with", "lol", "grinning", "happy", "smiling", "open"]
+
+        case .castle: return ["building", "castle", "European"]
+
+        case .womanArtistLightSkinTone: return ["light skin tone", "light", "tone", "artist", "woman", "palette", "skin", "artist:"]
+
+        case .manStudentDarkSkinTone: return ["graduate", "man", "dark skin tone", "student:", "skin", "tone", "dark", "student"]
+
+        case .personBiking: return ["bicycle", "cycle", "biking", "person", "riding", "sport", "bike", "bicyclist", "cyclist"]
+
+        case .personGesturingNoMediumSkinTone: return ["hand", "gesture", "forbidden", "gesturing", "NO:", "skin", "medium skin tone", "person", "not", "prohibit", "NO", "tone", "medium"]
+
+        case .leftwardsHandMediumSkinTone: return ["leftward", "leftwards", "left", "medium", "tone", "hand:", "handshake", "hand", "hold", "reach", "shake", "medium skin tone", "skin"]
+
+        case .crossedFingersMediumSkinTone: return ["crossed", "tone", "cross", "medium skin tone", "finger", "fingers:", "medium", "skin", "luck", "fingers", "hand"]
+
+        case .kissingFaceWithClosedEyes: return ["date", "eyes", "bae", "143", "dating", "smooches", "closed", "kisses", "xoxo", "eye", "flirt", "kissing", "ily", "with", "face", "blush"]
+
+        case .flagJersey: return ["flag", "Jersey"]
+
+        case .personTippingHandMediumLightSkinTone: return ["hand:", "tone", "medium", "person", "gossip", "tipping", "sarcastic", "sassy", "flick", "skin", "medium light skin tone", "whatever", "seriously", "hand", "flip", "light", "fetch", "sarcasm"]
+
+        case .vulcanSaluteMediumDarkSkinTone: return ["hand", "Vulcan", "salute", "vulcan", "tone", "dark", "skin", "salute:", "medium", "medium dark skin tone", "hands", "finger"]
+
+        case .familyWomanGirlGirl: return ["girl,", "family", "woman,", "woman", "family:", "girl", "child"]
+
+        case .flatShoe: return ["flat", "ballet", "flats", "slip on", "slipper", "shoe", "comfy"]
+
+        case .alembic: return ["tool", "alembic", "chemistry"]
+
+        case .swan: return ["duckling", "bird", "animal", "cygnet", "swan", "ornithology", "ugly"]
+
+        case .pinchingHandMediumLightSkinTone: return ["hand:", "hand", "tone", "fingers", "light", "sort", "medium", "little", "medium light skin tone", "amount", "pinching", "small", "bit", "skin"]
+
+        case .cactus: return ["desert", "nature", "plant", "cactus", "drought"]
+
+        case .womanOfficeWorkerMediumDarkSkinTone: return ["woman", "dark", "architect", "medium", "white collar", "worker", "medium dark skin tone", "skin", "worker:", "business", "tone", "office", "manager"]
+
+        case .videocassette: return ["school", "tape", "old", "vhs", "vcr", "video", "videocassette"]
+
+        case .zanyFace: return ["goofy", "face", "eye", "zany", "large", "eyes", "small", "crazy"]
+
+        case .womanAndManHoldingHandsMediumSkinTone: return ["hands:", "couple", "bff", "skin", "hold", "friends", "bae", "tone", "dating", "man", "medium skin tone", "holding", "and", "twins", "bestie", "medium", "flirt", "woman", "hand"]
+
+        case .downArrow: return ["cardinal", "direction", "down", "arrow", "south"]
+
+        case .backhandIndexPointingRightLightSkinTone: return ["point", "light skin tone", "hand", "right", "finger", "index", "pointing", "right:", "light", "backhand", "tone", "skin"]
+
+        case .factoryWorkerLightSkinTone: return ["light", "assembly", "factory", "worker:", "tone", "worker", "industrial", "light skin tone", "skin"]
+
+        case .santaClausDarkSkinTone: return ["Claus:", "fantasy", "xmas", "claus", "dark", "holiday", "father", "tone", "merry", "santa", "dark skin tone", "fairy", "tale", "Christmas", "Santa", "celebration", "skin"]
+
+        case .cannedFood: return ["can", "canned", "food"]
+
+        case .moneyWithWings: return ["dollar", "banknote", "bank", "note", "wings", "pay", "billion", "million", "cash", "fly", "with", "bill", "money"]
+
+        case .womenHoldingHandsLightSkinTone: return ["hands:", "couple", "sisters", "bff", "women", "hold", "friends", "bae", "skin", "tone", "dating", "holding", "twins", "light", "bestie", "light skin tone", "flirt", "girls", "hand"]
+
+        case .flexedBicepsMediumSkinTone: return ["tone", "flex", "curls", "bro", "bench", "gym", "bodybuilder", "medium skin tone", "gains", "muscle", "press", "medium", "skin", "biceps:", "weightlift", "strong", "flexed", "arm", "ripped", "biceps", "jacked", "beast"]
+
+        case .flagAndorra: return ["Andorra", "flag"]
+
+        case .sadButRelievedFace: return ["anxious", "close", "call", "disappointed", "sad", "whew", "but", "face", "time", "not", "sweat", "relieved", "complicated"]
+
+        case .redTrianglePointedUp: return ["triangle", "geometric", "up", "pointed", "red"]
+
+        case .tomato: return ["food", "fruit", "tomato", "vegetable"]
+
+        case .hushedFace: return ["epic", "hushed", "face", "whoa", "omg", "woah", "surprised", "stunned"]
+
+        case .childrenCrossing: return ["child", "pedestrian", "traffic", "children", "crossing"]
+
+        case .speakerLowVolume: return ["sound", "soft", "speaker", "volume", "low"]
+
+        case .manAstronautMediumLightSkinTone: return ["medium", "tone", "skin", "light", "astronaut", "medium light skin tone", "man", "astronaut:", "space", "rocket"]
+
+        case .magicWand: return ["wand", "witch", "magic", "magician", "wizard"]
+
+        case .leftwardsHandMediumDarkSkinTone: return ["reach", "shake", "hand", "leftward", "hand:", "hold", "skin", "leftwards", "left", "medium", "medium dark skin tone", "tone", "handshake", "dark"]
+
+        case .cricket: return ["animal", "cricket", "grasshopper", "Orthoptera", "bug", "insect"]
+
+        case .artistLightSkinTone: return ["artist:", "artist", "palette", "skin", "tone", "light", "light skin tone"]
+
+        case .personLightSkinToneBald: return ["adult", "light", "light skin tone", "skin", "tone,", "bald", "person:", "person"]
+
+        case .wearyFace: return ["hungry", "sleepy", "weary", "unhappy", "feels", "sad", "crying", "fail", "nooo", "tired", "face", "mad"]
+
+        case .newspaper: return ["newspaper", "news", "paper", "communication"]
+
+        case .flagMonaco: return ["Monaco", "flag"]
+
+        case .clutchBag: return ["clothes", "clutch", "clothing", "handbag", "purse", "dress", "bag", "pouch"]
+
+        case .manStudent: return ["graduate", "man", "student"]
+
+        case .checkMark: return ["✓", "checkmark", "tick", "done", "check", "heavy", "mark", "checked"]
+
+        case .olderPersonMediumSkinTone: return ["elderly", "grandparent", "person:", "adult", "skin", "medium skin tone", "person", "old", "older", "medium", "tone", "wise"]
+
+        case .manFirefighterLightSkinTone: return ["light skin tone", "firefighter", "firetruck", "light", "tone", "man", "firefighter:", "skin", "fire"]
+
+        case .turtle: return ["turtle", "animal", "tortoise", "terrapin"]
+
+        case .factoryWorkerDarkSkinTone: return ["assembly", "dark skin tone", "worker", "industrial", "dark", "factory", "tone", "worker:", "skin"]
+
+        case .babyAngel: return ["angel", "church", "fairytale", "face", "baby", "fantasy", "tale", "fairy"]
+
+        case .personBouncingBallDarkSkinTone: return ["basketball", "ball", "player", "bouncing", "tone", "throw", "athletic", "dribble", "dark", "ball:", "dark skin tone", "championship", "net", "skin", "person"]
+
+        case .flagFaroeIslands: return ["Faroe Islands", "flag"]
+
+        case .personBeard: return ["bearded", "whiskers", "person:", "beard", "person"]
+
+        case .flagSwitzerland: return ["flag", "Switzerland"]
+
+        case .worldMap: return ["map", "world"]
+
+        case .cookMediumDarkSkinTone: return ["dark", "medium dark skin tone", "tone", "cook", "skin", "cook:", "medium", "chef"]
+
+        case .palmsUpTogetherMediumSkinTone: return ["wish", "skin", "hands", "pray", "tone", "up", "medium", "together", "dua", "prayer", "palms", "medium skin tone", "together:", "cupped"]
+
+        case .supervillainMediumLightSkinTone: return ["medium light skin tone", "light", "villain", "supervillain:", "supervillain", "superpower", "medium", "tone", "bad", "evil", "criminal", "skin"]
+
+        case .familyManWomanBoyBoy: return ["boy", "man", "family:", "child", "man,", "woman,", "family", "boy,", "woman"]
+
+        case .kangaroo: return ["joey", "animal", "jump", "marsupial", "kangaroo"]
+
+        case .thumbsDown: return ["1", "no", "bad", "hand", "thumbs", "nope", "down", "dislike", "thumb", "good"]
+
+        case .cookMediumSkinTone: return ["cook", "cook:", "skin", "medium skin tone", "chef", "medium", "tone"]
+
+        case .pinchedFingersDarkSkinTone: return ["hold", "interrogation", "what", "zip", "tone", "ugh", "fingers", "skin", "dark", "dark skin tone", "pinched", "fingers:", "hand", "relax", "sarcastic", "huh", "gesture", "patience"]
+
+        case .womanDancingDarkSkinTone: return ["elegant", "flamenco", "dancing", "dark skin tone", "festive", "woman", "tango", "let’s", "dancing:", "skin", "tone", "salsa", "groove", "dancer", "dark", "dance", "flair"]
+
+        case .umbrellaOnGround: return ["rain", "sun", "ground", "umbrella", "on"]
+
+        case .mxClaus: return ["Mx", "merry", "tale", "holiday", "xmas", "santa", "celebration", "Claus", "fantasy", "fairy", "claus", "Christmas"]
+
+        case .flagBangladesh: return ["Bangladesh", "flag"]
+
+        case .flagMoldova: return ["Moldova", "flag"]
+
+        case .flagElSalvador: return ["flag", "El Salvador"]
+
+        case .palmsUpTogetherDarkSkinTone: return ["up", "cupped", "pray", "together:", "dua", "hands", "palms", "dark skin tone", "tone", "skin", "prayer", "dark", "wish", "together"]
+
+        case .flagCookIslands: return ["flag", "Cook Islands"]
+
+        case .atomSymbol: return ["symbol", "atom", "atheist"]
+
+        case .earWithHearingAidMediumLightSkinTone: return ["medium light skin tone", "hard", "ear", "accessibility", "aid", "aid:", "light", "hearing", "skin", "tone", "with", "medium"]
+
+        case .superheroMediumLightSkinTone: return ["tone", "light", "skin", "hero", "medium", "superhero:", "good", "superpower", "superhero", "medium light skin tone"]
+
+        case .manFarmerMediumDarkSkinTone: return ["rancher", "medium", "medium dark skin tone", "skin", "farmer", "gardener", "farmer:", "man", "dark", "tone"]
+
+        case .breastFeedingMediumLightSkinTone: return ["feeding", "breast feeding", "feeding:", "medium", "breast", "baby", "tone", "light", "mom", "skin", "mother", "medium light skin tone", "nursing", "woman"]
+
+        case .elfMediumSkinTone: return ["elf", "folklore", "enchantment", "myth", "skin", "magic", "medium skin tone", "tone", "elves", "fantasy", "elf:", "magical", "medium"]
+
+        case .cookedRice: return ["cooked", "food", "rice"]
+
+        case .flagMayotte: return ["flag", "Mayotte"]
+
+        case .merperson: return ["creature", "siren", "folklore", "merperson", "trident", "sea", "fairytale", "ocean"]
+
+        case .thinkingFace: return ["hmm", "pondering", "thinking", "chin", "face", "consider", "wondering", "ponder"]
+
+        case .rightFacingFistMediumLightSkinTone: return ["facing", "right", "right facing", "fist", "medium light skin tone", "light", "rightwards", "tone", "fist:", "skin", "medium"]
+
+        case .foldedHandsLightSkinTone: return ["beg", "thanks", "bow", "hand", "five", "light skin tone", "skin", "blessed", "high", "light", "tone", "please", "appreciate", "cmon", "hands:", "pray", "folded", "thx", "ask", "gesture"]
+
+        case .hibiscus: return ["plant", "hibiscus", "flower"]
+
+        case .manInManualWheelchairMediumLightSkinTone: return ["skin", "medium light skin tone", "in", "accessibility", "man", "wheelchair:", "wheelchair", "tone", "manual", "medium", "light"]
+
+        case .suspensionRailway: return ["railway", "suspension"]
+
+        case .personCartwheelingDarkSkinTone: return ["tone", "cartwheel", "somersault", "gymnastics", "active", "excited", "happy", "dark", "cartwheeling:", "person", "flip", "skin", "dark skin tone", "cartwheeling"]
+
+        case .boyDarkSkinTone: return ["dark skin tone", "grandson", "son", "bright eyed", "younger", "tone", "kid", "boy:", "boy", "young", "skin", "dark", "child"]
+
+        case .passportControl: return ["passport", "control"]
+
+        case .personFacepalming: return ["facepalm", "disbelief", "exasperation", "again", "no", "facepalming", "smh", "omg", "not", "oh", "person", "bewilder", "shock"]
+
+        case .raisingHandsMediumSkinTone: return ["hand", "hands", "raised", "hands:", "praise", "medium skin tone", "skin", "hooray", "raising", "medium", "gesture", "tone", "celebration"]
+
+        case .policeOfficerLightSkinTone: return ["light", "skin", "officer:", "over", "pulled", "tone", "undercover", "light skin tone", "arrest", "officer", "apprehend", "cop", "citation", "law", "police"]
+
+        case .flagBotswana: return ["Botswana", "flag"]
+
+        case .hyacinth: return ["lupine", "purple", "snapdragon", "spring", "indigo", "flower", "lavender", "bloom", "lilac", "shrub", "violet", "plant", "bluebonnet", "hyacinth"]
+
+        case .personGolfingLightSkinTone: return ["tone", "range", "caddy", "golf", "golfing:", "person", "birdie", "ball", "pga", "green", "putt", "golfing", "driving", "light", "light skin tone", "tee", "skin"]
+
+        case .womanFactoryWorkerMediumSkinTone: return ["worker:", "factory", "worker", "medium", "industrial", "medium skin tone", "tone", "woman", "skin", "assembly"]
+
+        case .flagSouthSudan: return ["South Sudan", "flag"]
+
+        case .personCartwheelingMediumLightSkinTone: return ["medium light skin tone", "tone", "person", "somersault", "light", "cartwheeling:", "skin", "cartwheeling", "gymnastics", "flip", "cartwheel", "happy", "active", "medium", "excited"]
+
+        case .menHoldingHandsMediumDarkSkinToneMediumLightSkinTone: return ["brothers", "couple", "hands:", "men", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "dark", "medium dark skin tone", "medium light skin tone", "holding", "twins", "boys", "light", "bestie", "medium", "flirt", "hand"]
+
+        case .astronaut: return ["astronaut", "rocket", "space"]
+
+        case .banjo: return ["banjo", "music", "stringed"]
+
+        case .keycap10: return ["10", "keycap", "keycap:"]
+
+        case .manScientistMediumSkinTone: return ["physicist", "medium skin tone", "engineer", "man", "mathematician", "biologist", "medium", "scientist", "skin", "chemist", "scientist:", "tone"]
+
+        case .peopleHoldingHandsMediumSkinToneMediumDarkSkinTone: return ["dating", "hold", "medium skin tone", "people", "medium", "twins", "couple", "holding", "tone", "medium dark skin tone", "dark", "friends", "bff", "hands:", "flirt", "skin", "bestie", "hand", "tone,", "bae"]
+
+        case .flagCoteDivoire: return ["Côte d’Ivoire", "flag"]
+
+        case .womanAndManHoldingHandsMediumDarkSkinToneMediumSkinTone: return ["hands:", "couple", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "man", "medium skin tone", "dark", "medium dark skin tone", "and", "holding", "twins", "bestie", "medium", "flirt", "woman", "hand"]
+
+        case .personLightSkinToneBeard: return ["person", "person:", "light", "whiskers", "bearded", "beard", "skin", "light skin tone", "tone,"]
+
+        case .personTippingHandLightSkinTone: return ["fetch", "tipping", "sassy", "hand:", "tone", "skin", "gossip", "whatever", "flick", "sarcasm", "hand", "person", "sarcastic", "light skin tone", "seriously", "light", "flip"]
+
+        case .flagCuracao: return ["flag", "Curaçao"]
+
+        case .personSurfingMediumSkinTone: return ["medium skin tone", "sport", "surf", "ocean", "surfing", "person", "skin", "surfing:", "swell", "tone", "beach", "surfer", "waves", "medium"]
+
+        case .downwardsButton: return ["arrow", "red", "down", "downwards", "button"]
+
+        case .scroll: return ["scroll", "paper"]
+
+        case .brownSquare: return ["brown", "square"]
+
+        case .flagOman: return ["flag", "Oman"]
+
+        case .watermelon: return ["watermelon", "fruit"]
+
+        case .constructionWorkerMediumLightSkinTone: return ["work", "worker:", "skin", "hat", "medium light skin tone", "worker", "person", "man", "construction", "build", "repair", "light", "rebuild", "hardhat", "tone", "fix", "remodel", "medium"]
+
+        case .merpersonDarkSkinTone: return ["fairytale", "dark skin tone", "merperson:", "skin", "folklore", "siren", "ocean", "trident", "creature", "sea", "merperson", "tone", "dark"]
+
+        case .backhandIndexPointingDownLightSkinTone: return ["down", "skin", "finger", "light skin tone", "light", "hand", "backhand", "index", "point", "pointing", "tone", "down:"]
+
+        case .globeShowingAsiaAustralia: return ["showing", "earth", "globe", "Australia", "Asia", "Asia Australia", "world"]
+
+        case .smilingFaceWithHeartEyes: return ["ily", "eyes", "eye", "smile", "with", "love", "143", "romance", "hearts", "xoxo", "smiling", "bae", "romantic", "heart", "feels", "kisses", "face", "heart eyes"]
+
+        case .person: return ["adult", "person"]
+
+        case .personShruggingMediumDarkSkinTone: return ["person", "shrug", "guess", "idk", "whatever", "dark", "doubt", "indifference", "maybe", "shrugging", "dunno", "medium dark skin tone", "knows", "shrugging:", "medium", "ignorance", "tone", "who", "skin"]
+
+        case .onePieceSwimsuit: return ["swimsuit", "piece", "bathing", "one", "one piece", "suit"]
+
+        case .chocolateBar: return ["chocolate", "candy", "dessert", "halloween", "tooth", "sweet", "bar"]
+
+        case .manOfficeWorkerMediumLightSkinTone: return ["architect", "worker", "man", "office", "skin", "tone", "medium", "manager", "medium light skin tone", "light", "white collar", "business", "worker:"]
+
+        case .manFarmerLightSkinTone: return ["light", "light skin tone", "skin", "tone", "rancher", "farmer", "gardener", "man", "farmer:"]
+
+        case .handWithIndexFingerAndThumbCrossedDarkSkinTone: return ["love", "expensive", "dark skin tone", "dark", "crossed", "finger", "money", "skin", "crossed:", "tone", "thumb", "hand", "with", "and", "heart", "snap", "<3", "index"]
+
+        case .womanTeacherDarkSkinTone: return ["tone", "woman", "instructor", "lecturer", "dark skin tone", "teacher", "dark", "skin", "professor", "teacher:"]
+
+        case .ram: return ["Aries", "zoo", "male", "ram", "horns", "sheep", "zodiac", "animal"]
+
+        case .manFirefighterMediumDarkSkinTone: return ["medium", "tone", "fire", "firefighter:", "medium dark skin tone", "skin", "firetruck", "firefighter", "man", "dark"]
+
+        case .flagEthiopia: return ["Ethiopia", "flag"]
+
+        case .flagGuadeloupe: return ["flag", "Guadeloupe"]
+
+        case .radioactive: return ["radioactive", "sign"]
+
+        case .flagKosovo: return ["Kosovo", "flag"]
+
+        case .waterBuffalo: return ["animal", "zoo", "water", "buffalo"]
+
+        case .menHoldingHandsMediumDarkSkinToneLightSkinTone: return ["brothers", "couple", "hands:", "men", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "dark", "medium dark skin tone", "holding", "twins", "boys", "light", "bestie", "light skin tone", "flirt", "medium", "hand"]
+
+        case .globeWithMeridians: return ["earth", "globe", "meridians", "web", "with", "internet", "world", "worldwide"]
+
+        case .womanMediumSkinToneRedHair: return ["hair", "woman", "woman:", "adult", "red hair", "skin", "red", "medium skin tone", "medium", "tone,", "lady"]
+
+        case .restroom: return ["toilet", "lavatory", "WC", "restroom", "bathroom"]
+
+        case .vampireLightSkinTone: return ["tone", "vampire:", "halloween", "scary", "skin", "vampire", "undead", "teeth", "light", "blood", "supernatural", "Dracula", "fangs", "light skin tone"]
+
+        case .soap: return ["bathing", "soap", "bar", "lather", "soapdish", "cleaning", "clean"]
+
+        case .elfLightSkinTone: return ["myth", "skin", "elf", "folklore", "enchantment", "light", "magical", "elves", "tone", "elf:", "fantasy", "light skin tone", "magic"]
+
+        case .flagPuertoRico: return ["Puerto Rico", "flag"]
+
+        case .personDarkSkinToneBeard: return ["tone,", "whiskers", "bearded", "dark skin tone", "person:", "beard", "person", "dark", "skin"]
+
+        case .vampireMediumLightSkinTone: return ["supernatural", "medium light skin tone", "fangs", "vampire:", "light", "undead", "halloween", "scary", "teeth", "medium", "vampire", "blood", "tone", "Dracula", "skin"]
+
+        case .deafPerson: return ["ear", "gesture", "hear", "deaf", "person", "accessibility"]
+
+        case .manTechnologist: return ["inventor", "man", "technologist", "software", "developer", "computer", "coder"]
+
+        case .clappingHandsLightSkinTone: return ["well", "excited", "light", "light skin tone", "great", "skin", "clap", "yay", "approval", "awesome", "hand", "congratulations", "job", "congrats", "applause", "good", "homie", "clapping", "hands:", "nice", "tone", "prayed"]
+
+        case .familyManManGirlGirl: return ["family:", "child", "man,", "girl", "man", "family", "girl,"]
+
+        case .womenHoldingHandsMediumLightSkinToneMediumSkinTone: return ["hands:", "couple", "sisters", "bff", "women", "hold", "friends", "bae", "skin", "tone,", "dating", "medium skin tone", "tone", "medium light skin tone", "holding", "twins", "light", "bestie", "medium", "flirt", "girls", "hand"]
+
+        case .orangeSquare: return ["square", "orange"]
+
+        case .sunBehindLargeCloud: return ["cloud", "weather", "sun", "large", "behind"]
+
+        case .womanCurlyHair: return ["adult", "woman:", "hair", "curly hair", "curly", "lady", "woman"]
+
+        case .personInSteamyRoomMediumSkinTone: return ["steam", "steambath", "day", "medium skin tone", "skin", "relax", "room", "medium", "pamper", "room:", "spa", "person", "sauna", "luxurious", "steamy", "unwind", "in", "tone"]
+
+        case .heartWithArrow: return ["heart", "adorbs", "date", "ily", "romance", "valentine", "with", "emotion", "143", "arrow", "cupid", "love"]
+
+        case .flagCostaRica: return ["Costa Rica", "flag"]
+
+        case .waningCrescentMoon: return ["waning", "moon", "space", "crescent"]
+
+        case .personMediumDarkSkinToneRedHair: return ["person", "red hair", "person:", "skin", "dark", "medium dark skin tone", "tone,", "adult", "red", "hair", "medium"]
+
+        case .firefighter: return ["firetruck", "fire", "firefighter"]
+
+        case .personWalking: return ["pedestrian", "pace", "walk", "walking", "man", "hike", "amble", "gait", "person", "stroll", "stride"]
+
+        case .manLightSkinToneCurlyHair: return ["light", "skin", "man:", "light skin tone", "tone,", "hair", "man", "curly hair", "curly", "adult", "bro"]
+
+        case .rightwardsHandLightSkinTone: return ["handshake", "light skin tone", "hand", "right", "rightward", "skin", "light", "hand:", "reach", "rightwards", "tone", "hold", "shake"]
+
+        case .familyWomanGirl: return ["woman,", "family", "girl", "woman", "family:", "child"]
+
+        case .hearNoEvilMonkey: return ["gesture", "monkey", "animal", "secret", "evil", "tmi", "forbidden", "face", "shh", "hear", "not", "ears", "no", "listen", "prohibited"]
+
+        case .personWithVeilMediumDarkSkinTone: return ["dark", "person", "medium dark skin tone", "wedding", "with", "skin", "tone", "veil:", "veil", "medium"]
+
+        case .tearOffCalendar: return ["calendar", "tear", "tear off", "off"]
+
+        case .bullseye: return ["bull", "hit", "dart", "bullseye", "direct", "game", "entertainment", "target"]
+
+        case .kissingFaceWithSmilingEyes: return ["date", "love", "143", "night", "smile", "dating", "closed", "kisses", "smiling", "eye", "kiss", "flirt", "kissing", "ily", "with", "face", "eyes"]
+
+        case .personFrowning: return ["disgruntled", "frown", "irritated", "disturbed", "person", "upset", "frustrated", "disappointed", "gesture", "frowning", "annoyed"]
+
+        case .donkey: return ["mammal", "donkey", "stubborn", "ass", "mule", "burro", "hinny", "animal"]
+
+        case .technologistMediumSkinTone: return ["coder", "medium skin tone", "technologist", "technologist:", "computer", "inventor", "medium", "skin", "software", "developer", "tone"]
+
+        case .flagSriLanka: return ["flag", "Sri Lanka"]
+
+        case .policeCarLight: return ["revolving", "police", "siren", "alert", "alarm", "beacon", "light", "emergency", "car"]
+
+        case .personTakingBathMediumDarkSkinTone: return ["bathtub", "medium dark skin tone", "bath:", "person", "skin", "dark", "bath", "taking", "tub", "medium", "tone"]
+
+        case .personMediumSkinToneWhiteHair: return ["hair", "person:", "person", "white", "adult", "medium skin tone", "medium", "skin", "tone,", "white hair"]
+
+        case .smallBlueDiamond: return ["blue", "geometric", "small", "diamond"]
+
+        case .smilingFaceWithHorns: return ["purple", "shade", "evil", "face", "smile", "fantasy", "demon", "devil", "fairytale", "fairy", "with", "smiling", "horns", "tale"]
+
+        case .tent: return ["camping", "tent"]
+
+        case .elfMediumDarkSkinTone: return ["folklore", "magical", "medium dark skin tone", "fantasy", "skin", "dark", "magic", "elf", "medium", "myth", "elves", "elf:", "enchantment", "tone"]
+
+        case .flagMali: return ["flag", "Mali"]
+
+        case .personGettingHaircutDarkSkinTone: return ["haircut:", "groom", "getting", "cosmetology", "skin", "cut", "style", "person", "haircut", "shears", "parlor", "beauty", "dark", "dark skin tone", "chop", "tone", "barber", "hair"]
+
+        case .mechanicLightSkinTone: return ["mechanic", "light skin tone", "skin", "mechanic:", "electrician", "light", "plumber", "tone", "tradesperson"]
+
+        case .globeShowingAmericas: return ["world", "earth", "Americas", "globe", "showing"]
+
+        case .personInManualWheelchair: return ["in", "person", "manual", "accessibility", "wheelchair"]
+
+        case .peopleHoldingHandsMediumLightSkinTone: return ["dating", "medium light skin tone", "holding", "friends", "twins", "people", "flirt", "medium", "light", "couple", "bae", "bff", "tone", "hold", "hands:", "skin", "hand", "bestie"]
+
+        case .personRaisingHandMediumSkinTone: return ["medium skin tone", "person", "hand", "medium", "me", "question", "raising", "gesture", "here", "hand:", "pick", "know", "skin", "tone", "raise"]
+
+        case .flagNorthernMarianaIslands: return ["flag", "Northern Mariana Islands"]
+
+        case .thumbsDownMediumDarkSkinTone: return ["dark", "thumbs", "bad", "1", "medium dark skin tone", "nope", "good", "thumb", "down:", "down", "skin", "medium", "tone", "no", "hand", "dislike"]
+
+        case .camera: return ["tbt", "selfie", "camera", "photo", "snap", "trip", "video"]
+
+        case .whiteQuestionMark: return ["?", "punctuation", "question", "outlined", "mark", "white"]
+
+        case .mahjongRedDragon: return ["mahjong", "game", "red", "dragon"]
+
+        case .bowling: return ["sport", "game", "bowling", "ball", "strike"]
+
+        case .cancer: return ["zodiac", "horoscope", "Cancer", "crab"]
+
+        case .flagDominicanRepublic: return ["Dominican Republic", "flag"]
+
+        case .paintbrush: return ["paintbrush", "painting"]
+
+        case .bicycle: return ["bicycle", "cycle", "gang", "cyclist", "class", "bike", "ride", "cycling", "spinning", "spin"]
+
+        case .sled: return ["snow", "sleigh", "luge", "sled", "toboggan", "sledge"]
+
+        case .flagSvalbardJanMayen: return ["Svalbard & Jan Mayen", "flag"]
+
+        case .womanFirefighterMediumLightSkinTone: return ["firefighter", "medium", "woman", "tone", "skin", "firefighter:", "medium light skin tone", "firetruck", "light", "fire"]
+
+        case .familyManGirlGirl: return ["girl,", "man,", "man", "child", "girl", "family:", "family"]
+
+        case .personCurlyHair: return ["person", "curly", "person:", "hair", "curly hair", "adult"]
+
+        case .flagBurkinaFaso: return ["Burkina Faso", "flag"]
+
+        case .policeOfficerMediumSkinTone: return ["citation", "apprehend", "officer", "over", "arrest", "undercover", "cop", "skin", "medium skin tone", "officer:", "pulled", "police", "law", "medium", "tone"]
+
+        case .disguisedFace: return ["person", "tache", "moustache", "disguised", "spy", "incognito", "mustache", "face", "tash", "glasses", "nose", "disguise", "eyebrow"]
+
+        case .crossedFingers: return ["hand", "luck", "cross", "finger", "crossed", "fingers"]
+
+        case .flagBrazil: return ["flag", "Brazil"]
+
+        case .eightSpokedAsterisk: return ["spoked", "eight", "eight spoked", "asterisk", "*"]
+
+        case .newMoonFace: return ["new", "moon", "face", "space"]
+
+        case .flagBritishVirginIslands: return ["flag", "British Virgin Islands"]
+
+        case .personWearingTurbanMediumDarkSkinTone: return ["medium dark skin tone", "skin", "person", "wearing", "turban:", "dark", "medium", "turban", "tone"]
+
+        case .oyster: return ["diving", "pearl", "oyster"]
+
+        case .frog: return ["animal", "face", "frog"]
+
+        case .personBouncingBallMediumSkinTone: return ["athletic", "dribble", "championship", "skin", "person", "player", "medium skin tone", "ball", "throw", "net", "bouncing", "ball:", "medium", "tone", "basketball"]
+
+        case .stadium: return ["stadium"]
+
+        case .pool8Ball: return ["billiard", "eight", "8ball", "ball", "game", "pool", "8"]
+
+        case .indexPointingAtTheViewerMediumDarkSkinTone: return ["poke", "hand", "you", "index", "finger", "skin", "the", "viewer", "pointing", "tone", "medium dark skin tone", "dark", "at", "viewer:", "medium"]
+
+        case .handWithFingersSplayedLightSkinTone: return ["splayed", "stop", "fingers", "with", "splayed:", "skin", "finger", "tone", "light", "raised", "hand", "light skin tone"]
+
+        case .personLightSkinToneBlondHair: return ["blond hair", "person:", "hair", "person", "human", "blond", "blond haired", "light skin tone", "light", "skin", "tone,"]
+
+        case .personInMotorizedWheelchairMediumDarkSkinTone: return ["medium", "in", "wheelchair:", "person", "motorized", "skin", "accessibility", "wheelchair", "tone", "dark", "medium dark skin tone"]
+
+        case .levelSlider: return ["music", "level", "slider"]
+
+        case .backhandIndexPointingRightMediumLightSkinTone: return ["index", "pointing", "backhand", "right", "medium", "finger", "skin", "tone", "hand", "light", "point", "right:", "medium light skin tone"]
+
+        case .coral: return ["change", "reef", "sea", "climate", "coral", "ocean"]
+
+        case .ninjaMediumLightSkinTone: return ["skin", "fighter", "medium light skin tone", "person", "fight", "hidden", "stealth", "secret", "ninja", "assassin", "war", "sly", "ninja:", "light", "tone", "medium", "skills", "soldier"]
+
+        case .petriDish: return ["biologist", "bacteria", "culture", "lab", "dish", "biology", "petri"]
+
+        case .writingHandMediumSkinTone: return ["write", "hand", "writing", "hand:", "skin", "medium skin tone", "tone", "medium"]
+
+        case .princessMediumLightSkinTone: return ["princess", "fantasy", "fairy", "queen", "crown", "princess:", "royal", "tale", "medium light skin tone", "tone", "light", "fairytale", "royalty", "skin", "medium"]
+
+        case .manFactoryWorkerMediumSkinTone: return ["assembly", "industrial", "tone", "medium skin tone", "factory", "worker", "worker:", "medium", "skin", "man"]
+
+        case .faceVomiting: return ["gross", "barf", "spew", "sick", "face", "vomiting", "ew", "vomit", "throw", "puke", "up"]
+
+        case .girlMediumSkinTone: return ["daughter", "tone", "girl:", "bright eyed", "skin", "granddaughter", "girl", "Virgo", "child", "medium skin tone", "medium", "young", "zodiac", "younger", "kid"]
+
+        case .womanWithWhiteCane: return ["accessibility", "probing", "blind", "white", "with", "cane", "woman"]
+
+        case .sparklingHeart: return ["heart", "ily", "good", "morning", "sparkling", "excited", "sparkle", "emotion", "xoxo", "143", "kisses", "night"]
+
+        case .oldManLightSkinTone: return ["grandfather", "gramps", "old", "adult", "light skin tone", "wise", "light", "skin", "tone", "bald", "man:", "elderly", "man", "grandpa"]
+
+        case .breastFeedingMediumSkinTone: return ["skin", "medium", "feeding:", "baby", "medium skin tone", "nursing", "mother", "breast", "tone", "feeding", "mom", "breast feeding", "woman"]
+
+        case .carouselHorse: return ["horse", "carousel", "entertainment"]
+
+        case .repeatSingleButton: return ["once", "arrow", "clockwise", "single", "repeat", "button"]
+
+        case .officeWorkerMediumSkinTone: return ["worker", "medium skin tone", "office", "manager", "business", "worker:", "medium", "skin", "tone", "white collar", "architect"]
+
+        case .dollarBanknote: return ["bank", "bill", "money", "dollar", "banknote", "note", "currency"]
+
+        case .flagSouthAfrica: return ["South Africa", "flag"]
+
+        case .snail: return ["escargot", "garden", "nature", "slug", "snail", "animal"]
+
+        case .joystick: return ["joystick", "game", "videogame", "video"]
+
+        case .largeBlueDiamond: return ["geometric", "diamond", "blue", "large"]
+
+        case .manCurlyHair: return ["curly hair", "hair", "man", "curly", "adult", "bro", "man:"]
+
+        case .greenSquare: return ["square", "green"]
+
+        case .foggy: return ["foggy", "fog"]
+
+        case .policeOfficerMediumLightSkinTone: return ["officer", "medium light skin tone", "arrest", "cop", "police", "law", "apprehend", "citation", "pulled", "over", "tone", "undercover", "skin", "light", "officer:", "medium"]
+
+        case .womanWithHeadscarfDarkSkinTone: return ["hijab", "with", "skin", "mantilla", "dark skin tone", "bandana", "dark", "tone", "headscarf:", "kerchief", "head", "tichel", "woman", "headscarf"]
+
+        case .technologist: return ["computer", "coder", "technologist", "developer", "software", "inventor"]
+
+        case .personBikingMediumSkinTone: return ["bicycle", "sport", "cyclist", "bike", "bicyclist", "person", "cycle", "biking", "skin", "medium skin tone", "medium", "biking:", "riding", "tone"]
+
+        case .personWalkingLightSkinTone: return ["walk", "light skin tone", "walking", "stroll", "gait", "man", "pedestrian", "hike", "skin", "walking:", "person", "pace", "light", "stride", "amble", "tone"]
+
+        case .deafPersonMediumSkinTone: return ["person:", "ear", "deaf", "accessibility", "medium skin tone", "person", "gesture", "medium", "skin", "tone", "hear"]
+
+        case .heartHandsMediumLightSkinTone: return ["heart", "<3", "hands", "hands:", "skin", "medium light skin tone", "you", "light", "love", "medium", "tone"]
+
+        case .babyDarkSkinTone: return ["infant", "babies", "dark skin tone", "pregnant", "young", "dark", "baby", "goo", "tone", "skin", "baby:", "children", "newborn"]
+
+        case .personPlayingHandballMediumDarkSkinTone: return ["pitch", "handball:", "medium", "person", "lob", "handball", "playing", "hurl", "toss", "throw", "sport", "catch", "tone", "athletics", "dark", "medium dark skin tone", "ball", "skin", "chuck"]
+
+        case .airplane: return ["travel", "flying", "aeroplane", "fly", "jet", "airplane", "plane"]
+
+        case .flagEswatini: return ["Eswatini", "flag"]
+
+        case .childDarkSkinTone: return ["skin", "kid", "bright eyed", "younger", "dark skin tone", "young", "child:", "dark", "tone", "grandchild", "child"]
+
+        case .backhandIndexPointingRightMediumSkinTone: return ["medium", "point", "medium skin tone", "hand", "right", "index", "finger", "pointing", "right:", "tone", "backhand", "skin"]
+
+        case .copyright: return ["C", "copyright"]
+
+        case .fireworks: return ["celebration", "fireworks", "yolo", "entertainment", "boom"]
+
+        case .womenHoldingHandsDarkSkinToneMediumDarkSkinTone: return ["hands:", "couple", "dark skin tone", "sisters", "bff", "women", "hold", "friends", "bae", "skin", "tone,", "dating", "tone", "dark", "medium dark skin tone", "holding", "twins", "bestie", "medium", "flirt", "girls", "hand"]
+
+        case .yarn: return ["knit", "crochet", "yarn", "ball"]
+
+        case .sponge: return ["absorbing", "sponge", "cleaning", "porous", "soak"]
+
+        case .manInMotorizedWheelchairDarkSkinTone: return ["motorized", "man", "wheelchair:", "dark", "dark skin tone", "accessibility", "skin", "wheelchair", "tone", "in"]
+
+        case .expressionlessFace: return ["inexpressive", "fine", "face", "not", "jealous", "oh", "expressionless", "unimpressed", "whatever", "omg", "dead", "meh", "awkward", "straight", "uh", "unhappy"]
+
+        case .fingerprint: return ["trace", "forensics", "mystery", "crime", "clue", "print", "safety", "detective", "fingerprint", "identity"]
+
+        case .fiveOclock: return ["o’clock", "five", "5:00", "time", "5", "clock"]
+
+        case .personWithCrownMediumSkinTone: return ["royalty", "regal", "medium", "noble", "skin", "royal", "crown", "monarch", "crown:", "person", "with", "medium skin tone", "tone"]
+
+        case .heartHands: return ["heart", "<3", "love", "you", "hands"]
+
+        case .womanFarmerLightSkinTone: return ["light", "farmer", "gardener", "skin", "rancher", "woman", "tone", "light skin tone", "farmer:"]
+
+        case .manMediumDarkSkinToneWhiteHair: return ["adult", "white hair", "hair", "man:", "dark", "man", "medium", "tone,", "medium dark skin tone", "skin", "white", "bro"]
+
+        case .spadeSuit: return ["spade", "game", "card", "suit"]
+
+        case .kissMediumDarkSkinTone: return ["together", "couple", "mwah", "skin", "heart", "bae", "love", "tone", "dating", "babe", "dark", "medium dark skin tone", "romance", "person", "date", "kiss:", "medium", "anniversary", "xoxo", "kiss"]
+
+        case .familyManManBoyBoy: return ["boy,", "man", "family:", "boy", "child", "man,", "family"]
+
+        case .policeCar: return ["police", "5–0", "patrol", "car", "cops"]
+
+        case .flagJapan: return ["Japan", "flag"]
+
+        case .menHoldingHandsDarkSkinTone: return ["brothers", "couple", "dark skin tone", "men", "hands:", "bff", "skin", "hold", "friends", "bae", "tone", "dating", "dark", "holding", "twins", "boys", "bestie", "flirt", "hand"]
+
+        case .cloudWithSnow: return ["weather", "cold", "with", "snow", "cloud"]
+
+        case .personShruggingDarkSkinTone: return ["person", "shrug", "guess", "idk", "whatever", "dark", "doubt", "indifference", "maybe", "shrugging", "dark skin tone", "dunno", "knows", "shrugging:", "ignorance", "tone", "who", "skin"]
+
+        case .personWithWhiteCaneDarkSkinTone: return ["dark", "probing", "tone", "dark skin tone", "cane", "blind", "skin", "with", "cane:", "white", "accessibility", "person"]
+
+        case .admissionTickets: return ["ticket", "tickets", "admission"]
+
+        case .pregnantPersonMediumSkinTone: return ["medium", "full", "overeat", "person", "skin", "medium skin tone", "pregnant", "tone", "stuffed", "bloated", "belly", "person:"]
+
+        case .purpleCircle: return ["circle", "purple"]
+
+        case .backhandIndexPointingRightDarkSkinTone: return ["point", "hand", "right", "index", "dark skin tone", "finger", "pointing", "right:", "backhand", "tone", "dark", "skin"]
+
+        case .handbag: return ["dress", "handbag", "clothes", "clothing", "shopping", "purse", "bag", "lady"]
+
+        case .middleFingerLightSkinTone: return ["light skin tone", "hand", "finger", "light", "middle", "tone", "skin", "finger:"]
+
+        case .tennis: return ["sport", "ball", "tennis", "racquet"]
+
+        case .womanFactoryWorkerMediumDarkSkinTone: return ["medium dark skin tone", "worker:", "worker", "industrial", "assembly", "medium", "skin", "tone", "dark", "woman", "factory"]
+
+        case .princessMediumDarkSkinTone: return ["tale", "royal", "fairytale", "medium", "tone", "medium dark skin tone", "fantasy", "princess", "dark", "royalty", "queen", "crown", "skin", "princess:", "fairy"]
+
+        case .ringedPlanet: return ["planet", "saturn", "ringed", "saturnine"]
+
+        case .bentoBox: return ["bento", "box", "food"]
+
+        case .flagSaoTomePrincipe: return ["São Tomé & Príncipe", "flag"]
+
+        case .blackLargeSquare: return ["geometric", "black", "square", "large"]
+
+        case .pregnantManLightSkinTone: return ["light", "full", "overeat", "man:", "man", "pregnant", "skin", "tone", "bloated", "belly", "light skin tone"]
+
+        case .rugbyFootball: return ["sport", "ball", "football", "rugby"]
+
+        case .japaneseHereButton: return ["button", "“here”", "here", "Japanese", "katakana"]
+
+        case .manDancingMediumDarkSkinTone: return ["elegant", "flamenco", "medium dark skin tone", "dancing", "festive", "man", "let’s", "tango", "dancing:", "medium", "skin", "salsa", "groove", "dancer", "dark", "tone", "dance", "flair"]
+
+        case .splatter: return ["liquid", "ink", "drip", "paint", "holi", "mess", "splatter", "spill", "stain"]
+
+        case .personInSuitLevitatingMediumSkinTone: return ["person", "suit", "medium", "in", "business", "levitating", "levitating:", "skin", "medium skin tone", "tone"]
+
+        case .dolphin: return ["beach", "animal", "dolphin", "flipper", "ocean"]
+
+        case .womanSingerLightSkinTone: return ["light", "rock", "singer:", "star", "rockstar", "actor", "skin", "entertainer", "tone", "singer", "woman", "light skin tone"]
+
+        case .personLiftingWeightsLightSkinTone: return ["deadlift", "powerlifting", "workout", "weight", "tone", "person", "weights:", "lifting", "bodybuilder", "lifter", "light", "skin", "barbell", "weightlifter", "weights", "light skin tone"]
+
+        case .womanOfficeWorker: return ["worker", "woman", "business", "manager", "white collar", "office", "architect"]
+
+        case .personRaisingHandMediumLightSkinTone: return ["question", "medium", "gesture", "person", "skin", "tone", "raise", "medium light skin tone", "pick", "light", "know", "me", "hand:", "raising", "here", "hand"]
+
+        case .collision: return ["explode", "boom", "bomb", "comic", "collide", "collision"]
+
+        case .parrot: return ["parrot", "pirate", "bird", "talk", "ornithology", "animal"]
+
+        case .elfMediumLightSkinTone: return ["magical", "medium light skin tone", "light", "elf", "enchantment", "medium", "skin", "fantasy", "elves", "tone", "elf:", "myth", "folklore", "magic"]
+
+        case .signOfTheHorns: return ["sign", "horns", "hand", "rock on", "the", "of", "finger"]
+
+        case .kickScooter: return ["scooter", "kick"]
+
+        case .selfieMediumLightSkinTone: return ["tone", "selfie:", "medium light skin tone", "camera", "selfie", "skin", "phone", "light", "medium"]
+
+        case .policeOfficer: return ["citation", "undercover", "over", "apprehend", "officer", "arrest", "cop", "law", "police", "pulled"]
+
+        case .ring: return ["sparkling", "engaged", "romance", "ring", "diamond", "married", "wedding", "engagement", "shiny"]
+
+        case .grimacingFace: return ["smile", "grinning", "awk", "grimacing", "smiling", "grimace", "dentist", "face", "awkward"]
+
+        case .hamster: return ["hamster", "pet", "face", "animal"]
+
+        case .womenHoldingHands: return ["holding", "friends", "hands", "bff", "flirt", "women", "hold", "hand", "girls", "couple", "twins", "dating", "bestie", "bae", "sisters"]
+
+        case .manCookMediumDarkSkinTone: return ["medium", "chef", "cook", "skin", "medium dark skin tone", "man", "cook:", "dark", "tone"]
+
+        case .frenchFries: return ["fries", "food", "french", "fast"]
+
+        case .inputNumbers: return ["input", "1234", "numbers"]
+
+        case .nineOclock: return ["time", "o’clock", "clock", "9:00", "9", "nine"]
+
+        case .flagStHelena: return ["St. Helena", "flag"]
+
+        case .flagPalestinianTerritories: return ["flag", "Palestinian Territories"]
+
+        case .personGettingHaircutLightSkinTone: return ["haircut:", "groom", "light skin tone", "getting", "cosmetology", "skin", "cut", "style", "person", "haircut", "shears", "parlor", "beauty", "light", "chop", "tone", "barber", "hair"]
+
+        case .womanScientistMediumLightSkinTone: return ["medium", "light", "medium light skin tone", "scientist:", "skin", "chemist", "engineer", "mathematician", "physicist", "woman", "biologist", "scientist", "tone"]
+
+        case .flagMongolia: return ["Mongolia", "flag"]
+
+        case .metro: return ["subway", "travel", "metro"]
+
+        case .leftFacingFistMediumLightSkinTone: return ["facing", "fist", "left facing", "fist:", "left", "light", "medium", "skin", "tone", "leftwards", "medium light skin tone"]
+
+        case .manMechanicMediumDarkSkinTone: return ["tradesperson", "plumber", "mechanic:", "medium", "dark", "skin", "tone", "medium dark skin tone", "mechanic", "electrician", "man"]
+
+        case .smallAirplane: return ["airplane", "small", "plane", "aeroplane"]
+
+        case .minus: return ["math", "minus", "", "heavy", "sign", "−"]
+
+        case .lime: return ["refreshing", "zest", "mojito", "acidity", "key", "tropical", "salsa", "tequila", "sour", "cocktail", "fruit", "tangy", "margarita", "garnish", "lime", "citrus"]
+
+        case .jackOLantern: return ["lantern", "halloween", "jack o lantern", "pumpkin", "o", "jack", "celebration"]
+
+        case .burrito: return ["burrito", "mexican", "wrap"]
+
+        case .heartHandsMediumSkinTone: return ["hands", "medium skin tone", "<3", "heart", "you", "love", "medium", "tone", "hands:", "skin"]
+
+        case .santaClausMediumLightSkinTone: return ["fairy", "Christmas", "tone", "medium light skin tone", "tale", "santa", "Claus:", "fantasy", "xmas", "father", "medium", "skin", "Santa", "holiday", "celebration", "claus", "merry", "light"]
+
+        case .menHoldingHandsLightSkinToneMediumDarkSkinTone: return ["brothers", "couple", "hands:", "men", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "dark", "medium dark skin tone", "holding", "twins", "boys", "light", "bestie", "light skin tone", "flirt", "medium", "hand"]
+
+        case .noseLightSkinTone: return ["nose:", "skin", "noses", "tone", "light", "nose", "body", "odor", "nosey", "smell", "light skin tone", "smells"]
+
+        case .leftwardsPushingHandMediumLightSkinTone: return ["hold", "hand:", "tone", "leftward", "high", "leftwards", "halt", "push", "stop", "pushing", "wait", "medium", "skin", "five", "refuse", "slap", "medium light skin tone", "light", "hand", "pause", "block"]
+
+        case .clapperBoard: return ["board", "clapper", "movie", "action"]
+
+        case .wearyCat: return ["oh", "weary", "surprised", "cat", "face", "animal"]
+
+        case .crossedFingersMediumLightSkinTone: return ["crossed", "medium light skin tone", "tone", "cross", "medium", "finger", "fingers:", "light", "skin", "luck", "fingers", "hand"]
+
+        case .womenHoldingHandsLightSkinToneMediumSkinTone: return ["hands:", "couple", "sisters", "bff", "women", "hold", "friends", "bae", "skin", "tone,", "dating", "medium skin tone", "tone", "holding", "twins", "light", "bestie", "light skin tone", "flirt", "girls", "medium", "hand"]
+
+        case .manLightSkinToneWhiteHair: return ["light skin tone", "bro", "tone,", "white hair", "light", "skin", "white", "adult", "man:", "man", "hair"]
+
+        case .skateboard: return ["skate", "wheels", "skater", "board", "skateboard"]
+
+        case .superhero: return ["superhero", "good", "superpower", "hero"]
+
+        case .princeMediumLightSkinTone: return ["prince:", "fantasy", "medium", "king", "royal", "medium light skin tone", "skin", "crown", "tone", "tale", "light", "fairytale", "fairy", "royalty", "prince"]
+
+        case .sweatDroplets: return ["wet", "workout", "sweat", "water", "drip", "droplets", "drops", "droplet", "comic", "work", "splashing", "squirt"]
+
+        case .redExclamationMark: return ["exclamation", "!", "red", "punctuation", "mark"]
+
+        case .flagLuxembourg: return ["flag", "Luxembourg"]
+
+        case .womanFarmerDarkSkinTone: return ["dark skin tone", "woman", "gardener", "dark", "rancher", "farmer", "farmer:", "skin", "tone"]
+
+        case .victoryHandDarkSkinTone: return ["hand:", "dark skin tone", "dark", "peace", "skin", "victory", "v", "tone", "hand"]
+
+        case .vsButton: return ["VS", "button", "versus"]
+
+        case .vulcanSaluteMediumSkinTone: return ["hand", "salute", "Vulcan", "vulcan", "salute:", "skin", "tone", "finger", "medium", "medium skin tone", "hands"]
+
+        case .flagKazakhstan: return ["flag", "Kazakhstan"]
+
+        case .flagMauritius: return ["Mauritius", "flag"]
+
+        case .flyingDisc: return ["ultimate", "disc", "flying"]
+
+        case .japaneseNotFreeOfChargeButton: return ["Japanese", "button", "ideograph", "not", "free", "charge”", "of", "charge", "“not"]
+
+        case .japaneseOpenForBusinessButton: return ["ideograph", "Japanese", "business", "open", "for", "“open", "business”", "button"]
+
+        case .personFrowningLightSkinTone: return ["person", "disturbed", "disappointed", "gesture", "upset", "light", "skin", "annoyed", "irritated", "disgruntled", "frown", "light skin tone", "frustrated", "tone", "frowning", "frowning:"]
+
+        case .familyWomanBoyBoy: return ["woman,", "child", "boy", "family", "woman", "boy,", "family:"]
+
+        case .hut: return ["roundhouse", "house", "hut", "yurt", "shelter", "home"]
+
+        case .infinity: return ["forever", "universal", "unbounded", "infinity"]
+
+        case .vampireMediumSkinTone: return ["halloween", "medium skin tone", "blood", "supernatural", "teeth", "fangs", "medium", "tone", "scary", "undead", "vampire", "Dracula", "vampire:", "skin"]
+
+        case .flyingSaucer: return ["aliens", "saucer", "extra", "flying", "terrestrial", "UFO"]
+
+        case .bank: return ["bank", "building"]
+
+        case .bowAndArrow: return ["bow", "arrow", "tool", "weapon", "zodiac", "Sagittarius", "archery", "archer", "and"]
+
+        case .incomingEnvelope: return ["receive", "letter", "envelope", "e mail", "delivering", "sent", "email", "mail", "incoming"]
+
+        case .lobster: return ["claws", "bisque", "lobster", "seafood", "animal"]
+
+        case .chessPawn: return ["pawn", "chess", "expendable", "dupe"]
+
+        case .flagInHole: return ["in", "hole", "sport", "flag", "golf"]
+
+        case .confusedFace: return ["sorry", "frown", "face", "dunno", "sure", "hm", "sad", "not", "meh", "befuddled", "confused", "confusing"]
+
+        case .leftwardsPushingHandMediumSkinTone: return ["hold", "hand:", "tone", "leftward", "halt", "leftwards", "high", "push", "stop", "pushing", "wait", "medium", "skin", "five", "refuse", "slap", "hand", "medium skin tone", "pause", "block"]
+
+        case .flagArgentina: return ["Argentina", "flag"]
+
+        case .faceWithTongue: return ["nice", "awesome", "tongue", "stuck out", "cool", "face", "party", "sweet", "with"]
+
+        case .factoryWorkerMediumSkinTone: return ["assembly", "tone", "medium", "industrial", "skin", "worker", "medium skin tone", "factory", "worker:"]
+
+        case .flagWesternSahara: return ["Western Sahara", "flag"]
+
+        case .pinkHeart: return ["cute", "love", "special", "sweet", "143", "ily", "adorable", "emotion", "heart", "pink", "like"]
+
+        case .flagArmenia: return ["Armenia", "flag"]
+
+        case .womanAndManHoldingHandsMediumLightSkinToneMediumDarkSkinTone: return ["hands:", "couple", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "man", "dark", "medium dark skin tone", "medium light skin tone", "and", "twins", "holding", "light", "bestie", "medium", "flirt", "woman", "hand"]
+
+        case .raisedHandMediumLightSkinTone: return ["stop", "light", "skin", "medium light skin tone", "high", "tone", "5", "hand:", "medium", "raised", "hand", "five"]
+
+        case .manMechanicMediumSkinTone: return ["mechanic", "electrician", "plumber", "man", "medium", "medium skin tone", "mechanic:", "skin", "tradesperson", "tone"]
+
+        case .labCoat: return ["jacket", "white", "experiment", "coat", "scientist", "dr", "clothes", "lab", "doctor"]
+
+        case .potato: return ["food", "vegetable", "potato"]
+
+        case .gear: return ["gear", "cog", "cogwheel", "tool"]
+
+        case .personInSteamyRoomDarkSkinTone: return ["person", "steam", "pamper", "dark skin tone", "room:", "dark", "in", "spa", "skin", "sauna", "tone", "steambath", "unwind", "room", "relax", "day", "steamy", "luxurious"]
+
+        case .personMountainBiking: return ["mountain", "bicycle", "person", "bicyclist", "cyclist", "biking", "riding", "sport", "cycle", "bike"]
+
+        case .mechanic: return ["electrician", "plumber", "mechanic", "tradesperson"]
+
+        case .personTakingBathLightSkinTone: return ["tub", "bath:", "bathtub", "light skin tone", "light", "skin", "taking", "bath", "person", "tone"]
+
+        case .menHoldingHandsLightSkinToneMediumLightSkinTone: return ["brothers", "couple", "hands:", "men", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "medium light skin tone", "holding", "twins", "boys", "light", "bestie", "light skin tone", "flirt", "medium", "hand"]
+
+        case .personMediumSkinToneCurlyHair: return ["person", "tone,", "curly", "curly hair", "person:", "medium", "skin", "hair", "adult", "medium skin tone"]
+
+        case .prayerBeads: return ["necklace", "religion", "prayer", "clothing", "beads"]
+
+        case .ant: return ["insect", "animal", "ant", "garden"]
+
+        case .lastQuarterMoon: return ["moon", "quarter", "space", "last"]
+
+        case .coupleWithHeartLightSkinTone: return ["together", "couple", "skin", "heart", "bae", "love", "heart:", "dating", "babe", "you", "tone", "romance", "relationship", "with", "person", "light", "light skin tone", "anniversary", "kiss"]
+
+        case .manSingerMediumSkinTone: return ["rock", "singer:", "medium skin tone", "man", "star", "rockstar", "actor", "medium", "entertainer", "skin", "singer", "tone"]
+
+        case .busStop: return ["busstop", "stop", "bus"]
+
+        case .mouth: return ["lipstick", "kissing", "lips", "body", "kiss", "beauty", "mouth"]
+
+        case .sportUtilityVehicle: return ["drive", "utility", "sportutility", "sport", "car", "recreational", "vehicle"]
+
+        case .minibus: return ["bus", "van", "vehicle", "drive", "minibus"]
+
+        case .nerdFace: return ["clever", "intelligent", "nerd", "smart", "expert", "geek", "gifted", "brainy", "glasses", "face"]
+
+        case .faceScreamingInFear: return ["fear", "munch", "fearful", "epic", "screaming", "screamer", "woah", "shocked", "surprised", "in", "scared", "scream", "face"]
+
+        case .childMediumDarkSkinTone: return ["medium", "kid", "skin", "bright eyed", "younger", "young", "child:", "dark", "tone", "grandchild", "medium dark skin tone", "child"]
+
+        case .officeWorker: return ["worker", "white collar", "office", "manager", "architect", "business"]
+
+        case .airplaneArrival: return ["plane", "arriving", "arrival", "airplane", "aeroplane", "landing", "arrivals"]
+
+        case .womanWithHeadscarfLightSkinTone: return ["woman", "headscarf:", "headscarf", "tichel", "mantilla", "with", "bandana", "skin", "hijab", "light skin tone", "kerchief", "head", "light", "tone"]
+
+        case .personRowingBoatDarkSkinTone: return ["rowboat", "dark skin tone", "fishing", "person", "dark", "tone", "paddle", "row", "raft", "boat:", "oar", "cruise", "boat", "canoe", "river", "lake", "skin", "rowing"]
+
+        case .pinata: return ["candy", "party", "pinata", "festive", "piñata", "de", "cinco", "celebration", "celebrate", "mayo", "pinada"]
+
+        case .flagParaguay: return ["Paraguay", "flag"]
+
+        case .faceWithCrossedOutEyes: return ["face", "knocked", "out", "crossed", "eyes", "dead", "sick", "crossed out", "dizzy", "tired", "with", "feels"]
+
+        case .twoHearts: return ["ily", "emotion", "143", "dating", "anniversary", "hearts", "loving", "heart", "date", "love", "xoxo", "kisses", "two"]
+
+        case .womanAndManHoldingHandsLightSkinTone: return ["hands:", "couple", "bff", "skin", "hold", "friends", "bae", "tone", "dating", "man", "holding", "and", "twins", "light", "bestie", "light skin tone", "flirt", "woman", "hand"]
+
+        case .birthdayCake: return ["happy", "cake", "birthday", "celebration", "sweet", "dessert", "bday", "pastry"]
+
+        case .personPoutingMediumSkinTone: return ["downtrodden", "pouting", "upset", "whine", "medium", "grimace", "disappointed", "medium skin tone", "tone", "person", "sulk", "scowl", "skin", "frown", "pouting:"]
+
+        case .manFirefighterDarkSkinTone: return ["tone", "firetruck", "fire", "skin", "dark skin tone", "man", "dark", "firefighter", "firefighter:"]
+
+        case .shakingFace: return ["panic", "earthquake", "surprise", "vibrate", "whoa", "wow", "daze", "face", "omg", "shock", "crazy", "shaking"]
+
+        case .palmsUpTogetherMediumLightSkinTone: return ["dua", "hands", "together", "skin", "tone", "wish", "palms", "cupped", "together:", "medium light skin tone", "light", "up", "prayer", "medium", "pray"]
+
+        case .bowlWithSpoon: return ["spoon", "breakfast", "cereal", "with", "bowl", "oatmeal", "porridge", "congee"]
+
+        case .manOfficeWorkerMediumDarkSkinTone: return ["tone", "medium dark skin tone", "architect", "manager", "worker", "business", "medium", "skin", "worker:", "man", "white collar", "office", "dark"]
+
+        case .handshakeLightSkinToneMediumLightSkinTone: return ["hand", "tone,", "shake", "handshake:", "light skin tone", "light", "tone", "meeting", "deal", "medium", "agreement", "handshake", "skin", "medium light skin tone"]
+
+        case .personKneeling: return ["kneeling", "kneel", "knees", "person"]
+
+        case .womanSingerMediumLightSkinTone: return ["actor", "medium light skin tone", "tone", "singer", "skin", "woman", "star", "entertainer", "medium", "light", "rockstar", "rock", "singer:"]
+
+        case .houseWithGarden: return ["settle", "building", "where", "heart", "country", "simple", "suburban", "garden", "ranch", "suburbia", "house", "home", "with"]
+
+        case .flagGuyana: return ["flag", "Guyana"]
+
+        case .manWhiteHair: return ["man", "man:", "white hair", "hair", "bro", "adult", "white"]
+
+        case .technologistMediumLightSkinTone: return ["coder", "medium light skin tone", "technologist", "technologist:", "computer", "inventor", "medium", "skin", "software", "developer", "light", "tone"]
+
+        case .personInManualWheelchairMediumDarkSkinTone: return ["dark", "medium", "manual", "person", "in", "wheelchair", "medium dark skin tone", "accessibility", "wheelchair:", "skin", "tone"]
+
+        case .womenHoldingHandsMediumLightSkinToneMediumDarkSkinTone: return ["hands:", "couple", "sisters", "bff", "women", "hold", "friends", "bae", "skin", "tone,", "dating", "tone", "dark", "medium dark skin tone", "medium light skin tone", "holding", "twins", "light", "bestie", "medium", "flirt", "girls", "hand"]
+
+        case .flagSouthGeorgiaSouthSandwichIslands: return ["South Georgia & South Sandwich Islands", "flag"]
+
+        case .middleFingerDarkSkinTone: return ["middle", "dark", "finger", "tone", "dark skin tone", "skin", "hand", "finger:"]
+
+        case .flagSweden: return ["flag", "Sweden"]
+
+        case .ladder: return ["climb", "rung", "ladder", "step"]
+
+        case .peopleHoldingHandsLightSkinToneMediumDarkSkinTone: return ["dating", "holding", "medium dark skin tone", "tone,", "friends", "light skin tone", "people", "twins", "flirt", "light", "medium", "couple", "bae", "dark", "bff", "tone", "hold", "hands:", "skin", "hand", "bestie"]
+
+        case .fastReverseButton: return ["button", "double", "arrow", "fast", "reverse", "rewind"]
+
+        case .womenHoldingHandsMediumDarkSkinToneDarkSkinTone: return ["hands:", "couple", "dark skin tone", "sisters", "bff", "women", "hold", "friends", "bae", "skin", "tone,", "dating", "tone", "dark", "medium dark skin tone", "holding", "twins", "bestie", "medium", "flirt", "girls", "hand"]
+
+        case .indexPointingUpLightSkinTone: return ["skin", "light skin tone", "finger", "this", "hand", "light", "point", "index", "up", "pointing", "up:", "tone"]
+
+        case .leftFacingFistLightSkinTone: return ["skin", "left facing", "light skin tone", "light", "facing", "leftwards", "fist", "left", "fist:", "tone"]
+
+        case .earDarkSkinTone: return ["ear", "hear", "listen", "sound", "skin", "dark", "dark skin tone", "tone", "body", "listening", "ears", "hearing", "ear:"]
+
+        case .flagLatvia: return ["flag", "Latvia"]
+
+        case .thumbsUpMediumDarkSkinTone: return ["+1", "hand", "medium", "tone", "good", "thumb", "dark", "thumbs", "up", "up:", "medium dark skin tone", "yes", "skin", "like"]
+
+        case .cheeseWedge: return ["wedge", "cheese"]
+
+        case .magnet: return ["magnet", "magnetic", "shape", "u", "attraction", "negative", "positive", "horseshoe"]
+
+        case .cookLightSkinTone: return ["cook:", "chef", "skin", "light skin tone", "light", "tone", "cook"]
+
+        case .vampireDarkSkinTone: return ["scary", "dark", "blood", "skin", "vampire:", "tone", "dark skin tone", "halloween", "undead", "Dracula", "supernatural", "teeth", "fangs", "vampire"]
+
+        case .womanDancingMediumLightSkinTone: return ["elegant", "flamenco", "dancing", "medium light skin tone", "festive", "woman", "tango", "let’s", "dancing:", "medium", "light", "salsa", "groove", "dancer", "skin", "tone", "dance", "flair"]
+
+        case .construction: return ["construction", "barrier"]
+
+        case .faceWithPeekingEye: return ["shy", "peek", "hide", "scared", "stare", "hiding", "eye", "with", "embarrass", "peeking", "peep", "captivated", "face"]
+
+        case .leg: return ["knee", "limb", "bent", "kick", "leg", "foot"]
+
+        case .flagStKittsNevis: return ["flag", "St. Kitts & Nevis"]
+
+        case .kiwiFruit: return ["food", "kiwi", "fruit"]
+
+        case .toilet: return ["bathroom", "toilet"]
+
+        case .handshakeDarkSkinToneLightSkinTone: return ["agreement", "dark", "deal", "handshake", "meeting", "tone", "tone,", "light", "handshake:", "hand", "light skin tone", "dark skin tone", "shake", "skin"]
+
+        case .pinchedFingersMediumLightSkinTone: return ["hold", "interrogation", "what", "zip", "tone", "ugh", "fingers", "medium", "skin", "fingers:", "pinched", "medium light skin tone", "light", "hand", "relax", "sarcastic", "gesture", "huh", "patience"]
+
+        case .dogFace: return ["adorbs", "puppies", "dog", "pet", "face", "puppy", "animal"]
+
+        case .personWearingTurbanMediumLightSkinTone: return ["turban:", "person", "skin", "medium", "medium light skin tone", "tone", "light", "turban", "wearing"]
+
+        case .bottleWithPoppingCork: return ["bar", "bottle", "popping", "cork", "with", "drink"]
+
+        case .hotDog: return ["hot", "sausage", "frankfurter", "hotdog", "dog"]
+
+        case .spiralNotepad: return ["pad", "notepad", "note", "spiral"]
+
+        case .peopleHoldingHandsDarkSkinToneLightSkinTone: return ["bae", "hold", "hand", "couple", "flirt", "holding", "dark", "skin", "hands:", "people", "tone,", "friends", "tone", "light skin tone", "dating", "bff", "bestie", "dark skin tone", "light", "twins"]
+
+        case .womanMediumDarkSkinToneBald: return ["lady", "skin", "adult", "medium", "tone,", "medium dark skin tone", "dark", "bald", "woman", "woman:"]
+
+        case .personWalkingMediumLightSkinTone: return ["person", "gait", "hike", "walk", "light", "walking:", "skin", "pedestrian", "stroll", "pace", "medium light skin tone", "medium", "amble", "stride", "tone", "man", "walking"]
+
+        case .pButton: return ["parking", "P", "button"]
+
+        case .firecracker: return ["light", "fire", "spark", "fireworks", "pop", "explosive", "firecracker", "popping", "dynamite"]
+
+        case .personKneelingMediumSkinTone: return ["kneeling:", "kneel", "skin", "tone", "knees", "person", "medium", "medium skin tone", "kneeling"]
+
+        case .clappingHandsMediumLightSkinTone: return ["well", "clapping", "light", "prayed", "job", "yay", "skin", "great", "applause", "hand", "tone", "homie", "clap", "nice", "congrats", "congratulations", "awesome", "hands:", "medium", "excited", "approval", "good", "medium light skin tone"]
+
+        case .flagGuernsey: return ["flag", "Guernsey"]
+
+        case .bomb: return ["comic", "explosion", "boom", "bomb", "dangerous", "hot"]
+
+        case .manMediumDarkSkinToneCurlyHair: return ["medium dark skin tone", "tone,", "bro", "man:", "curly", "hair", "adult", "medium", "curly hair", "dark", "man", "skin"]
+
+        case .flexedBicepsMediumDarkSkinTone: return ["medium dark skin tone", "muscle", "flexed", "bro", "gains", "strong", "dark", "weightlift", "flex", "beast", "biceps:", "bodybuilder", "biceps", "gym", "arm", "jacked", "press", "tone", "bench", "ripped", "curls", "medium", "skin"]
+
+        case .flagAustralia: return ["flag", "Australia"]
+
+        case .stopSign: return ["stop", "sign", "octagonal"]
+
+        case .fullMoonFace: return ["face", "full", "bright", "moon"]
+
+        case .palmDownHand: return ["dropped", "palm", "dismiss", "drop", "down", "shoo", "up", "hand", "pick"]
+
+        case .personInSuitLevitatingMediumDarkSkinTone: return ["business", "in", "suit", "levitating:", "medium", "dark", "medium dark skin tone", "levitating", "skin", "tone", "person"]
+
+        case .personMediumSkinToneRedHair: return ["hair", "person:", "red", "adult", "person", "medium skin tone", "medium", "skin", "red hair", "tone,"]
+
+        case .shrimp: return ["small", "shellfish", "shrimp", "food"]
+
+        case .personSurfingMediumLightSkinTone: return ["surfer", "surf", "beach", "medium", "person", "swell", "surfing:", "sport", "medium light skin tone", "skin", "tone", "surfing", "waves", "light", "ocean"]
+
+        case .smilingCatWithHeartEyes: return ["with", "face", "cat", "animal", "eye", "smile", "heart eyes", "smiling", "heart", "eyes", "love"]
+
+        case .menHoldingHandsMediumSkinToneLightSkinTone: return ["brothers", "couple", "hands:", "men", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "medium skin tone", "holding", "twins", "boys", "light", "bestie", "light skin tone", "flirt", "medium", "hand"]
+
+        case .womanSinger: return ["entertainer", "singer", "woman", "star", "actor", "rock", "rockstar"]
+
+        case .jeans: return ["casual", "pants", "blue", "clothes", "denim", "clothing", "jeans", "shopping", "trousers", "weekend", "dressed"]
+
+        case .iceSkate: return ["ice", "skate", "skating"]
+
+        case .smilingFaceWithHearts: return ["face", "heart", "hearts", "with", "love", "crush", "smiling", "ily", "you", "adore", "smile", "3", "romance"]
+
+        case .blossom: return ["flower", "plant", "dandelion", "buttercup", "blossom"]
+
+        case .womanStudentMediumDarkSkinTone: return ["medium dark skin tone", "student:", "medium", "student", "tone", "woman", "graduate", "skin", "dark"]
+
+        case .personMediumDarkSkinToneBeard: return ["person:", "dark", "person", "skin", "bearded", "medium", "tone,", "medium dark skin tone", "whiskers", "beard"]
+
+        case .mirrorBall: return ["disco", "ball", "glitter", "mirror", "party", "dance"]
+
+        case .menHoldingHandsDarkSkinToneMediumLightSkinTone: return ["brothers", "couple", "dark skin tone", "men", "hands:", "bff", "skin", "hold", "friends", "bae", "tone", "tone,", "dating", "dark", "medium light skin tone", "holding", "twins", "boys", "light", "bestie", "medium", "flirt", "hand"]
+
+        case .superheroDarkSkinTone: return ["good", "superpower", "dark", "dark skin tone", "tone", "superhero:", "hero", "skin", "superhero"]
+
+        case .poultryLeg: return ["leg", "chicken", "turkey", "bone", "poultry", "drumstick", "hungry"]
+
+        case .crutch: return ["mobility", "help", "hurt", "aid", "stick", "disability", "cane", "injured", "crutch"]
+
+        case .flagCaymanIslands: return ["flag", "Cayman Islands"]
+
+        case .softball: return ["glove", "ball", "sports", "underarm", "softball"]
+
+        case .mutedSpeaker: return ["quiet", "silent", "mute", "sound", "speaker", "muted"]
+
+        case .wireless: return ["computer", "router", "network", "wi fi", "internet", "connectivity", "broadband", "hotspot", "wireless", "smartphone", "wifi", "wlan"]
+
+        case .manStudentMediumLightSkinTone: return ["light", "tone", "medium light skin tone", "student:", "student", "man", "graduate", "skin", "medium"]
+
+        case .flagScotland: return ["flag", "Scotland"]
+
+        case .sixThirty: return ["6", "six thirty", "30", "clock", "6:30", "six", "thirty"]
+
+        case .zombie: return ["apocalypse", "horror", "halloween", "undead", "walking", "dead", "scary", "zombie"]
+
+        case .waterPistol: return ["handgun", "water", "tool", "weapon", "revolver", "pistol", "gun"]
+
+        case .boyMediumDarkSkinTone: return ["medium", "young", "son", "younger", "boy:", "tone", "medium dark skin tone", "skin", "kid", "grandson", "child", "boy", "bright eyed", "dark"]
+
+        case .clappingHandsMediumDarkSkinTone: return ["homie", "medium dark skin tone", "great", "excited", "nice", "hands:", "clapping", "congrats", "hand", "awesome", "well", "skin", "tone", "applause", "prayed", "yay", "medium", "dark", "job", "congratulations", "clap", "approval", "good"]
+
+        case .writingHand: return ["hand", "write", "writing"]
+
+        case .sunBehindCloud: return ["behind", "cloud", "weather", "cloudy", "sun"]
+
+        case .girlMediumLightSkinTone: return ["medium", "Virgo", "girl", "granddaughter", "younger", "medium light skin tone", "kid", "bright eyed", "daughter", "young", "child", "zodiac", "girl:", "tone", "skin", "light"]
+
+        case .lockedWithKey: return ["closed", "locked", "with", "key", "bike", "secure", "lock"]
+
+        case .unlocked: return ["unlock", "lock", "cracked", "unlocked", "open"]
+
+        case .womanFirefighterMediumSkinTone: return ["firefighter:", "firetruck", "fire", "medium skin tone", "firefighter", "medium", "woman", "skin", "tone"]
+
+        case .oncomingFistMediumLightSkinTone: return ["oncoming", "light", "rock", "absolutely", "bruh", "pound", "skin", "tone", "medium light skin tone", "bro", "medium", "fist", "agree", "clenched", "hand", "correct", "bump", "fist:", "ttyl", "knuckle", "punch", "boom"]
+
+        case .boy: return ["son", "bright eyed", "young", "kid", "grandson", "child", "younger", "boy"]
+
+        case .raisedBackOfHand: return ["raised", "of", "hand", "back", "backhand"]
+
+        case .womanFirefighter: return ["firetruck", "firefighter", "fire", "woman"]
+
+        case .manDancingLightSkinTone: return ["elegant", "flamenco", "light skin tone", "dancing", "festive", "man", "let’s", "tango", "dancing:", "light", "skin", "salsa", "groove", "dancer", "tone", "dance", "flair"]
+
+        case .peopleWrestling: return ["grapple", "tournament", "wrestle", "duel", "combat", "people", "wrestling", "ring"]
+
+        case .oldWomanMediumDarkSkinTone: return ["grandma", "lady", "medium dark skin tone", "skin", "adult", "medium", "granny", "woman:", "tone", "woman", "wise", "dark", "grandmother", "old", "elderly"]
+
+        case .libra: return ["scales", "horoscope", "zodiac", "balance", "justice", "Libra"]
+
+        case .manMediumSkinTone: return ["bro", "medium skin tone", "man:", "man", "tone", "adult", "medium", "skin"]
+
+        case .opticalDisk: return ["dvd", "computer", "CD", "disk", "blu ray", "optical"]
+
+        case .anchor: return ["tool", "ship", "anchor"]
+
+        case .womanFactoryWorkerLightSkinTone: return ["skin", "worker", "worker:", "woman", "light skin tone", "assembly", "light", "tone", "industrial", "factory"]
+
+        case .flagMartinique: return ["flag", "Martinique"]
+
+        case .backhandIndexPointingRightMediumDarkSkinTone: return ["medium dark skin tone", "right", "skin", "tone", "finger", "point", "right:", "backhand", "hand", "index", "dark", "medium", "pointing"]
+
+        case .testTube: return ["chemistry", "test", "experiment", "lab", "science", "tube", "chemist"]
 
         default: return []
         }

@@ -1,7 +1,7 @@
 /*
  MIT License
 
- Copyright (c) 2021-2024 Vincent Neo
+ Copyright (c) 2021-2025 Vincent Neo
 
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
@@ -83,6 +83,7 @@ public enum AllEmojis: String, CaseIterable {
     case sleepyFace = "😪"
     case droolingFace = "🤤"
     case sleepingFace = "😴"
+    case faceWithBagsUnderEyes = "🫩"
     case faceWithMedicalMask = "😷"
     case faceWithThermometer = "🤒"
     case faceWithHeadBandage = "🤕"
@@ -2454,6 +2455,7 @@ public enum AllEmojis: String, CaseIterable {
     case familyAdultChild = "🧑‍🧒"
     case familyAdultChildChild = "🧑‍🧒‍🧒"
     case footprints = "👣"
+    case fingerprint = "🫆"
     case lightSkinTone = " 🏻"
     case mediumLightSkinTone = " 🏼"
     case mediumSkinTone = " 🏽"
@@ -2572,6 +2574,11 @@ public enum AllEmojis: String, CaseIterable {
     case spiralShell = "🐚"
     case coral = "🪸"
     case jellyfish = "🪼"
+    case crab = "🦀"
+    case lobster = "🦞"
+    case shrimp = "🦐"
+    case squid = "🦑"
+    case oyster = "🦪"
     case snail = "🐌"
     case butterfly = "🦋"
     case bug = "🐛"
@@ -2616,6 +2623,7 @@ public enum AllEmojis: String, CaseIterable {
     case emptyNest = "🪹"
     case nestWithEggs = "🪺"
     case mushroom = "🍄"
+    case leaflessTree = "🪾"
     case grapes = "🍇"
     case melon = "🍈"
     case watermelon = "🍉"
@@ -2654,6 +2662,7 @@ public enum AllEmojis: String, CaseIterable {
     case gingerRoot = "🫚"
     case peaPod = "🫛"
     case brownMushroom = "🍄‍🟫"
+    case rootVegetable = "🫜"
     case bread = "🍞"
     case croissant = "🥐"
     case baguetteBread = "🥖"
@@ -2705,11 +2714,6 @@ public enum AllEmojis: String, CaseIterable {
     case dumpling = "🥟"
     case fortuneCookie = "🥠"
     case takeoutBox = "🥡"
-    case crab = "🦀"
-    case lobster = "🦞"
-    case shrimp = "🦐"
-    case squid = "🦑"
-    case oyster = "🦪"
     case softIceCream = "🍦"
     case shavedIce = "🍧"
     case iceCream = "🍨"
@@ -3130,6 +3134,7 @@ public enum AllEmojis: String, CaseIterable {
     case longDrum = "🪘"
     case maracas = "🪇"
     case flute = "🪈"
+    case harp = "🪉"
     case mobilePhone = "📱"
     case mobilePhoneWithArrow = "📲"
     case telephone = "☎"
@@ -3268,6 +3273,7 @@ public enum AllEmojis: String, CaseIterable {
     case toolbox = "🧰"
     case magnet = "🧲"
     case ladder = "🪜"
+    case shovel = "🪏"
     case alembic = "⚗"
     case testTube = "🧪"
     case petriDish = "🧫"
@@ -3453,6 +3459,7 @@ public enum AllEmojis: String, CaseIterable {
     case copyright = "©"
     case registered = "®"
     case tradeMark = "™"
+    case splatter = "🫟"
     case keyCapNumberSign = "#️⃣"
     case keyCapAsterisk = "*️⃣"
     case keycap0 = "0️⃣"
@@ -3598,6 +3605,7 @@ public enum AllEmojis: String, CaseIterable {
     case flagChina = "🇨🇳"
     case flagColombia = "🇨🇴"
     case flagClippertonIsland = "🇨🇵"
+    case flagSark = "🇨🇶"
     case flagCostaRica = "🇨🇷"
     case flagCuba = "🇨🇺"
     case flagCapeVerde = "🇨🇻"
@@ -3809,7 +3817,7 @@ public enum AllEmojis: String, CaseIterable {
     case flagScotland = "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
     case flagWales = "🏴󠁧󠁢󠁷󠁬󠁳󠁿"
 
-    public var title: String {
+    var title: String {
         switch self {
         case .grinningFace: return "grinning face"
         case .grinningFaceWithBigEyes: return "grinning face with big eyes"
@@ -3868,6 +3876,7 @@ public enum AllEmojis: String, CaseIterable {
         case .sleepyFace: return "sleepy face"
         case .droolingFace: return "drooling face"
         case .sleepingFace: return "sleeping face"
+        case .faceWithBagsUnderEyes: return "face with bags under eyes"
         case .faceWithMedicalMask: return "face with medical mask"
         case .faceWithThermometer: return "face with thermometer"
         case .faceWithHeadBandage: return "face with head-bandage"
@@ -5163,12 +5172,12 @@ public enum AllEmojis: String, CaseIterable {
         case .mrsClausMediumSkinTone: return "Mrs. Claus: medium skin tone"
         case .mrsClausMediumDarkSkinTone: return "Mrs. Claus: medium-dark skin tone"
         case .mrsClausDarkSkinTone: return "Mrs. Claus: dark skin tone"
-        case .mxClaus: return "mx claus"
-        case .mxClausLightSkinTone: return "mx claus: light skin tone"
-        case .mxClausMediumLightSkinTone: return "mx claus: medium-light skin tone"
-        case .mxClausMediumSkinTone: return "mx claus: medium skin tone"
-        case .mxClausMediumDarkSkinTone: return "mx claus: medium-dark skin tone"
-        case .mxClausDarkSkinTone: return "mx claus: dark skin tone"
+        case .mxClaus: return "Mx Claus"
+        case .mxClausLightSkinTone: return "Mx Claus: light skin tone"
+        case .mxClausMediumLightSkinTone: return "Mx Claus: medium-light skin tone"
+        case .mxClausMediumSkinTone: return "Mx Claus: medium skin tone"
+        case .mxClausMediumDarkSkinTone: return "Mx Claus: medium-dark skin tone"
+        case .mxClausDarkSkinTone: return "Mx Claus: dark skin tone"
         case .superhero: return "superhero"
         case .superheroLightSkinTone: return "superhero: light skin tone"
         case .superheroMediumLightSkinTone: return "superhero: medium-light skin tone"
@@ -6239,6 +6248,7 @@ public enum AllEmojis: String, CaseIterable {
         case .familyAdultChild: return "family: adult, child"
         case .familyAdultChildChild: return "family: adult, child, child"
         case .footprints: return "footprints"
+        case .fingerprint: return "fingerprint"
         case .lightSkinTone: return "light skin tone"
         case .mediumLightSkinTone: return "medium-light skin tone"
         case .mediumSkinTone: return "medium skin tone"
@@ -6357,6 +6367,11 @@ public enum AllEmojis: String, CaseIterable {
         case .spiralShell: return "spiral shell"
         case .coral: return "coral"
         case .jellyfish: return "jellyfish"
+        case .crab: return "crab"
+        case .lobster: return "lobster"
+        case .shrimp: return "shrimp"
+        case .squid: return "squid"
+        case .oyster: return "oyster"
         case .snail: return "snail"
         case .butterfly: return "butterfly"
         case .bug: return "bug"
@@ -6401,6 +6416,7 @@ public enum AllEmojis: String, CaseIterable {
         case .emptyNest: return "empty nest"
         case .nestWithEggs: return "nest with eggs"
         case .mushroom: return "mushroom"
+        case .leaflessTree: return "leafless tree"
         case .grapes: return "grapes"
         case .melon: return "melon"
         case .watermelon: return "watermelon"
@@ -6439,6 +6455,7 @@ public enum AllEmojis: String, CaseIterable {
         case .gingerRoot: return "ginger root"
         case .peaPod: return "pea pod"
         case .brownMushroom: return "brown mushroom"
+        case .rootVegetable: return "root vegetable"
         case .bread: return "bread"
         case .croissant: return "croissant"
         case .baguetteBread: return "baguette bread"
@@ -6490,11 +6507,6 @@ public enum AllEmojis: String, CaseIterable {
         case .dumpling: return "dumpling"
         case .fortuneCookie: return "fortune cookie"
         case .takeoutBox: return "takeout box"
-        case .crab: return "crab"
-        case .lobster: return "lobster"
-        case .shrimp: return "shrimp"
-        case .squid: return "squid"
-        case .oyster: return "oyster"
         case .softIceCream: return "soft ice cream"
         case .shavedIce: return "shaved ice"
         case .iceCream: return "ice cream"
@@ -6915,6 +6927,7 @@ public enum AllEmojis: String, CaseIterable {
         case .longDrum: return "long drum"
         case .maracas: return "maracas"
         case .flute: return "flute"
+        case .harp: return "harp"
         case .mobilePhone: return "mobile phone"
         case .mobilePhoneWithArrow: return "mobile phone with arrow"
         case .telephone: return "telephone"
@@ -7053,6 +7066,7 @@ public enum AllEmojis: String, CaseIterable {
         case .toolbox: return "toolbox"
         case .magnet: return "magnet"
         case .ladder: return "ladder"
+        case .shovel: return "shovel"
         case .alembic: return "alembic"
         case .testTube: return "test tube"
         case .petriDish: return "petri dish"
@@ -7238,6 +7252,7 @@ public enum AllEmojis: String, CaseIterable {
         case .copyright: return "copyright"
         case .registered: return "registered"
         case .tradeMark: return "trade mark"
+        case .splatter: return "splatter"
         case .keyCapNumberSign: return "keycap: #"
         case .keyCapAsterisk: return "keycap: *"
         case .keycap0: return "keycap: 0"
@@ -7383,6 +7398,7 @@ public enum AllEmojis: String, CaseIterable {
         case .flagChina: return "flag: China"
         case .flagColombia: return "flag: Colombia"
         case .flagClippertonIsland: return "flag: Clipperton Island"
+        case .flagSark: return "flag: Sark"
         case .flagCostaRica: return "flag: Costa Rica"
         case .flagCuba: return "flag: Cuba"
         case .flagCapeVerde: return "flag: Cape Verde"
@@ -7597,7 +7613,7 @@ public enum AllEmojis: String, CaseIterable {
         }
     }
 
-    public var version: Double {
+    var version: Double {
         switch self {
         case .grinningFace: return 1.0
         case .grinningFaceWithBigEyes: return 0.6
@@ -7656,6 +7672,7 @@ public enum AllEmojis: String, CaseIterable {
         case .sleepyFace: return 0.6
         case .droolingFace: return 3.0
         case .sleepingFace: return 1.0
+        case .faceWithBagsUnderEyes: return 16.0
         case .faceWithMedicalMask: return 0.6
         case .faceWithThermometer: return 1.0
         case .faceWithHeadBandage: return 1.0
@@ -10027,6 +10044,7 @@ public enum AllEmojis: String, CaseIterable {
         case .familyAdultChild: return 15.1
         case .familyAdultChildChild: return 15.1
         case .footprints: return 0.6
+        case .fingerprint: return 16.0
         case .lightSkinTone: return 1.0
         case .mediumLightSkinTone: return 1.0
         case .mediumSkinTone: return 1.0
@@ -10145,6 +10163,11 @@ public enum AllEmojis: String, CaseIterable {
         case .spiralShell: return 0.6
         case .coral: return 14.0
         case .jellyfish: return 15.0
+        case .crab: return 1.0
+        case .lobster: return 11.0
+        case .shrimp: return 3.0
+        case .squid: return 3.0
+        case .oyster: return 12.0
         case .snail: return 0.6
         case .butterfly: return 3.0
         case .bug: return 0.6
@@ -10189,6 +10212,7 @@ public enum AllEmojis: String, CaseIterable {
         case .emptyNest: return 14.0
         case .nestWithEggs: return 14.0
         case .mushroom: return 0.6
+        case .leaflessTree: return 16.0
         case .grapes: return 0.6
         case .melon: return 0.6
         case .watermelon: return 0.6
@@ -10227,6 +10251,7 @@ public enum AllEmojis: String, CaseIterable {
         case .gingerRoot: return 15.0
         case .peaPod: return 15.0
         case .brownMushroom: return 15.1
+        case .rootVegetable: return 16.0
         case .bread: return 0.6
         case .croissant: return 3.0
         case .baguetteBread: return 3.0
@@ -10278,11 +10303,6 @@ public enum AllEmojis: String, CaseIterable {
         case .dumpling: return 5.0
         case .fortuneCookie: return 5.0
         case .takeoutBox: return 5.0
-        case .crab: return 1.0
-        case .lobster: return 11.0
-        case .shrimp: return 3.0
-        case .squid: return 3.0
-        case .oyster: return 12.0
         case .softIceCream: return 0.6
         case .shavedIce: return 0.6
         case .iceCream: return 0.6
@@ -10703,6 +10723,7 @@ public enum AllEmojis: String, CaseIterable {
         case .longDrum: return 13.0
         case .maracas: return 15.0
         case .flute: return 15.0
+        case .harp: return 16.0
         case .mobilePhone: return 0.6
         case .mobilePhoneWithArrow: return 0.6
         case .telephone: return 0.6
@@ -10841,6 +10862,7 @@ public enum AllEmojis: String, CaseIterable {
         case .toolbox: return 11.0
         case .magnet: return 11.0
         case .ladder: return 13.0
+        case .shovel: return 16.0
         case .alembic: return 1.0
         case .testTube: return 11.0
         case .petriDish: return 11.0
@@ -11026,6 +11048,7 @@ public enum AllEmojis: String, CaseIterable {
         case .copyright: return 0.6
         case .registered: return 0.6
         case .tradeMark: return 0.6
+        case .splatter: return 16.0
         case .keyCapNumberSign: return 0.6
         case .keyCapAsterisk: return 2.0
         case .keycap0: return 0.6
@@ -11171,6 +11194,7 @@ public enum AllEmojis: String, CaseIterable {
         case .flagChina: return 0.6
         case .flagColombia: return 2.0
         case .flagClippertonIsland: return 2.0
+        case .flagSark: return 16.0
         case .flagCostaRica: return 2.0
         case .flagCuba: return 2.0
         case .flagCapeVerde: return 2.0
