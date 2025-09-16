@@ -3817,7 +3817,7 @@ public enum AllEmojis: String, CaseIterable {
     case flagScotland = "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
     case flagWales = "🏴󠁧󠁢󠁷󠁬󠁳󠁿"
 
-    var title: String {
+    public var title: String {
         switch self {
         case .grinningFace: return "grinning face"
         case .grinningFaceWithBigEyes: return "grinning face with big eyes"
@@ -7613,7 +7613,7 @@ public enum AllEmojis: String, CaseIterable {
         }
     }
 
-    var version: Double {
+    public var version: Double {
         switch self {
         case .grinningFace: return 1.0
         case .grinningFaceWithBigEyes: return 0.6
